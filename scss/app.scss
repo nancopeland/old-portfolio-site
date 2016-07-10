@@ -78,21 +78,19 @@ button, .button {
 
 //sections
 .header {
-	margin-top: 7rem; 
+	margin-top: 2rem; 
 	h1 {
 		text-transform: lowercase; 
 		letter-spacing: .5px; 
-		font-size: 2.75rem; 
+		font-size: 2.25rem; 
 		font-weight: 700; 
 		margin: 0; 
 	} 
 }
 
 .info-paragraph {
-	margin-top: 1rem; 
-	p {
-		font-size: 1.125em; 
-	}
+	margin-top: .25rem; 
+	font-size: 1em; 
 	a {
 		color: $turquoise; 
 	}
@@ -102,41 +100,9 @@ button, .button {
 	}
 }
 
-/*.projects {
-	margin-top: 4rem; 
-	img {
-		width: 75%; 
-	}
-	h6 {
-		text-align: center; 
-		margin-top: .75rem; 
-	}
-}*/
-
-//icons and illustrations pages
-/*.icons_illustrations {
-	h1 { 
-		font-weight: 700; 
-		text-align: center; 
-	}
-	img {
-		margin: 3rem 0; 
-		&.small {
-			width: 70%;
-			margin-top: 0; 
-		}
-	}
-}*/
-
 
 //media queries
 @media only screen and (min-width: 40.063em) { /*medium and up*/
-	.header { 
-		margin-top: 9rem; 
-		h1 {
-			font-size: 3.5rem; 
-		}
-	}
 	button, .button {
 		font-size: 1rem;
 	}

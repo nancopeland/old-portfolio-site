@@ -507,70 +507,35 @@ button:hover.call-out:hover, button:focus.call-out:hover, .button:hover.call-out
 
 /* line 80, ../scss/app.scss */
 .header {
-  margin-top: 7rem;
+  margin-top: 2rem;
 }
 /* line 82, ../scss/app.scss */
 .header h1 {
   text-transform: lowercase;
   letter-spacing: .5px;
-  font-size: 2.75rem;
+  font-size: 2.25rem;
   font-weight: 700;
   margin: 0;
 }
 
 /* line 91, ../scss/app.scss */
 .info-paragraph {
-  margin-top: 1rem;
+  margin-top: .25rem;
+  font-size: 1em;
 }
-/* line 93, ../scss/app.scss */
-.info-paragraph p {
-  font-size: 1.125em;
-}
-/* line 96, ../scss/app.scss */
+/* line 94, ../scss/app.scss */
 .info-paragraph a {
   color: #1adbd3;
 }
-/* line 99, ../scss/app.scss */
+/* line 97, ../scss/app.scss */
 .info-paragraph a:hover {
   color: #1adbd3;
   background-color: #e5fcfb;
 }
 
-/*.projects {
-	margin-top: 4rem; 
-	img {
-		width: 75%; 
-	}
-	h6 {
-		text-align: center; 
-		margin-top: .75rem; 
-	}
-}*/
-/*.icons_illustrations {
-	h1 { 
-		font-weight: 700; 
-		text-align: center; 
-	}
-	img {
-		margin: 3rem 0; 
-		&.small {
-			width: 70%;
-			margin-top: 0; 
-		}
-	}
-}*/
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 134, ../scss/app.scss */
-  .header {
-    margin-top: 9rem;
-  }
-  /* line 136, ../scss/app.scss */
-  .header h1 {
-    font-size: 3.5rem;
-  }
-
-  /* line 140, ../scss/app.scss */
+  /* line 106, ../scss/app.scss */
   button, .button {
     font-size: 1rem;
   }
