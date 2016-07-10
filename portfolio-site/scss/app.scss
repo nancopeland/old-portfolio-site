@@ -1,0 +1,114 @@
+@import "settings";
+@import "../bower_components/foundation/css/foundation.css";
+
+// Or selectively include components
+ @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+     "foundation/components/buttons";
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+
+//universal
+body {
+	color: $oil;
+	background-color: $white;  
+}
+
+h1, h2, h3, h4, h5, h6, p, button, .button {
+	font-family: 'Karla', sans-serif; 
+}
+
+button, .button {
+	color: $turquoise; 
+	border: 2px solid $turquoise;
+	background-color: transparent;
+	border-radius: 2px; 
+	padding: .5rem .75rem; 
+	margin: 1rem .5rem 1rem 0;
+	font-size: .875rem; 
+	&.call-out {
+		background-color: $turquoise; 
+		color: $white; 
+	}
+	&:hover, &:focus {
+		color: $turquoise; 
+		background-color: $turquoise-light; 
+		&.call-out {
+			background-color: $turquoise; 
+			color: $white; 
+		}
+		&.call-out:hover {
+			border-color: $turquoise-dark; 
+			background-color: $turquoise-dark;  
+		}
+	}
+}
+
+//sections
+.header {
+	margin-top: 2rem; 
+	h1 {
+		text-transform: lowercase; 
+		letter-spacing: .5px; 
+		font-size: 2.25rem; 
+		font-weight: 700; 
+		margin: 0; 
+	} 
+}
+
+.info-paragraph {
+	margin-top: .25rem; 
+	font-size: 1em; 
+	a {
+		color: $turquoise; 
+	}
+	a:hover {
+		color: $turquoise; 
+		background-color: $turquoise-light;  
+	}
+}
+
+
+//media queries
+@media only screen and (min-width: 40.063em) { /*medium and up*/
+	button, .button {
+		font-size: 1rem;
+	}
+} 
+
+
+
+
+
