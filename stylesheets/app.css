@@ -480,8 +480,8 @@ button, .button {
   border: 2px solid #1adbd3;
   background-color: transparent;
   border-radius: 2px;
-  padding: .5rem .75rem;
-  margin: 1rem .5rem 1rem 0;
+  margin: 0 .25rem;
+  padding: .25rem .5rem;
   font-size: .875rem;
 }
 /* line 61, ../scss/app.scss */
@@ -533,10 +533,25 @@ button:hover.call-out:hover, button:focus.call-out:hover, .button:hover.call-out
   background-color: #e5fcfb;
 }
 
+/* line 103, ../scss/app.scss */
+footer {
+  background-color: white;
+  border-top: 1px solid #eee;
+  bottom: 0px;
+  padding: 1.25rem 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+/* line 111, ../scss/app.scss */
+footer p {
+  margin-bottom: 0;
+}
+
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 106, ../scss/app.scss */
-  button, .button {
-    font-size: 1rem;
+  /* line 119, ../scss/app.scss */
+  .social-buttons {
+    float: right;
   }
 }
