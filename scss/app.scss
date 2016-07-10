@@ -78,7 +78,7 @@ button, .button {
 
 //sections
 .header {
-	margin-top: 2rem; 
+	margin-top: 1.5rem; 
 	h1 {
 		text-transform: lowercase; 
 		letter-spacing: .5px; 
@@ -86,17 +86,24 @@ button, .button {
 		font-weight: 700; 
 		margin: 0; 
 	} 
+	.info-paragraph {
+		margin-top: .25rem; 
+		font-size: 1em; 
+		a {
+			color: $turquoise; 
+		}
+		a:hover {
+			color: $turquoise; 
+			background-color: $turquoise-light;  
+		}
+	}
 }
 
-.info-paragraph {
-	margin-top: .25rem; 
-	font-size: 1em; 
-	a {
-		color: $turquoise; 
-	}
-	a:hover {
-		color: $turquoise; 
-		background-color: $turquoise-light;  
+.projects {
+	margin-top: 1.5rem; 
+	.project {
+		border: 2px solid #eee; 
+		border-radius: 2px; 
 	}
 }
 

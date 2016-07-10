@@ -507,7 +507,7 @@ button:hover.call-out:hover, button:focus.call-out:hover, .button:hover.call-out
 
 /* line 80, ../scss/app.scss */
 .header {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 /* line 82, ../scss/app.scss */
 .header h1 {
@@ -517,23 +517,32 @@ button:hover.call-out:hover, button:focus.call-out:hover, .button:hover.call-out
   font-weight: 700;
   margin: 0;
 }
-
-/* line 91, ../scss/app.scss */
-.info-paragraph {
+/* line 89, ../scss/app.scss */
+.header .info-paragraph {
   margin-top: .25rem;
   font-size: 1em;
 }
-/* line 94, ../scss/app.scss */
-.info-paragraph a {
+/* line 92, ../scss/app.scss */
+.header .info-paragraph a {
   color: #1adbd3;
 }
-/* line 97, ../scss/app.scss */
-.info-paragraph a:hover {
+/* line 95, ../scss/app.scss */
+.header .info-paragraph a:hover {
   color: #1adbd3;
   background-color: #e5fcfb;
 }
 
-/* line 103, ../scss/app.scss */
+/* line 102, ../scss/app.scss */
+.projects {
+  margin-top: 1.5rem;
+}
+/* line 104, ../scss/app.scss */
+.projects .project {
+  border: 2px solid #eee;
+  border-radius: 2px;
+}
+
+/* line 110, ../scss/app.scss */
 footer {
   background-color: white;
   border-top: 1px solid #eee;
@@ -543,14 +552,14 @@ footer {
   width: 100%;
   z-index: 1;
 }
-/* line 111, ../scss/app.scss */
+/* line 118, ../scss/app.scss */
 footer p {
   margin-bottom: 0;
 }
 
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 119, ../scss/app.scss */
+  /* line 126, ../scss/app.scss */
   .social-buttons {
     float: right;
   }
