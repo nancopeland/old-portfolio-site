@@ -1682,25 +1682,25 @@ select {
     left: auto;
   }
 }
-/* line 14, ../scss/app.scss */
+/* line 23, ../scss/app.scss */
 body {
   color: #333333;
   background-color: #FFFFFF;
 }
 
-/* line 19, ../scss/app.scss */
+/* line 28, ../scss/app.scss */
 h1, h2, h3, h4, h5, h6, p, button, .button {
   font-family: 'Karla', sans-serif;
   margin: 0;
 }
 
-/* line 23, ../scss/app.scss */
+/* line 32, ../scss/app.scss */
 a {
   text-decoration: none;
   color: #333333;
 }
 
-/* line 27, ../scss/app.scss */
+/* line 36, ../scss/app.scss */
 button, .button {
   color: #1adbd3;
   border: 2px solid #1adbd3;
@@ -1710,23 +1710,28 @@ button, .button {
   margin: 0 .25rem;
   padding: .25rem .5rem;
   font-size: .875rem;
+  transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  -ms-transition: 0.1s ease-in;
+  -moz-transition: 0.1s ease-in;
+  -webkit-transition: 0.1s ease-in;
 }
-/* line 36, ../scss/app.scss */
+/* line 46, ../scss/app.scss */
 button.call-out, .button.call-out {
   background-color: #1adbd3;
   color: #FFFFFF;
 }
-/* line 40, ../scss/app.scss */
+/* line 50, ../scss/app.scss */
 button:hover, button:focus, .button:hover, .button:focus {
   color: #1adbd3;
   background-color: #e5fcfb;
 }
 
-/* line 47, ../scss/app.scss */
+/* line 57, ../scss/app.scss */
 .header {
   margin-top: 1rem;
 }
-/* line 49, ../scss/app.scss */
+/* line 59, ../scss/app.scss */
 .header h1 {
   text-transform: lowercase;
   letter-spacing: .5px;
@@ -1734,56 +1739,71 @@ button:hover, button:focus, .button:hover, .button:focus {
   font-weight: 700;
   margin: 0;
 }
-/* line 56, ../scss/app.scss */
+/* line 66, ../scss/app.scss */
 .header p {
   font-size: 1.25rem;
 }
 
-/* line 60, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
 .info-paragraph {
   margin-top: .25rem;
   font-size: 1em;
 }
-/* line 63, ../scss/app.scss */
+/* line 73, ../scss/app.scss */
 .info-paragraph a {
   color: #1adbd3;
+  transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  -ms-transition: 0.1s ease-in;
+  -moz-transition: 0.1s ease-in;
+  -webkit-transition: 0.1s ease-in;
 }
-/* line 66, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 .info-paragraph a:hover {
   color: #1adbd3;
   background-color: #e5fcfb;
 }
 
-/* line 73, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 .projects {
   margin-top: 2rem;
 }
 
-/* line 76, ../scss/app.scss */
+/* line 87, ../scss/app.scss */
 .project {
   border: 1px solid #eee;
   border-radius: 2px;
+  transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  -ms-transition: 0.1s ease-in;
+  -moz-transition: 0.1s ease-in;
+  -webkit-transition: 0.1s ease-in;
+}
+/* line 91, ../scss/app.scss */
+.project:hover {
+  border: 1px solid #1adbd3;
+  color: #1adbd3;
 }
 
-/* line 80, ../scss/app.scss */
+/* line 96, ../scss/app.scss */
 .project-description {
   border-top: 1px solid #eee;
   padding: .75rem;
 }
 
-/* line 84, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 .project-title {
   font-weight: 700;
 }
 
-/* line 88, ../scss/app.scss */
+/* line 104, ../scss/app.scss */
 .img-container.living-style-guide {
   background: url("../img/living_style_guide.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
 
-/* line 96, ../scss/app.scss */
+/* line 112, ../scss/app.scss */
 footer {
   background-color: white;
   border-top: 1px solid #eee;
@@ -1793,14 +1813,14 @@ footer {
   width: 100%;
   z-index: 1;
 }
-/* line 104, ../scss/app.scss */
+/* line 120, ../scss/app.scss */
 footer p {
   margin-bottom: 0;
 }
 
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 112, ../scss/app.scss */
+  /* line 128, ../scss/app.scss */
   .social-buttons {
     float: right;
   }

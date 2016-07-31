@@ -10,6 +10,15 @@ $turquoise: #1adbd3;
 $turquoise-light: #e5fcfb;  
 $turquoise-dark	: #1adbd3; 
 
+//mixins
+@mixin transition-speed($speed) {
+  	transition: $speed; 
+	-o-transition: $speed;
+  	-ms-transition: $speed;
+  	-moz-transition: $speed;
+  	-webkit-transition: $speed;
+}
+
 //universal
 body {
 	color: $dark-grey;
@@ -33,6 +42,7 @@ button, .button {
 	margin: 0 .25rem; 
 	padding: .25rem .5rem; 
 	font-size: .875rem; 
+	@include transition-speed(.1s ease-in); 
 	&.call-out {
 		background-color: $turquoise; 
 		color: $white; 
@@ -62,6 +72,7 @@ button, .button {
 	font-size: 1em; 
 	a {
 		color: $turquoise; 
+		@include transition-speed(.1s ease-in);
 	}
 	a:hover {
 		color: $turquoise; 
@@ -75,7 +86,12 @@ button, .button {
 }
 .project {
 	border: 1px solid #eee; 
-	border-radius: 2px; 
+	border-radius: 2px;
+	@include transition-speed(.1s ease-in);
+	&:hover {
+		border: 1px solid $turquoise; 
+		color: $turquoise; 
+	} 
 }
 .project-description {
 	border-top: 1px solid #eee; 
