@@ -1739,17 +1739,13 @@ button:hover, button:focus, .button:hover, .button:focus {
   font-weight: 700;
   margin: 0;
 }
-/* line 66, ../scss/app.scss */
-.header p {
-  font-size: 1.25rem;
-}
 
-/* line 70, ../scss/app.scss */
+/* line 67, ../scss/app.scss */
 .info-paragraph {
   margin-top: .25rem;
   font-size: 1em;
 }
-/* line 73, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
 .info-paragraph a {
   color: #1adbd3;
   transition: 0.1s ease-in;
@@ -1758,18 +1754,18 @@ button:hover, button:focus, .button:hover, .button:focus {
   -moz-transition: 0.1s ease-in;
   -webkit-transition: 0.1s ease-in;
 }
-/* line 77, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 .info-paragraph a:hover {
   color: #1adbd3;
   background-color: #e5fcfb;
 }
 
-/* line 84, ../scss/app.scss */
+/* line 81, ../scss/app.scss */
 .projects {
   margin-top: 2rem;
 }
 
-/* line 87, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 .project {
   border: 1px solid #eee;
   border-radius: 2px;
@@ -1779,31 +1775,37 @@ button:hover, button:focus, .button:hover, .button:focus {
   -moz-transition: 0.1s ease-in;
   -webkit-transition: 0.1s ease-in;
 }
-/* line 91, ../scss/app.scss */
+/* line 88, ../scss/app.scss */
 .project:hover {
   border: 1px solid #1adbd3;
   color: #1adbd3;
 }
 
-/* line 96, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 .project-description {
   border-top: 1px solid #eee;
   padding: .75rem;
 }
 
-/* line 100, ../scss/app.scss */
+/* line 97, ../scss/app.scss */
 .project-title {
   font-weight: 700;
 }
 
-/* line 104, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
 .img-container.living-style-guide {
   background: url("../img/living_style_guide.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
+/* line 106, ../scss/app.scss */
+.img-container.news-page {
+  background: url("../img/news_page.jpg") no-repeat center center;
+  background-size: cover;
+  height: 180px;
+}
 
-/* line 112, ../scss/app.scss */
+/* line 114, ../scss/app.scss */
 footer {
   background-color: white;
   border-top: 1px solid #eee;
@@ -1813,14 +1815,14 @@ footer {
   width: 100%;
   z-index: 1;
 }
-/* line 120, ../scss/app.scss */
+/* line 122, ../scss/app.scss */
 footer p {
   margin-bottom: 0;
 }
 
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 128, ../scss/app.scss */
+  /* line 130, ../scss/app.scss */
   .social-buttons {
     float: right;
   }

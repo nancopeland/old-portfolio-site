@@ -63,9 +63,6 @@ button, .button {
 		font-weight: 700; 
 		margin: 0; 
 	} 
-	p {
-		font-size: 1.25rem; 
-	}
 }
 .info-paragraph {
 	margin-top: .25rem; 
@@ -100,11 +97,16 @@ button, .button {
 .project-title {
 	font-weight:700; 
 }
-.img-container {
+.img-container { 
 	&.living-style-guide {
 		background: url('../img/living_style_guide.jpg') no-repeat center center; 
 		background-size: cover; 
-		height: 180px; 
+		height: 180px;
+	}
+	&.news-page {
+		background: url('../img/news_page.jpg') no-repeat center center;
+		background-size: cover; 
+		height: 180px;
 	}
 }
 
