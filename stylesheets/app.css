@@ -1690,18 +1690,28 @@ body {
 }
 
 /* line 29, ../scss/app.scss */
-h1, h2, h3, h4, h5, h6, p, button, .button {
+h1, h2, h3, h4, h5, h6, p, a, button, .button {
   font-family: 'Karla', sans-serif;
   margin: 0;
 }
 
 /* line 33, ../scss/app.scss */
 a {
+  color: #1adbd3;
   text-decoration: none;
-  color: #333333;
+  transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  -ms-transition: 0.1s ease-in;
+  -moz-transition: 0.1s ease-in;
+  -webkit-transition: 0.1s ease-in;
+}
+/* line 37, ../scss/app.scss */
+a:hover {
+  color: #1adbd3;
+  background-color: #e5fcfb;
 }
 
-/* line 37, ../scss/app.scss */
+/* line 42, ../scss/app.scss */
 button, .button {
   color: #1adbd3;
   border: 2px solid #1adbd3;
@@ -1717,22 +1727,22 @@ button, .button {
   -moz-transition: 0.1s ease-in;
   -webkit-transition: 0.1s ease-in;
 }
-/* line 47, ../scss/app.scss */
+/* line 52, ../scss/app.scss */
 button.call-out, .button.call-out {
   background-color: #1adbd3;
   color: #FFFFFF;
 }
-/* line 51, ../scss/app.scss */
+/* line 56, ../scss/app.scss */
 button:hover, button:focus, .button:hover, .button:focus {
   color: #1adbd3;
   background-color: #e5fcfb;
 }
 
-/* line 58, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .header {
   margin-top: 1rem;
 }
-/* line 60, ../scss/app.scss */
+/* line 65, ../scss/app.scss */
 .header h1 {
   text-transform: lowercase;
   letter-spacing: .5px;
@@ -1741,35 +1751,22 @@ button:hover, button:focus, .button:hover, .button:focus {
   margin: 0;
 }
 
-/* line 68, ../scss/app.scss */
+/* line 73, ../scss/app.scss */
 .info-paragraph {
   margin-top: .25rem;
   font-size: 1em;
 }
-/* line 71, ../scss/app.scss */
-.info-paragraph a {
-  color: #1adbd3;
-  transition: 0.1s ease-in;
-  -o-transition: 0.1s ease-in;
-  -ms-transition: 0.1s ease-in;
-  -moz-transition: 0.1s ease-in;
-  -webkit-transition: 0.1s ease-in;
-}
-/* line 75, ../scss/app.scss */
-.info-paragraph a:hover {
-  color: #1adbd3;
-  background-color: #e5fcfb;
-}
 
-/* line 82, ../scss/app.scss */
+/* line 79, ../scss/app.scss */
 .projects {
   margin-top: 2rem;
 }
 
-/* line 85, ../scss/app.scss */
+/* line 82, ../scss/app.scss */
 .project {
   border: 1px solid #eee;
   border-radius: 2px;
+  color: #333333;
   margin-bottom: 2rem;
   transition: 0.1s ease-in;
   -o-transition: 0.1s ease-in;
@@ -1777,48 +1774,48 @@ button:hover, button:focus, .button:hover, .button:focus {
   -moz-transition: 0.1s ease-in;
   -webkit-transition: 0.1s ease-in;
 }
-/* line 90, ../scss/app.scss */
+/* line 88, ../scss/app.scss */
 .project:hover {
   border: 1px solid #1adbd3;
   color: #1adbd3;
 }
 
-/* line 95, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 .project-description {
   border-top: 1px solid #eee;
   padding: .75rem;
 }
 
-/* line 99, ../scss/app.scss */
+/* line 97, ../scss/app.scss */
 .project-title {
   font-weight: 700;
 }
 
-/* line 103, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
 .img-container.pubs-redesign {
   background: url("../img/pubs_redesign.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 108, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 .img-container.news-page {
   background: url("../img/news_page.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 113, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 .img-container.living-style-guide {
   background: url("../img/living_style_guide.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
 
-/* line 121, ../scss/app.scss */
+/* line 119, ../scss/app.scss */
 .footer-push {
   height: 100px;
 }
 
-/* line 124, ../scss/app.scss */
+/* line 122, ../scss/app.scss */
 footer {
   background-color: white;
   border-top: 1px solid #eee;
@@ -1830,7 +1827,7 @@ footer {
   width: 100%;
   z-index: 1;
 }
-/* line 134, ../scss/app.scss */
+/* line 132, ../scss/app.scss */
 footer p {
   display: inline-block;
   margin-bottom: 0;
@@ -1838,12 +1835,12 @@ footer p {
 
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 142, ../scss/app.scss */
+  /* line 140, ../scss/app.scss */
   .social-buttons {
     float: right;
   }
 
-  /* line 145, ../scss/app.scss */
+  /* line 143, ../scss/app.scss */
   footer {
     height: 70px;
   }
