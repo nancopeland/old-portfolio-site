@@ -98,13 +98,18 @@ button, .button {
 	font-weight:700; 
 }
 .img-container { 
-	&.living-style-guide {
-		background: url('../img/living_style_guide.jpg') no-repeat center center; 
+	&.pubs-redesign {
+		background: url('../img/pubs_redesign.jpg') no-repeat center center; 
 		background-size: cover; 
 		height: 180px;
 	}
 	&.news-page {
 		background: url('../img/news_page.jpg') no-repeat center center;
+		background-size: cover; 
+		height: 180px;
+	}
+	&.living-style-guide {
+		background: url('../img/living_style_guide.jpg') no-repeat center center; 
 		background-size: cover; 
 		height: 180px;
 	}
