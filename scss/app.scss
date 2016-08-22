@@ -1,5 +1,4 @@
-//@import 'foundation/functions';
-//@import "../bower_components/foundation/scss/foundation.scss";
+//foundation grid
 @import 'foundation/components/grid';
 
 //variables
@@ -131,7 +130,7 @@ footer {
     z-index: 1; 
     p {
     	display: inline-block; 
-    	margin-bottom: 0; 
+    	margin-bottom: .5rem; 
     }
 }
 
@@ -142,6 +141,9 @@ footer {
     }
     footer {
     	height: 70px; 
+    	p {
+    		margin-bottom: 0; 
+    	}
     }
 } 
 
