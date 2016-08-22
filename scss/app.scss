@@ -23,6 +23,7 @@ $turquoise-dark	: #1adbd3;
 body {
 	color: $dark-grey;
 	background-color: $white;  
+	overflow-y: scroll; 
 }
 
 h1, h2, h3, h4, h5, h6, p, button, .button {
@@ -84,6 +85,7 @@ button, .button {
 .project {
 	border: 1px solid #eee; 
 	border-radius: 2px;
+	margin-bottom: 2rem; 
 	@include transition-speed(.1s ease-in);
 	&:hover {
 		border: 1px solid $turquoise; 
@@ -116,24 +118,32 @@ button, .button {
 }
 
 //footer
+.footer-push {
+	height: 100px; //needs to be same size or bigger than height of footer
+}
 footer {
 	background-color: white; 
 	border-top: 1px solid #eee; 
     bottom: 0px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.05), 0 0px 15px rgba(0, 0, 0, 0.03);
     padding: 1.25rem 0;
-	position: absolute;
+	position: fixed;
+	height: 100px; 
     width: 100%;
     z-index: 1; 
     p {
+    	display: inline-block; 
     	margin-bottom: 0; 
     }
 }
-
 
 //media queries
 @media only screen and (min-width: 40.063em) { /*medium and up*/
     .social-buttons {
     	float: right;  
+    }
+    footer {
+    	height: 70px; 
     }
 } 
 
