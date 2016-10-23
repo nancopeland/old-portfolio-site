@@ -1,63 +1,53 @@
-@import "settings";
-@import "../bower_components/foundation/css/foundation.css";
+//foundation grid
+@import 'foundation/components/grid';
 
-// Or selectively include components
- @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-     "foundation/components/buttons";
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switches",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
+//variables
+$white: #FFFFFF;
+$dark-grey: #333333;
+$black: #000000;
+$turquoise: #1adbd3; 
+$turquoise-light: #e5fcfb;  
+$turquoise-dark	: #1adbd3; 
 
+//mixins
+@mixin transition-speed($speed) {
+  	transition: $speed; 
+	-o-transition: $speed;
+  	-ms-transition: $speed;
+  	-moz-transition: $speed;
+  	-webkit-transition: $speed;
+}
 
 //universal
 body {
-	color: $oil;
+	color: $dark-grey;
 	background-color: $white;  
+	overflow-y: scroll; 
 }
 
-h1, h2, h3, h4, h5, h6, p, button, .button {
+h1, h2, h3, h4, h5, h6, p, a, button, .button {
 	font-family: 'Karla', sans-serif; 
+	margin: 0; 
 }
-
+a {
+	color: $turquoise; 
+	text-decoration: none; 
+	@include transition-speed(.1s ease-in);
+	&:hover {
+		color: $turquoise; 
+		background-color: $turquoise-light;  
+	}
+}
 button, .button {
 	color: $turquoise; 
 	border: 2px solid $turquoise;
 	background-color: transparent;
 	border-radius: 2px; 
-	padding: .5rem .75rem; 
-	margin: 1rem .5rem 1rem 0;
+	cursor: pointer; 
+	margin: 0 .25rem; 
+	padding: .25rem .5rem; 
 	font-size: .875rem; 
+	@include transition-speed(.1s ease-in); 
 	&.call-out {
 		background-color: $turquoise; 
 		color: $white; 
@@ -65,81 +55,96 @@ button, .button {
 	&:hover, &:focus {
 		color: $turquoise; 
 		background-color: $turquoise-light; 
-		&.call-out {
-			background-color: $turquoise; 
-			color: $white; 
-		}
-		&.call-out:hover {
-			border-color: $turquoise-dark; 
-			background-color: $turquoise-dark;  
-		}
 	}
 }
 
-//sections
+//header
 .header {
-	margin-top: 7rem; 
+	margin-top: 1rem; 
 	h1 {
 		text-transform: lowercase; 
 		letter-spacing: .5px; 
-		font-size: 2.75rem; 
+		font-size: 2.5rem; 
 		font-weight: 700; 
 		margin: 0; 
 	} 
 }
-
 .info-paragraph {
-	margin-top: 1rem; 
-	p {
-		font-size: 1.125em; 
-	}
-	a {
+	margin-top: .25rem; 
+	font-size: 1em; 
+}
+
+//projects
+.projects {
+	margin-top: 2rem; 
+}
+.project {
+	border: 1px solid #eee; 
+	border-radius: 2px;
+	color: $dark-grey; 
+	margin-bottom: 2rem; 
+	@include transition-speed(.1s ease-in);
+	&:hover {
+		border: 1px solid $turquoise; 
 		color: $turquoise; 
+	} 
+}
+.project-description {
+	border-top: 1px solid #eee; 
+	padding: .75rem; 
+}
+.project-title {
+	font-weight:700; 
+}
+.img-container { 
+	&.pubs-redesign {
+		background: url('../img/pubs_redesign.jpg') no-repeat center center; 
+		background-size: cover; 
+		height: 180px;
 	}
-	a:hover {
-		color: $turquoise; 
-		background-color: $turquoise-light;  
+	&.news-page {
+		background: url('../img/news_page.jpg') no-repeat center center;
+		background-size: cover; 
+		height: 180px;
+	}
+	&.living-style-guide {
+		background: url('../img/living_style_guide.jpg') no-repeat center center; 
+		background-size: cover; 
+		height: 180px;
 	}
 }
 
-/*.projects {
-	margin-top: 4rem; 
-	img {
-		width: 75%; 
-	}
-	h6 {
-		text-align: center; 
-		margin-top: .75rem; 
-	}
-}*/
-
-//icons and illustrations pages
-/*.icons_illustrations {
-	h1 { 
-		font-weight: 700; 
-		text-align: center; 
-	}
-	img {
-		margin: 3rem 0; 
-		&.small {
-			width: 70%;
-			margin-top: 0; 
-		}
-	}
-}*/
-
+//footer
+.footer-push {
+	height: 100px; //needs to be same size or bigger than height of footer
+}
+footer {
+	background-color: white; 
+	border-top: 1px solid #eee; 
+    bottom: 0px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.05), 0 0px 15px rgba(0, 0, 0, 0.03);
+    padding: 1.25rem 0;
+	position: fixed;
+	height: 100px; 
+    width: 100%;
+    z-index: 1; 
+    p {
+    	display: inline-block; 
+    	margin-bottom: .5rem; 
+    }
+}
 
 //media queries
 @media only screen and (min-width: 40.063em) { /*medium and up*/
-	.header { 
-		margin-top: 9rem; 
-		h1 {
-			font-size: 3.5rem; 
-		}
-	}
-	button, .button {
-		font-size: 1rem;
-	}
+    .social-buttons {
+    	float: right;  
+    }
+    footer {
+    	height: 70px; 
+    	p {
+    		margin-bottom: 0; 
+    	}
+    }
 } 
 
 
