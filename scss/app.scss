@@ -67,6 +67,10 @@ button, .button {
 //menu
 .menu {
 	padding: .75rem 0; 
+    //position: fixed;
+	//top: 0;
+    //width: 100%;
+    //z-index: 1;
 	h1 { 
 		font-size: 1.5rem; 
 		font-weight: 700; 
@@ -93,40 +97,42 @@ button, .button {
 	text-transform: lowercase;
     vertical-align: middle;
 }
-.menu-icon {
-	cursor: pointer;
-	display: inline-block;
-  	height: 26px;
-  	position: relative;
-  	width: 30px;
-  	vertical-align: middle; 
-  	@include transform(rotate(0deg)); 
-  	@include transition(.5 ease-in-out); 
-  	span {
-		background: $turquoise;
-		border-radius: 4px;
-  		display: block;
-		left: 0;
-		height: 4px;
-		opacity: 1;
-		position: absolute;
-		width: 100%;
-		@include transform(rotate(0deg)); 
-	  	-webkit-transition: .25s ease-in-out;
-	  	-moz-transition: .25s ease-in-out;
-	  	-o-transition: .25s ease-in-out;
-	  	transition: .25s ease-in-out;
-	  	&:nth-child(1){
-	  		top: 0px;
+.menu-icon-wrapper {
+	.menu-icon {
+		cursor: pointer;
+		display: inline-block;
+	  	height: 26px;
+	  	position: relative;
+	  	width: 30px;
+	  	vertical-align: middle; 
+	  	@include transform(rotate(0deg)); 
+	  	@include transition(.5 ease-in-out); 
+	  	span {
+			background: $turquoise;
+			border-radius: 4px;
+	  		display: block;
+			left: 0;
+			height: 4px;
+			opacity: 1;
+			position: absolute;
+			width: 100%;
+			@include transform(rotate(0deg)); 
+		  	-webkit-transition: .25s ease-in-out;
+		  	-moz-transition: .25s ease-in-out;
+		  	-o-transition: .25s ease-in-out;
+		  	transition: .25s ease-in-out;
+		  	&:nth-child(1){
+		  		top: 0px;
+		  	}
+		  	&:nth-child(2),
+		  	&:nth-child(3) {
+		  		top: 10px;
+		  	}
+		  	&:nth-child(4){
+		  		top: 20px;
+		  	}
 	  	}
-	  	&:nth-child(2),
-	  	&:nth-child(3) {
-	  		top: 10px;
-	  	}
-	  	&:nth-child(4){
-	  		top: 20px;
-	  	}
-  	}
+	}
   	// when menu is open
 	&.open {
 		span {
