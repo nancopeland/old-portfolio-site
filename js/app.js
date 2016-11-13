@@ -1,3 +1,7 @@
-// Foundation JavaScript
-// Documentation can be found at: http://foundation.zurb.com/docs
-//$(document).foundation();
+// JS
+
+$(document).ready(function(){
+	$('.menu-icon').click(function(){
+		$(this).toggleClass('open');
+	});
+});
