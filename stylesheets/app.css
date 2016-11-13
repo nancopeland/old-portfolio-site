@@ -1682,36 +1682,36 @@ select {
     left: auto;
   }
 }
-/* line 22, ../scss/app.scss */
+/* line 21, ../scss/app.scss */
 body {
   color: #333333;
   background-color: #FFFFFF;
   overflow-y: scroll;
 }
 
-/* line 28, ../scss/app.scss */
+/* line 27, ../scss/app.scss */
 h1, h2, h3, h4, h5, h6, p, a, button, .button {
   font-family: 'Karla', sans-serif;
   margin: 0;
 }
 
-/* line 32, ../scss/app.scss */
+/* line 31, ../scss/app.scss */
 a {
   color: #1adbd3;
   text-decoration: none;
-  transition: 0.1s ease-in;
-  -o-transition: 0.1s ease-in;
-  -ms-transition: 0.1s ease-in;
-  -moz-transition: 0.1s ease-in;
-  -webkit-transition: 0.1s ease-in;
+  transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -webkit-transition: 0.2s ease-in;
 }
-/* line 36, ../scss/app.scss */
+/* line 35, ../scss/app.scss */
 a:hover {
   color: #1adbd3;
   background-color: #e5fcfb;
 }
 
-/* line 41, ../scss/app.scss */
+/* line 40, ../scss/app.scss */
 button, .button {
   color: #1adbd3;
   border: 2px solid #1adbd3;
@@ -1721,28 +1721,28 @@ button, .button {
   margin: 0 .25rem;
   padding: .25rem .5rem;
   font-size: .875rem;
-  transition: 0.1s ease-in;
-  -o-transition: 0.1s ease-in;
-  -ms-transition: 0.1s ease-in;
-  -moz-transition: 0.1s ease-in;
-  -webkit-transition: 0.1s ease-in;
+  transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -webkit-transition: 0.2s ease-in;
 }
-/* line 51, ../scss/app.scss */
+/* line 50, ../scss/app.scss */
 button.call-out, .button.call-out {
   background-color: #1adbd3;
   color: #FFFFFF;
 }
-/* line 55, ../scss/app.scss */
+/* line 54, ../scss/app.scss */
 button:hover, button:focus, .button:hover, .button:focus {
   color: #1adbd3;
   background-color: #e5fcfb;
 }
 
-/* line 62, ../scss/app.scss */
+/* line 61, ../scss/app.scss */
 .header {
   margin-top: 1rem;
 }
-/* line 64, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .header h1 {
   text-transform: lowercase;
   letter-spacing: .5px;
@@ -1751,71 +1751,73 @@ button:hover, button:focus, .button:hover, .button:focus {
   margin: 0;
 }
 
-/* line 72, ../scss/app.scss */
+/* line 71, ../scss/app.scss */
 .info-paragraph {
   margin-top: .25rem;
   font-size: 1em;
 }
 
-/* line 78, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 .projects {
   margin-top: 2rem;
 }
 
-/* line 81, ../scss/app.scss */
+/* line 80, ../scss/app.scss */
 .project {
   border: 1px solid #eee;
   border-radius: 2px;
   color: #333333;
   margin-bottom: 2rem;
-  transition: 0.1s ease-in;
-  -o-transition: 0.1s ease-in;
-  -ms-transition: 0.1s ease-in;
-  -moz-transition: 0.1s ease-in;
-  -webkit-transition: 0.1s ease-in;
+  transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -webkit-transition: 0.2s ease-in;
 }
-/* line 87, ../scss/app.scss */
+/* line 86, ../scss/app.scss */
 .project:hover {
   border: 1px solid #1adbd3;
-  color: #1adbd3;
+  -webkit-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
+  -moz-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
+  box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
 }
 
-/* line 92, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 .project-description {
   border-top: 1px solid #eee;
   padding: .75rem;
 }
 
-/* line 96, ../scss/app.scss */
+/* line 97, ../scss/app.scss */
 .project-title {
   font-weight: 700;
 }
 
-/* line 100, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
 .img-container.pubs-redesign {
   background: url("../img/pubs_redesign.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 105, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 .img-container.news-page {
   background: url("../img/news_page.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 110, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 .img-container.living-style-guide {
   background: url("../img/living_style_guide.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
 
-/* line 118, ../scss/app.scss */
+/* line 119, ../scss/app.scss */
 .footer-push {
   height: 100px;
 }
 
-/* line 121, ../scss/app.scss */
+/* line 122, ../scss/app.scss */
 footer {
   background-color: white;
   border-top: 1px solid #eee;
@@ -1827,7 +1829,7 @@ footer {
   width: 100%;
   z-index: 1;
 }
-/* line 131, ../scss/app.scss */
+/* line 132, ../scss/app.scss */
 footer p {
   display: inline-block;
   margin-bottom: .5rem;
@@ -1835,16 +1837,16 @@ footer p {
 
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 139, ../scss/app.scss */
+  /* line 140, ../scss/app.scss */
   .social-buttons {
     float: right;
   }
 
-  /* line 142, ../scss/app.scss */
+  /* line 143, ../scss/app.scss */
   footer {
     height: 70px;
   }
-  /* line 144, ../scss/app.scss */
+  /* line 145, ../scss/app.scss */
   footer p {
     margin-bottom: 0;
   }
