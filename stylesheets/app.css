@@ -1733,108 +1733,122 @@ button.call-out, .button.call-out {
   color: #FFFFFF;
 }
 /* line 61, ../scss/app.scss */
-button:hover, button:focus, .button:hover, .button:focus {
+button:hover, .button:hover {
   color: #1adbd3;
   background-color: #e5fcfb;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 68, ../scss/app.scss */
+.menu {
+  padding: .75rem 0;
+}
+/* line 70, ../scss/app.scss */
 .menu h1 {
-  text-transform: lowercase;
-  letter-spacing: .5px;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin: 0;
+  letter-spacing: .5px;
+  text-transform: lowercase;
 }
 
-/* line 77, ../scss/app.scss */
+/* line 78, ../scss/app.scss */
 .menu-icon-wrapper {
   border: none;
   display: inline-block;
-}
-
-/** {
+  float: right;
   margin: 0;
-  padding: 0; 
-}*/
+}
+/* line 83, ../scss/app.scss */
+.menu-icon-wrapper:hover {
+  background: transparent;
+}
 /* line 86, ../scss/app.scss */
-.menu-icon {
-  display: inline-block;
-  width: 60px;
-  height: 45px;
-  position: relative;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
+.menu-icon-wrapper:focus {
+  outline: none;
 }
 
-/* line 102, ../scss/app.scss */
-.menu-icon span {
-  display: block;
-  position: absolute;
-  height: 9px;
-  width: 100%;
-  background: #1adbd3;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
+/* line 90, ../scss/app.scss */
+.menu-cta {
+  font-weight: 700;
+  padding-right: .5rem;
+  text-transform: lowercase;
+  vertical-align: middle;
+}
+
+/* line 96, ../scss/app.scss */
+.menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  height: 26px;
+  position: relative;
+  width: 30px;
+  vertical-align: middle;
   transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transition: 0.5 ease-in-out;
+  -o-transition: 0.5 ease-in-out;
+  -ms-transition: 0.5 ease-in-out;
+  -moz-transition: 0.5 ease-in-out;
+  -webkit-transition: 0.5 ease-in-out;
+}
+/* line 105, ../scss/app.scss */
+.menu-icon span {
+  background: #1adbd3;
+  border-radius: 4px;
+  display: block;
+  left: 0;
+  height: 4px;
+  opacity: 1;
+  position: absolute;
+  width: 100%;
+  transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
   -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-
-/* line 121, ../scss/app.scss */
+/* line 119, ../scss/app.scss */
 .menu-icon span:nth-child(1) {
   top: 0px;
 }
-
-/* line 125, ../scss/app.scss */
+/* line 122, ../scss/app.scss */
 .menu-icon span:nth-child(2), .menu-icon span:nth-child(3) {
-  top: 18px;
+  top: 10px;
 }
-
-/* line 129, ../scss/app.scss */
+/* line 126, ../scss/app.scss */
 .menu-icon span:nth-child(4) {
-  top: 36px;
+  top: 20px;
 }
-
 /* line 133, ../scss/app.scss */
 .menu-icon.open span:nth-child(1) {
-  top: 18px;
+  top: 10px;
   width: 0%;
   left: 50%;
 }
-
-/* line 139, ../scss/app.scss */
+/* line 138, ../scss/app.scss */
 .menu-icon.open span:nth-child(2) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
-/* line 146, ../scss/app.scss */
+/* line 144, ../scss/app.scss */
 .menu-icon.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-
-/* line 153, ../scss/app.scss */
+/* line 150, ../scss/app.scss */
 .menu-icon.open span:nth-child(4) {
-  top: 18px;
+  top: 10px;
   width: 0%;
   left: 50%;
 }
