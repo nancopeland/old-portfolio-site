@@ -1740,6 +1740,10 @@ button:hover, .button:hover {
 
 /* line 68, ../scss/app.scss */
 .menu {
+  background: white;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
   height: 3.5rem;
   padding: .75rem 0;
   position: fixed;
@@ -1747,7 +1751,7 @@ button:hover, .button:hover {
   width: 100%;
   z-index: 1;
 }
-/* line 75, ../scss/app.scss */
+/* line 79, ../scss/app.scss */
 .menu h1 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -1756,23 +1760,24 @@ button:hover, .button:hover {
   text-transform: lowercase;
 }
 
-/* line 83, ../scss/app.scss */
+/* line 87, ../scss/app.scss */
 .menu-icon-wrapper {
   border: none;
   display: inline-block;
   float: right;
   margin: 0;
+  padding: .5rem;
 }
-/* line 88, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 .menu-icon-wrapper:hover {
   background: transparent;
 }
-/* line 91, ../scss/app.scss */
+/* line 96, ../scss/app.scss */
 .menu-icon-wrapper:focus {
   outline: none;
 }
 
-/* line 95, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 .menu-cta {
   font-weight: 700;
   padding-right: .5rem;
@@ -1780,13 +1785,13 @@ button:hover, .button:hover {
   vertical-align: middle;
 }
 
-/* line 102, ../scss/app.scss */
+/* line 107, ../scss/app.scss */
 .menu-icon-wrapper .menu-icon {
   cursor: pointer;
   display: inline-block;
-  height: 26px;
+  height: 17px;
   position: relative;
-  width: 30px;
+  width: 22px;
   vertical-align: middle;
   transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -1799,13 +1804,13 @@ button:hover, .button:hover {
   -moz-transition: 0.5 ease-in-out;
   -webkit-transition: 0.5 ease-in-out;
 }
-/* line 111, ../scss/app.scss */
+/* line 116, ../scss/app.scss */
 .menu-icon-wrapper .menu-icon span {
   background: #1adbd3;
-  border-radius: 4px;
+  border-radius: 3px;
   display: block;
   left: 0;
-  height: 4px;
+  height: 3px;
   opacity: 1;
   position: absolute;
   width: 100%;
@@ -1819,51 +1824,51 @@ button:hover, .button:hover {
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-/* line 125, ../scss/app.scss */
+/* line 130, ../scss/app.scss */
 .menu-icon-wrapper .menu-icon span:nth-child(1) {
   top: 0px;
 }
-/* line 128, ../scss/app.scss */
+/* line 133, ../scss/app.scss */
 .menu-icon-wrapper .menu-icon span:nth-child(2), .menu-icon-wrapper .menu-icon span:nth-child(3) {
-  top: 10px;
+  top: 7px;
 }
-/* line 132, ../scss/app.scss */
+/* line 137, ../scss/app.scss */
 .menu-icon-wrapper .menu-icon span:nth-child(4) {
-  top: 20px;
+  top: 14px;
 }
-/* line 140, ../scss/app.scss */
+/* line 145, ../scss/app.scss */
 .menu-icon-wrapper.open span:nth-child(1) {
-  top: 10px;
+  top: 7px;
   width: 0%;
   left: 50%;
 }
-/* line 145, ../scss/app.scss */
+/* line 150, ../scss/app.scss */
 .menu-icon-wrapper.open span:nth-child(2) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* line 151, ../scss/app.scss */
+/* line 156, ../scss/app.scss */
 .menu-icon-wrapper.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/* line 157, ../scss/app.scss */
+/* line 162, ../scss/app.scss */
 .menu-icon-wrapper.open span:nth-child(4) {
-  top: 10px;
+  top: 7px;
   width: 0%;
   left: 50%;
 }
 
-/* line 167, ../scss/app.scss */
+/* line 172, ../scss/app.scss */
 .projects {
   margin-top: 5.5rem;
 }
 
-/* line 170, ../scss/app.scss */
+/* line 175, ../scss/app.scss */
 .project {
   border: 1px solid #eee;
   border-radius: 2px;
@@ -1875,7 +1880,7 @@ button:hover, .button:hover {
   -moz-transition: 0.2s ease-in;
   -webkit-transition: 0.2s ease-in;
 }
-/* line 176, ../scss/app.scss */
+/* line 181, ../scss/app.scss */
 .project:hover {
   border: 1px solid #1adbd3;
   -webkit-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
@@ -1883,71 +1888,66 @@ button:hover, .button:hover {
   box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
 }
 
-/* line 183, ../scss/app.scss */
+/* line 188, ../scss/app.scss */
 .project-description {
   border-top: 1px solid #eee;
   padding: .75rem;
 }
 
-/* line 187, ../scss/app.scss */
+/* line 192, ../scss/app.scss */
 .project-title {
   font-weight: 700;
 }
 
-/* line 191, ../scss/app.scss */
+/* line 196, ../scss/app.scss */
 .img-container.pubs-redesign {
   background: url("../img/pubs_redesign.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 196, ../scss/app.scss */
+/* line 201, ../scss/app.scss */
 .img-container.news-page {
   background: url("../img/news_page.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 201, ../scss/app.scss */
+/* line 206, ../scss/app.scss */
 .img-container.living-style-guide {
   background: url("../img/living_style_guide.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
 
-/* line 209, ../scss/app.scss */
-.footer-push {
-  height: 100px;
+/*.footer-push {
+	height: 100px; //needs to be same size or bigger than height of footer
 }
-
-/* line 212, ../scss/app.scss */
 footer {
-  background-color: white;
-  border-top: 1px solid #eee;
-  bottom: 0px;
-  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.05), 0 0px 15px rgba(0, 0, 0, 0.03);
-  padding: 1.25rem 0;
-  position: fixed;
-  height: 100px;
-  width: 100%;
-  z-index: 1;
-}
-/* line 222, ../scss/app.scss */
-footer p {
-  display: inline-block;
-  margin-bottom: .5rem;
-}
-
+	background-color: white; 
+	border-top: 1px solid #eee; 
+    bottom: 0px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.05), 0 0px 15px rgba(0, 0, 0, 0.03);
+    padding: 1.25rem 0;
+	position: fixed;
+	height: 100px; 
+    width: 100%;
+    z-index: 1; 
+    p {
+    	display: inline-block; 
+    	margin-bottom: .5rem; 
+    }
+}*/
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 230, ../scss/app.scss */
+  /* line 235, ../scss/app.scss */
   .social-buttons {
     float: right;
   }
 
-  /* line 233, ../scss/app.scss */
+  /* line 238, ../scss/app.scss */
   footer {
     height: 70px;
   }
-  /* line 235, ../scss/app.scss */
+  /* line 240, ../scss/app.scss */
   footer p {
     margin-bottom: 0;
   }
