@@ -1749,7 +1749,7 @@ button:hover, .button:hover {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 100;
 }
 /* line 79, ../scss/app.scss */
 .menu h1 {
@@ -1785,14 +1785,14 @@ button:hover, .button:hover {
   vertical-align: middle;
 }
 
-/* line 107, ../scss/app.scss */
-.menu-icon-wrapper .menu-icon {
+/* line 106, ../scss/app.scss */
+.menu-icon {
   cursor: pointer;
-  display: inline-block;
   height: 17px;
-  position: relative;
+  position: absolute;
+  right: 0;
+  top: 10px;
   width: 22px;
-  vertical-align: middle;
   transform: rotate(0deg);
   -o-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
@@ -1804,8 +1804,8 @@ button:hover, .button:hover {
   -moz-transition: 0.5 ease-in-out;
   -webkit-transition: 0.5 ease-in-out;
 }
-/* line 116, ../scss/app.scss */
-.menu-icon-wrapper .menu-icon span {
+/* line 115, ../scss/app.scss */
+.menu-icon span {
   background: #1adbd3;
   border-radius: 3px;
   display: block;
@@ -1824,51 +1824,67 @@ button:hover, .button:hover {
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-/* line 130, ../scss/app.scss */
-.menu-icon-wrapper .menu-icon span:nth-child(1) {
+/* line 129, ../scss/app.scss */
+.menu-icon span:nth-child(1) {
   top: 0px;
 }
-/* line 133, ../scss/app.scss */
-.menu-icon-wrapper .menu-icon span:nth-child(2), .menu-icon-wrapper .menu-icon span:nth-child(3) {
+/* line 132, ../scss/app.scss */
+.menu-icon span:nth-child(2), .menu-icon span:nth-child(3) {
   top: 7px;
 }
-/* line 137, ../scss/app.scss */
-.menu-icon-wrapper .menu-icon span:nth-child(4) {
+/* line 136, ../scss/app.scss */
+.menu-icon span:nth-child(4) {
   top: 14px;
 }
-/* line 145, ../scss/app.scss */
+
+/* line 143, ../scss/app.scss */
+.menu-more-info {
+  background-color: rgba(51, 51, 51, 0.9);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+/* line 151, ../scss/app.scss */
+.menu-more-info p {
+  color: white;
+}
+
+/* line 158, ../scss/app.scss */
 .menu-icon-wrapper.open span:nth-child(1) {
   top: 7px;
   width: 0%;
   left: 50%;
 }
-/* line 150, ../scss/app.scss */
+/* line 163, ../scss/app.scss */
 .menu-icon-wrapper.open span:nth-child(2) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* line 156, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 .menu-icon-wrapper.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/* line 162, ../scss/app.scss */
+/* line 175, ../scss/app.scss */
 .menu-icon-wrapper.open span:nth-child(4) {
   top: 7px;
   width: 0%;
   left: 50%;
 }
 
-/* line 172, ../scss/app.scss */
+/* line 185, ../scss/app.scss */
 .projects {
   margin-top: 5.5rem;
 }
 
-/* line 175, ../scss/app.scss */
+/* line 188, ../scss/app.scss */
 .project {
   border: 1px solid #eee;
   border-radius: 2px;
@@ -1880,7 +1896,7 @@ button:hover, .button:hover {
   -moz-transition: 0.2s ease-in;
   -webkit-transition: 0.2s ease-in;
 }
-/* line 181, ../scss/app.scss */
+/* line 194, ../scss/app.scss */
 .project:hover {
   border: 1px solid #1adbd3;
   -webkit-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
@@ -1888,30 +1904,30 @@ button:hover, .button:hover {
   box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
 }
 
-/* line 188, ../scss/app.scss */
+/* line 201, ../scss/app.scss */
 .project-description {
   border-top: 1px solid #eee;
   padding: .75rem;
 }
 
-/* line 192, ../scss/app.scss */
+/* line 205, ../scss/app.scss */
 .project-title {
   font-weight: 700;
 }
 
-/* line 196, ../scss/app.scss */
+/* line 209, ../scss/app.scss */
 .img-container.pubs-redesign {
   background: url("../img/pubs_redesign.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 201, ../scss/app.scss */
+/* line 214, ../scss/app.scss */
 .img-container.news-page {
   background: url("../img/news_page.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 206, ../scss/app.scss */
+/* line 219, ../scss/app.scss */
 .img-container.living-style-guide {
   background: url("../img/living_style_guide.jpg") no-repeat center center;
   background-size: cover;
@@ -1938,16 +1954,16 @@ footer {
 }*/
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 235, ../scss/app.scss */
+  /* line 248, ../scss/app.scss */
   .social-buttons {
     float: right;
   }
 
-  /* line 238, ../scss/app.scss */
+  /* line 251, ../scss/app.scss */
   footer {
     height: 70px;
   }
-  /* line 240, ../scss/app.scss */
+  /* line 253, ../scss/app.scss */
   footer p {
     margin-bottom: 0;
   }

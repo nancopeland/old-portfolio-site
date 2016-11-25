@@ -75,7 +75,7 @@ button, .button {
     position: fixed;
 	top: 0;
     width: 100%;
-    z-index: 1;
+  	z-index: 100; 
 	h1 { 
 		font-size: 1.5rem; 
 		font-weight: 700; 
@@ -103,43 +103,56 @@ button, .button {
 	text-transform: lowercase;
     vertical-align: middle;
 }
-.menu-icon-wrapper {
-	.menu-icon {
-		cursor: pointer;
-		display: inline-block;
-	  	height: 17px;
-	  	position: relative;
-	  	width: 22px;
-	  	vertical-align: middle; 
-	  	@include transform(rotate(0deg)); 
-	  	@include transition(.5 ease-in-out); 
-	  	span {
-			background: $turquoise;
-			border-radius: 3px;
-	  		display: block;
-			left: 0;
-			height: 3px;
-			opacity: 1;
-			position: absolute;
-			width: 100%;
-			@include transform(rotate(0deg)); 
-		  	-webkit-transition: .25s ease-in-out;
-		  	-moz-transition: .25s ease-in-out;
-		  	-o-transition: .25s ease-in-out;
-		  	transition: .25s ease-in-out;
-		  	&:nth-child(1){
-		  		top: 0px;
-		  	}
-		  	&:nth-child(2),
-		  	&:nth-child(3) {
-		  		top: 7px;
-		  	}
-		  	&:nth-child(4){
-		  		top: 14px;
-		  	}
+.menu-icon {
+	cursor: pointer;
+  	height: 17px;
+  	position: absolute;  
+    right: 0;  
+  	top: 10px;
+  	width: 22px; 
+  	@include transform(rotate(0deg)); 
+  	@include transition(.5 ease-in-out); 
+  	span {
+		background: $turquoise;
+		border-radius: 3px;
+  		display: block;
+		left: 0;
+		height: 3px;
+		opacity: 1;
+		position: absolute;
+		width: 100%;
+		@include transform(rotate(0deg)); 
+	  	-webkit-transition: .25s ease-in-out;
+	  	-moz-transition: .25s ease-in-out;
+	  	-o-transition: .25s ease-in-out;
+	  	transition: .25s ease-in-out;
+	  	&:nth-child(1){
+	  		top: 0px;
 	  	}
+	  	&:nth-child(2),
+	  	&:nth-child(3) {
+	  		top: 7px;
+	  	}
+	  	&:nth-child(4){
+	  		top: 14px;
+	  	}
+  	}
+}
+  	
+// when menu is open
+.menu-more-info {
+	background-color: rgba(51,51,51,0.9);
+	height: 100%;
+	left: 0; 
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+	z-index: 10; 
+	p {
+		color: white; 
 	}
-  	// when menu is open
+}
+.menu-icon-wrapper {
 	&.open {
 		span {
 	  		&:nth-child(1){
