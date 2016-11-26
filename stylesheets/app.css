@@ -1781,7 +1781,7 @@ button:hover, .button:hover {
 /* line 101, ../scss/app.scss */
 .menu-cta {
   font-weight: 700;
-  padding-right: .5rem;
+  padding-right: 1.75rem;
   text-transform: lowercase;
   vertical-align: middle;
 }
@@ -1791,7 +1791,7 @@ button:hover, .button:hover {
   cursor: pointer;
   height: 17px;
   position: absolute;
-  right: 0;
+  right: 22px;
   top: 10px;
   width: 22px;
   transform: rotate(0deg);
