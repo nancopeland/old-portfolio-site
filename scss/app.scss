@@ -100,7 +100,7 @@ button, .button {
 }
 .menu-cta {
     font-weight: 700;
-	padding-right: 1.75rem;
+	padding-right: .25rem;
 	text-transform: lowercase;
     vertical-align: middle;
 }
@@ -113,7 +113,7 @@ button, .button {
   	width: 22px; 
   	@include transform(rotate(0deg)); 
   	@include transition(.5 ease-in-out); 
-  	span {
+  	/*span {
 		background: $turquoise;
 		border-radius: 3px;
   		display: block;
@@ -137,17 +137,31 @@ button, .button {
 	  	&:nth-child(4){
 	  		top: 14px;
 	  	}
-  	}
+  	}*/
 }
   	
 // OPEN menu
 .menu {
+	.menu-close {
+		display: none; 
+	}
 	&.open {
 		h1 {
 			color: #fff; 
 		}
+		.menu-close {
+			display: inline-block; 
+			height: 15px; 
+			width: 15px; 
+			vertical-align: middle; 
+			svg {
+				path {
+					fill: $turquoise; 
+				}
+			}
+		}
 		// menu icon to "X" transition
-		.menu-icon {
+		/*.menu-icon {
 			span {
 		  		&:nth-child(1){
 			  		top: 7px;
@@ -172,7 +186,7 @@ button, .button {
 	  				left: 50%;
 			  	}
 		  	}
-		}
+		}*/
 	}
 }
 .menu-about {
