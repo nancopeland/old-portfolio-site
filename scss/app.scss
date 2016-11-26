@@ -37,14 +37,15 @@ h1, h2, h3, h4, h5, h6, p, a, button, .button {
 }
 a {
 	color: $turquoise; 
+	cursor: pointer; 
 	text-decoration: none; 
-	@include transition(.2s ease-in);
+	@include transition(all .25s ease-in);
 	&:hover {
-		color: $turquoise; 
-		background-color: $turquoise-light;  
+		color: $turquoise;  
+		border-bottom: 1px solid $turquoise; 
 	}
 }
-button, .button {
+button {
 	color: $turquoise; 
 	border: 2px solid $turquoise;
 	background-color: transparent;
@@ -85,12 +86,12 @@ button, .button {
 		@include transition(color .25s ease); 
 	}
 }
-.menu-icon-wrapper {
+.menu-button {
 	border: none; 
 	display: inline-block;  
 	float: right; 
 	margin: 0; 
-	padding: .5rem; 
+	padding: .5rem 0; 
 	&:hover {
 		background: transparent; 
 	}
@@ -99,12 +100,11 @@ button, .button {
 	}
 }
 .menu-cta {
-    font-weight: 700;
-	padding-right: .25rem;
+	font-size: 1rem; 
 	text-transform: lowercase;
     vertical-align: middle;
 }
-.menu-icon {
+/*.menu-icon {
 	cursor: pointer;
   	height: 17px;
   	position: absolute;  
@@ -113,7 +113,7 @@ button, .button {
   	width: 22px; 
   	@include transform(rotate(0deg)); 
   	@include transition(.5 ease-in-out); 
-  	/*span {
+  	span {
 		background: $turquoise;
 		border-radius: 3px;
   		display: block;
@@ -137,8 +137,8 @@ button, .button {
 	  	&:nth-child(4){
 	  		top: 14px;
 	  	}
-  	}*/
-}
+  	}
+}*/
   	
 // OPEN menu
 .menu {
@@ -152,6 +152,7 @@ button, .button {
 		.menu-close {
 			display: inline-block; 
 			height: 15px; 
+			padding: 0 0 0 .25rem;
 			width: 15px; 
 			vertical-align: middle; 
 			svg {
@@ -202,6 +203,8 @@ button, .button {
 		color: #ddd; 
 	}
 }
+
+
 
 // PROJECTS
 .projects {
