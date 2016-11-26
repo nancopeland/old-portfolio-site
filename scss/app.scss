@@ -36,33 +36,22 @@ h1, h2, h3, h4, h5, h6, p, a, button, .button {
 	margin: 0; 
 }
 a {
-	color: $turquoise; 
+	border-bottom: 1px solid $turquoise;
+	color: inherit; 
 	cursor: pointer; 
 	text-decoration: none; 
 	@include transition(all .25s ease-in);
 	&:hover {
-		color: $turquoise;  
-		border-bottom: 1px solid $turquoise; 
+		background-color: $turquoise; 
+		color: #fff;  
 	}
 }
 button {
-	color: $turquoise; 
-	border: 2px solid $turquoise;
 	background-color: transparent;
-	border-radius: 2px; 
+	border: 0; 
+	color: $turquoise; 
 	cursor: pointer; 
-	margin: 0 .25rem; 
-	padding: .25rem .5rem; 
-	font-size: .875rem; 
-	@include transition(.2s ease-in); 
-	&.call-out {
-		background-color: $turquoise; 
-		color: $white; 
-	}
-	&:hover {
-		color: $turquoise; 
-		background-color: $turquoise-light; 
-	}
+	padding: .5rem;  
 }
 
 @import 'menu'; 

@@ -1697,7 +1697,8 @@ h1, h2, h3, h4, h5, h6, p, a, button, .button {
 
 /* line 38, ../scss/app.scss */
 a {
-  color: #1adbd3;
+  border-bottom: 1px solid #1adbd3;
+  color: inherit;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.25s ease-in;
@@ -1706,37 +1707,19 @@ a {
   -moz-transition: all 0.25s ease-in;
   -webkit-transition: all 0.25s ease-in;
 }
-/* line 43, ../scss/app.scss */
+/* line 44, ../scss/app.scss */
 a:hover {
-  color: #1adbd3;
-  border-bottom: 1px solid #1adbd3;
+  background-color: #1adbd3;
+  color: #fff;
 }
 
-/* line 48, ../scss/app.scss */
+/* line 49, ../scss/app.scss */
 button {
-  color: #1adbd3;
-  border: 2px solid #1adbd3;
   background-color: transparent;
-  border-radius: 2px;
-  cursor: pointer;
-  margin: 0 .25rem;
-  padding: .25rem .5rem;
-  font-size: .875rem;
-  transition: 0.2s ease-in;
-  -o-transition: 0.2s ease-in;
-  -ms-transition: 0.2s ease-in;
-  -moz-transition: 0.2s ease-in;
-  -webkit-transition: 0.2s ease-in;
-}
-/* line 58, ../scss/app.scss */
-button.call-out {
-  background-color: #1adbd3;
-  color: #FFFFFF;
-}
-/* line 62, ../scss/app.scss */
-button:hover {
+  border: 0;
   color: #1adbd3;
-  background-color: #e5fcfb;
+  cursor: pointer;
+  padding: .5rem;
 }
 
 /* line 4, ../scss/_menu.scss */
@@ -1873,7 +1856,7 @@ button:hover {
 
 /* line 128, ../scss/_menu.scss */
 .menu-about {
-  background-color: rgba(51, 51, 51, 0.95);
+  background-color: rgba(0, 0, 0, 0.9);
   height: 100%;
   left: 0;
   padding: 6rem 0 2rem 0;
@@ -1885,14 +1868,37 @@ button:hover {
 /* line 137, ../scss/_menu.scss */
 .menu-about p {
   color: #ddd;
+  font-size: 1.25rem;
+}
+/* line 140, ../scss/_menu.scss */
+.menu-about p a {
+  color: #fff;
 }
 
-/* line 71, ../scss/app.scss */
+/* line 145, ../scss/_menu.scss */
+.social-links {
+  margin: 2rem 0;
+}
+/* line 147, ../scss/_menu.scss */
+.social-links a {
+  color: #fff;
+  border: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-right: .5rem;
+  text-transform: lowercase;
+}
+/* line 154, ../scss/_menu.scss */
+.social-links a:hover {
+  background-color: transparent;
+}
+
+/* line 60, ../scss/app.scss */
 .projects {
   margin-top: 5.5rem;
 }
 
-/* line 74, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .project {
   border: 1px solid #eee;
   border-radius: 2px;
@@ -1904,7 +1910,7 @@ button:hover {
   -moz-transition: 0.2s ease-in;
   -webkit-transition: 0.2s ease-in;
 }
-/* line 80, ../scss/app.scss */
+/* line 69, ../scss/app.scss */
 .project:hover {
   border: 1px solid #1adbd3;
   -webkit-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
@@ -1912,30 +1918,30 @@ button:hover {
   box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
 }
 
-/* line 87, ../scss/app.scss */
+/* line 76, ../scss/app.scss */
 .project-description {
   border-top: 1px solid #eee;
   padding: .75rem;
 }
 
-/* line 91, ../scss/app.scss */
+/* line 80, ../scss/app.scss */
 .project-title {
   font-weight: 700;
 }
 
-/* line 95, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 .img-container.pubs-redesign {
   background: url("../img/pubs_redesign.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 100, ../scss/app.scss */
+/* line 89, ../scss/app.scss */
 .img-container.news-page {
   background: url("../img/news_page.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 105, ../scss/app.scss */
+/* line 94, ../scss/app.scss */
 .img-container.living-style-guide {
   background: url("../img/living_style_guide.jpg") no-repeat center center;
   background-size: cover;
@@ -1962,16 +1968,16 @@ footer {
 }*/
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 134, ../scss/app.scss */
+  /* line 123, ../scss/app.scss */
   .social-buttons {
     float: right;
   }
 
-  /* line 137, ../scss/app.scss */
+  /* line 126, ../scss/app.scss */
   footer {
     height: 70px;
   }
-  /* line 139, ../scss/app.scss */
+  /* line 128, ../scss/app.scss */
   footer p {
     margin-bottom: 0;
   }
