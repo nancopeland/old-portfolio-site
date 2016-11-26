@@ -1948,6 +1948,17 @@ button {
   height: 180px;
 }
 
+/* line 102, ../scss/app.scss */
+footer {
+  margin-bottom: 3rem;
+}
+/* line 104, ../scss/app.scss */
+footer p {
+  border-top: 1px solid #eee;
+  font-size: .875rem;
+  padding: 1.5rem 0;
+}
+
 /*.footer-push {
 	height: 100px; //needs to be same size or bigger than height of footer
 }
@@ -1968,16 +1979,16 @@ footer {
 }*/
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 123, ../scss/app.scss */
+  /* line 131, ../scss/app.scss */
   .social-buttons {
     float: right;
   }
 
-  /* line 126, ../scss/app.scss */
+  /* line 134, ../scss/app.scss */
   footer {
     height: 70px;
   }
-  /* line 128, ../scss/app.scss */
+  /* line 136, ../scss/app.scss */
   footer p {
     margin-bottom: 0;
   }

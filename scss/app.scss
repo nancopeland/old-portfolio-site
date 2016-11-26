@@ -99,6 +99,14 @@ button {
 }
 
 //footer
+footer {
+	margin-bottom: 3rem; 
+	p {
+		border-top: 1px solid #eee; 
+		font-size: .875rem; 
+		padding: 1.5rem 0; 
+	}
+}
 /*.footer-push {
 	height: 100px; //needs to be same size or bigger than height of footer
 }
