@@ -1739,7 +1739,7 @@ button:hover {
   background-color: #e5fcfb;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 4, ../scss/_menu.scss */
 .menu {
   height: 3.5rem;
   padding: .75rem 0;
@@ -1748,7 +1748,7 @@ button:hover {
   width: 100%;
   z-index: 100;
 }
-/* line 80, ../scss/app.scss */
+/* line 15, ../scss/_menu.scss */
 .menu h1 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -1762,7 +1762,7 @@ button:hover {
   -webkit-transition: color 0.25s ease;
 }
 
-/* line 89, ../scss/app.scss */
+/* line 24, ../scss/_menu.scss */
 .menu-button {
   border: none;
   display: inline-block;
@@ -1770,16 +1770,16 @@ button:hover {
   margin: 0;
   padding: .5rem 0;
 }
-/* line 95, ../scss/app.scss */
+/* line 30, ../scss/_menu.scss */
 .menu-button:hover {
   background: transparent;
 }
-/* line 98, ../scss/app.scss */
+/* line 33, ../scss/_menu.scss */
 .menu-button:focus {
   outline: none;
 }
 
-/* line 102, ../scss/app.scss */
+/* line 37, ../scss/_menu.scss */
 .menu-cta {
   font-size: 1rem;
   text-transform: lowercase;
@@ -1821,11 +1821,11 @@ button:hover {
 	  	}
   	}
 }*/
-/* line 145, ../scss/app.scss */
+/* line 80, ../scss/_menu.scss */
 .menu .menu-close {
   display: none;
 }
-/* line 148, ../scss/app.scss */
+/* line 83, ../scss/_menu.scss */
 .menu.open {
   	/*.menu-icon {
   		span {
@@ -1854,11 +1854,11 @@ button:hover {
   	  	}
   	}*/
 }
-/* line 149, ../scss/app.scss */
+/* line 84, ../scss/_menu.scss */
 .menu.open h1 {
   color: #fff;
 }
-/* line 152, ../scss/app.scss */
+/* line 87, ../scss/_menu.scss */
 .menu.open .menu-close {
   display: inline-block;
   height: 15px;
@@ -1866,12 +1866,12 @@ button:hover {
   width: 15px;
   vertical-align: middle;
 }
-/* line 159, ../scss/app.scss */
+/* line 94, ../scss/_menu.scss */
 .menu.open .menu-close svg path {
   fill: #1adbd3;
 }
 
-/* line 193, ../scss/app.scss */
+/* line 128, ../scss/_menu.scss */
 .menu-about {
   background-color: rgba(51, 51, 51, 0.95);
   height: 100%;
@@ -1882,17 +1882,17 @@ button:hover {
   width: 100%;
   z-index: 10;
 }
-/* line 202, ../scss/app.scss */
+/* line 137, ../scss/_menu.scss */
 .menu-about p {
   color: #ddd;
 }
 
-/* line 210, ../scss/app.scss */
+/* line 71, ../scss/app.scss */
 .projects {
   margin-top: 5.5rem;
 }
 
-/* line 213, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 .project {
   border: 1px solid #eee;
   border-radius: 2px;
@@ -1904,7 +1904,7 @@ button:hover {
   -moz-transition: 0.2s ease-in;
   -webkit-transition: 0.2s ease-in;
 }
-/* line 219, ../scss/app.scss */
+/* line 80, ../scss/app.scss */
 .project:hover {
   border: 1px solid #1adbd3;
   -webkit-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
@@ -1912,30 +1912,30 @@ button:hover {
   box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
 }
 
-/* line 226, ../scss/app.scss */
+/* line 87, ../scss/app.scss */
 .project-description {
   border-top: 1px solid #eee;
   padding: .75rem;
 }
 
-/* line 230, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 .project-title {
   font-weight: 700;
 }
 
-/* line 234, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 .img-container.pubs-redesign {
   background: url("../img/pubs_redesign.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 239, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 .img-container.news-page {
   background: url("../img/news_page.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 244, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 .img-container.living-style-guide {
   background: url("../img/living_style_guide.jpg") no-repeat center center;
   background-size: cover;
@@ -1962,16 +1962,16 @@ footer {
 }*/
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 273, ../scss/app.scss */
+  /* line 134, ../scss/app.scss */
   .social-buttons {
     float: right;
   }
 
-  /* line 276, ../scss/app.scss */
+  /* line 137, ../scss/app.scss */
   footer {
     height: 70px;
   }
-  /* line 278, ../scss/app.scss */
+  /* line 139, ../scss/app.scss */
   footer p {
     margin-bottom: 0;
   }
