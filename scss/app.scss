@@ -35,30 +35,29 @@ h1, h2, h3, h4, h5, h6, p, a, button, .button {
 	font-family: 'Karla', sans-serif; 
 	margin: 0; 
 }
-a {
-	border-bottom: 1px solid $turquoise;
-	color: inherit; 
-	cursor: pointer; 
-	text-decoration: none; 
-	@include transition(all .25s ease-in);
-	&:hover {
-		background-color: $turquoise; 
-		color: #fff;  
-	}
-}
 button {
 	background-color: transparent;
 	border: 0; 
-	color: $turquoise; 
 	cursor: pointer; 
-	padding: .5rem;  
+	padding: 0;  
+}
+a, button {
+	border-bottom: 1px dotted $turquoise;
+	color: inherit; 
+	cursor: pointer; 
+	text-decoration: none; 
+	@include transition(all .15s ease-in);
+	&:hover {
+		border-bottom: 1px solid $turquoise;
+		color: $turquoise;  
+	}
 }
 
 @import 'menu'; 
 
 // PROJECTS
 .projects {
-	margin-top: 5.5rem; 
+	margin-top: 6rem; 
 }
 .project {
 	border: 1px solid #eee; 
