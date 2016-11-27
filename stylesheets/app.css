@@ -1845,7 +1845,7 @@ button {
 .menu.open .menu-close {
   display: inline-block;
   height: 15px;
-  padding: 0 0 0 .25rem;
+  padding: .2rem 0 0 .25rem;
   width: 15px;
   vertical-align: middle;
 }
@@ -1866,20 +1866,25 @@ button {
   z-index: 10;
 }
 /* line 137, ../scss/_menu.scss */
+.menu-about img {
+  margin-bottom: 1.5rem;
+  width: 150px;
+}
+/* line 141, ../scss/_menu.scss */
 .menu-about p {
   color: #ddd;
   font-size: 1.25rem;
 }
-/* line 140, ../scss/_menu.scss */
+/* line 144, ../scss/_menu.scss */
 .menu-about p a {
   color: #fff;
 }
 
-/* line 145, ../scss/_menu.scss */
+/* line 149, ../scss/_menu.scss */
 .social-links {
   margin: 2rem 0;
 }
-/* line 147, ../scss/_menu.scss */
+/* line 151, ../scss/_menu.scss */
 .social-links a {
   color: #fff;
   border: 0;
@@ -1888,7 +1893,7 @@ button {
   margin-right: .5rem;
   text-transform: lowercase;
 }
-/* line 154, ../scss/_menu.scss */
+/* line 158, ../scss/_menu.scss */
 .social-links a:hover {
   background-color: transparent;
 }
@@ -1979,17 +1984,13 @@ footer {
 }*/
 @media only screen and (min-width: 40.063em) {
   /*medium and up*/
-  /* line 131, ../scss/app.scss */
-  .social-buttons {
-    float: right;
-  }
-
-  /* line 134, ../scss/app.scss */
-  footer {
-    height: 70px;
-  }
-  /* line 136, ../scss/app.scss */
-  footer p {
-    margin-bottom: 0;
-  }
+  /*.social-buttons {
+  	float: right;  
+  }*/
+  /*footer {
+  	height: 70px; 
+  	p {
+  		margin-bottom: 0; 
+  	}
+  }*/
 }
