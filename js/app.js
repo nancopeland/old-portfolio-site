@@ -1,7 +1,6 @@
 // JS
 
 $(document).ready(function(){
-	//$('.menu-about').hide(); 
 	$('.menu-button').click(function(){ // click on "more info" button
 		// opens menu
 		$('.menu').toggleClass('open'); // gives whole menu the "open" class

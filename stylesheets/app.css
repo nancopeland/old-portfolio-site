@@ -1682,20 +1682,20 @@ select {
     left: auto;
   }
 }
-/* line 28, ../scss/app.scss */
+/* line 32, ../scss/app.scss */
 body {
   color: #333333;
   background-color: #FFFFFF;
   overflow-y: scroll;
 }
 
-/* line 34, ../scss/app.scss */
+/* line 38, ../scss/app.scss */
 h1, h2, h3, h4, h5, h6, p, a, button, .button {
   font-family: 'Karla', sans-serif;
   margin: 0;
 }
 
-/* line 38, ../scss/app.scss */
+/* line 42, ../scss/app.scss */
 button {
   background-color: transparent;
   border: 0;
@@ -1703,42 +1703,45 @@ button {
   padding: 0;
 }
 
-/* line 44, ../scss/app.scss */
+/* line 48, ../scss/app.scss */
 a, button {
   border-bottom: 1px dotted #1adbd3;
   color: inherit;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.1s ease;
-  -o-transition: all 0.1s ease;
   -ms-transition: all 0.1s ease;
   -moz-transition: all 0.1s ease;
   -webkit-transition: all 0.1s ease;
 }
-/* line 50, ../scss/app.scss */
+/* line 54, ../scss/app.scss */
 a:hover, button:hover {
   border-bottom: 1px solid #1adbd3;
   color: #1adbd3;
+}
+/* line 58, ../scss/app.scss */
+a:focus, button:focus {
+  outline: none;
 }
 
 /* line 4, ../scss/_menu.scss */
 .menu {
   background: white;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
   box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
+  -ms-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
   padding: .75rem 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
   transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
   -ms-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
 }
-/* line 15, ../scss/_menu.scss */
+/* line 13, ../scss/_menu.scss */
 .menu h1 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -1746,118 +1749,51 @@ a:hover, button:hover {
   letter-spacing: .5px;
   text-transform: lowercase;
   transition: color 0.25s ease;
-  -o-transition: color 0.25s ease;
   -ms-transition: color 0.25s ease;
   -moz-transition: color 0.25s ease;
   -webkit-transition: color 0.25s ease;
 }
 
-/* line 24, ../scss/_menu.scss */
+/* line 22, ../scss/_menu.scss */
 .menu-list-wrapper {
   margin: .5rem 0;
 }
 
-/* line 27, ../scss/_menu.scss */
+/* line 25, ../scss/_menu.scss */
 .menu-button {
   border: 0;
   color: #1adbd3;
   display: inline-block;
   float: right;
-  margin: 0;
 }
-/* line 33, ../scss/_menu.scss */
+/* line 30, ../scss/_menu.scss */
 .menu-button:hover {
   background: transparent;
 }
-/* line 36, ../scss/_menu.scss */
-.menu-button:focus {
-  outline: none;
-}
 
-/* line 40, ../scss/_menu.scss */
+/* line 34, ../scss/_menu.scss */
 .menu-cta {
   font-size: 1rem;
-  text-transform: lowercase;
   vertical-align: middle;
 }
 
-/*.menu-icon {
-	cursor: pointer;
-  	height: 17px;
-  	position: absolute;  
-    right: 22px;  
-  	top: 10px;
-  	width: 22px; 
-  	@include transform(rotate(0deg)); 
-  	@include transition(.5 ease-in-out); 
-  	span {
-		background: $turquoise;
-		border-radius: 3px;
-  		display: block;
-		left: 0;
-		height: 3px;
-		opacity: 1;
-		position: absolute;
-		width: 100%;
-		@include transform(rotate(0deg)); 
-	  	-webkit-transition: .25s ease-in-out;
-	  	-moz-transition: .25s ease-in-out;
-	  	-o-transition: .25s ease-in-out;
-	  	transition: .25s ease-in-out;
-	  	&:nth-child(1){
-	  		top: 0px;
-	  	}
-	  	&:nth-child(2),
-	  	&:nth-child(3) {
-	  		top: 7px;
-	  	}
-	  	&:nth-child(4){
-	  		top: 14px;
-	  	}
-  	}
-}*/
-/* line 83, ../scss/_menu.scss */
+/* line 41, ../scss/_menu.scss */
 .menu .menu-close {
   display: none;
 }
-/* line 86, ../scss/_menu.scss */
+/* line 44, ../scss/_menu.scss */
 .menu.open {
   background: transparent;
-  -webkit-box-shadow: 0px;
-  -moz-box-shadow: 0px;
   box-shadow: 0px;
-  	/*.menu-icon {
-  		span {
-  	  		&:nth-child(1){
-  		  		top: 7px;
-    				width: 0%;
-    				left: 50%;
-  		  	}
-  		  	&:nth-child(2) {
-  		  		-webkit-transform: rotate(45deg);
-    				-moz-transform: rotate(45deg);
-    				-o-transform: rotate(45deg);
-    				transform: rotate(45deg);
-  		  	}
-  		  	&:nth-child(3) {
-  		  		-webkit-transform: rotate(-45deg);
-    				-moz-transform: rotate(-45deg);
-    				-o-transform: rotate(-45deg);
-    				transform: rotate(-45deg);
-  		  	}
-  		  	&:nth-child(4){
-  		  		top: 7px;
-    				width: 0%;
-    				left: 50%;
-  		  	}
-  	  	}
-  	}*/
+  -ms-box-shadow: 0px;
+  -moz-box-shadow: 0px;
+  -webkit-box-shadow: 0px;
 }
-/* line 91, ../scss/_menu.scss */
+/* line 47, ../scss/_menu.scss */
 .menu.open h1 {
   color: #fff;
 }
-/* line 94, ../scss/_menu.scss */
+/* line 50, ../scss/_menu.scss */
 .menu.open .menu-close {
   display: inline-block;
   height: 15px;
@@ -1865,12 +1801,12 @@ a:hover, button:hover {
   width: 15px;
   vertical-align: middle;
 }
-/* line 101, ../scss/_menu.scss */
+/* line 57, ../scss/_menu.scss */
 .menu.open .menu-close svg path {
   fill: #1adbd3;
 }
 
-/* line 135, ../scss/_menu.scss */
+/* line 64, ../scss/_menu.scss */
 .menu-about {
   background-color: rgba(0, 0, 0, 0.9);
   display: none;
@@ -1882,30 +1818,30 @@ a:hover, button:hover {
   width: 100%;
   z-index: 10;
 }
-/* line 145, ../scss/_menu.scss */
+/* line 74, ../scss/_menu.scss */
 .menu-about img {
   margin-bottom: 1.5rem;
   width: 150px;
 }
-/* line 149, ../scss/_menu.scss */
+/* line 78, ../scss/_menu.scss */
 .menu-about p {
   color: #ddd;
   font-size: 1.25rem;
 }
-/* line 153, ../scss/_menu.scss */
+/* line 82, ../scss/_menu.scss */
 .menu-about a {
   color: #fff;
 }
-/* line 155, ../scss/_menu.scss */
+/* line 84, ../scss/_menu.scss */
 .menu-about a:hover {
   color: #1adbd3;
 }
 
-/* line 160, ../scss/_menu.scss */
+/* line 89, ../scss/_menu.scss */
 .social-links {
   margin: 2rem 0;
 }
-/* line 162, ../scss/_menu.scss */
+/* line 91, ../scss/_menu.scss */
 .social-links a {
   border: 0;
   font-size: 1.25rem;
@@ -1913,104 +1849,73 @@ a:hover, button:hover {
   margin-right: .5rem;
   text-transform: lowercase;
 }
-/* line 168, ../scss/_menu.scss */
+/* line 97, ../scss/_menu.scss */
 .social-links a:hover {
   color: #1adbd3;
 }
 
-/* line 59, ../scss/app.scss */
+/* line 66, ../scss/app.scss */
 .projects {
   margin-top: 6rem;
 }
 
-/* line 62, ../scss/app.scss */
+/* line 69, ../scss/app.scss */
 .project {
   border: 1px solid #eee;
   border-radius: 2px;
   color: #333333;
   margin-bottom: 2rem;
   transition: 0.2s ease-in;
-  -o-transition: 0.2s ease-in;
   -ms-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
   -webkit-transition: 0.2s ease-in;
 }
-/* line 68, ../scss/app.scss */
+/* line 75, ../scss/app.scss */
 .project:hover {
   border: 1px solid #1adbd3;
-  -webkit-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
-  -moz-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
   box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
+  -ms-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
+  -moz-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
+  -webkit-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
 }
 
-/* line 75, ../scss/app.scss */
+/* line 80, ../scss/app.scss */
 .project-description {
   border-top: 1px solid #eee;
   padding: .75rem;
 }
 
-/* line 79, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 .project-title {
   font-weight: 700;
 }
 
-/* line 83, ../scss/app.scss */
+/* line 88, ../scss/app.scss */
 .img-container.pubs-redesign {
   background: url("../img/pubs_redesign.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 88, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 .img-container.news-page {
   background: url("../img/news_page.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 93, ../scss/app.scss */
+/* line 98, ../scss/app.scss */
 .img-container.living-style-guide {
   background: url("../img/living_style_guide.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
 
-/* line 101, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 footer {
-  margin-bottom: 3rem;
+  margin: 1.5rem 0 2rem 0;
 }
-/* line 103, ../scss/app.scss */
+/* line 108, ../scss/app.scss */
 footer p {
   border-top: 1px solid #eee;
   font-size: .875rem;
   padding: 1.5rem 0;
-}
-
-/*.footer-push {
-	height: 100px; //needs to be same size or bigger than height of footer
-}
-footer {
-	background-color: white; 
-	border-top: 1px solid #eee; 
-    bottom: 0px;
-    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.05), 0 0px 15px rgba(0, 0, 0, 0.03);
-    padding: 1.25rem 0;
-	position: fixed;
-	height: 100px; 
-    width: 100%;
-    z-index: 1; 
-    p {
-    	display: inline-block; 
-    	margin-bottom: .5rem; 
-    }
-}*/
-@media only screen and (min-width: 40.063em) {
-  /*medium and up*/
-  /*.social-buttons {
-  	float: right;  
-  }*/
-  /*footer {
-  	height: 70px; 
-  	p {
-  		margin-bottom: 0; 
-  	}
-  }*/
 }

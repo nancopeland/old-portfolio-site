@@ -11,17 +11,21 @@ $turquoise-light: #e5fcfb;
 //mixins
 @mixin transition($speed) {
   	transition: $speed; 
-	-o-transition: $speed;
   	-ms-transition: $speed;
   	-moz-transition: $speed;
   	-webkit-transition: $speed;
 }
 @mixin transform($transformation) {
   	transform: $transformation; 
-	-o-transform: $transformation;
   	-ms-transform: $transformation;
   	-moz-transform: $transformation;
   	-webkit-transform: $transformation;
+}
+@mixin box-shadow($box-shadow) {
+  	box-shadow: $box-shadow; 
+  	-ms-box-shadow: $box-shadow;
+  	-moz-box-shadow: $box-shadow;
+  	-webkit-box-shadow: $box-shadow;
 }
 
 //universal
@@ -51,6 +55,9 @@ a, button {
 		border-bottom: 1px solid $turquoise;
 		color: $turquoise;  
 	}
+	&:focus {
+		outline: none; 
+	}
 }
 
 @import 'menu'; 
@@ -67,9 +74,7 @@ a, button {
 	@include transition(.2s ease-in);
 	&:hover {
 		border: 1px solid $turquoise; 
-		-webkit-box-shadow: 5px 5px 20px -5px rgba(51,51,51,0.25);
-		-moz-box-shadow: 5px 5px 20px -5px rgba(51,51,51,0.25);
-		box-shadow: 5px 5px 20px -5px rgba(51,51,51,0.25);
+		@include box-shadow(5px 5px 20px -5px rgba(51,51,51,0.25)); 
 	} 
 }
 .project-description {
@@ -99,46 +104,13 @@ a, button {
 
 //footer
 footer {
-	margin-bottom: 3rem; 
+	margin: 1.5rem 0 2rem 0; 
 	p {
 		border-top: 1px solid #eee; 
 		font-size: .875rem; 
 		padding: 1.5rem 0; 
 	}
 }
-/*.footer-push {
-	height: 100px; //needs to be same size or bigger than height of footer
-}
-footer {
-	background-color: white; 
-	border-top: 1px solid #eee; 
-    bottom: 0px;
-    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.05), 0 0px 15px rgba(0, 0, 0, 0.03);
-    padding: 1.25rem 0;
-	position: fixed;
-	height: 100px; 
-    width: 100%;
-    z-index: 1; 
-    p {
-    	display: inline-block; 
-    	margin-bottom: .5rem; 
-    }
-}*/
-
-//media queries
-@media only screen and (min-width: 40.063em) { /*medium and up*/
-    /*.social-buttons {
-    	float: right;  
-    }*/
-    /*footer {
-    	height: 70px; 
-    	p {
-    		margin-bottom: 0; 
-    	}
-    }*/
-} 
-
-
 
 
 
