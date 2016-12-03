@@ -1811,28 +1811,29 @@ a:focus, button:focus {
 }
 /* line 75, ../scss/partials/_menu.scss */
 .menu-about img {
+  display: none;
   margin-bottom: 1.5rem;
   width: 150px;
 }
-/* line 79, ../scss/partials/_menu.scss */
+/* line 80, ../scss/partials/_menu.scss */
 .menu-about p {
   color: #ddd;
   font-size: 1.25rem;
 }
-/* line 83, ../scss/partials/_menu.scss */
+/* line 84, ../scss/partials/_menu.scss */
 .menu-about a {
   color: #fff;
 }
-/* line 85, ../scss/partials/_menu.scss */
+/* line 86, ../scss/partials/_menu.scss */
 .menu-about a:hover {
   color: #1adbd3;
 }
 
-/* line 90, ../scss/partials/_menu.scss */
+/* line 91, ../scss/partials/_menu.scss */
 .social-links {
   margin: 2rem 0;
 }
-/* line 92, ../scss/partials/_menu.scss */
+/* line 93, ../scss/partials/_menu.scss */
 .social-links a {
   border: 0;
   font-size: 1.25rem;
@@ -1840,7 +1841,7 @@ a:focus, button:focus {
   margin-right: .5rem;
   text-transform: lowercase;
 }
-/* line 98, ../scss/partials/_menu.scss */
+/* line 99, ../scss/partials/_menu.scss */
 .social-links a:hover {
   color: #1adbd3;
 }
