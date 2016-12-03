@@ -5,6 +5,7 @@ $(document).ready(function(){
 		// opens menu
 		$('.menu').toggleClass('open'); // gives whole menu the "open" class
 		$('.menu-about').fadeToggle(); // show "more info" menu
+		$('body').toggleClass('no-scroll'); 
 
 		// replaces "more info" with "close"
 		if ($('.menu').hasClass('open')) {

@@ -4,6 +4,9 @@ body {
 	color: $dark-grey;
 	background-color: #fff;  
 	overflow-y: scroll; 
+	&.no-scroll {
+		overflow-y: hidden; 
+	}
 }
 
 h1, h2, h3, h4, h5, h6, p, a, button, .button {

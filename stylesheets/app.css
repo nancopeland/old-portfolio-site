@@ -1686,14 +1686,18 @@ body {
   background-color: #fff;
   overflow-y: scroll;
 }
+/* line 7, ../scss/partials/_universal.scss */
+body.no-scroll {
+  overflow-y: hidden;
+}
 
-/* line 9, ../scss/partials/_universal.scss */
+/* line 12, ../scss/partials/_universal.scss */
 h1, h2, h3, h4, h5, h6, p, a, button, .button {
   font-family: 'Karla', sans-serif;
   margin: 0;
 }
 
-/* line 13, ../scss/partials/_universal.scss */
+/* line 16, ../scss/partials/_universal.scss */
 button {
   background-color: transparent;
   border: 0;
@@ -1701,7 +1705,7 @@ button {
   padding: 0;
 }
 
-/* line 19, ../scss/partials/_universal.scss */
+/* line 22, ../scss/partials/_universal.scss */
 a, button {
   border-bottom: 1px dotted #1adbd3;
   color: inherit;
@@ -1710,12 +1714,12 @@ a, button {
   -webkit-transition: all .1s ease;
   transition: all .1s ease;
 }
-/* line 25, ../scss/partials/_universal.scss */
+/* line 28, ../scss/partials/_universal.scss */
 a:hover, button:hover {
   border-bottom: 1px solid #1adbd3;
   color: #1adbd3;
 }
-/* line 29, ../scss/partials/_universal.scss */
+/* line 32, ../scss/partials/_universal.scss */
 a:focus, button:focus {
   outline: none;
 }
@@ -1798,36 +1802,37 @@ a:focus, button:focus {
   display: none;
   height: 100%;
   left: 0;
+  overflow-y: scroll;
   padding: 6rem 0 2rem 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
 }
-/* line 74, ../scss/partials/_menu.scss */
+/* line 75, ../scss/partials/_menu.scss */
 .menu-about img {
   margin-bottom: 1.5rem;
   width: 150px;
 }
-/* line 78, ../scss/partials/_menu.scss */
+/* line 79, ../scss/partials/_menu.scss */
 .menu-about p {
   color: #ddd;
   font-size: 1.25rem;
 }
-/* line 82, ../scss/partials/_menu.scss */
+/* line 83, ../scss/partials/_menu.scss */
 .menu-about a {
   color: #fff;
 }
-/* line 84, ../scss/partials/_menu.scss */
+/* line 85, ../scss/partials/_menu.scss */
 .menu-about a:hover {
   color: #1adbd3;
 }
 
-/* line 89, ../scss/partials/_menu.scss */
+/* line 90, ../scss/partials/_menu.scss */
 .social-links {
   margin: 2rem 0;
 }
-/* line 91, ../scss/partials/_menu.scss */
+/* line 92, ../scss/partials/_menu.scss */
 .social-links a {
   border: 0;
   font-size: 1.25rem;
@@ -1835,7 +1840,7 @@ a:focus, button:focus {
   margin-right: .5rem;
   text-transform: lowercase;
 }
-/* line 97, ../scss/partials/_menu.scss */
+/* line 98, ../scss/partials/_menu.scss */
 .social-links a:hover {
   color: #1adbd3;
 }
