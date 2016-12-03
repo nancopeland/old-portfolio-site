@@ -46,7 +46,7 @@ a, button {
 	color: inherit; 
 	cursor: pointer; 
 	text-decoration: none; 
-	@include transition(all .15s ease-in);
+	@include transition(all .1s ease);
 	&:hover {
 		border-bottom: 1px solid $turquoise;
 		color: $turquoise;  

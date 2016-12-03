@@ -1,7 +1,7 @@
 // JS
 
 $(document).ready(function(){
-	$('.menu-about').hide(); 
+	//$('.menu-about').hide(); 
 	$('.menu-button').click(function(){ // click on "more info" button
 		// opens menu
 		$('.menu').toggleClass('open'); // gives whole menu the "open" class
@@ -11,7 +11,7 @@ $(document).ready(function(){
 		if ($('.menu').hasClass('open')) {
 			$('.menu-cta').html('<span>close</span>'); 
 		} else {
-			$('.menu-cta').html('<span>about</span>'); 
+			$('.menu-cta').html('<span><i class="twa twa-sparkles"></i>about<i class="twa twa-sparkles"></i></span>'); 
 		}
 	});
 

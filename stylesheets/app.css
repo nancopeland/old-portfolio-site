@@ -1709,11 +1709,11 @@ a, button {
   color: inherit;
   cursor: pointer;
   text-decoration: none;
-  transition: all 0.15s ease-in;
-  -o-transition: all 0.15s ease-in;
-  -ms-transition: all 0.15s ease-in;
-  -moz-transition: all 0.15s ease-in;
-  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
 }
 /* line 50, ../scss/app.scss */
 a:hover, button:hover {
@@ -1873,6 +1873,7 @@ a:hover, button:hover {
 /* line 135, ../scss/_menu.scss */
 .menu-about {
   background-color: rgba(0, 0, 0, 0.9);
+  display: none;
   height: 100%;
   left: 0;
   padding: 6rem 0 2rem 0;
@@ -1881,30 +1882,30 @@ a:hover, button:hover {
   width: 100%;
   z-index: 10;
 }
-/* line 144, ../scss/_menu.scss */
+/* line 145, ../scss/_menu.scss */
 .menu-about img {
   margin-bottom: 1.5rem;
   width: 150px;
 }
-/* line 148, ../scss/_menu.scss */
+/* line 149, ../scss/_menu.scss */
 .menu-about p {
   color: #ddd;
   font-size: 1.25rem;
 }
-/* line 152, ../scss/_menu.scss */
+/* line 153, ../scss/_menu.scss */
 .menu-about a {
   color: #fff;
 }
-/* line 154, ../scss/_menu.scss */
+/* line 155, ../scss/_menu.scss */
 .menu-about a:hover {
   color: #1adbd3;
 }
 
-/* line 159, ../scss/_menu.scss */
+/* line 160, ../scss/_menu.scss */
 .social-links {
   margin: 2rem 0;
 }
-/* line 161, ../scss/_menu.scss */
+/* line 162, ../scss/_menu.scss */
 .social-links a {
   border: 0;
   font-size: 1.25rem;
@@ -1912,7 +1913,7 @@ a:hover, button:hover {
   margin-right: .5rem;
   text-transform: lowercase;
 }
-/* line 167, ../scss/_menu.scss */
+/* line 168, ../scss/_menu.scss */
 .social-links a:hover {
   color: #1adbd3;
 }
