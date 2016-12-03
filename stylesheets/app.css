@@ -76,8 +76,6 @@ html {
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
@@ -1682,20 +1680,20 @@ select {
     left: auto;
   }
 }
-/* line 32, ../scss/app.scss */
+/* line 12, ../scss/app.scss */
 body {
   color: #333333;
   background-color: #FFFFFF;
   overflow-y: scroll;
 }
 
-/* line 38, ../scss/app.scss */
+/* line 18, ../scss/app.scss */
 h1, h2, h3, h4, h5, h6, p, a, button, .button {
   font-family: 'Karla', sans-serif;
   margin: 0;
 }
 
-/* line 42, ../scss/app.scss */
+/* line 22, ../scss/app.scss */
 button {
   background-color: transparent;
   border: 0;
@@ -1703,23 +1701,21 @@ button {
   padding: 0;
 }
 
-/* line 48, ../scss/app.scss */
+/* line 28, ../scss/app.scss */
 a, button {
   border-bottom: 1px dotted #1adbd3;
   color: inherit;
   cursor: pointer;
   text-decoration: none;
-  transition: all 0.1s ease;
-  -ms-transition: all 0.1s ease;
-  -moz-transition: all 0.1s ease;
-  -webkit-transition: all 0.1s ease;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease;
 }
-/* line 54, ../scss/app.scss */
+/* line 34, ../scss/app.scss */
 a:hover, button:hover {
   border-bottom: 1px solid #1adbd3;
   color: #1adbd3;
 }
-/* line 58, ../scss/app.scss */
+/* line 38, ../scss/app.scss */
 a:focus, button:focus {
   outline: none;
 }
@@ -1728,18 +1724,13 @@ a:focus, button:focus {
 .menu {
   background: white;
   box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
-  -ms-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
   padding: .75rem 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
-  transition: all 0.25s ease;
-  -ms-transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
 }
 /* line 13, ../scss/_menu.scss */
 .menu h1 {
@@ -1748,10 +1739,8 @@ a:focus, button:focus {
   margin: 0;
   letter-spacing: .5px;
   text-transform: lowercase;
-  transition: color 0.25s ease;
-  -ms-transition: color 0.25s ease;
-  -moz-transition: color 0.25s ease;
-  -webkit-transition: color 0.25s ease;
+  -webkit-transition: color .25s ease;
+  transition: color .25s ease;
 }
 
 /* line 22, ../scss/_menu.scss */
@@ -1785,9 +1774,6 @@ a:focus, button:focus {
 .menu.open {
   background: transparent;
   box-shadow: 0px;
-  -ms-box-shadow: 0px;
-  -moz-box-shadow: 0px;
-  -webkit-box-shadow: 0px;
 }
 /* line 47, ../scss/_menu.scss */
 .menu.open h1 {
@@ -1854,66 +1840,61 @@ a:focus, button:focus {
   color: #1adbd3;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 46, ../scss/app.scss */
 .projects {
   margin-top: 6rem;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 49, ../scss/app.scss */
 .project {
   border: 1px solid #eee;
   border-radius: 2px;
   color: #333333;
   margin-bottom: 2rem;
-  transition: 0.2s ease-in;
-  -ms-transition: 0.2s ease-in;
-  -moz-transition: 0.2s ease-in;
-  -webkit-transition: 0.2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 }
-/* line 75, ../scss/app.scss */
+/* line 55, ../scss/app.scss */
 .project:hover {
   border: 1px solid #1adbd3;
   box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
-  -ms-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
-  -moz-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
-  -webkit-box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
 }
 
-/* line 80, ../scss/app.scss */
+/* line 60, ../scss/app.scss */
 .project-description {
   border-top: 1px solid #eee;
   padding: .75rem;
 }
 
-/* line 84, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 .project-title {
   font-weight: 700;
 }
 
-/* line 88, ../scss/app.scss */
+/* line 68, ../scss/app.scss */
 .img-container.pubs-redesign {
   background: url("../img/pubs_redesign.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 93, ../scss/app.scss */
+/* line 73, ../scss/app.scss */
 .img-container.news-page {
   background: url("../img/news_page.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
-/* line 98, ../scss/app.scss */
+/* line 78, ../scss/app.scss */
 .img-container.living-style-guide {
   background: url("../img/living_style_guide.jpg") no-repeat center center;
   background-size: cover;
   height: 180px;
 }
 
-/* line 106, ../scss/app.scss */
+/* line 86, ../scss/app.scss */
 footer {
   margin: 1.5rem 0 2rem 0;
 }
-/* line 108, ../scss/app.scss */
+/* line 88, ../scss/app.scss */
 footer p {
   border-top: 1px solid #eee;
   font-size: .875rem;

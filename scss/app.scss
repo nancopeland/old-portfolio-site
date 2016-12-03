@@ -8,26 +8,6 @@ $black: #000000;
 $turquoise: #1adbd3; 
 $turquoise-light: #e5fcfb; 
 
-//mixins
-@mixin transition($speed) {
-  	transition: $speed; 
-  	-ms-transition: $speed;
-  	-moz-transition: $speed;
-  	-webkit-transition: $speed;
-}
-@mixin transform($transformation) {
-  	transform: $transformation; 
-  	-ms-transform: $transformation;
-  	-moz-transform: $transformation;
-  	-webkit-transform: $transformation;
-}
-@mixin box-shadow($box-shadow) {
-  	box-shadow: $box-shadow; 
-  	-ms-box-shadow: $box-shadow;
-  	-moz-box-shadow: $box-shadow;
-  	-webkit-box-shadow: $box-shadow;
-}
-
 //universal
 body {
 	color: $dark-grey;
@@ -50,7 +30,7 @@ a, button {
 	color: inherit; 
 	cursor: pointer; 
 	text-decoration: none; 
-	@include transition(all .1s ease);
+	transition: all .1s ease; 
 	&:hover {
 		border-bottom: 1px solid $turquoise;
 		color: $turquoise;  
@@ -71,10 +51,10 @@ a, button {
 	border-radius: 2px;
 	color: $dark-grey; 
 	margin-bottom: 2rem; 
-	@include transition(.2s ease-in);
+	transition: all .2s ease-in; 
 	&:hover {
 		border: 1px solid $turquoise; 
-		@include box-shadow(5px 5px 20px -5px rgba(51,51,51,0.25)); 
+		box-shadow: 5px 5px 20px -5px rgba(51,51,51,0.25); 
 	} 
 }
 .project-description {
