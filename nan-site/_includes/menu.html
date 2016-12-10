@@ -1,42 +1,51 @@
-<!--menu-->
+<header class="site-header" role="banner">
 
-<div id="menu-accordion">
-    <div class="menu-header">
-        <span class="menu-text">Menu</span>
-        <span class="carat"><img src="img/carat.png"></span>
-    </div>
-    <ul class="menu">
-        <li><a href="index.html" class="{% if page.url == '/' %}active{% endif %}">Starting a Project</a></li>
-        <li><a href="grid.html" class="{% if page.url == '/grid.html' %}active{% endif %}">Grid</a></li>
-        <li><a href="colors.html" class="{% if page.url == '/colors.html' %}active{% endif %}">Colors</a></li>
-        <li><a href="typography.html" class="{% if page.url == '/typography.html' %}active{% endif %}">Typography</a></li>
-        <li><a href="buttons.html" class="{% if page.url == '/buttons.html' %}active{% endif %}">Buttons</a></li>
-        <li><a href="forms.html" class="{% if page.url == '/forms.html' %}active{% endif %}">Forms</a></li>
-        <li><a href="mixins.html" class="{% if page.url == '/mixins.html' %}active{% endif %}">Mixins</a></li>
-        <li><a href="smooth_scroll.html" class="{% if page.url == '/smooth_scroll.html' %}active{% endif %}">Smooth Scroll</a></li>
-        <li><a href="accordion.html" class="{% if page.url == '/accordion.html' %}active{% endif %}">Accordion</a></li>
-    </ul>
-</div>
+  <!--<div class="wrapper">
 
-<script>
-    $(document).ready(function(){
-        //mobile accordion
-        $(".menu-header").click(function(){
-            //slide up all the link lists
-            $(".menu").slideUp();
-            //slide down the list
-            if (!$(this).next().is(":visible")) {
-                $(this).addClass('active');
-                $(this).next().slideDown();
-            } else {
-                $(this).removeClass('active');
-            }
-        }); 
-    });
-</script>
+    <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
 
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
 
+      <div class="trigger">
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
 
+  </div>-->
 
+  <nav class="menu">
+        <div class="row">
+            <div class="small-6 columns">
+                <h1>Nan Copeland</h1>
+            </div>
+            <div class="small-6 columns menu-list-wrapper">
+                <button class="menu-button">
+                    <span class="menu-cta">
+                        <span>
+                            <i class="twa twa-sparkles"></i>
+                            about
+                            <i class="twa twa-sparkles"></i>
+                        </span>
+                    </span>
+                    <span class="menu-close">
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.2 80.11"><title>close</title><path d="M75.8,10.8L50,36.6,24.2,10.8a5,5,0,0,0-7.1,0l-5.7,5.7a5,5,0,0,0,0,7.1L37.2,49.4,11.5,75.1a5,5,0,0,0,0,7.1l5.7,5.7a5,5,0,0,0,7.1,0L50,62,75.8,87.8a5,5,0,0,0,7.1,0l5.7-5.7a5,5,0,0,0,0-7.1L62.7,49.3,88.5,23.5a5,5,0,0,0,0-7.1l-5.7-5.7A4.92,4.92,0,0,0,75.8,10.8Z" transform="translate(-9.9 -9.29)"/></svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+</header>
 
 
