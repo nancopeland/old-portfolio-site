@@ -1177,7 +1177,7 @@ a, button {
     outline: none; }
 
 .page-content {
-  margin-top: 60px; }
+  margin-top: 6rem; }
 
 .menu {
   background: #fff;
@@ -1188,7 +1188,7 @@ a, button {
   width: 100%;
   z-index: 100;
   transition: all .25s ease; }
-  .menu h1 {
+  .menu h3 {
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0;
@@ -1261,9 +1261,6 @@ a, button {
     .social-links a:hover {
       color: #1adbd3; }
 
-.projects {
-  margin-top: 6rem; }
-
 .project-wrapper {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -1306,6 +1303,21 @@ a, button {
     padding-right: 0.9375rem;
     width: 50%;
     float: left; } }
+.post h1 {
+  font-size: 2.75rem;
+  margin: 1rem 0 2rem 0;
+  text-align: center; }
+.post hr {
+  background-color: #1adbd3;
+  border: 0px;
+  height: 5px;
+  width: 20%; }
+
+.post-content {
+  margin-top: 2rem; }
+  .post-content p {
+    margin: 1rem 0; }
+
 footer {
   margin: 1.5rem 0 2rem 0; }
   footer p {

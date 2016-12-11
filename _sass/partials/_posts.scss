@@ -1,0 +1,21 @@
+// posts partial
+
+.post {
+	h1 {
+		font-size: 2.75rem; 
+		margin: 1rem 0 2rem 0; 
+		text-align: center;
+	}
+	hr {
+		background-color: $turquoise; 
+		border: 0px; 
+		height: 5px; 
+		width: 20%; 
+	}
+}
+.post-content {
+	margin-top: 2rem; 
+	p {
+		margin: 1rem 0; 
+	}
+}
