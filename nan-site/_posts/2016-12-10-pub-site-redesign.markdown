@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Publication Site Redesign"
+title:  "Publication site redesign"
 description: Redesign mobile and desktop sites for Industry Dive's 12 publications.
 image-class: pubs-redesign
 ---
