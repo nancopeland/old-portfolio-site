@@ -3,8 +3,12 @@
 .post {
 	h1 {
 		font-size: 2.75rem; 
-		margin: 1rem 0 2rem 0; 
+		margin: 1rem 0; 
 		text-align: center;
+	}
+	button {
+		display: block; 
+		margin: 1rem auto 2rem auto; 
 	}
 	hr {
 		background-color: $turquoise; 

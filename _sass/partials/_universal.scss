@@ -13,27 +13,38 @@ h1, h2, h3, h4, h5, h6, p, a, button, .button {
 	font-family: 'Karla', sans-serif; 
 	margin: 0; 
 }
-button {
-	background-color: transparent;
-	border: 0; 
-	cursor: pointer; 
-	padding: 0;  
-}
 a, button {
+	cursor: pointer; 
+	transition: all .1s ease;
+	&:focus {
+		outline: none; 
+	} 
+}
+a {
 	border-bottom: 1px dotted $turquoise;
 	color: inherit; 
-	cursor: pointer; 
 	text-decoration: none; 
-	transition: all .1s ease; 
 	&:hover {
 		border-bottom: 1px solid $turquoise;
 		color: $turquoise;  
 	}
-	&:focus {
-		outline: none; 
+}
+button {
+	background-color: transparent; 
+	border: 1px solid $turquoise; 
+	color: $turquoise; 
+	font-size: 1rem; 
+	padding: .5rem 1rem; 
+	a {
+		border: 0; 
+		&:hover {
+			border: 0; 
+		} 
+	}
+	&:hover {
+		background-color: $turquoise-light; 
 	}
 }
-
 .page-content {
 	margin-top: 6rem; // height of menu
 }

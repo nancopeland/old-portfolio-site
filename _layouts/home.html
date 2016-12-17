@@ -8,8 +8,7 @@ layout: default
 
     {% for post in site.posts %}
         <div class="project-wrapper">
-            <!--<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>-->
-            <a href="{{ post.url | relative_url }}" target="_blank">
+            <a href="{{ post.url | relative_url }}">
                 <div class="project">
                     <div class="img-container {{ post.image-class | escape }}"></div>
                     <div class="project-description">

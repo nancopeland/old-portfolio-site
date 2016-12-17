@@ -3,6 +3,7 @@ layout: post
 title:  "Publication site redesign"
 description: Redesign mobile and desktop sites for Industry Dive's 12 publications.
 image-class: pubs-redesign
+live-project: http://www.utilitydive.com/
 ---
 
 blah blah blah
