@@ -1212,7 +1212,8 @@ button {
   border: 0;
   color: #1adbd3;
   display: inline-block;
-  float: right; }
+  float: right;
+  padding: 0; }
   .menu-button:hover {
     background: transparent; }
 
