@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-17T15:57:17-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Publication site redesign</title><link href="http://localhost:4000/2016/12/10/pub-site-redesign.html" rel="alternate" type="text/html" title="Publication site redesign" /><published>2016-12-10T00:00:00-05:00</published><updated>2016-12-10T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/10/pub-site-redesign</id><content type="html" xml:base="http://localhost:4000/2016/12/10/pub-site-redesign.html">&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Site looks outdated and clunky. User experience could also be improved overall to increase engagement and ad clicks.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-02T16:07:43-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Publication site redesign</title><link href="http://localhost:4000/2016/12/10/pub-site-redesign.html" rel="alternate" type="text/html" title="Publication site redesign" /><published>2016-12-10T00:00:00-05:00</published><updated>2016-12-10T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/10/pub-site-redesign</id><content type="html" xml:base="http://localhost:4000/2016/12/10/pub-site-redesign.html">&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Site looks outdated and clunky. User experience could also be improved overall to increase engagement and ad clicks.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_old.jpg&quot; alt=&quot;old site&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Utilize user feedback to figure out what needs to be prioritized when designing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Update design and utilize user feedback update site’s design. This solution included a variety of design updates but the focus was on keeping the design clean and easy to understand for users of all ages and technical literacies.&lt;/p&gt;
 
-&lt;p&gt;New site:
-&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new.jpg&quot; alt=&quot;new site&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new.jpg&quot; alt=&quot;new site&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_article.jpg&quot; alt=&quot;new site article&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_jobs.jpg&quot; alt=&quot;new site jobs&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;One part of the site I worked on was the menu.&lt;/p&gt;
+&lt;p&gt;One part of the site I worked on was the menu. With the menu, my goals were to anchor the page, hide minimal content (I can’t argue with &lt;a href=&quot;https://medium.com/the-year-of-the-looking-glass/what-you-see-is-what-you-use-5a97677a8c71#.18bilnmdf&quot;&gt;Julie Zhuo&lt;/a&gt;) and block off the top ad while still making it appealing to click on. Read more about the menu &lt;a href=&quot;http://industrydive.com/news/post/building-our-new-menu/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_mobile.gif&quot; alt=&quot;mobile menu&quot; width=&quot;320px&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_desktop.gif&quot; alt=&quot;desktop menu&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
 
 &lt;!--Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 

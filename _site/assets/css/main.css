@@ -1154,7 +1154,7 @@ body {
   body.no-scroll {
     overflow-y: hidden; }
 
-h1, h2, h3, h4, h5, h6, p, a, button, .button {
+h1, h2, h3, h4, h5, h6, p, a, button, .button, ul, ol, li {
   font-family: 'Karla', sans-serif;
   margin: 0; }
 
@@ -1327,9 +1327,12 @@ button {
   width: 20%; }
 
 .post-content {
-  margin-top: 5rem; }
+  margin: 5rem 0 3rem 0; }
   .post-content p {
     margin: 1rem 0; }
+  .post-content img {
+    display: block;
+    margin: 1.5rem auto; }
 
 footer {
   margin: 1.5rem 0 2rem 0; }
