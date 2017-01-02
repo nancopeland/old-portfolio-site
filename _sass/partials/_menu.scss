@@ -17,6 +17,9 @@
 		letter-spacing: .5px;
 		text-transform: lowercase; 
 		transition: color .25s ease; 
+		a {
+			border: 0; 
+		}
 	}
 }
 .menu-list-wrapper {
