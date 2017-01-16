@@ -1273,6 +1273,12 @@ button {
     .social-links a:hover {
       color: #1adbd3; }
 
+@media (min-width: 40em) {
+  .menu-about p {
+    font-size: 1.25rem; }
+
+  .social-links a {
+    font-size: 1.25rem; } }
 .project-wrapper {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
