@@ -6,7 +6,7 @@ image-class: news-page
 live-project: http://industrydive.com/news/
 ---
 
-<h3>News Page</h3>
+<h2>News Page</h2>
 
 **Problem:** The news/blog posts on Industry Dive's corporate site were tagged with different topics but there was no way to filter the posts with said topics.  
 
