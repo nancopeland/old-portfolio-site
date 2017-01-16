@@ -3,7 +3,11 @@ layout: post
 title:  "Industrydive.com updates"
 description: Functionality updates to Industry Dive's corporate site that improve its user experience
 image-class: news-page
-live-project: http://industrydive.com/news/
+live-project-link: http://industrydive.com/news/
+live-project-name: News Page
+live-project-2: true
+live-project-link-2: http://industrydive.com/team/
+live-project-name-2: Team Page
 ---
 
 In addition to maintaining Industry Dive's publication sites, I also update our corporate site with small tools to make it easier to use. Here are a few of those updates. 
