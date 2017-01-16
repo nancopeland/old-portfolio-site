@@ -1818,7 +1818,7 @@ a:focus, button:focus {
 /* line 80, ../scss/partials/_menu.scss */
 .menu-about p {
   color: #ddd;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 /* line 84, ../scss/partials/_menu.scss */
 .menu-about a {
@@ -1836,7 +1836,7 @@ a:focus, button:focus {
 /* line 93, ../scss/partials/_menu.scss */
 .social-links a {
   border: 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 700;
   margin-right: .5rem;
   text-transform: lowercase;
@@ -1846,6 +1846,17 @@ a:focus, button:focus {
   color: #1adbd3;
 }
 
+@media (min-width: 40em) {
+  /* line 107, ../scss/partials/_menu.scss */
+  .menu-about p {
+    font-size: 1.25rem;
+  }
+
+  /* line 112, ../scss/partials/_menu.scss */
+  .social-links a {
+    font-size: 1.25rem;
+  }
+}
 /* line 4, ../scss/partials/_projects.scss */
 .projects {
   margin-top: 6rem;
