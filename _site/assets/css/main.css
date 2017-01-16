@@ -1228,7 +1228,7 @@ button {
 .menu.open {
   background: transparent;
   box-shadow: 0px; }
-  .menu.open h1 {
+  .menu.open h3 {
     color: #fff; }
   .menu.open .menu-close {
     display: inline-block;
@@ -1256,7 +1256,7 @@ button {
     width: 150px; }
   .menu-about p {
     color: #ddd;
-    font-size: 1.25rem; }
+    font-size: 1rem; }
   .menu-about a {
     color: #fff; }
     .menu-about a:hover {
@@ -1266,7 +1266,7 @@ button {
   margin: 2rem 0; }
   .social-links a {
     border: 0;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 700;
     margin-right: .5rem;
     text-transform: lowercase; }

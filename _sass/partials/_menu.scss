@@ -48,7 +48,7 @@
 	&.open {
 		background: transparent; 
 		box-shadow: 0px; 
-		h1 {
+		h3 {
 			color: #fff; 
 		}
 		.menu-close {
@@ -83,7 +83,7 @@
 	}
 	p {
 		color: #ddd;
-		font-size: 1.25rem;  
+		font-size: 1rem;  
 	}
 	a {
 		color: #fff; 
@@ -96,7 +96,7 @@
 	margin: 2rem 0; 
 	a { 
 		border: 0; 
-		font-size: 1.25rem; 
+		font-size: 1rem; 
 		font-weight: 700; 
 		margin-right: .5rem; 
 		text-transform: lowercase; 
