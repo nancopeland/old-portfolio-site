@@ -19,6 +19,7 @@ In addition to maintaining Industry Dive's publication sites, I also update our 
 **Solution:** Use a `<select>` dropdown that visualizes filtering the posts. I used [Ted's talks page](http://www.ted.com/talks) for inspiration. 
 
 ![news page filtering]({{ site.url }}/assets/img/corp_site_filtering/news_page_filtering.gif){:width='240px'}
+![news page filtering close up]({{ site.url }}/assets/img/corp_site_filtering/news_page_filtering_zoom.gif){:width='460px'}
 
 <h2>Team Page</h2>
 
