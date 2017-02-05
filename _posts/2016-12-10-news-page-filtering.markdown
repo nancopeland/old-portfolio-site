@@ -23,6 +23,12 @@ In addition to maintaining Industry Dive's publication sites, I also update our 
 
 <h2>Team Page</h2>
 
+**Problem:** The "About" page was too long: it had both the company's history and team department links (which took you to all the members in each department) on one page. This was confusing to a reader who just wanted to find the history or just wanted to find a team member. There were also a lot of steps involved to find the team member you were looking for. 
+
+**Solution:** Split up the "About" page into two pages: "History" and "Team". For the "Team" page, have all team members on the page when it loads (instead of broken up by default) and have options to filter the team members by department for ease of navigation. 
+
+![new about page process](https://s3.amazonaws.com/dive_static/diveimages/new_process.gif){:width='500px'}
+
 Read more about the team page [here](http://industrydive.com/news/post/user-experience-lesson-1-ease-of-navigation/). 
 
 

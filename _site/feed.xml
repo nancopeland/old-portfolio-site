@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-05T16:28:56-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Publication site redesign</title><link href="http://localhost:4000/2016/12/10/pub-site-redesign.html" rel="alternate" type="text/html" title="Publication site redesign" /><published>2016-12-10T00:00:00-05:00</published><updated>2016-12-10T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/10/pub-site-redesign</id><content type="html" xml:base="http://localhost:4000/2016/12/10/pub-site-redesign.html">&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Site looks outdated and clunky. User experience could also be improved overall to increase engagement and ad clicks.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-05T16:49:13-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Publication site redesign</title><link href="http://localhost:4000/2016/12/10/pub-site-redesign.html" rel="alternate" type="text/html" title="Publication site redesign" /><published>2016-12-10T00:00:00-05:00</published><updated>2016-12-10T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/10/pub-site-redesign</id><content type="html" xml:base="http://localhost:4000/2016/12/10/pub-site-redesign.html">&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Site looks outdated and clunky. User experience could also be improved overall to increase engagement and ad clicks.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_old.jpg&quot; alt=&quot;old site&quot; /&gt;&lt;/p&gt;
 
@@ -29,6 +29,12 @@
 &lt;img src=&quot;http://localhost:4000/assets/img/corp_site_filtering/news_page_filtering_zoom.gif&quot; alt=&quot;news page filtering close up&quot; width=&quot;460px&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Team Page&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; The “About” page was too long: it had both the company’s history and team department links (which took you to all the members in each department) on one page. This was confusing to a reader who just wanted to find the history or just wanted to find a team member. There were also a lot of steps involved to find the team member you were looking for.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Split up the “About” page into two pages: “History” and “Team”. For the “Team” page, have all team members on the page when it loads (instead of broken up by default) and have options to filter the team members by department for ease of navigation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.amazonaws.com/dive_static/diveimages/new_process.gif&quot; alt=&quot;new about page process&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Read more about the team page &lt;a href=&quot;http://industrydive.com/news/post/user-experience-lesson-1-ease-of-navigation/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
