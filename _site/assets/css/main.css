@@ -1321,21 +1321,21 @@ button {
     padding-right: 0.9375rem;
     width: 50%;
     float: left; } }
-.post h1 {
+.post-header h1 {
   font-size: 2.25rem;
   line-height: 1.3;
   margin: 1rem 0 1.5rem 0;
   text-align: center; }
-.post ul {
+.post-header ul {
   list-style-type: none;
   margin: 1rem auto 2rem auto;
   padding: 0;
   text-align: center; }
-  .post ul li {
+  .post-header ul li {
     display: inline-block; }
-    .post ul li a {
+    .post-header ul li a {
       border-bottom: 0px; }
-.post hr {
+.post-header hr {
   background-color: #1adbd3;
   border: 0px;
   height: 5px;
