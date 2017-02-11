@@ -20,10 +20,4 @@ live-project-name: utilitydive.com
 One part of the site I worked on was the menu. With the menu, my goals were to anchor the page, hide minimal content (I can't argue with [Julie Zhuo](https://medium.com/the-year-of-the-looking-glass/what-you-see-is-what-you-use-5a97677a8c71#.18bilnmdf)) and block off the top ad while still making it appealing to click on. Read more about the menu [here](http://industrydive.com/news/post/building-our-new-menu/). 
 
 ![mobile menu]({{ site.url }}/assets/img/pub_sites/pub_site_menu_mobile.gif){:width='320px'}
-![desktop menu]({{ site.url }}/assets/img/pub_sites/pub_site_menu_desktop.gif){:width='500px'}
-
-<!--Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/-->
+![desktop menu]({{ site.url }}/assets/img/pub_sites/pub_site_menu_desktop.gif){:width='700px'}
