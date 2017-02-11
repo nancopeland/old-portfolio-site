@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Publication site redesign"
-description: Redesign mobile and desktop sites for Industry Dive's 12 publications
+description: Redesign of Industry Dive's 12 publications
 image-class: pubs-redesign
 live-project-link: http://www.utilitydive.com/
 live-project-name: Utility Dive
