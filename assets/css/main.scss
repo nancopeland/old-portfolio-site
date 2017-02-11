@@ -1,0 +1,15 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+//foundation grid
+@import 'foundation/components/grid';
+
+// personal styling
+@import 'partials/variables'; 
+@import 'partials/universal'; 
+@import 'partials/menu'; 
+@import 'partials/home'; 
+@import 'partials/posts';
+@import 'partials/footer';

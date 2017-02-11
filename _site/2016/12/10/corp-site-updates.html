@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <title>Industrydive.com updates</title>
+    <meta name="description" content="In addition to maintaining Industry Dive’s publication sites, I also update our corporate site with small tools to make it easier to use. Here are a few of t...">
+
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/twemoji-awesome.css">
+    <link rel="canonical" href="http://localhost:4000/2016/12/10/corp-site-updates.html">
+    <link rel="alternate" type="application/rss+xml" title="Nan Copeland" href="/feed.xml">
+  
+    <!-- google analytics --> 
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-75759732-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+
+
+    <body>
+
+        <header role="banner">
+
+    <nav class="menu">
+        <div class="row">
+            <div class="small-8 columns">
+                <h3><a href="/">Nan Copeland</a></h3>
+            </div>
+            <div class="small-4 columns menu-list-wrapper">
+                <button class="menu-button">
+                    <span class="menu-cta">
+                        <span>
+                            <i class="twa twa-sparkles"></i>
+                            about
+                            <i class="twa twa-sparkles"></i>
+                        </span>
+                    </span>
+                    <span class="menu-close">
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.2 80.11"><title>close</title><path d="M75.8,10.8L50,36.6,24.2,10.8a5,5,0,0,0-7.1,0l-5.7,5.7a5,5,0,0,0,0,7.1L37.2,49.4,11.5,75.1a5,5,0,0,0,0,7.1l5.7,5.7a5,5,0,0,0,7.1,0L50,62,75.8,87.8a5,5,0,0,0,7.1,0l5.7-5.7a5,5,0,0,0,0-7.1L62.7,49.3,88.5,23.5a5,5,0,0,0,0-7.1l-5.7-5.7A4.92,4.92,0,0,0,75.8,10.8Z" transform="translate(-9.9 -9.29)"/></svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="menu-about">
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <img src="img/pic_website.png">
+                <p>Nan Copeland is a web designer from North Carolina living in Washington, D.C. She currently works for <a href="http://industrydive.com/" target="_blank">Industry Dive</a> where she is focused on enhancing the newly-designed website and creating tools to improve the company's efficiency. When not working, she can often be found at <a href="http://www.thewonderlandballroom.com/" target="_blank">The Wonderland Ballroom</a> or <a href="http://www.compasscoffee.com/" target="_blank">Compass Coffee</a>.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/nancopeland/" target="_blank">Instagram</a>
+                    <a href="https://twitter.com/nancopeland" target="_blank">Twitter</a>
+                    <a href="https://github.com/nancopeland" target="_blank">Github</a>
+                    <a href="mailto:nmcopeland1@gmail.com" target="_blank">Email</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+
+
+        <main class="row page-content" aria-label="Content">
+            <div class="medium-10 medium-centered columns wrapper">
+                <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  	<header class="post-header">
+    	<h1 class="post-title" itemprop="name headline">Industrydive.com updates</h1>
+    	<ul>
+    		<li><a href="http://industrydive.com/news/" target="_blank"><button>News Page</button></a></li>
+    		 
+    			<li><a href="http://industrydive.com/team/" target="_blank"><button>Team Page</button></a></li>
+    		
+    	</ul>
+    	<hr>
+  	</header>
+
+  	<div class="post-content" itemprop="articleBody">
+    	<p>In addition to maintaining Industry Dive’s publication sites, I also update our corporate site with small tools to make it easier to use. Here are a few of those updates.</p>
+
+<h2>News Page</h2>
+
+<p><strong>Problem:</strong> The news/blog page were tagged with different topics but there was no way to filter the posts with said topics.</p>
+
+<p><strong>Solution:</strong> Use a <code class="highlighter-rouge">&lt;select&gt;</code> dropdown that visualizes filtering the posts. I used <a href="http://www.ted.com/talks">Ted’s talks page</a> for inspiration.</p>
+
+<p><img src="http://localhost:4000/assets/img/corp_site_filtering/news_page_filtering.gif" alt="news page filtering" width="240px" />
+<img src="http://localhost:4000/assets/img/corp_site_filtering/news_page_filtering_zoom.gif" alt="news page filtering close up" width="460px" /></p>
+
+<h2>Team Page</h2>
+
+<p><strong>Problem:</strong> The “About” page was too long: it had both the company’s history and team department links (which took you to all the members in each department) on one page. This was confusing to a reader who just wanted to find the history or just wanted to find a team member. There were also a lot of steps involved to find the team member you were looking for.</p>
+
+<p><strong>Solution:</strong> Split up the “About” page into two pages: “History” and “Team”. For the “Team” page, have all team members on the page when it loads (instead of broken up by default) and have options to filter team members by department for ease of navigation.</p>
+
+<p><img src="https://s3.amazonaws.com/dive_static/diveimages/new_process.gif" alt="new about page process" width="500px" /></p>
+
+<p>Read more about the team page <a href="http://industrydive.com/news/post/user-experience-lesson-1-ease-of-navigation/">here</a>.</p>
+
+<p>Back-end code for both projects: <a href="http://stackoverflow.com/users/2855226/ryan-schuster">Ryan Schuster</a></p>
+
+  	</div>
+
+</article>
+
+            </div>
+        </main>
+
+        <footer>
+    <div class="row">
+        <div class="large-10 large-centered columns">
+            <p>Made with <a href="http://foundation.zurb.com/" target="_blank">Foundation</a>, <a href="https://pages.github.com/" target="_blank">Github Pages</a> and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a></p>
+        </div>
+    </div>
+</footer>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="/assets/js/app.js"></script>
+    </body>
+
+</html>

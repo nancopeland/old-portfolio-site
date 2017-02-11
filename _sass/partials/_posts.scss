@@ -1,0 +1,54 @@
+// posts partial
+
+.post-header {
+	h1 {
+		font-size: 2.25rem; 
+		line-height: 1.3; 
+		margin: 1rem 0 1.5rem 0; 
+		text-align: center;
+	}
+	ul {
+		list-style-type: none; 
+		margin: 1rem auto 2rem auto; 
+		padding: 0; 
+		text-align: center; 
+		li {
+			display: inline-block; 
+			a {
+				border-bottom: 0px; 
+			}
+		}
+	}
+	hr {
+		background-color: $turquoise; 
+		border: 0px; 
+		height: 5px; 
+		width: 20%; 
+	}
+}
+.post-content {
+	margin: 5rem 0 3rem 0;  
+	p {
+		margin: 1rem 0; 
+	}
+	img {
+		display: block; 
+		margin: 2rem auto; 
+	}
+	code {
+		background-color: $turquoise-light; 
+		font-weight: 700; 
+		padding: .125rem; 
+	}
+	ol {
+		padding-left: .75rem; 
+	}
+}
+
+@media (min-width: 40em) { 
+	.post {
+		h1 {
+			font-size: 3.25rem; 
+		}
+	}
+}

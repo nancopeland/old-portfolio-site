@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="projects">
+  
+    {{ content }}
+
+    {% for post in site.posts %}
+        <div class="project-wrapper">
+            <a href="{{ post.url | relative_url }}">
+                <div class="project">
+                    <div class="img-container {{ post.image-class | escape }}"></div>
+                    <div class="project-description">
+                        <p class="project-title">{{ post.title | escape }}</p>
+                        <p>{{ post.description | escape }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+
+</div>
