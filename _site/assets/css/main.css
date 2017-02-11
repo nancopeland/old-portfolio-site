@@ -1333,6 +1333,8 @@ button {
   text-align: center; }
   .post ul li {
     display: inline-block; }
+    .post ul li a {
+      border-bottom: 0px; }
 .post hr {
   background-color: #1adbd3;
   border: 0px;

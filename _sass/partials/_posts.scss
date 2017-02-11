@@ -14,6 +14,9 @@
 		text-align: center; 
 		li {
 			display: inline-block; 
+			a {
+				border-bottom: 0px; 
+			}
 		}
 	}
 	hr {
