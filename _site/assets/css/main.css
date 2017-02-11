@@ -1352,6 +1352,8 @@ button {
     background-color: #e5fcfb;
     font-weight: 700;
     padding: .125rem; }
+  .post-content ol {
+    padding-left: .75rem; }
 
 @media (min-width: 40em) {
   .post h1 {

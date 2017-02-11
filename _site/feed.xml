@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-11T13:42:35-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Publication site redesign</title><link href="http://localhost:4000/2016/12/29/pub-site-redesign.html" rel="alternate" type="text/html" title="Publication site redesign" /><published>2016-12-29T00:00:00-05:00</published><updated>2016-12-29T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/29/pub-site-redesign</id><content type="html" xml:base="http://localhost:4000/2016/12/29/pub-site-redesign.html">&lt;p&gt;Industry Dive has 12 publications each focusing on a different industry. Although their main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-11T14:27:13-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Publication site redesign</title><link href="http://localhost:4000/2016/12/29/pub-site-redesign.html" rel="alternate" type="text/html" title="Publication site redesign" /><published>2016-12-29T00:00:00-05:00</published><updated>2016-12-29T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/29/pub-site-redesign</id><content type="html" xml:base="http://localhost:4000/2016/12/29/pub-site-redesign.html">&lt;p&gt;Industry Dive has 12 publications each focusing on a different industry. Although their main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Site looks outdated and clunky. User experience could also be improved overall to increase engagement and ad clicks.&lt;/p&gt;
 
@@ -6,53 +6,44 @@
 
 &lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Update design and utilize user feedback update site’s design. This solution includes a variety of design updates but we focused on keeping the design clean and easy to understand for users of all ages and technical literacies.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Overall goals:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Improve &lt;strong&gt;overall aesthetic.&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;improve visual hierarchy&lt;/li&gt;
-      &lt;li&gt;utilize negative space&lt;/li&gt;
-      &lt;li&gt;use less images 
-&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new.jpg&quot; alt=&quot;new site&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_article.gif&quot; alt=&quot;new site article&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_jobs.jpg&quot; alt=&quot;new site jobs&quot; /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Significantly improve &lt;strong&gt;mobile experience for readers.&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;ease navigation friction&lt;/li&gt;
-      &lt;li&gt;call out topics more explicitly&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Significantly improve &lt;strong&gt;mobile experience for advertisers.&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;no sticky ads&lt;/li&gt;
-      &lt;li&gt;create responsive ad spot&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Create &lt;strong&gt;better promotion opportunites&lt;/strong&gt; for clients.
-    &lt;ul&gt;
-      &lt;li&gt;clearer labeling of sponsored content&lt;/li&gt;
-      &lt;li&gt;make this content more native but not deceiving&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Create better promoted opportunities for &lt;strong&gt;Brand Studio content&lt;/strong&gt; (ie. playbooks, webinars, etc.)
-    &lt;ul&gt;
-      &lt;li&gt;call out this content in native spots&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Reduce future build time for tech &amp;amp; design&lt;/li&gt;
-  &lt;li&gt;Improve &lt;strong&gt;content discoverability/navigation&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;reduce navigation clicks&lt;/li&gt;
-      &lt;li&gt;call out navigation content explicitly&lt;/li&gt;
-      &lt;li&gt;improve navigating site with via topics
-One part of the site I worked on was the menu. With the menu, my goals were to anchor the page, hide minimal content (I can’t argue with &lt;a href=&quot;https://medium.com/the-year-of-the-looking-glass/what-you-see-is-what-you-use-5a97677a8c71#.18bilnmdf&quot;&gt;Julie Zhuo&lt;/a&gt;) and block off the top ad while still making it appealing to click on. Read more about the menu &lt;a href=&quot;http://industrydive.com/news/post/building-our-new-menu/&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Some overall goals:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_mobile.gif&quot; alt=&quot;mobile menu&quot; width=&quot;320px&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;1. Improve overall aesthetic.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;improve visual hierarchy&lt;/li&gt;
+  &lt;li&gt;utilize negative space&lt;/li&gt;
+  &lt;li&gt;use less images
+&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new.jpg&quot; alt=&quot;new site&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_article.gif&quot; alt=&quot;new site article&quot; width=&quot;700px&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_jobs.jpg&quot; alt=&quot;new site jobs&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Significantly improve mobile experience for readers.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ease navigation friction&lt;/li&gt;
+  &lt;li&gt;call out topics more explicitly 
+&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_navigation.gif&quot; alt=&quot;navigation&quot; width=&quot;300px&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_navigation_topics.gif&quot; alt=&quot;navigation topics&quot; width=&quot;300px&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Improve ad units&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;no sticky ads, create responsive ad spot&lt;/li&gt;
+  &lt;li&gt;make ads more native, but not deceiving, to increase clicks
+&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_desktop.jpg&quot; alt=&quot;native ad desktop&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_desktop2.jpg&quot; alt=&quot;native ad desktop&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_mobile.jpg&quot; alt=&quot;native ad mobile&quot; width=&quot;300px&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Improve content discoverability/navigation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;reduce navigation clicks&lt;/li&gt;
+  &lt;li&gt;call out navigation content explicitly&lt;/li&gt;
+  &lt;li&gt;improve navigating site with via topics&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is the part of the site I worked on heavily. With the menu navigation, my goals were to anchor the page, hide minimal content (I can’t argue with &lt;a href=&quot;https://medium.com/the-year-of-the-looking-glass/what-you-see-is-what-you-use-5a97677a8c71#.18bilnmdf&quot;&gt;Julie Zhuo&lt;/a&gt;) and block off the top ad while still making it appealing to click on. Read more about the menu &lt;a href=&quot;http://industrydive.com/news/post/building-our-new-menu/&quot;&gt;here&lt;/a&gt;.
+&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_mobile.gif&quot; alt=&quot;mobile menu&quot; width=&quot;320px&quot; /&gt;
 &lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_desktop.gif&quot; alt=&quot;desktop menu&quot; width=&quot;700px&quot; /&gt;&lt;/p&gt;</content><summary type="html">Industry Dive has 12 publications each focusing on a different industry. Although their main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated.</summary></entry><entry><title type="html">Industrydive.com updates</title><link href="http://localhost:4000/2016/12/10/corp-site-updates.html" rel="alternate" type="text/html" title="Industrydive.com updates" /><published>2016-12-10T00:00:00-05:00</published><updated>2016-12-10T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/10/corp-site-updates</id><content type="html" xml:base="http://localhost:4000/2016/12/10/corp-site-updates.html">&lt;p&gt;In addition to maintaining Industry Dive’s publication sites, I also update our corporate site with small tools to make it easier to use. Here are a few of those updates.&lt;/p&gt;
 
 &lt;h2&gt;News Page&lt;/h2&gt;
