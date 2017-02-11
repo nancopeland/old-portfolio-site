@@ -12,13 +12,13 @@ live-project-name-2: BioPharma Dive
 
 Industry Dive has 12 publications each focusing on a different industry. Although their main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated. 
 
-**Problem:** Site looks outdated and clunky. User experience could also be improved overall to increase engagement and ad clicks. 
+**Problem:** Site looked outdated and clunky. User experience could also be improved to increase engagement and ad clicks. 
 
 ![old site]({{ site.url }}/assets/img/pub_sites/pub_site_old.jpg)
 
-**Solution:** Update design and utilize user feedback update site's design. This solution includes a variety of design updates but we focused on keeping the design clean and easy to understand for users of all ages and technical literacies. 
+**Solution:** Utilize user feedback to update site's design. This solution included a variety of design updates but we focused on keeping the design clean and easy to understand for users of all ages and technical literacies. 
 
-**Some overall goals:** 
+**Overall goals:** 
 
 **1. Improve overall aesthetic.** 
 - improve visual hierarchy
