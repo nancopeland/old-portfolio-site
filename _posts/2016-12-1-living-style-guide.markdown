@@ -16,3 +16,6 @@ live-project-name: Industry Dive Design Styleguide
 ![style guide colors]({{ site.url }}/assets/img/style_guide/style_guide_colors.jpg)
 
 The site also features commonly-used JS functions. 
+
+![style guide scroll]({{ site.url }}/assets/img/style_guide/style_guide_scroll.gif){:width='700px'}
+![style guide saccordion]({{ site.url }}/assets/img/style_guide/style_guide_accordion.gif){:width='700px'}
