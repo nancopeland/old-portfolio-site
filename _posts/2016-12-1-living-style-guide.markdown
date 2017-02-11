@@ -9,4 +9,6 @@ live-project-name: Industry Dive Design Styleguide
 
 **Problem:** The design team was growing and the team wanted an updatable site for new designers to reference for colors, typography, code standards, etc. 
 
-**Solution:** Use <a href="https://pages.github.com/" target="_blank">Github Pages</a> and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> to host an easy-to-update static site.  
+**Solution:** Use <a href="https://pages.github.com/" target="_blank">Github Pages</a> and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> to host an easy-to-update static site. 
+
+![living style guide]({{ site.url }}/assets/img/style_guide/style_guide.jpg)
