@@ -1,6 +1,9 @@
 // projects partial
 
 // PROJECTS
+.projects {
+	margin-top: 6rem; 
+}
 .project-wrapper {
 	@include grid-column(12); 
 }
