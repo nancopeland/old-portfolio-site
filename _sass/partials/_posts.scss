@@ -3,14 +3,14 @@
 .post-header {
 	background-color: $turquoise-light;
     max-width: none;
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 	h1 {
 		font-size: 2.25rem; 
-		line-height: 1.3; 
+		line-height: 1.2; 
 		margin-bottom: 1rem; 
 	}
 	p {
-		display: inline-block; 
+		display: inline-block;
 		font-weight: 700; 
 	}
 	ul {
@@ -55,9 +55,13 @@
 }
 
 @media (min-width: 40em) { 
-	.post {
+	.post-header {
+		padding: 3rem; 
 		h1 {
-			font-size: 3.25rem; 
+			font-size: 3.5rem; 
+		}
+		p, li {
+			font-size: 1.25rem; 
 		}
 	}
 }
