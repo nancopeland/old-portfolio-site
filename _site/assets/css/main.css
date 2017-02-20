@@ -1330,7 +1330,6 @@ button {
 .post-header ul {
   display: inline-block;
   list-style-type: none;
-  margin: 1rem auto 2rem auto;
   padding: 0; }
   .post-header ul li {
     display: inline-block; }
@@ -1338,10 +1337,11 @@ button {
   background-color: #1adbd3;
   border: 0px;
   height: 5px;
+  margin: 3rem 0;
   width: 35%; }
 
 .post-content {
-  margin: 5rem 0 3rem 0; }
+  margin-bottom: 3rem; }
   .post-content p {
     margin: 1rem 0; }
   .post-content img {

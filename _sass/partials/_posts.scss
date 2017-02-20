@@ -12,7 +12,6 @@
 	ul {
 		display: inline-block; 
 		list-style-type: none; 
-		margin: 1rem auto 2rem auto; 
 		padding: 0; 
 		li {
 			display: inline-block; 
@@ -22,11 +21,12 @@
 		background-color: $turquoise; 
 		border: 0px; 
 		height: 5px; 
+		margin: 3rem 0; 
 		width: 35%; 
 	}
 }
 .post-content {
-	margin: 5rem 0 3rem 0;  
+	margin-bottom: 3rem;  
 	p {
 		margin: 1rem 0; 
 	}
