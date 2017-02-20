@@ -6,10 +6,11 @@ layout: default
 
   	<header class="post-header">
     	<h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p>See the project live:</p>
     	<ul>
-    		<li><a href="{{ page.live-project-link | escape }}" target="_blank"><button>{{ page.live-project-name | escape }}</button></a></li>
+    		<li><a href="{{ page.live-project-link | escape }}" target="_blank">{{ page.live-project-name | escape }}</a></li>
     		{% if page.live-project-2 %} 
-    			<li><a href="{{ page.live-project-link-2 | escape }}" target="_blank"><button>{{ page.live-project-name-2 | escape }}</button></a></li>
+    			<li><a href="{{ page.live-project-link-2 | escape }}" target="_blank">{{ page.live-project-name-2 | escape }}</a></li>
     		{% endif %}
     	</ul>
     	<hr>

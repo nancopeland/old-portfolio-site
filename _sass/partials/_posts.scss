@@ -4,26 +4,25 @@
 	h1 {
 		font-size: 2.25rem; 
 		line-height: 1.3; 
-		margin: 1rem 0 1.5rem 0; 
-		text-align: center;
+		margin: 1rem 0; 
+	}
+	p {
+		display: inline-block; 
 	}
 	ul {
+		display: inline-block; 
 		list-style-type: none; 
 		margin: 1rem auto 2rem auto; 
 		padding: 0; 
-		text-align: center; 
 		li {
 			display: inline-block; 
-			a {
-				border-bottom: 0px; 
-			}
 		}
 	}
 	hr {
 		background-color: $turquoise; 
 		border: 0px; 
 		height: 5px; 
-		width: 20%; 
+		width: 35%; 
 	}
 }
 .post-content {
