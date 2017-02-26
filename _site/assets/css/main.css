@@ -1154,11 +1154,11 @@ body {
   body.no-scroll {
     overflow-y: hidden; }
 
-h1, h2, h3, h4, h5, h6, p, a, button, .button, ul, ol, li {
+h1, h2, h3, h4, h5, h6, p, a, button, ul, ol, li {
   font-family: 'franklin-gothic-urw', 'Helvetica', sans-serif;
   margin: 0; }
 
-p, li {
+p, li, button {
   font-size: 1.125rem;
   font-weight: 300;
   letter-spacing: .375px; }
@@ -1181,7 +1181,6 @@ button {
   background-color: transparent;
   border: 1px solid #1adbd3;
   color: #1adbd3;
-  font-size: 1rem;
   padding: .5rem 1rem; }
   button a {
     border: 0; }
@@ -1191,7 +1190,7 @@ button {
     background-color: #e8fcfb; }
 
 .page-content {
-  margin-top: 61px; }
+  margin-top: 62px; }
 
 .menu {
   background: #fff;
@@ -1215,16 +1214,10 @@ button {
 
 .menu-button {
   border: 0;
-  color: #1adbd3;
-  display: inline-block;
   float: right;
   padding: 0; }
   .menu-button:hover {
     background: transparent; }
-
-.menu-cta {
-  font-size: 1rem;
-  vertical-align: middle; }
 
 .menu .menu-close {
   display: none; }
@@ -1235,10 +1228,8 @@ button {
     color: #fff; }
   .menu.open .menu-close {
     display: inline-block;
-    height: 15px;
     margin: 0 0 0 .25rem;
-    width: 10px;
-    vertical-align: middle; }
+    width: 10px; }
     .menu.open .menu-close svg path {
       fill: #1adbd3; }
 
