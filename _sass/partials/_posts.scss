@@ -1,9 +1,8 @@
 // posts partial
 
 .post-header {
-	background-color: $turquoise-light;
-    max-width: none;
-    padding: 1.5rem 0;
+    margin: 1.5rem 0 2.5rem 0;
+    text-align: center; 
 	h1 {
 		font-size: 2.25rem; 
 		line-height: 1.2; 
@@ -56,7 +55,7 @@
 
 @media (min-width: 40em) { 
 	.post-header {
-		padding: 3rem; 
+		margin: 3rem 0 4rem 0; 
 		h1 {
 			font-size: 3.5rem; 
 		}
