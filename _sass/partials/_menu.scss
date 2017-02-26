@@ -10,34 +10,25 @@
     width: 100%;
   	z-index: 100; 
   	transition: all .25s ease; 
-	h3 { 
+	a { 
+		border: 0; 
 		font-size: 1.5rem; 
-		font-weight: 700; 
 		margin: 0;
 		letter-spacing: .5px;
 		text-transform: lowercase; 
 		transition: color .25s ease; 
-		a {
-			border: 0; 
-		}
 	}
 }
 .menu-list-wrapper {
 	margin: .5rem 0; 
 }
 .menu-button {
-	border: 0; 
-	color: $turquoise; 
-	display: inline-block;  
+	border: 0;  
 	float: right; 
 	padding: 0; 
 	&:hover {
 		background: transparent; 
 	}
-}
-.menu-cta {
-	font-size: 1rem; 
-    vertical-align: middle; // for close button
 }
   	
 // ======== OPEN menu =======
@@ -53,10 +44,8 @@
 		}
 		.menu-close {
 			display: inline-block; 
-			height: 15px; 
 			margin: 0 0 0 .25rem;
 			width: 10px; 
-			vertical-align: middle; 
 			svg {
 				path {
 					fill: $turquoise; 

@@ -9,9 +9,14 @@ body {
 	}
 }
 
-h1, h2, h3, h4, h5, h6, p, a, button, .button, ul, ol, li {
-	font-family: 'Karla', sans-serif; 
+h1, h2, h3, h4, h5, h6, p, a, button, ul, ol, li {
+	font-family: 'franklin-gothic-urw', 'Helvetica', sans-serif; 
 	margin: 0; 
+}
+p, li, button {
+	font-size: 1.125rem; 
+	font-weight: 300; 
+	letter-spacing: .375px; 
 }
 a, button {
 	cursor: pointer; 
@@ -33,7 +38,6 @@ button {
 	background-color: transparent; 
 	border: 1px solid $turquoise; 
 	color: $turquoise; 
-	font-size: 1rem; 
 	padding: .5rem 1rem; 
 	a {
 		border: 0; 
@@ -46,5 +50,6 @@ button {
 	}
 }
 .page-content {
-	margin-top: 6rem; // height of menu
+	margin-top: 62px; // height of menu
 }
+

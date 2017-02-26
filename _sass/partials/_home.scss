@@ -1,6 +1,9 @@
 // projects partial
 
 // PROJECTS
+.projects {
+	margin-top: 2rem; 
+}
 .project-wrapper {
 	@include grid-column(12); 
 }
@@ -17,7 +20,10 @@
 }
 .project-description {
 	border-top: 1px solid #eee; 
-	padding: .75rem; 
+	padding: .75rem;
+	p {
+		line-height: 1.4; 
+	} 
 }
 .project-title {
 	font-weight: 700; 

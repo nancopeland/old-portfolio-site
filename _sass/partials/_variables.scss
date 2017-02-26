@@ -2,4 +2,4 @@
 
 $dark-grey: #333333;
 $turquoise: #1adbd3; 
-$turquoise-light: #e5fcfb; 
+$turquoise-light: lighten($turquoise, 47%); 

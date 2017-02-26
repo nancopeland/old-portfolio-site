@@ -11,7 +11,7 @@ $(document).ready(function(){
 		if ($('.menu').hasClass('open')) {
 			$('.menu-cta').html('<span>close</span>'); 
 		} else {
-			$('.menu-cta').html('<span><i class="twa twa-sparkles"></i>about<i class="twa twa-sparkles"></i></span>'); 
+			$('.menu-cta').html('<span>about</span>'); 
 		}
 	});
 
