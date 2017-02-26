@@ -10,16 +10,13 @@
     width: 100%;
   	z-index: 100; 
   	transition: all .25s ease; 
-	h3 { 
+	a { 
+		border: 0; 
 		font-size: 1.5rem; 
-		font-weight: 700; 
 		margin: 0;
 		letter-spacing: .5px;
 		text-transform: lowercase; 
 		transition: color .25s ease; 
-		a {
-			border: 0; 
-		}
 	}
 }
 .menu-list-wrapper {

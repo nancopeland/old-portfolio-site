@@ -1158,9 +1158,10 @@ h1, h2, h3, h4, h5, h6, p, a, button, .button, ul, ol, li {
   font-family: 'franklin-gothic-urw', 'Helvetica', sans-serif;
   margin: 0; }
 
-p {
+p, li {
+  font-size: 1.125rem;
   font-weight: 300;
-  font-size: 1.125rem; }
+  letter-spacing: .375px; }
 
 a, button {
   cursor: pointer;
@@ -1201,15 +1202,13 @@ button {
   width: 100%;
   z-index: 100;
   transition: all .25s ease; }
-  .menu h3 {
+  .menu a {
+    border: 0;
     font-size: 1.5rem;
-    font-weight: 700;
     margin: 0;
     letter-spacing: .5px;
     text-transform: lowercase;
     transition: color .25s ease; }
-    .menu h3 a {
-      border: 0; }
 
 .menu-list-wrapper {
   margin: .5rem 0; }
@@ -1305,6 +1304,8 @@ button {
 .project-description {
   border-top: 1px solid #eee;
   padding: .75rem; }
+  .project-description p {
+    line-height: 1.4; }
 
 .project-title {
   font-weight: 700; }
@@ -1333,6 +1334,7 @@ button {
   text-align: center; }
   .post-header h1 {
     font-size: 2.25rem;
+    letter-spacing: 1px;
     line-height: 1.2;
     margin-bottom: 1rem; }
   .post-header p {
