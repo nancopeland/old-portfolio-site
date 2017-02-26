@@ -11,7 +11,6 @@
 	}
 	p {
 		display: inline-block;
-		font-weight: 700; 
 	}
 	ul {
 		display: inline-block; 
@@ -19,20 +18,20 @@
 		padding: 0; 
 		li {
 			display: inline-block; 
-			&:nth-child(2) {
-				&:before {
-					content: ','; 
-					margin-right: .5rem; 
-				}
+			&:after {
+				background: url('../img/off_site_icon.svg') no-repeat left center transparent; 
+				background-size: 100% 100%;
+    			content: "\0000a0";
+    			display: inline-block; 
+				margin: 0 0.5rem 0 0.375rem;
+			    line-height: .7;
+			    height: 15px;
+			    width: 15px;
+			}
+			a {
+				color: $turquoise; 
 			}
 		}
-	}
-	hr {
-		background-color: $turquoise; 
-		border: 0px; 
-		height: 5px; 
-		margin: 3rem 0; 
-		width: 35%; 
 	}
 }
 .post-content {
