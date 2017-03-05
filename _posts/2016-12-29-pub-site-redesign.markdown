@@ -24,6 +24,7 @@ Industry Dive has 12 publications each focusing on a different industry. Althoug
 - improve visual hierarchy
 - utilize negative space 
 - use less images
+
 ![new site]({{ site.url }}/assets/img/pub_sites/pub_site_new.jpg)
 ![new site article]({{ site.url }}/assets/img/pub_sites/pub_site_new_article.gif){:width='700px'}
 ![new site jobs]({{ site.url }}/assets/img/pub_sites/pub_site_new_jobs.jpg)
@@ -31,12 +32,14 @@ Industry Dive has 12 publications each focusing on a different industry. Althoug
 **2. Significantly improve mobile experience for readers.**
 - ease navigation friction
 - call out topics more explicitly 
+
 ![navigation]({{ site.url }}/assets/img/pub_sites/pub_site_navigation.gif){:width='300px'}
 ![navigation topics]({{ site.url }}/assets/img/pub_sites/pub_site_navigation_topics.gif){:width='300px'}
 
 **3. Improve ad units**
 - no sticky ads, create responsive ad spot
 - make ads more native, but not deceiving, to increase clicks
+
 ![native ad desktop]({{ site.url }}/assets/img/pub_sites/pub_site_ad_desktop.jpg)
 ![native ad desktop]({{ site.url }}/assets/img/pub_sites/pub_site_ad_desktop2.jpg)
 ![native ad mobile]({{ site.url }}/assets/img/pub_sites/pub_site_ad_mobile.jpg){:width='300px'}
