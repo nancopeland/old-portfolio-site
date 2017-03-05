@@ -1195,66 +1195,17 @@ button {
 @media (min-width: 40em) {
   .page-content {
     margin-top: 3rem; } }
-.menu {
+nav {
   transition: all .25s ease; }
-  .menu a {
+  nav a {
     border: 0;
+    font-size: .875rem;
+    font-weight: 700;
     letter-spacing: .5px;
     transition: color .25s ease; }
-  .menu .menu-wrapper {
-    border-bottom: 1px solid #eee;
-    padding-bottom: .5rem; }
+    nav a:hover {
+      border: 0; }
 
-.menu-list-wrapper {
-  margin: .5rem 0; }
-
-.menu-button {
-  border: 0;
-  float: right;
-  padding: 0; }
-  .menu-button:hover {
-    background: transparent; }
-
-.menu .menu-close {
-  display: none; }
-.menu.open {
-  background: transparent;
-  box-shadow: 0px; }
-  .menu.open h3 {
-    color: #fff; }
-  .menu.open .menu-close {
-    display: inline-block;
-    margin: 0 0 0 .25rem;
-    width: 10px; }
-    .menu.open .menu-close svg path {
-      fill: #1adbd3; }
-
-.menu-about {
-  background-color: rgba(0, 0, 0, 0.9);
-  display: none;
-  height: 100%;
-  left: 0;
-  overflow-y: scroll;
-  padding: 6rem 0 2rem 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10; }
-  .menu-about img {
-    display: none;
-    margin-bottom: 1.5rem;
-    width: 150px; }
-  .menu-about p {
-    color: #ddd;
-    font-size: 1rem; }
-  .menu-about a {
-    color: #fff; }
-    .menu-about a:hover {
-      color: #1adbd3; }
-
-@media (min-width: 40em) {
-  .menu-about p {
-    font-size: 1.25rem; } }
 .about-home {
   margin-bottom: 2.25rem;
   padding: 0 0.9375rem; }
