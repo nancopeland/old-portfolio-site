@@ -1263,11 +1263,16 @@ button {
   .menu-about p {
     font-size: 1.25rem; } }
 .about-home {
-  margin-bottom: 2rem;
+  margin-bottom: 2.25rem;
   padding: 0 0.9375rem; }
-  .about-home p, .about-home a {
+  .about-home p {
     font-size: 1.25rem; }
 
+@media (min-width: 40em) {
+  .about-home {
+    margin-bottom: 3.5rem; }
+    .about-home p {
+      font-size: 1.75rem; } }
 .projects {
   margin-top: 2rem; }
 
