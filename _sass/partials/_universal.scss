@@ -49,7 +49,16 @@ button {
 		background-color: $turquoise-light; 
 	}
 }
+
 .page-content {
-	margin-top: 62px; // height of menu
+	margin-top: 1.25rem; 
 }
+@media (min-width: 40em) {
+	.page-content {
+		margin-top: 3rem; 
+	}
+}
+
+
+
 

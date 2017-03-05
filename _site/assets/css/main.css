@@ -1190,8 +1190,11 @@ button {
     background-color: #e8fcfb; }
 
 .page-content {
-  margin-top: 62px; }
+  margin-top: 1.25rem; }
 
+@media (min-width: 40em) {
+  .page-content {
+    margin-top: 3rem; } }
 .menu {
   background: #fff;
   box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);
@@ -1256,23 +1259,15 @@ button {
     .menu-about a:hover {
       color: #1adbd3; }
 
-.social-links {
-  margin: 2rem 0; }
-  .social-links a {
-    border: 0;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-right: .5rem;
-    text-transform: lowercase; }
-    .social-links a:hover {
-      color: #1adbd3; }
-
 @media (min-width: 40em) {
   .menu-about p {
+    font-size: 1.25rem; } }
+.about-home {
+  margin-bottom: 2rem;
+  padding: 0 0.9375rem; }
+  .about-home p, .about-home a {
     font-size: 1.25rem; }
 
-  .social-links a {
-    font-size: 1.25rem; } }
 .projects {
   margin-top: 2rem; }
 

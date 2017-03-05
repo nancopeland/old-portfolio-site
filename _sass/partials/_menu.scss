@@ -81,29 +81,11 @@
 		}
 	}
 }
-.social-links {
-	margin: 2rem 0; 
-	a { 
-		border: 0; 
-		font-size: 1rem; 
-		font-weight: 700; 
-		margin-right: .5rem; 
-		text-transform: lowercase; 
-		&:hover {
-			color: $turquoise; 
-		}
-	}
-}
 
 @media (min-width: 40em) {
 	.menu-about {
 		p {
 			font-size: 1.25rem;  
-		}
-	}
-	.social-links { 
-		a { 
-			font-size: 1.25rem; 
 		}
 	}
 }
