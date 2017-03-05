@@ -1200,7 +1200,6 @@ nav {
   nav a {
     border: 0;
     font-size: .875rem;
-    font-weight: 700;
     letter-spacing: .5px;
     transition: color .25s ease; }
     nav a:hover {

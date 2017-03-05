@@ -1,11 +1,18 @@
 <header role="banner">
 
     <nav class="row">
-        <div class="medium-6 columns">
-            <a href="/">&larr; Home</a>
+        <div class="medium-4 columns">
+            {% if page.prev-story %}
+                <a href="{{page.prev-story}}">&larr; Previous Post</a>
+            {% endif %}
         </div>
-        <div class="medium-6 columns">
-            <a href="#" class="right">Next Post &rarr;</a>
+        <div class="small-4 columns" style="text-align:center;" >
+            <a href="/">Home</a>
+        </div>
+        <div class="medium-4 columns">
+            {% if page.next-story %}
+                <a class="right" href="{{page.next-story}}">Next Post &rarr;</a>
+            {% endif %}
         </div>
     </nav>
 
