@@ -8,6 +8,8 @@ live-project-name: Utility Dive
 live-project-2: true
 live-project-link-2: http://www.biopharmadive.com/
 live-project-name-2: BioPharma Dive
+prev-story: /2016/12/01/living-style-guide.html
+next-story: /2016/12/10/corp-site-updates.html
 ---
 
 Industry Dive has 12 publications each focusing on a different industry. Although their main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated. 

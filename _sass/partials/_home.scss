@@ -1,5 +1,23 @@
 // projects partial
 
+// about section
+.about-home {
+	margin-bottom: 2.25rem; 
+	padding: 0 0.9375rem; 
+	p {
+		font-size: 1.25rem;
+	}
+}
+@media (min-width: 40em) {
+	.about-home {
+		margin-bottom: 3.5rem; 
+		p {
+			font-size: 1.75rem; 
+		}
+	}
+}
+
+
 // PROJECTS
 .projects {
 	margin-top: 2rem; 
