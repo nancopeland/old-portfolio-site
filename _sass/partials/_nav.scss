@@ -1,6 +1,15 @@
 // nav partial
 
 // ======== DEFAULT nav ========
+header[role='banner'] {
+    background-color: white;
+    border-bottom: 1px solid #eee;
+	position: fixed;
+    top: 0;
+    left: 0;
+    padding: .85rem 3rem;
+    width: 100%;
+}
 nav {
   	transition: all .25s ease; 
 	a { 
