@@ -1324,20 +1324,21 @@ nav {
       font-size: 3.5rem; }
     .post-header p, .post-header li {
       font-size: 1.25rem; } }
-footer {
+.footer-wrapper {
   border-top: 1px solid #eee;
-  margin: 1.5rem 0 2rem 0;
-  padding: 1.5rem 0; }
-  footer p {
+  margin-top: 1.5rem;
+  padding: 1.5rem 0 2.5rem 0; }
+  .footer-wrapper p {
     font-size: .875rem; }
-  footer .social-icons {
+  .footer-wrapper .social-icons {
     text-align: right; }
-    footer .social-icons a {
-      border-bottom: 0; }
-      footer .social-icons a svg {
-        width: 25px; }
-        footer .social-icons a svg path {
+    .footer-wrapper .social-icons a {
+      border-bottom: 0;
+      padding: .25rem; }
+      .footer-wrapper .social-icons a svg {
+        width: 22px; }
+        .footer-wrapper .social-icons a svg path {
           fill: #333333;
           transition: all .2s ease; }
-      footer .social-icons a:hover svg path {
+      .footer-wrapper .social-icons a:hover svg path {
         fill: #1adbd3; }
