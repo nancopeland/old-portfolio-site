@@ -1327,11 +1327,12 @@ nav {
 .footer-wrapper {
   border-top: 1px solid #eee;
   margin-top: 1.5rem;
+  max-width: 55rem;
   padding: 1.5rem 0 2.5rem 0; }
   .footer-wrapper p {
     font-size: .875rem; }
   .footer-wrapper .social-icons {
-    text-align: right; }
+    margin-top: 1rem; }
     .footer-wrapper .social-icons a {
       border-bottom: 0;
       padding: .25rem; }
@@ -1342,3 +1343,8 @@ nav {
           transition: all .2s ease; }
       .footer-wrapper .social-icons a:hover svg path {
         fill: #1adbd3; }
+
+@media (min-width: 40em) {
+  .social-icons {
+    margin-top: 0;
+    text-align: right; } }
