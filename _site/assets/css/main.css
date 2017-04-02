@@ -1324,9 +1324,27 @@ nav {
       font-size: 3.5rem; }
     .post-header p, .post-header li {
       font-size: 1.25rem; } }
-footer {
-  margin: 1.5rem 0 2rem 0; }
-  footer p {
-    border-top: 1px solid #eee;
-    font-size: .875rem;
-    padding: 1.5rem 0; }
+.footer-wrapper {
+  border-top: 1px solid #eee;
+  margin-top: 1.5rem;
+  max-width: 55rem;
+  padding: 1.5rem 0 2.5rem 0; }
+  .footer-wrapper p {
+    font-size: .875rem; }
+  .footer-wrapper .social-icons {
+    margin-top: 1rem; }
+    .footer-wrapper .social-icons a {
+      border-bottom: 0;
+      padding: .25rem; }
+      .footer-wrapper .social-icons a svg {
+        width: 22px; }
+        .footer-wrapper .social-icons a svg path {
+          fill: #333333;
+          transition: all .2s ease; }
+      .footer-wrapper .social-icons a:hover svg path {
+        fill: #1adbd3; }
+
+@media (min-width: 40em) {
+  .footer-wrapper .social-icons {
+    margin-top: 0;
+    text-align: right; } }
