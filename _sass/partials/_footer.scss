@@ -31,9 +31,11 @@
 	}
 }
 
-@media (min-width: 40em) { 
-	.social-icons {
-		margin-top: 0; 
-		text-align: right;
+@media (min-width: 40em) {
+	.footer-wrapper { 
+		.social-icons {
+			margin-top: 0; 
+			text-align: right;
+		}
 	}
 }
