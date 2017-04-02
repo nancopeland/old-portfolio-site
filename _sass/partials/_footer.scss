@@ -1,10 +1,30 @@
 // footer partial
 
 footer {
+	border-top: 1px solid #eee; 
 	margin: 1.5rem 0 2rem 0; 
+	padding: 1.5rem 0; 
 	p {
-		border-top: 1px solid #eee; 
 		font-size: .875rem; 
-		padding: 1.5rem 0; 
+	}
+	.social-icons {
+		text-align: right;
+		a {
+			border-bottom: 0; 
+			svg {
+				width: 25px; 
+				path {
+					fill: $dark-grey;
+					transition: all .2s ease;
+				} 
+			}
+			&:hover {
+				svg {
+					path {
+						fill: $turquoise; 
+					}
+				}
+			}
+		}
 	}
 }
