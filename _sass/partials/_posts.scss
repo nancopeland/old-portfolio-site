@@ -71,9 +71,20 @@
 	}*/
 	.post-content {
 		p {
+			padding: 0 7rem; 
 			&:first-of-type {
-				font-size: 1.75rem; 
+				font-size: 1.75rem;
+				padding: 0;  
 			}
+		}
+		ul {
+			padding: 0 9.5rem; 
+		}
+		img {
+			margin: 4rem auto; 
+		}
+		.p-img { // keeps imgs going full width
+			padding: 0; 
 		}
 	}
 }

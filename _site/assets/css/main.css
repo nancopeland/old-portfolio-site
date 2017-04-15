@@ -1149,7 +1149,7 @@ select {
     left: auto; } }
 body {
   color: #333333;
-  background-color: #fff;
+  background-color: #fcfcfc;
   overflow-y: scroll; }
   body.no-scroll {
     overflow-y: hidden; }
@@ -1338,8 +1338,17 @@ nav {
   		font-size: 1.25rem; 
   	}
   }*/
-  .post-content p:first-of-type {
-    font-size: 1.75rem; } }
+  .post-content p {
+    padding: 0 7rem; }
+    .post-content p:first-of-type {
+      font-size: 1.75rem;
+      padding: 0; }
+  .post-content ul {
+    padding: 0 9.5rem; }
+  .post-content img {
+    margin: 4rem auto; }
+  .post-content .p-img {
+    padding: 0; } }
 .footer-wrapper {
   border-top: 1px solid #eee;
   margin-top: 1.5rem;
