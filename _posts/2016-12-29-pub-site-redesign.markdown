@@ -77,6 +77,8 @@ This is the part of the site I worked on heavily. With the menu navigation, my g
 {:.p-img}
 ![desktop menu]({{ site.url }}/assets/img/pub_sites/pub_site_menu_desktop.gif){:width='700px'}
 
+See this project live at [utilitydive.com](http://www.utilitydive.com/) or any of the other [publication sites](http://industrydive.com/industries/). 
+
 
 
 
