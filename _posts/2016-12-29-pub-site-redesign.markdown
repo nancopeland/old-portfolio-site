@@ -1,8 +1,7 @@
 ---
 layout: post
-project-intro:  
 title:  "Publication site redesign"
-description: Redesign of Industry Dive's 12 publications
+description: Redesign of Industry Dive's 13 publication sites
 image-class: pubs-redesign
 live-project-link: http://www.utilitydive.com/
 live-project-name: Utility Dive
@@ -34,8 +33,10 @@ I was part of the team who redesigned Industry Dive's [13 publication sites](htt
 
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/pub_sites/pub_site_new.jpg)
+
 {:.p-img}
 ![new site article]({{ site.url }}/assets/img/pub_sites/pub_site_new_article.gif){:width='700px'}
+
 {:.p-img}
 ![new site jobs]({{ site.url }}/assets/img/pub_sites/pub_site_new_jobs.jpg)
 
@@ -45,6 +46,7 @@ I was part of the team who redesigned Industry Dive's [13 publication sites](htt
 
 {:.p-img}
 ![navigation]({{ site.url }}/assets/img/pub_sites/pub_site_navigation.gif){:width='300px'}
+
 {:.p-img}
 ![navigation topics]({{ site.url }}/assets/img/pub_sites/pub_site_navigation_topics.gif){:width='300px'}
 
@@ -54,8 +56,10 @@ I was part of the team who redesigned Industry Dive's [13 publication sites](htt
 
 {:.p-img}
 ![native ad desktop]({{ site.url }}/assets/img/pub_sites/pub_site_ad_desktop.jpg)
+
 {:.p-img}
 ![native ad desktop]({{ site.url }}/assets/img/pub_sites/pub_site_ad_desktop2.jpg)
+
 {:.p-img}
 ![native ad mobile]({{ site.url }}/assets/img/pub_sites/pub_site_ad_mobile.jpg){:width='300px'}
 
@@ -69,6 +73,7 @@ This is the part of the site I worked on heavily. With the menu navigation, my g
 
 {:.p-img}
 ![mobile menu]({{ site.url }}/assets/img/pub_sites/pub_site_menu_mobile.gif){:width='320px'}
+
 {:.p-img}
 ![desktop menu]({{ site.url }}/assets/img/pub_sites/pub_site_menu_desktop.gif){:width='700px'}
 

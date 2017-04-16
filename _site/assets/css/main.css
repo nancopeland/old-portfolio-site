@@ -1149,7 +1149,7 @@ select {
     left: auto; } }
 body {
   color: #333333;
-  background-color: #fcfcfc;
+  background-color: #fafafa;
   overflow-y: scroll; }
   body.no-scroll {
     overflow-y: hidden; }
@@ -1320,7 +1320,7 @@ nav {
       margin: 5rem 0; }
   .post-content img {
     display: block;
-    margin: 2rem auto; }
+    margin: 3rem auto; }
   .post-content code {
     background-color: #e8fcfb;
     font-weight: 700;
@@ -1346,14 +1346,14 @@ nav {
   .post-content ul {
     padding: 0 9.5rem; }
   .post-content img {
-    margin: 4rem auto; }
+    margin: 6rem auto; }
   .post-content .p-img {
     padding: 0; } }
 .footer-wrapper {
   border-top: 1px solid #eee;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   max-width: 55rem;
-  padding: 1.5rem 0 2.5rem 0; }
+  padding: 1.5rem 0 2rem 0; }
   .footer-wrapper p {
     font-size: .875rem; }
   .footer-wrapper .social-icons {
