@@ -7,7 +7,7 @@ header[role='banner'] {
 	position: fixed;
     top: 0;
     left: 0;
-    padding: .75rem; 
+    padding: 1rem .75rem; 
     width: 100%;
 }
 nav {
@@ -26,6 +26,6 @@ nav {
 
 @media (min-width: 40em) {
 	header[role='banner'] {
-    	padding: .75rem 3rem;
+    	padding: 1rem 3rem;
 	}
 }
