@@ -23,6 +23,8 @@ In addition to maintaining Industry Dive's publication sites, I also update the 
 
 **Solution:** Use a `<select>` dropdown that visualizes filtering the posts. I used [Ted's talks page](http://www.ted.com/talks) for inspiration. 
 
+See this page [here](http://industrydive.com/news/).
+
 {:.p-img}
 ![news page]({{ site.url }}/assets/img/corp_site_filtering/news_page.jpg)
 
@@ -37,6 +39,8 @@ In addition to maintaining Industry Dive's publication sites, I also update the 
 **Problem:** The "About" page was too long: it had both the company's history and team department links (which took you to all the members in each department) on one page. This was confusing to a reader who just wanted to find the history or just wanted to find a team member. There were also a lot of steps involved to find the team member you were looking for. 
 
 **Solution:** Split up the "About" page into two pages: "History" and "Team". For the "Team" page, have all team members on the page when it loads (instead of broken up by default) and have options to filter team members by department for ease of navigation. 
+
+See this page [here](http://industrydive.com/team/). 
 
 {:.p-img}
 ![team page]({{ site.url }}/assets/img/corp_site_filtering/team_page.jpg)

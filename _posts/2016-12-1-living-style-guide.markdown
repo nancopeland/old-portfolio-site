@@ -16,6 +16,8 @@ I designed and developed the style guide for Industry Dive's design team. It is 
 
 The design team was growing and we wanted an updatable site for new designers to reference for colors, typography, code standards, etc. We wanted something that was lightweight and simple but easy for any designer to update when styles or code changes. 
 
+See this site [here](http://industrydive.github.io/living-styleguide/). 
+
 {:.p-img}
 ![style guide grid]({{ site.url }}/assets/img/style_guide/style_guide_grid.jpg)
 
