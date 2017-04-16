@@ -3,11 +3,6 @@ layout: post
 title:  "Industrydive.com updates"
 description: Functionality updates to Industry Dive's corporate site 
 image-class: news-page
-live-project-link: http://industrydive.com/news/
-live-project-name: News Page
-live-project-2: true
-live-project-link-2: http://industrydive.com/team/
-live-project-name-2: Team Page
 prev-story: /2016/12/29/pub-site-redesign.html
 next-story: /2016/12/01/living-style-guide.html
 ---

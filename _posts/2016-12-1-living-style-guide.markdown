@@ -3,8 +3,6 @@ layout: post
 title:  "Design team styleguide"
 description: Online internal styleguide for design team 
 image-class: living-style-guide
-live-project-link: http://industrydive.github.io/living-styleguide/
-live-project-name: Industry Dive Design Styleguide
 prev-story: /2016/12/10/corp-site-updates.html
 next-story: /2016/12/29/pub-site-redesign.html
 ---

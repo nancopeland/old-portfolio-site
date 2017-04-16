@@ -3,11 +3,6 @@ layout: post
 title:  "Publication site redesign"
 description: Redesign of Industry Dive's 13 publication sites
 image-class: pubs-redesign
-live-project-link: http://www.utilitydive.com/
-live-project-name: Utility Dive
-live-project-2: true
-live-project-link-2: http://www.biopharmadive.com/
-live-project-name-2: BioPharma Dive
 prev-story: /2016/12/01/living-style-guide.html
 next-story: /2016/12/10/corp-site-updates.html
 ---
