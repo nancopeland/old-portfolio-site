@@ -14,7 +14,8 @@ nav {
   	transition: all .25s ease; 
 	a { 
 		border: 0; 
-		font-size: .875rem; 
+		display: block; 
+		font-size: .75rem; 
 		letter-spacing: .5px;
 		transition: color .25s ease; 
 		&:hover {

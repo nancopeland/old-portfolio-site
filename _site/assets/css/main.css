@@ -1189,6 +1189,9 @@ button {
   button:hover {
     background-color: #e8fcfb; }
 
+.text-right {
+  text-align: right; }
+
 .page-content {
   margin-top: 1.25rem; }
 
@@ -1208,7 +1211,8 @@ nav {
   transition: all .25s ease; }
   nav a {
     border: 0;
-    font-size: .875rem;
+    display: block;
+    font-size: .75rem;
     letter-spacing: .5px;
     transition: color .25s ease; }
     nav a:hover {
