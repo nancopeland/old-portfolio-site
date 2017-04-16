@@ -2,7 +2,7 @@
 
 body {
 	color: $dark-grey;
-	background-color: #fff;  
+	background-color: #fafafa;  
 	overflow-y: scroll; 
 	&.no-scroll {
 		overflow-y: hidden; 
@@ -48,6 +48,10 @@ button {
 	&:hover {
 		background-color: $turquoise-light; 
 	}
+}
+
+.text-right {
+	text-align: right; 
 }
 
 .page-content {

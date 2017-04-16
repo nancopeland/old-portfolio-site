@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-02T13:14:23-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Publication site redesign</title><link href="http://localhost:4000/2016/12/29/pub-site-redesign.html" rel="alternate" type="text/html" title="Publication site redesign" /><published>2016-12-29T00:00:00-05:00</published><updated>2016-12-29T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/29/pub-site-redesign</id><content type="html" xml:base="http://localhost:4000/2016/12/29/pub-site-redesign.html">&lt;p&gt;Industry Dive has 12 publications each focusing on a different industry. Although their main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-16T16:19:12-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Publication site redesign</title><link href="http://localhost:4000/2016/12/29/pub-site-redesign.html" rel="alternate" type="text/html" title="Publication site redesign" /><published>2016-12-29T00:00:00-05:00</published><updated>2016-12-29T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/29/pub-site-redesign</id><content type="html" xml:base="http://localhost:4000/2016/12/29/pub-site-redesign.html">&lt;p&gt;I was part of the team who redesigned Industry Dive’s &lt;a href=&quot;http://industrydive.com/industries/&quot;&gt;13 publication sites&lt;/a&gt;. Each site focuses on a different industry and although the main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_article.jpg&quot; alt=&quot;new site article&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Site looked outdated and clunky. User experience could also be improved to increase engagement and ad clicks.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_old.jpg&quot; alt=&quot;old site&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_old.jpg&quot; alt=&quot;old site&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Utilize user feedback to update site’s design. This solution included a variety of design updates but we focused on keeping the design clean and easy to understand for users of all ages and technical literacies.&lt;/p&gt;
 
@@ -15,9 +17,11 @@
   &lt;li&gt;use less images&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new.jpg&quot; alt=&quot;new site&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_article.gif&quot; alt=&quot;new site article&quot; width=&quot;700px&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_jobs.jpg&quot; alt=&quot;new site jobs&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new.jpg&quot; alt=&quot;new site&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_article.gif&quot; alt=&quot;new site article&quot; width=&quot;700px&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_jobs.jpg&quot; alt=&quot;new site jobs&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;2. Significantly improve mobile experience for readers.&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -25,8 +29,9 @@
   &lt;li&gt;call out topics more explicitly&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_navigation.gif&quot; alt=&quot;navigation&quot; width=&quot;300px&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_navigation_topics.gif&quot; alt=&quot;navigation topics&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_navigation.gif&quot; alt=&quot;navigation&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_navigation_topics.gif&quot; alt=&quot;navigation topics&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;3. Improve ad units&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -34,49 +39,70 @@
   &lt;li&gt;make ads more native, but not deceiving, to increase clicks&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_desktop.jpg&quot; alt=&quot;native ad desktop&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_desktop2.jpg&quot; alt=&quot;native ad desktop&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_mobile.jpg&quot; alt=&quot;native ad mobile&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_desktop.jpg&quot; alt=&quot;native ad desktop&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_desktop2.jpg&quot; alt=&quot;native ad desktop&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_mobile.jpg&quot; alt=&quot;native ad mobile&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;4. Improve content discoverability/navigation&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;reduce navigation clicks&lt;/li&gt;
   &lt;li&gt;call out navigation content explicitly&lt;/li&gt;
   &lt;li&gt;improve navigating site with via topics&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This is the part of the site I worked on heavily. With the menu navigation, my goals were to anchor the page, hide minimal content (I can’t argue with &lt;a href=&quot;https://medium.com/the-year-of-the-looking-glass/what-you-see-is-what-you-use-5a97677a8c71#.18bilnmdf&quot;&gt;Julie Zhuo&lt;/a&gt;) and block off the top ad while still making it appealing to click on. Read more about the menu &lt;a href=&quot;http://industrydive.com/news/post/building-our-new-menu/&quot;&gt;here&lt;/a&gt;.
-&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_mobile.gif&quot; alt=&quot;mobile menu&quot; width=&quot;320px&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_desktop.gif&quot; alt=&quot;desktop menu&quot; width=&quot;700px&quot; /&gt;&lt;/p&gt;</content><summary type="html">Industry Dive has 12 publications each focusing on a different industry. Although their main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated.</summary></entry><entry><title type="html">Industrydive.com updates</title><link href="http://localhost:4000/2016/12/10/corp-site-updates.html" rel="alternate" type="text/html" title="Industrydive.com updates" /><published>2016-12-10T00:00:00-05:00</published><updated>2016-12-10T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/10/corp-site-updates</id><content type="html" xml:base="http://localhost:4000/2016/12/10/corp-site-updates.html">&lt;p&gt;In addition to maintaining Industry Dive’s publication sites, I also update our corporate site with small tools to make it easier to use. Here are a few of those updates.&lt;/p&gt;
+&lt;p&gt;This is the part of the site I worked on heavily. With the menu navigation, my goals were to anchor the page, hide minimal content (I can’t argue with &lt;a href=&quot;https://medium.com/the-year-of-the-looking-glass/what-you-see-is-what-you-use-5a97677a8c71#.18bilnmdf&quot;&gt;Julie Zhuo&lt;/a&gt;) and block off the top ad while still making it appealing to click on. Read more about the menu &lt;a href=&quot;http://industrydive.com/news/post/building-our-new-menu/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2&gt;News Page&lt;/h2&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_mobile.gif&quot; alt=&quot;mobile menu&quot; width=&quot;320px&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_desktop.gif&quot; alt=&quot;desktop menu&quot; width=&quot;700px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;See this project live at &lt;a href=&quot;http://www.utilitydive.com/&quot;&gt;utilitydive.com&lt;/a&gt; or any of the other &lt;a href=&quot;http://industrydive.com/industries/&quot;&gt;publication sites&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">I was part of the team who redesigned Industry Dive’s 13 publication sites. Each site focuses on a different industry and although the main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated.</summary></entry><entry><title type="html">Industrydive.com updates</title><link href="http://localhost:4000/2016/12/10/corp-site-updates.html" rel="alternate" type="text/html" title="Industrydive.com updates" /><published>2016-12-10T00:00:00-05:00</published><updated>2016-12-10T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/10/corp-site-updates</id><content type="html" xml:base="http://localhost:4000/2016/12/10/corp-site-updates.html">&lt;p&gt;In addition to maintaining Industry Dive’s publication sites, I also update the Industry Dive’s &lt;a href=&quot;http://industrydive.com/&quot;&gt;corporate site&lt;/a&gt;. Usually, the updates make the site easier to use for both current employees and outside users coming to the site for more information on the company.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/corp_site_filtering/corp_site.jpg&quot; alt=&quot;corp site&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NEWS PAGE&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; The news/blog page were tagged with different topics but there was no way to filter the posts with said topics.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Use a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;select&amp;gt;&lt;/code&gt; dropdown that visualizes filtering the posts. I used &lt;a href=&quot;http://www.ted.com/talks&quot;&gt;Ted’s talks page&lt;/a&gt; for inspiration.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/corp_site_filtering/news_page_filtering.gif&quot; alt=&quot;news page filtering&quot; width=&quot;240px&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/img/corp_site_filtering/news_page_filtering_zoom.gif&quot; alt=&quot;news page filtering close up&quot; width=&quot;460px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;See this page &lt;a href=&quot;http://industrydive.com/news/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2&gt;Team Page&lt;/h2&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/corp_site_filtering/news_page.jpg&quot; alt=&quot;news page&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/corp_site_filtering/news_page_filtering.gif&quot; alt=&quot;news page filtering&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/corp_site_filtering/news_page_filtering_zoom.gif&quot; alt=&quot;news page filtering close up&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TEAM PAGE&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; The “About” page was too long: it had both the company’s history and team department links (which took you to all the members in each department) on one page. This was confusing to a reader who just wanted to find the history or just wanted to find a team member. There were also a lot of steps involved to find the team member you were looking for.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Split up the “About” page into two pages: “History” and “Team”. For the “Team” page, have all team members on the page when it loads (instead of broken up by default) and have options to filter team members by department for ease of navigation.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://s3.amazonaws.com/dive_static/diveimages/new_process.gif&quot; alt=&quot;new about page process&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;See this page &lt;a href=&quot;http://industrydive.com/team/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Read more about the team page &lt;a href=&quot;http://industrydive.com/news/post/user-experience-lesson-1-ease-of-navigation/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/corp_site_filtering/team_page.jpg&quot; alt=&quot;team page&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Back-end code for both projects: &lt;a href=&quot;http://stackoverflow.com/users/2855226/ryan-schuster&quot;&gt;Ryan Schuster&lt;/a&gt;&lt;/p&gt;</content><summary type="html">In addition to maintaining Industry Dive’s publication sites, I also update our corporate site with small tools to make it easier to use. Here are a few of those updates.</summary></entry><entry><title type="html">Design team styleguide</title><link href="http://localhost:4000/2016/12/01/living-style-guide.html" rel="alternate" type="text/html" title="Design team styleguide" /><published>2016-12-01T00:00:00-05:00</published><updated>2016-12-01T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/01/living-style-guide</id><content type="html" xml:base="http://localhost:4000/2016/12/01/living-style-guide.html">&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; The design team was growing and we wanted an updatable site for new designers to reference for colors, typography, code standards, etc.&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;https://s3.amazonaws.com/dive_static/diveimages/new_process.gif&quot; alt=&quot;new about page process&quot; width=&quot;550px&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Use &lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot;&gt;Github Pages&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; to host an easy-to-update static site.&lt;/p&gt;
+&lt;p&gt;Read more about the team page &lt;a href=&quot;http://industrydive.com/news/post/user-experience-lesson-1-ease-of-navigation/&quot;&gt;here&lt;/a&gt;. Back-end code for both projects was done by &lt;a href=&quot;http://stackoverflow.com/users/2855226/ryan-schuster&quot;&gt;Ryan Schuster&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">In addition to maintaining Industry Dive’s publication sites, I also update the Industry Dive’s corporate site. Usually, the updates make the site easier to use for both current employees and outside users coming to the site for more information on the company.</summary></entry><entry><title type="html">Design team styleguide</title><link href="http://localhost:4000/2016/12/01/living-style-guide.html" rel="alternate" type="text/html" title="Design team styleguide" /><published>2016-12-01T00:00:00-05:00</published><updated>2016-12-01T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/01/living-style-guide</id><content type="html" xml:base="http://localhost:4000/2016/12/01/living-style-guide.html">&lt;p&gt;I designed and developed the style guide for Industry Dive’s design team. It is built with &lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot;&gt;Github Pages&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; and updated frequently.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/style_guide/style_guide.jpg&quot; alt=&quot;style guide&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/img/style_guide/style_guide_grid.jpg&quot; alt=&quot;style guide grid&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/img/style_guide/style_guide_colors.jpg&quot; alt=&quot;style guide colors&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/style_guide/style_guide.jpg&quot; alt=&quot;style guide&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The site also features commonly used JS functions.&lt;/p&gt;
+&lt;p&gt;The design team was growing and we wanted an updatable site for new designers to reference for colors, typography, code standards, etc. We wanted something that was lightweight and simple but easy for any designer to update when styles or code changes.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/style_guide/style_guide_scroll.gif&quot; alt=&quot;style guide scroll&quot; width=&quot;700px&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/img/style_guide/style_guide_accordion.gif&quot; alt=&quot;style guide saccordion&quot; width=&quot;700px&quot; /&gt;&lt;/p&gt;</content><summary type="html">Problem: The design team was growing and we wanted an updatable site for new designers to reference for colors, typography, code standards, etc.</summary></entry></feed>
+&lt;p&gt;See this site &lt;a href=&quot;http://industrydive.github.io/living-styleguide/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/style_guide/style_guide_grid.jpg&quot; alt=&quot;style guide grid&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/style_guide/style_guide_colors.jpg&quot; alt=&quot;style guide colors&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to styles, he site also features commonly used JS functions.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/style_guide/style_guide_scroll.gif&quot; alt=&quot;style guide scroll&quot; width=&quot;750px&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/style_guide/style_guide_accordion.gif&quot; alt=&quot;style guide saccordion&quot; width=&quot;750px&quot; /&gt;&lt;/p&gt;</content><summary type="html">I designed and developed the style guide for Industry Dive’s design team. It is built with Github Pages and Jekyll and updated frequently.</summary></entry></feed>
