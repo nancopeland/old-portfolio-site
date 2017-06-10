@@ -3,7 +3,7 @@ layout: post
 title:  "Publication site redesign"
 description: Redesign of Industry Dive's 13 publication sites
 image-class: pubs-redesign
-prev-story: /2016/12/01/living-style-guide.html
+prev-story: /2017/06/10/smt-user-content-admin.html
 next-story: /2016/12/10/corp-site-updates.html
 ---
 
