@@ -1260,6 +1260,10 @@ nav {
 .project-title {
   font-weight: 700; }
 
+.img-container.smt-user-admin {
+  background: url("../img/smt_user_admin.jpg") no-repeat center center;
+  background-size: cover;
+  height: 180px; }
 .img-container.pubs-redesign {
   background: url("../img/pubs_redesign.jpg") no-repeat center center;
   background-size: cover;
