@@ -7,7 +7,7 @@ prev-story: /2016/12/01/living-style-guide.html
 next-story: /2016/12/29/pub-site-redesign.html
 ---
 
-I am currently working on improving the CMS for [Social Media Today](http://www.socialmediatoday.com/). Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial. 
+I am currently working on improving the CMS for **[Social Media Today](http://www.socialmediatoday.com/)**. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial. 
 
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt_intro.jpg)
