@@ -24,7 +24,7 @@ According to the interviews, the Social Media Today CMS's navigation definitly n
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt1.jpg)
 
-I also thought clear notifications would help make the site clearer for both regular and new users. 
+I also think clear notifications would help make the site clearer for both regular and new users. 
 
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt2.jpg)
@@ -34,3 +34,15 @@ I also thought clear notifications would help make the site clearer for both reg
 
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt4.jpg)
+
+For an admin user who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separte from what is already published on the site. 
+
+{:.p-img}
+![new site]({{ site.url }}/assets/img/smt_cms/smt5.jpg)
+
+{:.p-img}
+![new site]({{ site.url }}/assets/img/smt_cms/smt6.jpg)
+
+The "New Post" page where all users would submit content is still being designed. I hope to make it WYSIWYG. Stay tuned for updates on this project!
+
+
