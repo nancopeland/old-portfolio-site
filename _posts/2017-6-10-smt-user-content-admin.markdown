@@ -9,6 +9,9 @@ next-story: /2016/12/29/pub-site-redesign.html
 
 I am currently working on improving the CMS for [Social Media Today](http://www.socialmediatoday.com/). Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial. 
 
+{:.p-img}
+![new site]({{ site.url }}/assets/img/smt_cms/smt_intro.jpg)
+
 First, I interviewed many of the people who worked on the site: writers submitting content, editors approving content, ad operations managers trying to place ads and general users of the site. Their main issue with the CMS is that it is clunky and not intuitive:
 
 **1. Filtering user-submitted content:** no clear indication of which posts are drafts, submitted for review and approved to publish. 
