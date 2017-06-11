@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
-    <title>Industrydive.com updates</title>
-    <meta name="description" content="In addition to maintaining Industry Dive’s publication sites, I also update Industry Dive’s corporate site. Usually, the updates make the site easier to use ...">
+    <title>WIP: User-submitted content CMS</title>
+    <meta name="description" content="I am currently working on improving the CMS for Social Media Today. Because the site runs on user-generated content (ie. anyone can make an account and submi...">
 
     <!-- typekit --> 
     <script src="https://use.typekit.net/thg0ewt.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/2016/12/10/corp-site-updates.html">
+    <link rel="canonical" href="http://localhost:4000/2017/06/10/smt-user-content-admin.html">
     <link rel="alternate" type="application/rss+xml" title="Nan Copeland" href="/feed.xml">
   
     <!-- google analytics --> 
@@ -41,7 +41,7 @@
     <nav class="row">
         <div class="small-4 columns">
             
-                <a href="/2016/12/29/pub-site-redesign.html">&larr; Previous post</a>
+                <a href="/2016/12/01/living-style-guide.html">&larr; Previous post</a>
             
         </div>
         <div class="small-4 columns" style="text-align:center;" >
@@ -49,7 +49,7 @@
         </div>
         <div class="small-4 columns">
             
-                <a class="text-right" href="/2016/12/01/living-style-guide.html">Next post &rarr;</a>
+                <a class="text-right" href="/2016/12/29/pub-site-redesign.html">Next post &rarr;</a>
             
         </div>
     </nav>
@@ -62,37 +62,39 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   	<div class="post-content" itemprop="articleBody">
-    	<p>In addition to maintaining Industry Dive’s publication sites, I also update <strong>Industry Dive’s <a href="http://industrydive.com/">corporate site</a></strong>. Usually, the updates make the site easier to use for both current employees and outside users coming to the site for more information on the company.</p>
+    	<p>I am currently working on improving the CMS for <strong><a href="http://www.socialmediatoday.com/">Social Media Today</a></strong>. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.</p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/corp_site_filtering/corp_site.jpg" alt="corp site" /></p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/smt_cms/smt_intro.jpg" alt="new site" /></p>
 
-<p><strong>NEWS PAGE</strong></p>
+<p>First, I interviewed many of the people who worked on the site: writers submitting content, editors and admins approving content, ad operations managers trying to place ads and general users of the site. Their main issue with the CMS is that it is clunky and not intuitive:</p>
 
-<p><strong>Problem:</strong> The news/blog page were tagged with different topics but there was no way to filter the posts with said topics.</p>
+<p><strong>1. Filtering user-submitted content:</strong> no clear indication of which posts are drafts, submitted for review and approved to publish</p>
 
-<p><strong>Solution:</strong> Use a <code class="highlighter-rouge">&lt;select&gt;</code> dropdown that visualizes filtering the posts. I used <a href="http://www.ted.com/talks">Ted’s talks page</a> for inspiration.</p>
+<p><strong>2. How users submit content:</strong> language on page isn’t clear, no clear difference between drafts and submitted content, hard to preview story</p>
 
-<p>See this page <a href="http://industrydive.com/news/">here</a>.</p>
+<p><strong>3. How editors/admins submit content:</strong> hard to find page where you would add content, selecting images and tags is tedious, hard to schedule posts</p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/corp_site_filtering/news_page.jpg" alt="news page" /></p>
+<p>After interviewing, I looked at a variety of content management systems, specifically <a href="https://product.voxmedia.com/2016/2/23/11098476/curbed-on-chorus-the-start-of-a-new-era-at-vox-media">Vox Media’s Chorus</a>, and also sites used for storage and document organization, such as Google Drive and Dropbox. These provided not only design inspiration but also ideas for navigation and functionality.</p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/corp_site_filtering/news_page_filtering.gif" alt="news page filtering" width="300px" /></p>
+<p>According to the interviews, the Social Media Today CMS’s navigation definitly needed to be improved. The new navigation has two places to navigate the website and uses consistent language.</p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/corp_site_filtering/news_page_filtering_zoom.gif" alt="news page filtering close up" width="500px" /></p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/smt_cms/smt1.jpg" alt="new site" /></p>
 
-<p><strong>TEAM PAGE</strong></p>
+<p>I also think clear notifications would help make the site clearer for both regular and new users.</p>
 
-<p><strong>Problem:</strong> The “About” page was too long: it had both the company’s history and team department links (which took you to all the members in each department) on one page. This was confusing to a reader who just wanted to find the history or just wanted to find a team member. There were also a lot of steps involved to find the team member you were looking for.</p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/smt_cms/smt2.jpg" alt="new site" /></p>
 
-<p><strong>Solution:</strong> Split up the “About” page into two pages: “History” and “Team”. For the “Team” page, have all team members on the page when it loads (instead of broken up by default) and have options to filter team members by department for ease of navigation.</p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/smt_cms/smt3.jpg" alt="new site" /></p>
 
-<p>See this page <a href="http://industrydive.com/team/">here</a>.</p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/smt_cms/smt4.jpg" alt="new site" /></p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/corp_site_filtering/team_page.jpg" alt="team page" /></p>
+<p>For an admin or editor who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separte from what is already published on the site.</p>
 
-<p class="p-img"><img src="https://s3.amazonaws.com/dive_static/diveimages/new_process.gif" alt="new about page process" width="550px" /></p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/smt_cms/smt5.jpg" alt="new site" /></p>
 
-<p>Read more about the team page <a href="http://industrydive.com/news/post/user-experience-lesson-1-ease-of-navigation/">here</a>. Back-end code for both projects was done by <a href="http://stackoverflow.com/users/2855226/ryan-schuster">Ryan Schuster</a>.</p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/smt_cms/smt6.jpg" alt="new site" /></p>
+
+<p>The “New Post” page where all users would submit content is still being designed. I hope to make it WYSIWYG. Stay tuned for updates on this project!</p>
 
 
   	</div>
