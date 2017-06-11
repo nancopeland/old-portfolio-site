@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "WIP: User-submitted content CMS"
-description: CMS mockups where the content is submitted by users and approved by an editor
+description: CMS mockups where the content is submitted by users
 image-class: smt-user-admin
 prev-story: /2016/12/01/living-style-guide.html
 next-story: /2016/12/29/pub-site-redesign.html
@@ -12,13 +12,13 @@ I am currently working on improving the CMS for **[Social Media Today](http://ww
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt_intro.jpg)
 
-First, I interviewed many of the people who worked on the site: writers submitting content, editors approving content, ad operations managers trying to place ads and general users of the site. Their main issue with the CMS is that it is clunky and not intuitive:
+First, I interviewed many of the people who worked on the site: writers submitting content, editors and admins approving content, ad operations managers trying to place ads and general users of the site. Their main issue with the CMS is that it is clunky and not intuitive:
 
-**1. Filtering user-submitted content:** no clear indication of which posts are drafts, submitted for review and approved to publish. 
+**1. Filtering user-submitted content:** no clear indication of which posts are drafts, submitted for review and approved to publish
 
 **2. How users submit content:** language on page isn't clear, no clear difference between drafts and submitted content, hard to preview story
 
-**3. How admins submit content:** hard to find page where you would add content, selecting images and tags is tedious, hard to schedule posts
+**3. How editors/admins submit content:** hard to find page where you would add content, selecting images and tags is tedious, hard to schedule posts
 
 After interviewing, I looked at a variety of content management systems, specifically [Vox Media's Chorus](https://product.voxmedia.com/2016/2/23/11098476/curbed-on-chorus-the-start-of-a-new-era-at-vox-media), and also sites used for storage and document organization, such as Google Drive and Dropbox. These provided not only design inspiration but also ideas for navigation and functionality. 
 
@@ -38,7 +38,7 @@ I also think clear notifications would help make the site clearer for both regul
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt4.jpg)
 
-For an admin user who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separte from what is already published on the site. 
+For an admin or editor who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separte from what is already published on the site. 
 
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt5.jpg)

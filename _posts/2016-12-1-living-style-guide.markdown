@@ -22,7 +22,7 @@ See this site [here](http://industrydive.github.io/living-styleguide/).
 {:.p-img}
 ![style guide colors]({{ site.url }}/assets/img/style_guide/style_guide_colors.jpg)
 
-In addition to styles, he site also features commonly used JS functions. 
+In addition to styles, the site also features commonly used JS functions. 
 
 {:.p-img}
 ![style guide scroll]({{ site.url }}/assets/img/style_guide/style_guide_scroll.gif){:width='750px'}
