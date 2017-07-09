@@ -26,7 +26,15 @@ I am currently working on improving the CMS for **[Social Media Today](http://ww
 	</div>
 </div>
 
+**History**
 
+Industry Dive acquired Social Media Today (SMT) in 2015 and for the first year, we were just maintaining the site and keeping the content updated. Recently, we decided to convert this site so it is on the same platform as our other publications. 
+
+Part of that conversion is moving the site onto our custom CMS. But, because SMT runs off of user-submitted content (not reviewed by in-house editors like our other publications), there are a few extra functionalities that needed to be added, such as content submission and approval. 
+
+The goal is that these mockups will eventually lead to a redesign of our custom CMS. 
+
+**Process**
 
 First, I interviewed many of the people who worked on the site: writers submitting content, editors and admins approving content, ad operations managers trying to place ads and general users of the site. Their main issue with the CMS was that it was clunky and not intuitive:
 
