@@ -11,17 +11,24 @@ I am currently working on improving the CMS for **[Social Media Today](http://ww
 
 
 <div class="row">
+	<span class="help-text">Before:</span>
 	<div class="medium-6 columns">
-		<span class="help-text">Before:</span>
 		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/old_dash_admin.png" style="margin:0 0 4rem 0;">
 	</div>
 	<div class="medium-6 columns">
+		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/old_dash_user.png" style="margin:0 0 4rem 0;">
+	</div>
+</div>
+<div class="row">
+	<div class="columns">
 		<span class="help-text">After:</span>
-		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/smt5.jpg" style="margin:0 0 4rem 0;">
+		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/smt_intro.jpg" style="margin:0 0 4rem 0;">
 	</div>
 </div>
 
-First, I interviewed many of the people who worked on the site: writers submitting content, editors and admins approving content, ad operations managers trying to place ads and general users of the site. Their main issue with the CMS is that it is clunky and not intuitive:
+
+
+First, I interviewed many of the people who worked on the site: writers submitting content, editors and admins approving content, ad operations managers trying to place ads and general users of the site. Their main issue with the CMS was that it was clunky and not intuitive:
 
 **1. Filtering user-submitted content:** no clear indication of which posts are drafts, submitted for review and approved to publish
 
@@ -29,14 +36,19 @@ First, I interviewed many of the people who worked on the site: writers submitti
 
 **3. How editors/admins submit content:** hard to find page where you would add content, selecting images and tags is tedious, hard to schedule posts
 
+Users are either regular users (they can only write and submit stories) or admin users (they can write and submit content as well as approve and publish content). Throughout the interviews, admin users expressed interest in a more rigorous application process to become a contributor due to the number of stagnant users and bots.
+
+{:.p-img}
+![user flows]({{ site.url }}/assets/img/smt_cms/smt_user_flows.jpg)
+
 After interviewing, I looked at a variety of content management systems, specifically [Vox Media's Chorus](https://product.voxmedia.com/2016/2/23/11098476/curbed-on-chorus-the-start-of-a-new-era-at-vox-media), and also sites used for storage and document organization, such as Google Drive and Dropbox. These provided not only design inspiration but also ideas for navigation and functionality. 
 
-According to the interviews, the Social Media Today CMS's navigation definitly needed to be improved. The new navigation has two places to navigate the website and uses consistent language. 
+According to the interviews, my overall goal was to unify the CMS dashboard (previously was hosted on Drupal) and the MySMT page to improve navigation ease and make each process easier to find. 
 
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt1.jpg)
 
-I also think clear notifications would help make the site clearer for both regular and new users. 
+Because of all the user confusion, I added more notifications that will make the site clearer for both regular and new users. 
 
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt2.jpg)
@@ -47,7 +59,7 @@ I also think clear notifications would help make the site clearer for both regul
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt4.jpg)
 
-For an admin or who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separte from what is already published on the site. 
+For an admin or who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separate from what is already published on the site. 
 
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt5.jpg)
