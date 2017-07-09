@@ -9,6 +9,7 @@ header[role='banner'] {
     left: 0;
     padding: 1rem .75rem; 
     width: 100%;
+    z-index: 100; 
 }
 nav {
   	transition: all .25s ease; 

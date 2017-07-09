@@ -1154,7 +1154,7 @@ body {
   body.no-scroll {
     overflow-y: hidden; }
 
-h1, h2, h3, h4, h5, h6, p, a, button, ul, ol, li {
+h1, h2, h3, h4, h5, h6, p, a, button, ul, ol, li, span {
   font-family: 'franklin-gothic-urw', 'Helvetica', sans-serif;
   margin: 0; }
 
@@ -1205,7 +1205,8 @@ header[role='banner'] {
   top: 0;
   left: 0;
   padding: 1rem .75rem;
-  width: 100%; }
+  width: 100%;
+  z-index: 100; }
 
 nav {
   transition: all .25s ease; }
@@ -1299,6 +1300,14 @@ nav {
     padding: .125rem; }
   .post-content ol {
     padding-left: .75rem; }
+
+.help-text {
+  color: #999;
+  display: block;
+  font-size: .875rem;
+  font-style: italic;
+  text-align: center;
+  margin: 0 0 1rem 0; }
 
 @media (min-width: 40em) {
   .post-content p {
