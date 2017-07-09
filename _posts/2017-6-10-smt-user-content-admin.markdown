@@ -67,7 +67,7 @@ Because of all the user confusion, I added more notifications that will make the
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt4.jpg)
 
-For an admin or who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separate from what is already published on the site. 
+For an admin or editor who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separate from what is already published on the site. 
 
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt5.jpg)
