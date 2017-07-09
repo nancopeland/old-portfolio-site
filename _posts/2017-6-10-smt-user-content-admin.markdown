@@ -9,8 +9,17 @@ next-story: /2016/12/29/pub-site-redesign.html
 
 I am currently working on improving the CMS for **[Social Media Today](http://www.socialmediatoday.com/)**. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial. 
 
-{:.p-img}
-![new site]({{ site.url }}/assets/img/smt_cms/smt_intro.jpg)
+
+<div class="row">
+	<div class="medium-6 columns">
+		<span class="help-text">Before:</span>
+		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/old_dash_admin.png" style="margin:0 0 4rem 0;">
+	</div>
+	<div class="medium-6 columns">
+		<span class="help-text">After:</span>
+		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/smt5.jpg" style="margin:0 0 4rem 0;">
+	</div>
+</div>
 
 First, I interviewed many of the people who worked on the site: writers submitting content, editors and admins approving content, ad operations managers trying to place ads and general users of the site. Their main issue with the CMS is that it is clunky and not intuitive:
 
@@ -38,7 +47,7 @@ I also think clear notifications would help make the site clearer for both regul
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt4.jpg)
 
-For an admin or editor who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separte from what is already published on the site. 
+For an admin or who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separte from what is already published on the site. 
 
 {:.p-img}
 ![new site]({{ site.url }}/assets/img/smt_cms/smt5.jpg)
