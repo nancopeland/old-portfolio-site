@@ -3,7 +3,7 @@ layout: post
 title:  "Design team styleguide"
 description: Online internal styleguide for design team 
 image-class: living-style-guide
-prev-story: /2016/12/10/corp-site-updates.html
+prev-story: /2016/12/29/pub-site-redesign.html
 next-story: /2017/06/10/smt-user-content-admin.html
 ---
 
