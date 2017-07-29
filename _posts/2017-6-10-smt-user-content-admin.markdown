@@ -13,10 +13,10 @@ I am currently working on improving the CMS for **[Social Media Today](http://ww
 <div class="row">
 	<span class="help-text">Before:</span>
 	<div class="medium-6 columns">
-		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/old_dash_admin.png" style="margin:0 0 4rem 0;">
+		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/old_dash_admin.jpg" style="margin:0 0 4rem 0;">
 	</div>
 	<div class="medium-6 columns">
-		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/old_dash_user.png" style="margin:0 0 4rem 0;">
+		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/old_dash_user.jpg" style="margin:0 0 4rem 0;">
 	</div>
 </div>
 <div class="row">
