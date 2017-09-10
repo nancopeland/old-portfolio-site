@@ -53,31 +53,31 @@
 	font-weight: 700; 
 }
 .img-container { 
+	height: 180px; 
 	&.smt-user-admin {
 		background: url('../img/smt_user_admin.jpg') no-repeat center center; 
 		background-size: cover; 
-		height: 180px;
 	}
 	&.pubs-redesign {
 		background: url('../img/pubs_redesign.jpg') no-repeat center center; 
 		background-size: cover; 
-		height: 180px;
 	}
 	&.news-page {
 		background: url('../img/news_page.jpg') no-repeat center center;
 		background-size: cover; 
-		height: 180px;
 	}
 	&.living-style-guide {
 		background: url('../img/living_style_guide.jpg') no-repeat center center; 
 		background-size: cover; 
-		height: 180px;
 	}
 }
 
 @media (min-width: 40em) {
 	.project-wrapper {
 		@include grid-column(6); 
+	}
+	.img-container { 
+		height: 200px; 
 	}
 }
 
