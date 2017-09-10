@@ -54,6 +54,10 @@
 }
 .img-container { 
 	height: 180px; 
+	&.rd-holiday-email {
+		background: url('../img/rd_holiday_email.jpg') no-repeat center center; 
+		background-size: cover; 
+	}
 	&.smt-user-admin {
 		background: url('../img/smt_user_admin.jpg') no-repeat center center; 
 		background-size: cover; 
