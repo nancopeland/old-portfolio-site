@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Retail Dive Holiday Newsletter"
+title:  "Retail Dive holiday newsletter"
 description: Custom email designed to promote holiday-focused retail content
 image-class: rd-holiday-email
 prev-story: /2016/12/29/pub-site-redesign.html
