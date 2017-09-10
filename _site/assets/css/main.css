@@ -1259,8 +1259,9 @@ nav {
 
 .project-description {
   border-top: 1px solid #eee;
-  padding: .75rem; }
+  padding: 1rem; }
   .project-description p {
+    font-size: 1.125rem;
     line-height: 1.4; }
 
 .project-title {
