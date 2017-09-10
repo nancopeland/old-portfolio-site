@@ -5,6 +5,7 @@ description: Online internal styleguide for design team
 image-class: living-style-guide
 prev-story: /2016/12/29/pub-site-redesign.html
 next-story: /2017/06/10/smt-user-content-admin.html
+published: false
 ---
 
 I designed and developed the **[style guide](http://industrydive.github.io/living-styleguide/) for Industry Dive's design team**. It is built with <a href="https://pages.github.com/" target="_blank">Github Pages</a> and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and updated frequently. 

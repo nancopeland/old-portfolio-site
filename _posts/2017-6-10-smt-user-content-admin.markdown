@@ -3,7 +3,7 @@ layout: post
 title:  "WIP: User-submitted content CMS"
 description: CMS mockups where the content is submitted by users
 image-class: smt-user-admin
-prev-story: /2016/12/01/living-style-guide.html
+prev-story: /2017/09/10/rd-holiday-email.html
 next-story: /2016/12/29/pub-site-redesign.html
 ---
 

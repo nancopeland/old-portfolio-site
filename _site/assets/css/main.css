@@ -1247,43 +1247,53 @@ nav {
   border-radius: 2px;
   color: #333333;
   margin-bottom: 2rem;
-  transition: all .2s ease-in; }
+  -webkit-transition: all 0.4s cubic-bezier(0.15, 0.8, 0.4, 1);
+  transition: all 0.4s cubic-bezier(0.15, 0.8, 0.4, 1); }
   .project:hover {
     border: 1px solid #1adbd3;
-    box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25); }
+    box-shadow: 5px 5px 20px -5px rgba(51, 51, 51, 0.25);
+    -webkit-transform: scale(1.02, 1.02);
+    transform: scale(1.02, 1.02);
+    -webkit-transition: all 0.4s cubic-bezier(0.15, 0.8, 0.4, 1);
+    transition: all 0.4s cubic-bezier(0.15, 0.8, 0.4, 1); }
 
 .project-description {
   border-top: 1px solid #eee;
-  padding: .75rem; }
+  padding: 1rem; }
   .project-description p {
+    font-size: 1.125rem;
     line-height: 1.4; }
 
 .project-title {
   font-weight: 700; }
 
-.img-container.smt-user-admin {
-  background: url("../img/smt_user_admin.jpg") no-repeat center center;
-  background-size: cover;
+.img-container {
   height: 180px; }
-.img-container.pubs-redesign {
-  background: url("../img/pubs_redesign.jpg") no-repeat center center;
-  background-size: cover;
-  height: 180px; }
-.img-container.news-page {
-  background: url("../img/news_page.jpg") no-repeat center center;
-  background-size: cover;
-  height: 180px; }
-.img-container.living-style-guide {
-  background: url("../img/living_style_guide.jpg") no-repeat center center;
-  background-size: cover;
-  height: 180px; }
+  .img-container.rd-holiday-email {
+    background: url("../img/rd_holiday_email.jpg") no-repeat center center;
+    background-size: cover; }
+  .img-container.smt-user-admin {
+    background: url("../img/smt_user_admin.jpg") no-repeat center center;
+    background-size: cover; }
+  .img-container.pubs-redesign {
+    background: url("../img/pubs_redesign.jpg") no-repeat center center;
+    background-size: cover; }
+  .img-container.news-page {
+    background: url("../img/news_page.jpg") no-repeat center center;
+    background-size: cover; }
+  .img-container.living-style-guide {
+    background: url("../img/living_style_guide.jpg") no-repeat center center;
+    background-size: cover; }
 
 @media (min-width: 40em) {
   .project-wrapper {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 50%;
-    float: left; } }
+    float: left; }
+
+  .img-container {
+    height: 200px; } }
 .post-content {
   margin: 1rem auto 3rem auto; }
   .post-content p {
