@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-10T17:18:26-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Retail Dive holiday newsletter</title><link href="http://localhost:4000/2017/09/10/rd-holiday-email.html" rel="alternate" type="text/html" title="Retail Dive holiday newsletter" /><published>2017-09-10T00:00:00-04:00</published><updated>2017-09-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/09/10/rd-holiday-email</id><content type="html" xml:base="http://localhost:4000/2017/09/10/rd-holiday-email.html">&lt;p&gt;[This post is in progress]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-17T16:01:22-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Retail Dive holiday newsletter</title><link href="http://localhost:4000/2017/09/10/rd-holiday-email.html" rel="alternate" type="text/html" title="Retail Dive holiday newsletter" /><published>2017-09-10T00:00:00-04:00</published><updated>2017-09-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/09/10/rd-holiday-email</id><content type="html" xml:base="http://localhost:4000/2017/09/10/rd-holiday-email.html">&lt;p&gt;I recently designed and coded a custom email template for a special &lt;strong&gt;&lt;a href=&quot;http://link.retaildive.com/view/557740847cfe31366b8b49ae69lmm.hen/d22a6b15&quot;&gt;Retail Dive: Holiday Edition newsletter&lt;/a&gt;&lt;/strong&gt;. The email is going to have similar content to the daily newsletter but with a lighter, funnier tone so the design needed to reflect that.&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;span class=&quot;help-text&quot;&gt;Gmail (desktop):&lt;/span&gt;
@@ -6,6 +6,15 @@
 		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/rd_holiday_email/gmail_desktop.jpg&quot; style=&quot;margin:0 0 4rem 0;&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Project Assignment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This project was initially requested by the Audience Development team but it also involved input from the Sales and Editorial teams. The Audience team said this newsletter was going to be similar to the daily newsletter but with a lighter tone and was going to be holiday-themed so the design needed to reflect these changes.&lt;/p&gt;
+
+&lt;p&gt;design &amp;gt; what you see when you open the email, testing/clients&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/rd_holiday_email/design_breakdown.jpg&quot; alt=&quot;design breakdown&quot; /&gt;&lt;/p&gt;
+
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
 		&lt;span class=&quot;help-text&quot;&gt;Gmail (app):&lt;/span&gt;
@@ -17,11 +26,7 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;I recently designed and coded a custom email template for a special &lt;strong&gt;&lt;a href=&quot;http://link.retaildive.com/view/557740847cfe31366b8b49ae69lmm.hen/d22a6b15&quot;&gt;Retail Dive: Holiday Edition newsletter&lt;/a&gt;&lt;/strong&gt;. The email is going to have similar content to the daily newsletter but with a lighter, funnier tone so the design needed to reflect that.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Project Assignment&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This project was initially requested by the Audience Development team but it also involved input from the Sales and Editorial teams. The Audience team said this newsletter was going to be similar to the daily newsletter but with a lighter tone and was going to be holiday-themed so the design needed to reflect these changes.&lt;/p&gt;</content><summary type="html">[This post is in progress]</summary></entry><entry><title type="html">WIP: User-submitted content CMS</title><link href="http://localhost:4000/2017/06/10/smt-user-content-admin.html" rel="alternate" type="text/html" title="WIP: User-submitted content CMS" /><published>2017-06-10T00:00:00-04:00</published><updated>2017-06-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/06/10/smt-user-content-admin</id><content type="html" xml:base="http://localhost:4000/2017/06/10/smt-user-content-admin.html">&lt;p&gt;I am currently working on improving the CMS for &lt;strong&gt;&lt;a href=&quot;http://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt;&lt;/strong&gt;. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.&lt;/p&gt;
+&lt;p&gt;open rates&lt;/p&gt;</content><summary type="html">I recently designed and coded a custom email template for a special Retail Dive: Holiday Edition newsletter. The email is going to have similar content to the daily newsletter but with a lighter, funnier tone so the design needed to reflect that.</summary></entry><entry><title type="html">WIP: User-submitted content CMS</title><link href="http://localhost:4000/2017/06/10/smt-user-content-admin.html" rel="alternate" type="text/html" title="WIP: User-submitted content CMS" /><published>2017-06-10T00:00:00-04:00</published><updated>2017-06-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/06/10/smt-user-content-admin</id><content type="html" xml:base="http://localhost:4000/2017/06/10/smt-user-content-admin.html">&lt;p&gt;I am currently working on improving the CMS for &lt;strong&gt;&lt;a href=&quot;http://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt;&lt;/strong&gt;. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;span class=&quot;help-text&quot;&gt;Before:&lt;/span&gt;
