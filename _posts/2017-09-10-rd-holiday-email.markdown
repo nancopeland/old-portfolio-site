@@ -18,7 +18,7 @@ I recently designed and coded a custom email template for a special **[Retail Di
 
 **Project Assignment**
 
-This project was initially requested by the Audience Development team but it also involved input from the Sales and Editorial teams. The Audience team said this newsletter was going to be similar to the daily newsletter but only sent out weekly with a lighter tone. It is holiday-themed so the design needed to reflect this. 
+This project was initially requested by the Audience Development team but it also involved input from the Sales and Editorial teams. The Audience team said this newsletter was going to be similar to the daily newsletter but only sent out weekly with a lighter tone. As previously stated, it is holiday-themed so the design needed to reflect this. 
 
 **Design**
 
@@ -26,6 +26,8 @@ For the design, I wanted to create a simple banner that had the "Retail Dive" lo
 
 {:.p-img}
 ![design breakdown]({{ site.url }}/assets/img/rd_holiday_email/design_breakdown.jpg)
+
+The email was tested extensively and although the design is pretty simple, there were definitely some bugs that had to be addressed. It should look good in all major desktop and mobile cleints. 
 
 <div class="row">
 	<div class="medium-6 columns">
