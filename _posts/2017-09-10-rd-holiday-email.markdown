@@ -18,9 +18,11 @@ I recently designed and coded a custom email template for a special **[Retail Di
 
 **Project Assignment**
 
-This project was initially requested by the Audience Development team but it also involved input from the Sales and Editorial teams. The Audience team said this newsletter was going to be similar to the daily newsletter but with a lighter tone and was going to be holiday-themed so the design needed to reflect these changes. 
+This project was initially requested by the Audience Development team but it also involved input from the Sales and Editorial teams. The Audience team said this newsletter was going to be similar to the daily newsletter but only sent out weekly with a lighter tone. It is holiday-themed so the design needed to reflect this. 
 
-design > what you see when you open the email, testing/clients
+**Design**
+
+For the design, I wanted to create a simple banner that had the "Retail Dive" logo, "Holiday Edition" and some sort of holiday element. The most important thing was that the image was short so the user could see the intro when the email was opened. It was also important that the user could see the sponsor when they opened the email. 
 
 {:.p-img}
 ![design breakdown]({{ site.url }}/assets/img/rd_holiday_email/design_breakdown.jpg)
@@ -36,4 +38,12 @@ design > what you see when you open the email, testing/clients
 	</div>
 </div> 
 
-open rates
+<video width="325" controls autoplay loop style="display: block; margin:0 auto 3rem auto;">
+  	<source src="{{ site.url }}/assets/img/rd_holiday_email/video.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+
+**Open Rates**
+
+So far the email has performed pretty well with solid open and click-through rates. The Audience team and I are making small improvements each week to increase clicks and engagement. 
+
