@@ -5,6 +5,7 @@ description: Custom email designed to promote holiday-focused retail content
 image-class: rd-holiday-email
 prev-story: /2016/12/29/pub-site-redesign.html
 next-story: /2017/06/10/smt-user-content-admin.html
+published: false
 ---
 
 I recently designed and coded a custom email template for a special **[Retail Dive: Holiday Edition newsletter](http://link.retaildive.com/view/557740847cfe31366b8b49ae69lmm.hen/d22a6b15)**. The email is going to have similar content to the daily newsletter but with a lighter, funnier tone so the design needed to reflect that.
