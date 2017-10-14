@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "WIP: User-submitted content CMS"
-description: CMS mockups where the content is submitted by users
+title:  "Social Media Today CMS"
+description: Mockups for a user-submitted CMS
 image-class: smt-user-admin
 prev-story: /2017/09/10/rd-holiday-email.html
 next-story: /2016/12/29/pub-site-redesign.html
