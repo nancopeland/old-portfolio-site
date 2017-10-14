@@ -54,6 +54,10 @@
 }
 .img-container { 
 	height: 180px; 
+	&.gig-app {
+		background: url('../img/gig_app.jpg') no-repeat center center; 
+		background-size: cover; 
+	}
 	&.rd-holiday-email {
 		background: url('../img/rd_holiday_email.jpg') no-repeat center center; 
 		background-size: cover; 

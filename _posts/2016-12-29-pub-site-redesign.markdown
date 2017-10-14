@@ -4,7 +4,7 @@ title:  "Publication site redesign"
 description: Redesign of Industry Dive's 13 publication sites
 image-class: pubs-redesign
 prev-story: /2017/06/10/smt-user-content-admin.html
-next-story: /2017/09/10/rd-holiday-email.html
+next-story: /2017/10/14/gig-app.html
 ---
 
 I was part of the team who redesigned **Industry Dive's [13 publication sites](http://industrydive.com/industries/)**. Each site focuses on a different industry and although the main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated.
