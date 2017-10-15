@@ -9,6 +9,9 @@ next-story: /2017/06/10/smt-user-content-admin.html
 
 GIG is an app for going to concerts with your friends. 
 
+{:.p-img}
+![app]({{ site.url }}/assets/img/gig_app/app_hand.jpg)
+
 **RESEARCH**
 
 **Original Problem Statement:** People who attend many concerts have a disjointed experience purchasing, organizing and attending multiple events.
@@ -43,9 +46,38 @@ From this research I decided on the users goals, problems and a new problem stat
 
 **PLANNING**
 
-MVP/Goals/Features
+The next step was deciding which features the solution should have. I decided on an app instead of a website because of convenience and the target audience. I also had this idea to incorporate Venmo which would require my solution to be an app. 
 
-Sketches and Wireframes
+{:.p-img}
+![list of features]({{ site.url }}/assets/img/gig_app/features.png)
+
+Then, I moved on to sketching and wireframing. I talked to a few people about the information architecture of the site and they all grouped "shows you're attending" with "shows you're friends are attending." This was probably the most difficult thing to visualize because there were so many ways to show it. 
+
+<div class="row">
+	<div class="medium-6 columns">
+		<img class="p-img" src="{{ site.url }}/assets/img/gig_app/sketch1.jpg" style="margin-bottom:0;">
+	</div>
+	<div class="medium-6 columns">
+		<img class="p-img" src="{{ site.url }}/assets/img/gig_app/sketch2.jpg" style="margin-bottom:0;">
+	</div>
+</div>
+<div class="row">
+	<div class="columns">
+		<img class="p-img" src="{{ site.url }}/assets/img/gig_app/sketch3.jpg" style="margin: 3rem auto 0 auto;">
+	</div>
+</div>
+<div class="row">
+	<div class="medium-4 columns">
+		<img class="p-img" src="{{ site.url }}/assets/img/gig_app/wireframe1.jpg" style="margin-top: 3rem;">
+	</div>
+	<div class="medium-4 columns">
+		<img class="p-img" src="{{ site.url }}/assets/img/gig_app/wireframe2.jpg" style="margin-top: 3rem;">
+	</div>
+	<div class="medium-4 columns">
+		<img class="p-img" src="{{ site.url }}/assets/img/gig_app/wireframe3.jpg" style="margin-top: 3rem;">
+	</div>
+</div>
+
 
 Iterations (user problems)
 

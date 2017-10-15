@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-15T13:11:04-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;GIG is an app for going to concerts with your friends.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-15T14:12:31-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;GIG is an app for going to concerts with your friends.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/app_hand.jpg&quot; alt=&quot;app&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;RESEARCH&lt;/strong&gt;&lt;/p&gt;
 
@@ -35,9 +37,36 @@
 
 &lt;p&gt;&lt;strong&gt;PLANNING&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;MVP/Goals/Features&lt;/p&gt;
+&lt;p&gt;The next step was deciding which features the solution should have. I decided on an app instead of a website because of convenience and the target audience. I also had this idea to incorporate Venmo which would require my solution to be an app.&lt;/p&gt;
 
-&lt;p&gt;Sketches and Wireframes&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/features.png&quot; alt=&quot;list of features&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, I moved on to sketching and wireframing. I talked to a few people about the information architecture of the site and they all grouped “shows you’re attending” with “shows you’re friends are attending.” This was probably the most difficult thing to visualize because there were so many ways to show it.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/sketch1.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/sketch2.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/sketch3.jpg&quot; style=&quot;margin: 3rem auto 0 auto;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-4 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/wireframe1.jpg&quot; style=&quot;margin-top: 3rem;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-4 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/wireframe2.jpg&quot; style=&quot;margin-top: 3rem;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-4 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/wireframe3.jpg&quot; style=&quot;margin-top: 3rem;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Iterations (user problems)&lt;/p&gt;
 
