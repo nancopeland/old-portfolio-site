@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-14T14:11:40-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;GIG is an app for going to concerts with your friends.&lt;/p&gt;</content><summary type="html">GIG is an app for going to concerts with your friends.</summary></entry><entry><title type="html">Social Media Today CMS</title><link href="http://localhost:4000/2017/06/10/smt-user-content-admin.html" rel="alternate" type="text/html" title="Social Media Today CMS" /><published>2017-06-10T00:00:00-04:00</published><updated>2017-06-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/06/10/smt-user-content-admin</id><content type="html" xml:base="http://localhost:4000/2017/06/10/smt-user-content-admin.html">&lt;p&gt;I am currently working on improving the CMS for &lt;strong&gt;&lt;a href=&quot;http://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt;&lt;/strong&gt;. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-15T13:11:04-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;GIG is an app for going to concerts with your friends.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RESEARCH&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Original Problem Statement:&lt;/strong&gt; People who attend many concerts have a disjointed experience purchasing, organizing and attending multiple events.&lt;/p&gt;
+
+&lt;p&gt;After deciding on what I thought the problem was, I looked at what already exists in the market to solve this problem. I looked at products that help people plan for events and products that allow you to buy tickets to an event, specifically concerts.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/competitive_analysis1.png&quot; alt=&quot;competitive analysis&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/competitive_analysis2.png&quot; alt=&quot;competitive analysis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My main competitors, it seems, are &lt;a target=&quot;_blank&quot; href=&quot;http://www.ticketfly.com/&quot;&gt;Ticketfly&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;https://news.bandsintown.com/home&quot;&gt;Bands In Town&lt;/a&gt;. But, neither one of them fully did what I wanted it to do: planning for the show and buying tickets.&lt;/p&gt;
+
+&lt;p&gt;Next, I developed a target audience and interviewed people in that audience. My target audience is anyone who goes to a lot of concerts. Although this could be any age, this usually applies to a younger, 20s audience because, after interviewing someone in their 30s, it seems anyone older didn’t have as much free time to go to tons of shows.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/sticky_notes.jpg&quot; alt=&quot;sticky notes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From this research I decided on the users goals, problems and a new problem statement. Although I didn’t structure the user interviews around their friends, every person interviewed brought up their friends when asked about their concert-going experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Goals:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Interviewees wanted to be able to find and attend concerts easily&lt;/li&gt;
+  &lt;li&gt;All interviewees considered their friends’ interest when attending shows&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Problems:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Knowing about all the concerts available in their area&lt;/li&gt;
+  &lt;li&gt;Knowing which friends are interested in certain concerts&lt;/li&gt;
+  &lt;li&gt;Planning for event&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;New Problem Statement:&lt;/strong&gt; People who attend many concerts have trouble accessing the information they need about the shows in their area and planning for the event with their friends.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PLANNING&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;MVP/Goals/Features&lt;/p&gt;
+
+&lt;p&gt;Sketches and Wireframes&lt;/p&gt;
+
+&lt;p&gt;Iterations (user problems)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FINAL PRODUCT&lt;/strong&gt;&lt;/p&gt;</content><summary type="html">GIG is an app for going to concerts with your friends.</summary></entry><entry><title type="html">Social Media Today CMS</title><link href="http://localhost:4000/2017/06/10/smt-user-content-admin.html" rel="alternate" type="text/html" title="Social Media Today CMS" /><published>2017-06-10T00:00:00-04:00</published><updated>2017-06-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/06/10/smt-user-content-admin</id><content type="html" xml:base="http://localhost:4000/2017/06/10/smt-user-content-admin.html">&lt;p&gt;I am currently working on improving the CMS for &lt;strong&gt;&lt;a href=&quot;http://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt;&lt;/strong&gt;. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;span class=&quot;help-text&quot;&gt;Before:&lt;/span&gt;

@@ -8,3 +8,49 @@ next-story: /2017/06/10/smt-user-content-admin.html
 ---
 
 GIG is an app for going to concerts with your friends. 
+
+**RESEARCH**
+
+**Original Problem Statement:** People who attend many concerts have a disjointed experience purchasing, organizing and attending multiple events.
+
+After deciding on what I thought the problem was, I looked at what already exists in the market to solve this problem. I looked at products that help people plan for events and products that allow you to buy tickets to an event, specifically concerts. 
+
+{:.p-img}
+![competitive analysis]({{ site.url }}/assets/img/gig_app/competitive_analysis1.png)
+
+{:.p-img}
+![competitive analysis]({{ site.url }}/assets/img/gig_app/competitive_analysis2.png)
+
+My main competitors, it seems, are <a target="_blank" href="http://www.ticketfly.com/">Ticketfly</a> and <a target="_blank" href="https://news.bandsintown.com/home">Bands In Town</a>. But, neither one of them fully did what I wanted it to do: planning for the show and buying tickets. 
+
+Next, I developed a target audience and interviewed people in that audience. My target audience is anyone who goes to a lot of concerts. Although this could be any age, this usually applies to a younger, 20s audience because, after interviewing someone in their 30s, it seems anyone older didn't have as much free time to go to tons of shows. 
+
+{:.p-img}
+![sticky notes]({{ site.url }}/assets/img/gig_app/sticky_notes.jpg)
+
+From this research I decided on the users goals, problems and a new problem statement. Although I didn't structure the user interviews around their friends, every person interviewed brought up their friends when asked about their concert-going experience. 
+
+**Goals:**
+* Interviewees wanted to be able to find and attend concerts easily
+* All interviewees considered their friends’ interest when attending shows
+
+**Problems:**
+* Knowing about all the concerts available in their area
+* Knowing which friends are interested in certain concerts
+* Planning for event
+
+**New Problem Statement:** People who attend many concerts have trouble accessing the information they need about the shows in their area and planning for the event with their friends.
+
+**PLANNING**
+
+MVP/Goals/Features
+
+Sketches and Wireframes
+
+Iterations (user problems)
+
+**FINAL PRODUCT**
+
+
+
+
