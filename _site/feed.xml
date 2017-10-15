@@ -1,43 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-17T16:35:53-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Retail Dive holiday newsletter</title><link href="http://localhost:4000/2017/09/10/rd-holiday-email.html" rel="alternate" type="text/html" title="Retail Dive holiday newsletter" /><published>2017-09-10T00:00:00-04:00</published><updated>2017-09-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/09/10/rd-holiday-email</id><content type="html" xml:base="http://localhost:4000/2017/09/10/rd-holiday-email.html">&lt;p&gt;I recently designed and coded a custom email template for a special &lt;strong&gt;&lt;a href=&quot;http://link.retaildive.com/view/557740847cfe31366b8b49ae69lmm.hen/d22a6b15&quot;&gt;Retail Dive: Holiday Edition newsletter&lt;/a&gt;&lt;/strong&gt;. The email is going to have similar content to the daily newsletter but with a lighter, funnier tone so the design needed to reflect that.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-15T14:53:11-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;&lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;GIG&lt;/a&gt;&lt;/strong&gt; is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/app_hand.jpg&quot; alt=&quot;app&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RESEARCH&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Original Problem Statement:&lt;/strong&gt; People who attend many concerts have a disjointed experience purchasing, organizing and attending multiple events.&lt;/p&gt;
+
+&lt;p&gt;After deciding on what I thought the problem was, I looked at what already exists in the market to solve this problem. I looked at products that help people plan for events and products that allow you to buy tickets to an event, specifically concerts.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/competitive_analysis1.png&quot; alt=&quot;competitive analysis&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/competitive_analysis2.png&quot; alt=&quot;competitive analysis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My main competitors, it seems, are &lt;a target=&quot;_blank&quot; href=&quot;http://www.ticketfly.com/&quot;&gt;Ticketfly&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;https://news.bandsintown.com/home&quot;&gt;Bands In Town&lt;/a&gt;. But, neither one of them fully did what I wanted it to do.&lt;/p&gt;
+
+&lt;p&gt;Next, I developed a target audience and interviewed people in that audience. My target audience is anyone who goes to a lot of concerts. Although this could be any age, this usually applies to a younger, 20s audience because, after interviewing someone in their 30s, it seems people who are older don’t have as much free time to go to many shows.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/sticky_notes.jpg&quot; alt=&quot;sticky notes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From this research, I decided on the user’s goals, problems and a new problem statement. Although I didn’t structure the user interviews around their friends, every person interviewed brought up their friends when asked about their concert-going experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Goals:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Interviewees wanted to be able to find and attend concerts easily&lt;/li&gt;
+  &lt;li&gt;All interviewees considered their friends’ interest when attending shows&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Problems:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Knowing about all the concerts available in their area&lt;/li&gt;
+  &lt;li&gt;Knowing which friends are interested in certain concerts&lt;/li&gt;
+  &lt;li&gt;Planning for event&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;New Problem Statement:&lt;/strong&gt; People who attend many concerts have trouble accessing the information they need about the shows in their area and planning for the event with their friends.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/features.png&quot; alt=&quot;list of features&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PLANNING&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The next step was deciding which features the solution should have. I decided on an app instead of a website because of convenience and the target audience. I also had the idea to incorporate Venmo which would require my solution to be an app.&lt;/p&gt;
+
+&lt;p&gt;Then, I moved on to sketching and wireframing. I talked to a few people about the information architecture of the site and they all grouped “shows you’re attending” with “shows you’re friends are attending.” This was probably the most difficult thing to visualize because there were so many ways to show it.&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
-	&lt;span class=&quot;help-text&quot;&gt;Gmail (desktop):&lt;/span&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/sketch1.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/sketch2.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/rd_holiday_email/gmail_desktop.jpg&quot; style=&quot;margin:0 0 4rem 0;&quot; /&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/sketch3.jpg&quot; style=&quot;margin: 3rem auto 0 auto;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-4 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/wireframe1.jpg&quot; style=&quot;margin-top: 3rem;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-4 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/wireframe2.jpg&quot; style=&quot;margin-top: 3rem;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-4 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/wireframe3.jpg&quot; style=&quot;margin-top: 3rem;&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Project Assignment&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After creating wireframes, I tested this initial setup with some users and people found the “Attending” menu item a bit confusing. I realized showing this information could maybe be done in a different way.&lt;/p&gt;
 
-&lt;p&gt;This project was initially requested by the Audience Development team but it also involved input from the Sales and Editorial teams. The Audience team said this newsletter was going to be similar to the daily newsletter but only sent out weekly with a lighter tone. As previously stated, it is holiday-themed so the design needed to reflect this.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;For the design, I wanted to create a simple banner that had the “Retail Dive” logo, “Holiday Edition” and some sort of holiday element. The most important thing was that the image was short so the user could see the intro when the email was opened. It was also important that the user could see the sponsor when they opened the email.&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/rd_holiday_email/design_breakdown.jpg&quot; alt=&quot;design breakdown&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The email was tested extensively and although the design is pretty simple, there were definitely some bugs that had to be addressed. It should look good in all major desktop and mobile cleints.&lt;/p&gt;
+&lt;p&gt;I then moved on to higher fidelity prototypes. After interviewing users with these new mockups, the menu items made more sense but users were confused by the onboarding. What exactly does the app do? How is the feed made? The ticket buying experience was clear but getting to that process was not. I realized the onboarding process needed some work.&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;span class=&quot;help-text&quot;&gt;Gmail (app):&lt;/span&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/rd_holiday_email/gmail_app.jpg&quot; style=&quot;margin:0 0 4rem 0;&quot; /&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/hifi1.jpg&quot; /&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;span class=&quot;help-text&quot;&gt;Apple Mail (app):&lt;/span&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/rd_holiday_email/apple_mail_app.jpg&quot; style=&quot;margin:0 0 4rem 0;&quot; /&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/hifi2.jpg&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;video width=&quot;325&quot; controls=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;display: block; margin:0 auto 3rem auto;&quot;&gt;
-  	&lt;source src=&quot;http://localhost:4000/assets/img/rd_holiday_email/video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-	Your browser does not support the video tag.
-&lt;/video&gt;
+&lt;p&gt;&lt;strong&gt;FINAL PRODUCT&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Open Rates&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After many iterations, I decided on a final product that many users found clear and easy to use. See the prototype &lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;here&lt;/a&gt; and see screenshots of that prototype below.&lt;/p&gt;
 
-&lt;p&gt;So far the email has performed pretty well with solid open and click-through rates. The Audience team and I are making small improvements each week to increase clicks and engagement.&lt;/p&gt;</content><summary type="html">I recently designed and coded a custom email template for a special Retail Dive: Holiday Edition newsletter. The email is going to have similar content to the daily newsletter but with a lighter, funnier tone so the design needed to reflect that.</summary></entry><entry><title type="html">WIP: User-submitted content CMS</title><link href="http://localhost:4000/2017/06/10/smt-user-content-admin.html" rel="alternate" type="text/html" title="WIP: User-submitted content CMS" /><published>2017-06-10T00:00:00-04:00</published><updated>2017-06-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/06/10/smt-user-content-admin</id><content type="html" xml:base="http://localhost:4000/2017/06/10/smt-user-content-admin.html">&lt;p&gt;I am currently working on improving the CMS for &lt;strong&gt;&lt;a href=&quot;http://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt;&lt;/strong&gt;. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final1.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final2.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final3.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final4.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final5.jpg&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final6.jpg&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;What I built is definitely the minimum to meet the user’s needs. Some users suggested a few features that could be added in a future version of the app:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;“Favorite” feature&lt;/strong&gt; - for shows you might want to attend but don’t want to commit to right away&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;“Add to calendar” feature&lt;/strong&gt; - option to “add to calendar” (iCal or Google) after you’ve purchased a ticket&lt;/li&gt;
+  &lt;li&gt;More &lt;strong&gt;social media-like aspects&lt;/strong&gt; - “add friends”, “follow venues”, “favorite” artists&lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">GIG is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.</summary></entry><entry><title type="html">Social Media Today CMS</title><link href="http://localhost:4000/2017/06/10/smt-user-content-admin.html" rel="alternate" type="text/html" title="Social Media Today CMS" /><published>2017-06-10T00:00:00-04:00</published><updated>2017-06-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/06/10/smt-user-content-admin</id><content type="html" xml:base="http://localhost:4000/2017/06/10/smt-user-content-admin.html">&lt;p&gt;I am currently working on improving the CMS for &lt;strong&gt;&lt;a href=&quot;http://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt;&lt;/strong&gt;. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;span class=&quot;help-text&quot;&gt;Before:&lt;/span&gt;
