@@ -1735,6 +1735,9 @@ nav {
   .img-container.gig-app {
     background: url("../img/gig_app.jpg") no-repeat center center;
     background-size: cover; }
+  .img-container.pdf-button {
+    background: url("../img/pdf_button.jpg") no-repeat center center;
+    background-size: cover; }
   .img-container.rd-holiday-email {
     background: url("../img/rd_holiday_email.jpg") no-repeat center center;
     background-size: cover; }
