@@ -7,14 +7,14 @@ prev-story: /2017/10/14/gig-app.html
 next-story: /2017/06/10/smt-user-content-admin.html
 ---
 
-Recently, we added a tool to our site for our Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams. 
+Recently, I helped add a tool to Industry Dive's site for the Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams. 
 
 {:.p-img}
 ![browser print box]({{ site.url }}/assets/img/pdf_button/print_box_big.png){:style="border: 1px solid #eee;"}
 
 **The Problem**
 
-When our clients run sponsored articles on our site, we send them a PDF after the campaign finishes. Previously, designers had to copy and paste the article content from the site into InDesign and style it. While this allowed for lots of customization, the process was tedious and pretty boring for a designer to complete. As the demand for these PDFs increased, designers as well as the Ad Ops team became frustrated. What could we do to fix this?  
+When clients run sponsored articles on the site, we send them a PDF after the campaign finishes. Previously, designers had to copy and paste the article content from the site into InDesign and style it. While this allowed for lots of customization, the process was tedious and pretty boring for a designer to complete. As the demand for these PDFs increased, designers as well as the Ad Ops team became frustrated. What could we do to fix this?  
 
 After looking at the problem, I decided to create a tool that would...
 1. be easy for any member of Ad Ops to use 
@@ -77,7 +77,7 @@ Then, I set widths on the wrappers around the content so they were centered in a
 	<span class="help-text" style="margin-bottom: 3rem;">First page of created PDF document</span>
 </div>
 
-The last thing to note about styling for PDFs is page breaks. Read more about them [here](https://css-tricks.com/almanac/properties/p/page-break/), because they're a bit tricky. I wanted to make sure that the page broke when the copy started. I also wanted to avoid one line of copy from a paragraph being on a page by itself. I had to play around with this but found a way to address both problems. 
+The last thing to note about styling for PDFs is page breaks. Read more about them [here](https://css-tricks.com/almanac/properties/p/page-break/) because they're a bit tricky. I wanted to make sure that the page broke when the copy started. I also wanted to avoid one line of copy from a paragraph being on a page by itself. I had to play around with this but found a way to address both problems. 
 
 {% highlight scss %}
 @media print {

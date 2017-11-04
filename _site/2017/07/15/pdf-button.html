@@ -8,7 +8,7 @@
     
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
     <title>Creating downloadable PDFs using the .print window</title>
-    <meta name="description" content="Recently, we added a tool to our site for our Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad...">
+    <meta name="description" content="Recently, I helped add a tool to Industry Dive’s site for the Ad Operations team that allows them to print styled articles for clients. This saves both the A...">
 
     <!-- typekit --> 
     <script src="https://use.typekit.net/thg0ewt.js"></script>
@@ -62,13 +62,13 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   	<div class="post-content" itemprop="articleBody">
-    	<p>Recently, we added a tool to our site for our Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams.</p>
+    	<p>Recently, I helped add a tool to Industry Dive’s site for the Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams.</p>
 
 <p class="p-img"><img src="http://localhost:4000/assets/img/pdf_button/print_box_big.png" alt="browser print box" style="border: 1px solid #eee;" /></p>
 
 <p><strong>The Problem</strong></p>
 
-<p>When our clients run sponsored articles on our site, we send them a PDF after the campaign finishes. Previously, designers had to copy and paste the article content from the site into InDesign and style it. While this allowed for lots of customization, the process was tedious and pretty boring for a designer to complete. As the demand for these PDFs increased, designers as well as the Ad Ops team became frustrated. What could we do to fix this?</p>
+<p>When clients run sponsored articles on the site, we send them a PDF after the campaign finishes. Previously, designers had to copy and paste the article content from the site into InDesign and style it. While this allowed for lots of customization, the process was tedious and pretty boring for a designer to complete. As the demand for these PDFs increased, designers as well as the Ad Ops team became frustrated. What could we do to fix this?</p>
 
 <p>After looking at the problem, I decided to create a tool that would…</p>
 <ol>
@@ -127,7 +127,7 @@
 	<span class="help-text" style="margin-bottom: 3rem;">First page of created PDF document</span>
 </div>
 
-<p>The last thing to note about styling for PDFs is page breaks. Read more about them <a href="https://css-tricks.com/almanac/properties/p/page-break/">here</a>, because they’re a bit tricky. I wanted to make sure that the page broke when the copy started. I also wanted to avoid one line of copy from a paragraph being on a page by itself. I had to play around with this but found a way to address both problems.</p>
+<p>The last thing to note about styling for PDFs is page breaks. Read more about them <a href="https://css-tricks.com/almanac/properties/p/page-break/">here</a> because they’re a bit tricky. I wanted to make sure that the page broke when the copy started. I also wanted to avoid one line of copy from a paragraph being on a page by itself. I had to play around with this but found a way to address both problems.</p>
 
 <figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="k">@media</span> <span class="n">print</span> <span class="p">{</span>
 	<span class="nc">.admin-pdf-styling</span> <span class="p">{</span> 
