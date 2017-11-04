@@ -24,8 +24,7 @@ After looking at the problem, I decided to create a tool that would...
 
 I decided to build this feature using the browser print window. Instead of sending the page to an actual printer, the user could "Save as a PDF."
 
-{:.p-img}
-![browser print box]({{ site.url }}/assets/img/pdf_button/print_box.png)
+![browser print box]({{ site.url }}/assets/img/pdf_button/print_box.png){:style="width:300px; margin: 3rem auto; border: 1px solid #eee;"}
 
 All I needed was a custom print stylesheet to apply to this specific article type.
 
@@ -70,8 +69,7 @@ Then, I set widths on the wrappers around the content so they were centered in a
 }
 {% endhighlight %}
 
-{:.p-img}
-![pdf page]({{ site.url }}/assets/img/pdf_button/pdf_page.png)
+![pdf page]({{ site.url }}/assets/img/pdf_button/pdf_page.png){:style="width:600px; margin: 3rem auto; border: 1px solid #eee;"}
 
 The last thing to note about styling for PDFs is page breaks. Read more about them [here](https://css-tricks.com/almanac/properties/p/page-break/), because they're a bit tricky. I wanted to make sure that the page broke when the copy started. I also wanted to avoid one line of copy from a paragraph being on a page by itself. I had to play around with this but found a way to address both problems. 
 
@@ -92,25 +90,36 @@ The last thing to note about styling for PDFs is page breaks. Read more about th
 
 To make this user friendly, when the user is logged into the CMS, they see the "Download Story PDF." 
 
-{:.p-img}
-![button screenshot]({{ site.url }}/assets/img/pdf_button/button.jpg)
-<span class="help-text">If you're logged into the CMS, you can see the information above the sidebar on the right, including the "Download Story PDF" button.</span>
+<div class="row">
+	<div class="columns">
+		<img class="p-img" alt="button screenshot" src="{{ site.url }}/assets/img/pdf_button/button.jpg" style="margin:6rem 0 1.5rem 0; border: 1px solid #eee; ">
+	</div>
+	<span class="help-text" style="margin-bottom: 6rem;">If you're logged into the CMS, you can see the information above the sidebar on the right, including the "Download Story PDF" button.</span>
+</div>
 
 If you click on the button, the browser's print window pops up. Inside here, the user must make sure they change the printer to "Save as PDF" (as specified above) and uncheck "Headers and footers" and "Background graphics."
 
-{:.p-img}
-![browser print box]({{ site.url }}/assets/img/pdf_button/print_box_big.png)
-<span class="help-text">Example of what the print window should look like</span>
+<div class="row">
+	<div class="columns">
+		<img class="p-img" alt="browser print box" src="{{ site.url }}/assets/img/pdf_button/print_box_big.png" style="margin:6rem 0 1.5rem 0; border: 1px solid #eee; ">
+	</div>
+	<span class="help-text" style="margin-bottom: 6rem;">Example of what the print window should look like</span>
+</div>
 
 If the person downloading wants to customize the look of the PDF, I created a document in our internal [Confluence](https://www.atlassian.com/software/confluence) space that details how to do this. It includes how to change the color of links, how to change the size of the headings and how to change the width of logos all to make sure the PDF is optimized for the client. All code is manually added through the CMS. 
 
-{:.p-img}
-![custom css input in the CMS]({{ site.url }}/assets/img/pdf_button/custom_css.png)
-<span class="help-text">This is where the user enters the custom CSS in the CMS</span>
-
-{:.p-img}
-![final pdf gif]({{ site.url }}/assets/img/pdf_button/final_pdf.gif)
-<span class="help-text">Scrolling through final PDF</span>
+<div class="row">
+	<div class="columns">
+		<img alt="custom css input in the CMS" src="{{ site.url }}/assets/img/pdf_button/custom_css.png" style="margin:3rem auto 1.5rem auto;">
+	</div>
+	<span class="help-text" style="margin-bottom: 3rem;">This is where the user enters the custom CSS in the CMS</span>
+</div>
+<div class="row">
+	<div class="columns">
+		<img alt="final pdf gif" src="{{ site.url }}/assets/img/pdf_button/final_pdf.gif" style="margin:3rem auto 1.5rem auto; width: 500px; ">
+	</div>
+	<span class="help-text" style="margin-bottom: 3rem;">Scrolling through final PDF</span>
+</div>
 
 The Confluence document includes code snippets the user can copy and paste so it is easy to change the design. After adding some custom CSS, the PDF has the potential to look pretty good! While InDesign allows for more customization, this tool saves multiple teams time and produces a nice looking product for clients to use. 
 

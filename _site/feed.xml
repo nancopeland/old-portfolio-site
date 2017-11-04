@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-04T11:11:40-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;&lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;GIG&lt;/a&gt;&lt;/strong&gt; is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-04T12:02:03-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;&lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;GIG&lt;/a&gt;&lt;/strong&gt; is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/app_hand.jpg&quot; alt=&quot;app&quot; /&gt;&lt;/p&gt;
 
@@ -134,7 +134,7 @@
 
 &lt;p&gt;I decided to build this feature using the browser print window. Instead of sending the page to an actual printer, the user could “Save as a PDF.”&lt;/p&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pdf_button/print_box.png&quot; alt=&quot;browser print box&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pdf_button/print_box.png&quot; alt=&quot;browser print box&quot; style=&quot;width:300px; margin: 3rem auto; border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;All I needed was a custom print stylesheet to apply to this specific article type.&lt;/p&gt;
 
@@ -173,7 +173,7 @@
 	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pdf_button/pdf_page.png&quot; alt=&quot;pdf page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pdf_button/pdf_page.png&quot; alt=&quot;pdf page&quot; style=&quot;width:600px; margin: 3rem auto; border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The last thing to note about styling for PDFs is page breaks. Read more about them &lt;a href=&quot;https://css-tricks.com/almanac/properties/p/page-break/&quot;&gt;here&lt;/a&gt;, because they’re a bit tricky. I wanted to make sure that the page broke when the copy started. I also wanted to avoid one line of copy from a paragraph being on a page by itself. I had to play around with this but found a way to address both problems.&lt;/p&gt;
 
@@ -192,21 +192,36 @@
 
 &lt;p&gt;To make this user friendly, when the user is logged into the CMS, they see the “Download Story PDF.”&lt;/p&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pdf_button/button.jpg&quot; alt=&quot;button screenshot&quot; /&gt;
-&lt;span class=&quot;help-text&quot;&gt;If you’re logged into the CMS, you can see the information above the sidebar on the right, including the “Download Story PDF” button.&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;button screenshot&quot; src=&quot;http://localhost:4000/assets/img/pdf_button/button.jpg&quot; style=&quot;margin:6rem 0 1.5rem 0; border: 1px solid #eee; &quot; /&gt;
+	&lt;/div&gt;
+	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 6rem;&quot;&gt;If you're logged into the CMS, you can see the information above the sidebar on the right, including the &quot;Download Story PDF&quot; button.&lt;/span&gt;
+&lt;/div&gt;
 
 &lt;p&gt;If you click on the button, the browser’s print window pops up. Inside here, the user must make sure they change the printer to “Save as PDF” (as specified above) and uncheck “Headers and footers” and “Background graphics.”&lt;/p&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pdf_button/print_box_big.png&quot; alt=&quot;browser print box&quot; /&gt;
-&lt;span class=&quot;help-text&quot;&gt;Example of what the print window should look like&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;browser print box&quot; src=&quot;http://localhost:4000/assets/img/pdf_button/print_box_big.png&quot; style=&quot;margin:6rem 0 1.5rem 0; border: 1px solid #eee; &quot; /&gt;
+	&lt;/div&gt;
+	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 6rem;&quot;&gt;Example of what the print window should look like&lt;/span&gt;
+&lt;/div&gt;
 
 &lt;p&gt;If the person downloading wants to customize the look of the PDF, I created a document in our internal &lt;a href=&quot;https://www.atlassian.com/software/confluence&quot;&gt;Confluence&lt;/a&gt; space that details how to do this. It includes how to change the color of links, how to change the size of the headings and how to change the width of logos all to make sure the PDF is optimized for the client. All code is manually added through the CMS.&lt;/p&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pdf_button/custom_css.png&quot; alt=&quot;custom css input in the CMS&quot; /&gt;
-&lt;span class=&quot;help-text&quot;&gt;This is where the user enters the custom CSS in the CMS&lt;/span&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pdf_button/final_pdf.gif&quot; alt=&quot;final pdf gif&quot; /&gt;
-&lt;span class=&quot;help-text&quot;&gt;Scrolling through final PDF&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;columns&quot;&gt;
+		&lt;img alt=&quot;custom css input in the CMS&quot; src=&quot;http://localhost:4000/assets/img/pdf_button/custom_css.png&quot; style=&quot;margin:3rem auto 1.5rem auto;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;This is where the user enters the custom CSS in the CMS&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;columns&quot;&gt;
+		&lt;img alt=&quot;final pdf gif&quot; src=&quot;http://localhost:4000/assets/img/pdf_button/final_pdf.gif&quot; style=&quot;margin:3rem auto 1.5rem auto; width: 500px; &quot; /&gt;
+	&lt;/div&gt;
+	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Scrolling through final PDF&lt;/span&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The Confluence document includes code snippets the user can copy and paste so it is easy to change the design. After adding some custom CSS, the PDF has the potential to look pretty good! While InDesign allows for more customization, this tool saves multiple teams time and produces a nice looking product for clients to use.&lt;/p&gt;
 
