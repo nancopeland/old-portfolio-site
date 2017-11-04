@@ -1,0 +1,51 @@
+.highlight span {
+    font-family: monospace, monospace; 
+}
+
+.highlight {
+    background: #f1f1f1;
+    border: solid 1px #ccc;
+    font-size: 0.875rem;
+    margin: 2.5rem 0;
+    pre {
+        padding: 0 1.5rem;
+    }
+    .c, .ch, .cm, .cpf, .c1, .cs {
+        color: #008000;
+    }
+    .ge {
+        font-style: italic;
+    }
+    .gh, .gp, .gs, .gu {
+        font-weight: bold;
+    }
+    .kc, .kd, .kn, .kp, .kr {
+        color: #0000ff;
+    }
+    .sa, .sb, .sc, .dl, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss, .s {
+        color: #a31515;
+    }
+    .k, .cp, .ow {
+        color: #0000ff;
+    }
+    .kt, .nc {
+        color: #2b91af;
+    }
+    .err {
+        border: 1px solid #FF0000;
+    }
+}
+
+@media(min-width: 64em) {
+    .highlight {
+        margin: 2.5rem 7rem;
+    }
+}
+
+.caption {
+    &.code {
+        margin-bottom: 2.5rem;
+    }
+}
+
+/* Taken from Pygments-css library. Link to original css with key: https://github.com/richleland/pygments-css/blob/master/vs.css */

@@ -4,7 +4,7 @@ title:  "GIG iOS App"
 description: The app for going to concerts with your friends
 image-class: gig-app
 prev-story: /2016/12/29/pub-site-redesign.html
-next-story: /2017/06/10/smt-user-content-admin.html
+next-story: /2017/07/15/pdf-button.html
 ---
 
 **<a target="_blank" href="https://invis.io/AMD99G92K">GIG</a>** is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily. 

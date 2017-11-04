@@ -13,11 +13,6 @@
 		display: block; 
 		margin: 3rem auto; 
 	}
-	code {
-		background-color: $turquoise-light; 
-		font-weight: 700; 
-		padding: .125rem; 
-	}
 	ol {
 		padding-left: .75rem; 
 	}
@@ -40,7 +35,7 @@
 				padding: 0;  
 			}
 		}
-		ul {
+		ul, ol {
 			padding: 0 9.5rem; 
 		}
 		img {
