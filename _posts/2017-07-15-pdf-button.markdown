@@ -98,18 +98,18 @@ To make this user friendly, when the user is logged into the CMS, they see the "
 
 <div class="row">
 	<div class="columns">
-		<img class="p-img" alt="button screenshot" src="{{ site.url }}/assets/img/pdf_button/button.jpg" style="margin:6rem 0 1.5rem 0; border: 1px solid #eee; ">
+		<img class="p-img" alt="button screenshot" src="{{ site.url }}/assets/img/pdf_button/button.jpg" style="margin:3rem 0 1.5rem 0; border: 1px solid #eee; ">
 	</div>
-	<span class="help-text" style="margin-bottom: 6rem;">If you're logged into the CMS, you can see the information above the sidebar on the right, including the "Download Story PDF" button.</span>
+	<span class="help-text" style="margin-bottom: 3rem;">If you're logged into the CMS, you can see the information above the sidebar on the right, including the "Download Story PDF" button.</span>
 </div>
 
 If you click on the button, the browser's print window pops up. Inside here, the user must make sure they change the printer to "Save as PDF" (as specified above) and uncheck "Headers and footers" and "Background graphics."
 
 <div class="row">
 	<div class="columns">
-		<img class="p-img" alt="browser print box" src="{{ site.url }}/assets/img/pdf_button/print_box_big.png" style="margin:6rem 0 1.5rem 0; border: 1px solid #eee; ">
+		<img class="p-img" alt="browser print box" src="{{ site.url }}/assets/img/pdf_button/print_box_big.png" style="margin:3rem 0 1.5rem 0; border: 1px solid #eee; ">
 	</div>
-	<span class="help-text" style="margin-bottom: 6rem;">Example of what the print window should look like</span>
+	<span class="help-text" style="margin-bottom: 3rem;">Example of what the print window should look like</span>
 </div>
 
 If the person downloading wants to customize the look of the PDF, I created a document in our internal [Confluence](https://www.atlassian.com/software/confluence) space that details how to do this. It includes how to change the color of links, how to change the size of the headings and how to change the width of logos all to make sure the PDF is optimized for the client. All code is manually added through the CMS. 
