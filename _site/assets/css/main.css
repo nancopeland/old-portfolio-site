@@ -1576,6 +1576,9 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+.highlight span {
+  font-family: monospace, monospace; }
+
 .highlight {
   background: #f8f8f8;
   border: solid 1px #ccc;

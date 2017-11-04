@@ -9,7 +9,8 @@ next-story: /2017/06/10/smt-user-content-admin.html
 
 Recently, we added a tool to our site for our Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams. 
 
-_photo goes here_
+{:.p-img}
+![browser print box]({{ site.url }}/assets/img/pdf_button/print_box_big.png){:style="border: 1px solid #eee;"}
 
 **The Problem**
 
@@ -69,7 +70,12 @@ Then, I set widths on the wrappers around the content so they were centered in a
 }
 {% endhighlight %}
 
-![pdf page]({{ site.url }}/assets/img/pdf_button/pdf_page.png){:style="width:600px; margin: 3rem auto; border: 1px solid #eee;"}
+<div class="row">
+	<div class="columns">
+		<img class="p-img" alt="pdf page" src="{{ site.url }}/assets/img/pdf_button/pdf_page.png" style="width:660px; margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
+	</div>
+	<span class="help-text" style="margin-bottom: 3rem;">First page of created PDF document</span>
+</div>
 
 The last thing to note about styling for PDFs is page breaks. Read more about them [here](https://css-tricks.com/almanac/properties/p/page-break/), because they're a bit tricky. I wanted to make sure that the page broke when the copy started. I also wanted to avoid one line of copy from a paragraph being on a page by itself. I had to play around with this but found a way to address both problems. 
 
@@ -124,3 +130,5 @@ If the person downloading wants to customize the look of the PDF, I created a do
 The Confluence document includes code snippets the user can copy and paste so it is easy to change the design. After adding some custom CSS, the PDF has the potential to look pretty good! While InDesign allows for more customization, this tool saves multiple teams time and produces a nice looking product for clients to use. 
 
 _**UPDATE:** We recently rolled this tool out to all stories (not just sponsored) so any company member has the ability to print any article in this format. This is still used mainly for sending content to clients._
+
+_This post was originally published on [Industry Dive's Design Blog](http://design.industrydive.com/)._

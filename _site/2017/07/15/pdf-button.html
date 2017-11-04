@@ -64,7 +64,7 @@
   	<div class="post-content" itemprop="articleBody">
     	<p>Recently, we added a tool to our site for our Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams.</p>
 
-<p><em>photo goes here</em></p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/pdf_button/print_box_big.png" alt="browser print box" style="border: 1px solid #eee;" /></p>
 
 <p><strong>The Problem</strong></p>
 
@@ -120,7 +120,12 @@
 	<span class="p">}</span>
 <span class="p">}</span></code></pre></figure>
 
-<p><img src="http://localhost:4000/assets/img/pdf_button/pdf_page.png" alt="pdf page" style="width:600px; margin: 3rem auto; border: 1px solid #eee;" /></p>
+<div class="row">
+	<div class="columns">
+		<img class="p-img" alt="pdf page" src="http://localhost:4000/assets/img/pdf_button/pdf_page.png" style="width:660px; margin: 3rem auto 1.5rem auto; border: 1px solid #eee;" />
+	</div>
+	<span class="help-text" style="margin-bottom: 3rem;">First page of created PDF document</span>
+</div>
 
 <p>The last thing to note about styling for PDFs is page breaks. Read more about them <a href="https://css-tricks.com/almanac/properties/p/page-break/">here</a>, because they’re a bit tricky. I wanted to make sure that the page broke when the copy started. I also wanted to avoid one line of copy from a paragraph being on a page by itself. I had to play around with this but found a way to address both problems.</p>
 
@@ -173,6 +178,8 @@
 <p>The Confluence document includes code snippets the user can copy and paste so it is easy to change the design. After adding some custom CSS, the PDF has the potential to look pretty good! While InDesign allows for more customization, this tool saves multiple teams time and produces a nice looking product for clients to use.</p>
 
 <p><em><strong>UPDATE:</strong> We recently rolled this tool out to all stories (not just sponsored) so any company member has the ability to print any article in this format. This is still used mainly for sending content to clients.</em></p>
+
+<p><em>This post was originally published on <a href="http://design.industrydive.com/">Industry Dive’s Design Blog</a>.</em></p>
 
   	</div>
 
