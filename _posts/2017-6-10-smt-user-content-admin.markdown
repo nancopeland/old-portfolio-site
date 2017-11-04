@@ -3,7 +3,7 @@ layout: post
 title:  "Social Media Today CMS"
 description: Mockups for Social Media Today's user-submitted CMS
 image-class: smt-user-admin
-prev-story: /2017/10/14/gig-app.html
+prev-story: /2017/07/15/pdf-button.html
 next-story: /2016/12/29/pub-site-redesign.html
 ---
 
