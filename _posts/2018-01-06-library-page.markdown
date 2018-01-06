@@ -16,7 +16,7 @@ The [library page](https://www.constructiondive.com/library/) on Industry Dive's
 	<span class="help-text" style="margin-bottom: 3rem;">The old library page that <strong>doesn't</strong> show difference between the two content types</span>
 </div>
 
-### Planning
+**Planning**
 
 First, I spoke with the Brand Studio team about what its priorities were for this redesign:
 1. Increase leads from campaigns
@@ -31,21 +31,21 @@ Then, I looked at the current options available for each listing and considered 
 4. **Photo vs. no photo** - Ideally all items have a photo but what if they don't?
 5. **Title** 
 
-### Wireframes
+**Wireframes**
 
 My first thought was to remove the sidebar, allowing the page to have a full-width template so it could be differentiated from the rest of the site. Also, being able to filter the content based on topic and content type would make the page easier to navigate for the user.
 
 <div class="row">
 	<div class="medium-6 columns">
 		<div style="margin: 2rem 0;">
-			<img style="border: 1px solid #eee;" src="{{ site.url }}/assets/img/library_page/wireframe1.jpg" alt="wireframe" /> 
-			<span class="caption">Wireframe featuring one item promoted at the top</span>
+			<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="{{ site.url }}/assets/img/library_page/wireframe1.jpg" alt="wireframe" /> 
+			<span class="help-text" style="margin-bottom: 3rem;">Wireframe featuring one item promoted at the top</span>
 		</div>
 	</div>
 	<div class="medium-6 columns">
 		<div style="margin: 2rem 0;">
-			<img style="border: 1px solid #eee;" src="{{ site.url }}/assets/img/library_page/wireframe2.jpg" alt="wireframe" /> 
-			<span class="caption">Wireframe featuring multiple items promoted at the top with option to filter items by topic and content type</span>
+			<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="{{ site.url }}/assets/img/library_page/wireframe2.jpg" alt="wireframe" /> 
+			<span class="help-text" style="margin-bottom: 3rem;">Wireframe featuring multiple items promoted at the top with option to filter items by topic and content type</span>
 		</div>
 	</div>
 </div>
@@ -55,19 +55,19 @@ To make it more appealing for the user to enter their information, the actual do
 <div class="row">
 	<div class="medium-6 columns">
 		<div style="margin: 2rem 0;">
-			<img style="border: 1px solid #eee;" src="{{ site.url }}/assets/img/library_page/wireframe3.jpg" alt="wireframe" /> 
-			<span class="caption">Option to download item on the page</span>
+			<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="{{ site.url }}/assets/img/library_page/wireframe3.jpg" alt="wireframe" /> 
+			<span class="help-text" style="margin-bottom: 3rem;">Option to download item on the page</span>
 		</div>
 	</div>
 	<div class="medium-6 columns">
 		<div style="margin: 2rem 0;">
-			<img style="border: 1px solid #eee;" src="{{ site.url }}/assets/img/library_page/wireframe4.jpg" alt="wireframe" /> 
-			<span class="caption">Option to download item once you click through to the landing page</span>
+			<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="{{ site.url }}/assets/img/library_page/wireframe4.jpg" alt="wireframe" /> 
+			<span class="help-text" style="margin-bottom: 3rem;">Option to download item once you click through to the landing page</span>
 		</div>
 	</div>
 </div>
 
-### Mockups
+**Mockups**
 
 In the first few mockups of the page, my main challenge was how to layout each item with each variant (the ones mentioned above). What happens if a photo isn't uploaded? How can I better indicate what type of content the item is? Is the item made by a client or by the Brand Studio? 
 
@@ -76,14 +76,14 @@ In the second mock below, I added a top ad placement, where the Brand Studio wou
 <div class="row">
 	<div class="medium-6 columns">
 		<div style="margin: 2rem 0;">
-			<img style="border: 1px solid #eee;" src="{{ site.url }}/assets/img/library_page/mock1.jpg" alt="mockup" /> 
-			<span class="caption">First mock with filtering options</span>
+			<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="{{ site.url }}/assets/img/library_page/mock1.jpg" alt="mockup" /> 
+			<span class="help-text" style="margin-bottom: 3rem;">First mock with filtering options</span>
 		</div>
 	</div>
 	<div class="medium-6 columns">
 		<div style="margin: 2rem 0;">
-			<img style="border: 1px solid #eee;" src="{{ site.url }}/assets/post_img/2017-12-20-library-page/mock2.jpg" alt="mockup" /> 
-			<span class="caption">Mock with additional ad/signup placements</span>
+			<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="{{ site.url }}/assets/img/library_page/mock2.jpg" alt="mockup" /> 
+			<span class="help-text" style="margin-bottom: 3rem;">Mock with additional ad/signup placements</span>
 		</div>
 	</div>
 </div>
@@ -120,19 +120,19 @@ In the next iteration of mocks, I cleaned up the page by focusing on separating 
 <div class="row">
 	<div class="medium-6 columns">
 		<div style="margin: 2rem 0;">
-			<img style="border: 1px solid #eee;" src="{{ site.url }}/assets/img/library_page/mock3.jpg" alt="mockup" /> 
-			<span class="caption">Mock featuring client content at the bottom of the page</span>
+			<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="{{ site.url }}/assets/img/library_page/mock3.jpg" alt="mockup" /> 
+			<span class="help-text" style="margin-bottom: 3rem;">Mock featuring client content at the bottom of the page</span>
 		</div>
 	</div>
 	<div class="medium-6 columns">
 		<div style="margin: 2rem 0;">
-			<img style="border: 1px solid #eee;" src="{{ site.url }}/assets/img/library_page/mock4.jpg" alt="mockup" /> 
-			<span class="caption">This mock moves client content up the page</span>
+			<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="{{ site.url }}/assets/img/library_page/mock4.jpg" alt="mockup" /> 
+			<span class="help-text" style="margin-bottom: 3rem;">This mock moves client content up the page</span>
 		</div>
 	</div>
 </div>
 
-### Implemetation
+**Implemetation**
 
 I knew this would be a large tech undertaking so after meeting with a developer, we decided to break it up into phases:
 
@@ -144,10 +144,10 @@ This way, the back-end could be restructured before adding new larger features, 
 
 <p class="centered" style="width: 400px;">
 	<img src="{{ site.url }}/assets/img/library_page/content_type_CMS.png" alt="CMS" />
-	<span class="caption">Screenshot from library item CMS</span>
+	<span class="help-text">Screenshot from library item CMS</span>
 </p>
 
-### Phase 1
+**Phase 1**
 
 The final product for Phase 1 looks relatively similar to the final mocks. The one difference is that instead of having the icon overlay on the photo, the icon along with CTA text appears on hover so the user can see the whole photo. Also the styling of the "Industry Intel" (i.e. the client content section) is slightly different. 
 

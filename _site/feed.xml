@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-06T13:26:57-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Redesigning our branded content landing page in phases</title><link href="http://localhost:4000/2018/01/06/library-page.html" rel="alternate" type="text/html" title="Redesigning our branded content landing page in phases" /><published>2018-01-06T00:00:00-05:00</published><updated>2018-01-06T00:00:00-05:00</updated><id>http://localhost:4000/2018/01/06/library-page</id><content type="html" xml:base="http://localhost:4000/2018/01/06/library-page.html">&lt;p&gt;The &lt;a href=&quot;https://www.constructiondive.com/library/&quot;&gt;library page&lt;/a&gt; on Industry Dive’s publication sites was recently redesigned to feature more content from our in-house content studio, &lt;a href=&quot;https://www.industrydive.com/brandstudio/&quot;&gt;Dive Brand Studio&lt;/a&gt;. Originally, the page featured both Brand Studio content along with promoted content from clients. How could the new page account for both content types while making their difference clear to the user?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-06T13:42:06-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Redesigning our branded content landing page in phases</title><link href="http://localhost:4000/2018/01/06/library-page.html" rel="alternate" type="text/html" title="Redesigning our branded content landing page in phases" /><published>2018-01-06T00:00:00-05:00</published><updated>2018-01-06T00:00:00-05:00</updated><id>http://localhost:4000/2018/01/06/library-page</id><content type="html" xml:base="http://localhost:4000/2018/01/06/library-page.html">&lt;p&gt;The &lt;a href=&quot;https://www.constructiondive.com/library/&quot;&gt;library page&lt;/a&gt; on Industry Dive’s publication sites was recently redesigned to feature more content from our in-house content studio, &lt;a href=&quot;https://www.industrydive.com/brandstudio/&quot;&gt;Dive Brand Studio&lt;/a&gt;. Originally, the page featured both Brand Studio content along with promoted content from clients. How could the new page account for both content types while making their difference clear to the user?&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;columns&quot;&gt;
@@ -7,7 +7,7 @@
 	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;The old library page that &lt;strong&gt;doesn't&lt;/strong&gt; show difference between the two content types&lt;/span&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&quot;planning&quot;&gt;Planning&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Planning&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;First, I spoke with the Brand Studio team about what its priorities were for this redesign:&lt;/p&gt;
 &lt;ol&gt;
@@ -26,21 +26,21 @@
   &lt;li&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;wireframes&quot;&gt;Wireframes&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Wireframes&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;My first thought was to remove the sidebar, allowing the page to have a full-width template so it could be differentiated from the rest of the site. Also, being able to filter the content based on topic and content type would make the page easier to navigate for the user.&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
 		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe1.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
-			&lt;span class=&quot;caption&quot;&gt;Wireframe featuring one item promoted at the top&lt;/span&gt;
+			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe1.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Wireframe featuring one item promoted at the top&lt;/span&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
 		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe2.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
-			&lt;span class=&quot;caption&quot;&gt;Wireframe featuring multiple items promoted at the top with option to filter items by topic and content type&lt;/span&gt;
+			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe2.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Wireframe featuring multiple items promoted at the top with option to filter items by topic and content type&lt;/span&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -50,19 +50,19 @@
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
 		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe3.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
-			&lt;span class=&quot;caption&quot;&gt;Option to download item on the page&lt;/span&gt;
+			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe3.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Option to download item on the page&lt;/span&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
 		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe4.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
-			&lt;span class=&quot;caption&quot;&gt;Option to download item once you click through to the landing page&lt;/span&gt;
+			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe4.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Option to download item once you click through to the landing page&lt;/span&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&quot;mockups&quot;&gt;Mockups&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Mockups&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;In the first few mockups of the page, my main challenge was how to layout each item with each variant (the ones mentioned above). What happens if a photo isn’t uploaded? How can I better indicate what type of content the item is? Is the item made by a client or by the Brand Studio?&lt;/p&gt;
 
@@ -71,14 +71,14 @@
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
 		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-			&lt;span class=&quot;caption&quot;&gt;First mock with filtering options&lt;/span&gt;
+			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;First mock with filtering options&lt;/span&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
 		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/mock2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-			&lt;span class=&quot;caption&quot;&gt;Mock with additional ad/signup placements&lt;/span&gt;
+			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Mock with additional ad/signup placements&lt;/span&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -115,19 +115,19 @@
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
 		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-			&lt;span class=&quot;caption&quot;&gt;Mock featuring client content at the bottom of the page&lt;/span&gt;
+			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Mock featuring client content at the bottom of the page&lt;/span&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
 		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-			&lt;span class=&quot;caption&quot;&gt;This mock moves client content up the page&lt;/span&gt;
+			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;This mock moves client content up the page&lt;/span&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&quot;implemetation&quot;&gt;Implemetation&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Implemetation&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;I knew this would be a large tech undertaking so after meeting with a developer, we decided to break it up into phases:&lt;/p&gt;
 
@@ -141,10 +141,10 @@
 
 &lt;p class=&quot;centered&quot; style=&quot;width: 400px;&quot;&gt;
 	&lt;img src=&quot;http://localhost:4000/assets/img/library_page/content_type_CMS.png&quot; alt=&quot;CMS&quot; /&gt;
-	&lt;span class=&quot;caption&quot;&gt;Screenshot from library item CMS&lt;/span&gt;
+	&lt;span class=&quot;help-text&quot;&gt;Screenshot from library item CMS&lt;/span&gt;
 &lt;/p&gt;
 
-&lt;h3 id=&quot;phase-1&quot;&gt;Phase 1&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Phase 1&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The final product for Phase 1 looks relatively similar to the final mocks. The one difference is that instead of having the icon overlay on the photo, the icon along with CTA text appears on hover so the user can see the whole photo. Also the styling of the “Industry Intel” (i.e. the client content section) is slightly different.&lt;/p&gt;
 
