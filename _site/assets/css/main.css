@@ -1344,7 +1344,7 @@ nav {
     float: left; }
 
   .project-description {
-    min-width: 110px; }
+    min-height: 110px; }
 
   .img-container {
     height: 220px; } }
