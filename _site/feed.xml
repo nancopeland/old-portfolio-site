@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-06T12:41:33-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;&lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;GIG&lt;/a&gt;&lt;/strong&gt; is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-06T12:45:01-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;&lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;GIG&lt;/a&gt;&lt;/strong&gt; is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/app_hand.jpg&quot; alt=&quot;app&quot; /&gt;&lt;/p&gt;
 
@@ -292,65 +292,4 @@
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt6.jpg&quot; alt=&quot;new site&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The “New Post” page where all users would submit content is still being designed. I hope to make it WYSIWYG. Stay tuned for updates on this project!&lt;/p&gt;</content><summary type="html">I am currently working on improving the CMS for Social Media Today. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.</summary></entry><entry><title type="html">Publication site redesign</title><link href="http://localhost:4000/2016/12/29/pub-site-redesign.html" rel="alternate" type="text/html" title="Publication site redesign" /><published>2016-12-29T00:00:00-05:00</published><updated>2016-12-29T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/29/pub-site-redesign</id><content type="html" xml:base="http://localhost:4000/2016/12/29/pub-site-redesign.html">&lt;p&gt;I was part of the team who redesigned &lt;strong&gt;Industry Dive’s &lt;a href=&quot;http://industrydive.com/industries/&quot;&gt;13 publication sites&lt;/a&gt;&lt;/strong&gt;. Each site focuses on a different industry and although the main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated.&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_article.jpg&quot; alt=&quot;new site article&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Site looked outdated and clunky. User experience could also be improved to increase engagement and ad clicks.&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_old.jpg&quot; alt=&quot;old site&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Utilize user feedback to update site’s design. This solution included a variety of design updates but we focused on keeping the design clean and easy to understand for users of all ages and technical literacies.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Overall goals:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1. Improve overall aesthetic.&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;improve visual hierarchy&lt;/li&gt;
-  &lt;li&gt;utilize negative space&lt;/li&gt;
-  &lt;li&gt;use less images&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new.jpg&quot; alt=&quot;new site&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_article.gif&quot; alt=&quot;new site article&quot; width=&quot;700px&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_jobs.jpg&quot; alt=&quot;new site jobs&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. Significantly improve mobile experience for readers.&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;ease navigation friction&lt;/li&gt;
-  &lt;li&gt;call out topics more explicitly&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_navigation.gif&quot; alt=&quot;navigation&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_navigation_topics.gif&quot; alt=&quot;navigation topics&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. Improve ad units&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;no sticky ads, create responsive ad spot&lt;/li&gt;
-  &lt;li&gt;make ads more native, but not deceiving, to increase clicks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_desktop.jpg&quot; alt=&quot;native ad desktop&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_desktop2.jpg&quot; alt=&quot;native ad desktop&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_mobile.jpg&quot; alt=&quot;native ad mobile&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. Improve content discoverability/navigation&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;reduce navigation clicks&lt;/li&gt;
-  &lt;li&gt;call out navigation content explicitly&lt;/li&gt;
-  &lt;li&gt;improve navigating site with via topics&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is the part of the site I worked on heavily. With the menu navigation, my goals were to anchor the page, hide minimal content (I can’t argue with &lt;a href=&quot;https://medium.com/the-year-of-the-looking-glass/what-you-see-is-what-you-use-5a97677a8c71#.18bilnmdf&quot;&gt;Julie Zhuo&lt;/a&gt;) and block off the top ad while still making it appealing to click on. Read more about the menu &lt;a href=&quot;http://industrydive.com/news/post/building-our-new-menu/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_mobile.gif&quot; alt=&quot;mobile menu&quot; width=&quot;320px&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_desktop.gif&quot; alt=&quot;desktop menu&quot; width=&quot;700px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;See this project live at &lt;a href=&quot;http://www.utilitydive.com/&quot;&gt;utilitydive.com&lt;/a&gt; or any of the other &lt;a href=&quot;http://industrydive.com/industries/&quot;&gt;publication sites&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">I was part of the team who redesigned Industry Dive’s 13 publication sites. Each site focuses on a different industry and although the main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated.</summary></entry></feed>
+&lt;p&gt;The “New Post” page where all users would submit content is still being designed. I hope to make it WYSIWYG. Stay tuned for updates on this project!&lt;/p&gt;</content><summary type="html">I am currently working on improving the CMS for Social Media Today. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.</summary></entry></feed>
