@@ -1,11 +1,16 @@
 ---
 layout: post
-title:  "Redesigning our branded content landing page in phases"
-description: How design is working with the dev team to making progressive enhancements to the site's library page
+title:  "Branded content library page"
+description: How I redesigned this page with a developer in phases
 image-class: library-page
 prev-story: /2017/06/10/smt-user-content-admin.html
 next-story: /2017/10/14/gig-app.html
 ---
+
+I recently redesigned the [Library page](https://www.retaildive.com/library/) for each of Industry Dive's publications with the help of the dev team to better showcase the [Brand Studio's](https://www.industrydive.com/brandstudio/) content.
+
+{:.p-img}
+![page in ipad mockup]({{ site.url }}/assets/img/library_page/page_hands_header.jpg)
 
 The [library page](https://www.constructiondive.com/library/) on Industry Dive's publication sites was recently redesigned to feature more content from our in-house content studio, [Dive Brand Studio](https://www.industrydive.com/brandstudio/). Originally, the page featured both Brand Studio content along with promoted content from clients. How could the new page account for both content types while making their difference clear to the user?
 
@@ -135,5 +140,5 @@ The final product for Phase 1 looks relatively similar to the final mocks. The o
 
 Next, I will look at engagement on the page and make tweaks accordingly as well as pushing forward on Phase 2 of the project.
 
-
+_This post was originally published on [Industry Dive's Design Blog](http://design.industrydive.com/)._
 
