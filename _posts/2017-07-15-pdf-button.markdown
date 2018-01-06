@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating downloadable PDFs using the .print window"
-description: How to create and style a PDF using the browser print window that anyone familiar with code can use
+description: How to create and style a PDF using the browser print window
 image-class: pdf-button
 prev-story: /2017/10/14/gig-app.html 
 next-story: /2017/06/10/smt-user-content-admin.html
