@@ -1,4 +1,160 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-06T12:45:01-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;&lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;GIG&lt;/a&gt;&lt;/strong&gt; is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-06T13:02:16-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Redesigning our branded content landing page in phases</title><link href="http://localhost:4000/2018/01/06/library-page.html" rel="alternate" type="text/html" title="Redesigning our branded content landing page in phases" /><published>2018-01-06T00:00:00-05:00</published><updated>2018-01-06T00:00:00-05:00</updated><id>http://localhost:4000/2018/01/06/library-page</id><content type="html" xml:base="http://localhost:4000/2018/01/06/library-page.html">&lt;p&gt;The &lt;a href=&quot;https://www.constructiondive.com/library/&quot;&gt;library page&lt;/a&gt; on Industry Dive’s publication sites was recently redesigned to feature more content from our in-house content studio, &lt;a href=&quot;https://www.industrydive.com/brandstudio/&quot;&gt;Dive Brand Studio&lt;/a&gt;. Originally, the page featured both Brand Studio content along with promoted content from clients. How could the new page account for both content types while making their difference clear to the user?&lt;/p&gt;
+
+&lt;p class=&quot;centered&quot;&gt;
+	&lt;img src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/old_library_page.png&quot; alt=&quot;old library page&quot; /&gt; 
+	&lt;span class=&quot;caption&quot;&gt;The old library page that &lt;strong&gt;doesn't&lt;/strong&gt; show difference between the two content types&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;planning&quot;&gt;Planning&lt;/h3&gt;
+
+&lt;p&gt;First, I spoke with the Brand Studio team about what its priorities were for this redesign:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Increase leads from campaigns&lt;/li&gt;
+  &lt;li&gt;Ensure that the page is valuable to the user&lt;/li&gt;
+  &lt;li&gt;Increase Brand Studio brand awareness&lt;/li&gt;
+  &lt;li&gt;Create layout that is easy to manipulate (i.e. there are multiple ways to promote one item and this can easily be done through the CMS)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Then, I looked at the current options available for each listing and considered other possible requirements Brand Studio might request. This would help when explaining the scope of the project to the backend developer helping with the project.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Client&lt;/strong&gt; - All items have a client who is sponsoring the content regardless of the content type&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Item type&lt;/strong&gt; - Is it a playbook, a webinar, an e-book or something else?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Brand Studio vs. Client&lt;/strong&gt; - Who created the content?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photo vs. no photo&lt;/strong&gt; - Ideally all items have a photo but what if they don’t?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;wireframes&quot;&gt;Wireframes&lt;/h3&gt;
+
+&lt;p&gt;My first thought was to remove the sidebar, allowing the page to have a full-width template so it could be differentiated from the rest of the site. Also, being able to filter the content based on topic and content type would make the page easier to navigate for the user.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/wireframe1.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+			&lt;span class=&quot;caption&quot;&gt;Wireframe featuring one item promoted at the top&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/wireframe2.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+			&lt;span class=&quot;caption&quot;&gt;Wireframe featuring multiple items promoted at the top with option to filter items by topic and content type&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To make it more appealing for the user to enter their information, the actual download process needed to be simpiler. Historically, users had to click on the title that then took them to a landing page, which took users to a third party site to download the content. Wouldn’t it be easier to have it all hosted on our site?&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/wireframe3.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+			&lt;span class=&quot;caption&quot;&gt;Option to download item on the page&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/wireframe4.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+			&lt;span class=&quot;caption&quot;&gt;Option to download item once you click through to the landing page&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;mockups&quot;&gt;Mockups&lt;/h3&gt;
+
+&lt;p&gt;In the first few mockups of the page, my main challenge was how to layout each item with each variant (the ones mentioned above). What happens if a photo isn’t uploaded? How can I better indicate what type of content the item is? Is the item made by a client or by the Brand Studio?&lt;/p&gt;
+
+&lt;p&gt;In the second mock below, I added a top ad placement, where the Brand Studio would be able to promote a particular piece. I also added ads within the feed of content to promote LinkedIn groups and the newsletter.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/mock1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+			&lt;span class=&quot;caption&quot;&gt;First mock with filtering options&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/mock2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+			&lt;span class=&quot;caption&quot;&gt;Mock with additional ad/signup placements&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For the download process, I looked primarily at the &lt;a href=&quot;https://www.smashingmagazine.com/2013/03/designing-a-better-mobile-checkout-process/&quot;&gt;Amazon’s checkout process&lt;/a&gt; to see what would increase conversions. As previously stated, I wanted to make this more seamless. When talking to our audience development team, someone suggested adding the feature to sign in with LinkedIn.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/mock_pop_1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/mock_pop_2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/mock_pop_3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/mock_pop_4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the next iteration of mocks, I cleaned up the page by focusing on separating client (content in the grey box) vs. Brand Studio work (all other content on the page). I also decided that photos should be required because the icon + gradient style was starting to look a bit repetitive.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/mock3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+			&lt;span class=&quot;caption&quot;&gt;Mock featuring client content at the bottom of the page&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/mock4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+			&lt;span class=&quot;caption&quot;&gt;This mock moves client content up the page&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;implemetation&quot;&gt;Implemetation&lt;/h3&gt;
+
+&lt;p&gt;I knew this would be a large tech undertaking so after meeting with a developer, we decided to break it up into phases:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Phase 1:&lt;/strong&gt; General library page redesign: adding photos to each item, the differentiation between client and Brand Studio content and some back-end refactoring to make the CMS process easier for users&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Phase 2:&lt;/strong&gt; Ad placements and a tool that makes the page easier to organize&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Future improvements:&lt;/strong&gt; Migrating third-party landing pages to our platform for easier downloading and lead generation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This way, the back-end could be restructured before adding new larger features, such as an “easy-to-manipulate” layout. Initially I thought a drag-and-drop layout would be ideal for laying out the page but until that is built, there are radio and checkbox inputs in the CMS to indicate the item type.&lt;/p&gt;
+
+&lt;p class=&quot;centered&quot; style=&quot;width: 400px;&quot;&gt;
+	&lt;img src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/content_type_CMS.png&quot; alt=&quot;CMS&quot; /&gt;
+	&lt;span class=&quot;caption&quot;&gt;Screenshot from library item CMS&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;phase-1&quot;&gt;Phase 1&lt;/h3&gt;
+
+&lt;p&gt;The final product for Phase 1 looks relatively similar to the final mocks. The one difference is that instead of having the icon overlay on the photo, the icon along with CTA text appears on hover so the user can see the whole photo. Also the styling of the “Industry Intel” (i.e. the client content section) is slightly different.&lt;/p&gt;
+
+&lt;p class=&quot;centered&quot;&gt;
+	&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/phase1.gif&quot; alt=&quot;phase1 gif&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;centered&quot; style=&quot;width: 300px;&quot;&gt;
+	&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/post_img/2017-12-20-library-page/phase1_mobile.gif&quot; alt=&quot;phase1 mobile gif&quot; /&gt; 
+&lt;/p&gt;
+
+&lt;p&gt;Next, I will look at engagement on the page and make tweaks accordingly as well as pushing forward on Phase 2 of the project.&lt;/p&gt;</content><summary type="html">The library page on Industry Dive’s publication sites was recently redesigned to feature more content from our in-house content studio, Dive Brand Studio. Originally, the page featured both Brand Studio content along with promoted content from clients. How could the new page account for both content types while making their difference clear to the user?</summary></entry><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;&lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;GIG&lt;/a&gt;&lt;/strong&gt; is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/app_hand.jpg&quot; alt=&quot;app&quot; /&gt;&lt;/p&gt;
 
