@@ -21,6 +21,7 @@
 // PROJECTS
 .projects {
 	margin-top: 2rem; 
+	@include grid-row;
 }
 .project-wrapper {
 	@include grid-column(12); 
@@ -54,6 +55,10 @@
 }
 .img-container { 
 	height: 180px; 
+	&.library-page {
+		background: url('../img/library_page.jpg') no-repeat center center; 
+		background-size: cover; 
+	}
 	&.gig-app {
 		background: url('../img/gig_app.jpg') no-repeat center center; 
 		background-size: cover; 
@@ -89,7 +94,7 @@
 		@include grid-column(6); 
 	}
 	.img-container { 
-		height: 200px; 
+		height: 220px; 
 	}
 }
 

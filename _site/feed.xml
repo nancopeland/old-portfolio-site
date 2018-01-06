@@ -1,4 +1,140 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-04T12:53:32-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;&lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;GIG&lt;/a&gt;&lt;/strong&gt; is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-06T14:53:04-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Branded content library page</title><link href="http://localhost:4000/2018/01/06/library-page.html" rel="alternate" type="text/html" title="Branded content library page" /><published>2018-01-06T00:00:00-05:00</published><updated>2018-01-06T00:00:00-05:00</updated><id>http://localhost:4000/2018/01/06/library-page</id><content type="html" xml:base="http://localhost:4000/2018/01/06/library-page.html">&lt;p&gt;I recently redesigned the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/library/&quot;&gt;Library page&lt;/a&gt;&lt;/strong&gt; for each of Industry Dive’s publications with the help of the dev team to better showcase the &lt;a href=&quot;https://www.industrydive.com/brandstudio/&quot;&gt;Brand Studio’s&lt;/a&gt; content.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/library_page/page_hands_header.jpg&quot; alt=&quot;page in ipad mockup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.constructiondive.com/library/&quot;&gt;library page&lt;/a&gt; on Industry Dive’s publication sites was recently redesigned to feature more content from our in-house content studio, &lt;a href=&quot;https://www.industrydive.com/brandstudio/&quot;&gt;Dive Brand Studio&lt;/a&gt;. Originally, the page featured both Brand Studio content along with promoted content from clients. How could the new page account for both content types while making their difference clear to the user?&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;old library page&quot; src=&quot;http://localhost:4000/assets/img/library_page/old_library_page.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;The old library page that &lt;strong&gt;doesn't&lt;/strong&gt; show difference between the two content types&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Planning&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;First, I spoke with the Brand Studio team about what its priorities were for this redesign:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Increase leads from campaigns&lt;/li&gt;
+  &lt;li&gt;Ensure that the page is valuable to the user&lt;/li&gt;
+  &lt;li&gt;Increase Brand Studio brand awareness&lt;/li&gt;
+  &lt;li&gt;Create layout that is easy to manipulate (i.e. there are multiple ways to promote one item and this can easily be done through the CMS)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Then, I looked at the current options available for each listing and considered other possible requirements Brand Studio might request. This would help when explaining the scope of the project to the backend developer helping with the project.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Client&lt;/strong&gt; - All items have a client who is sponsoring the content regardless of the content type&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Item type&lt;/strong&gt; - Is it a playbook, a webinar, an e-book or something else?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Brand Studio vs. Client&lt;/strong&gt; - Who created the content?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photo vs. no photo&lt;/strong&gt; - Ideally all items have a photo but what if they don’t?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Wireframes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My first thought was to remove the sidebar, allowing the page to have a full-width template so it could be differentiated from the rest of the site. Also, being able to filter the content based on topic and content type would make the page easier to navigate for the user.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe1.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Wireframe featuring one item promoted at the top&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe2.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Wireframe featuring multiple items promoted at the top with option to filter items by topic and content type&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To make it more appealing for the user to enter their information, the actual download process needed to be simpiler. Historically, users had to click on the title that then took them to a landing page, which took users to a third party site to download the content. Wouldn’t it be easier to have it all hosted on our site?&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe3.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Option to download item on the page&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe4.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Option to download item once you click through to the landing page&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Mockups&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the first few mockups of the page, my main challenge was how to layout each item with each variant (the ones mentioned above). What happens if a photo isn’t uploaded? How can I better indicate what type of content the item is? Is the item made by a client or by the Brand Studio?&lt;/p&gt;
+
+&lt;p&gt;In the second mock below, I added a top ad placement, where the Brand Studio would be able to promote a particular piece. I also added ads within the feed of content to promote LinkedIn groups and the newsletter.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;First mock with filtering options&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Mock with additional ad/signup placements&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For the download process, I looked primarily at the &lt;a href=&quot;https://www.smashingmagazine.com/2013/03/designing-a-better-mobile-checkout-process/&quot;&gt;Amazon’s checkout process&lt;/a&gt; to see what would increase conversions. As previously stated, I wanted to make this more seamless. When talking to our audience development team, someone suggested adding the feature to sign in with LinkedIn.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 1rem auto 3rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 1rem auto 3rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the next iteration of mocks, I cleaned up the page by focusing on separating client (content in the grey box) vs. Brand Studio work (all other content on the page). I also decided that photos should be required because the icon + gradient style was starting to look a bit repetitive.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Mock featuring client content at the bottom of the page&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;This mock moves client content up the page&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Implemetation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I knew this would be a large tech undertaking so after meeting with a developer, we decided to break it up into phases:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Phase 1:&lt;/strong&gt; General library page redesign: adding photos to each item, the differentiation between client and Brand Studio content and some back-end refactoring to make the CMS process easier for users&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Phase 2:&lt;/strong&gt; Ad placements and a tool that makes the page easier to organize&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Future improvements:&lt;/strong&gt; Migrating third-party landing pages to our platform for easier downloading and lead generation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This way, the back-end could be restructured before adding new larger features, such as an “easy-to-manipulate” layout. Initially I thought a drag-and-drop layout would be ideal for laying out the page but until that is built, there are radio and checkbox inputs in the CMS to indicate the item type.&lt;/p&gt;
+
+&lt;p class=&quot;centered&quot;&gt;
+	&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/content_type_CMS.png&quot; alt=&quot;CMS&quot; /&gt;
+	&lt;span style=&quot;margin-bottom: 3rem;&quot; class=&quot;help-text&quot;&gt;Screenshot from library item CMS&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Phase 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The final product for Phase 1 looks relatively similar to the final mocks. The one difference is that instead of having the icon overlay on the photo, the icon along with CTA text appears on hover so the user can see the whole photo. Also the styling of the “Industry Intel” (i.e. the client content section) is slightly different.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/library_page/phase1.gif&quot; alt=&quot;phase1 gif&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/library_page/phase1_mobile.gif&quot; alt=&quot;phase1 mobile gif&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, I will look at engagement on the page and make tweaks accordingly as well as pushing forward on Phase 2 of the project.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This post was originally published on &lt;a href=&quot;http://design.industrydive.com/&quot;&gt;Industry Dive’s Design Blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><summary type="html">I recently redesigned the Library page for each of Industry Dive’s publications with the help of the dev team to better showcase the Brand Studio’s content.</summary></entry><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;&lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;GIG&lt;/a&gt;&lt;/strong&gt; is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/app_hand.jpg&quot; alt=&quot;app&quot; /&gt;&lt;/p&gt;
 
@@ -292,65 +428,4 @@
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt6.jpg&quot; alt=&quot;new site&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The “New Post” page where all users would submit content is still being designed. I hope to make it WYSIWYG. Stay tuned for updates on this project!&lt;/p&gt;</content><summary type="html">I am currently working on improving the CMS for Social Media Today. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.</summary></entry><entry><title type="html">Publication site redesign</title><link href="http://localhost:4000/2016/12/29/pub-site-redesign.html" rel="alternate" type="text/html" title="Publication site redesign" /><published>2016-12-29T00:00:00-05:00</published><updated>2016-12-29T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/29/pub-site-redesign</id><content type="html" xml:base="http://localhost:4000/2016/12/29/pub-site-redesign.html">&lt;p&gt;I was part of the team who redesigned &lt;strong&gt;Industry Dive’s &lt;a href=&quot;http://industrydive.com/industries/&quot;&gt;13 publication sites&lt;/a&gt;&lt;/strong&gt;. Each site focuses on a different industry and although the main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated.&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_article.jpg&quot; alt=&quot;new site article&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Site looked outdated and clunky. User experience could also be improved to increase engagement and ad clicks.&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_old.jpg&quot; alt=&quot;old site&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Utilize user feedback to update site’s design. This solution included a variety of design updates but we focused on keeping the design clean and easy to understand for users of all ages and technical literacies.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Overall goals:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1. Improve overall aesthetic.&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;improve visual hierarchy&lt;/li&gt;
-  &lt;li&gt;utilize negative space&lt;/li&gt;
-  &lt;li&gt;use less images&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new.jpg&quot; alt=&quot;new site&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_article.gif&quot; alt=&quot;new site article&quot; width=&quot;700px&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_new_jobs.jpg&quot; alt=&quot;new site jobs&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. Significantly improve mobile experience for readers.&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;ease navigation friction&lt;/li&gt;
-  &lt;li&gt;call out topics more explicitly&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_navigation.gif&quot; alt=&quot;navigation&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_navigation_topics.gif&quot; alt=&quot;navigation topics&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. Improve ad units&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;no sticky ads, create responsive ad spot&lt;/li&gt;
-  &lt;li&gt;make ads more native, but not deceiving, to increase clicks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_desktop.jpg&quot; alt=&quot;native ad desktop&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_desktop2.jpg&quot; alt=&quot;native ad desktop&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_ad_mobile.jpg&quot; alt=&quot;native ad mobile&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. Improve content discoverability/navigation&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;reduce navigation clicks&lt;/li&gt;
-  &lt;li&gt;call out navigation content explicitly&lt;/li&gt;
-  &lt;li&gt;improve navigating site with via topics&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is the part of the site I worked on heavily. With the menu navigation, my goals were to anchor the page, hide minimal content (I can’t argue with &lt;a href=&quot;https://medium.com/the-year-of-the-looking-glass/what-you-see-is-what-you-use-5a97677a8c71#.18bilnmdf&quot;&gt;Julie Zhuo&lt;/a&gt;) and block off the top ad while still making it appealing to click on. Read more about the menu &lt;a href=&quot;http://industrydive.com/news/post/building-our-new-menu/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_mobile.gif&quot; alt=&quot;mobile menu&quot; width=&quot;320px&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pub_sites/pub_site_menu_desktop.gif&quot; alt=&quot;desktop menu&quot; width=&quot;700px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;See this project live at &lt;a href=&quot;http://www.utilitydive.com/&quot;&gt;utilitydive.com&lt;/a&gt; or any of the other &lt;a href=&quot;http://industrydive.com/industries/&quot;&gt;publication sites&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">I was part of the team who redesigned Industry Dive’s 13 publication sites. Each site focuses on a different industry and although the main product is a daily newsletter for each publication, the publication sites (which the newsletters link to) needed to be updated.</summary></entry></feed>
+&lt;p&gt;The “New Post” page where all users would submit content is still being designed. I hope to make it WYSIWYG. Stay tuned for updates on this project!&lt;/p&gt;</content><summary type="html">I am currently working on improving the CMS for Social Media Today. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.</summary></entry></feed>

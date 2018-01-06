@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <title>Branded content library page</title>
+    <meta name="description" content="I recently redesigned the Library page for each of Industry Dive’s publications with the help of the dev team to better showcase the Brand Studio’s content.">
+
+    <!-- typekit --> 
+    <script src="https://use.typekit.net/thg0ewt.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/2018/01/06/library-page.html">
+    <link rel="alternate" type="application/rss+xml" title="Nan Copeland" href="/feed.xml">
+  
+    <!-- google analytics --> 
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-75759732-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+
+
+    <body>
+
+        <main class="row page-content" aria-label="Content">
+            <div class="medium-11 medium-centered columns">
+                <header role="banner">
+
+    <nav class="row">
+        <div class="small-4 columns">
+            
+                <a href="/2017/06/10/smt-user-content-admin.html">&larr; Previous post</a>
+            
+        </div>
+        <div class="small-4 columns" style="text-align:center;" >
+            <a href="/">Home</a>
+        </div>
+        <div class="small-4 columns">
+            
+                <a class="text-right" href="/2017/10/14/gig-app.html">Next post &rarr;</a>
+            
+        </div>
+    </nav>
+
+</header>
+
+
+
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  	<div class="post-content" itemprop="articleBody">
+    	<p>I recently redesigned the <strong><a href="https://www.retaildive.com/library/">Library page</a></strong> for each of Industry Dive’s publications with the help of the dev team to better showcase the <a href="https://www.industrydive.com/brandstudio/">Brand Studio’s</a> content.</p>
+
+<p class="p-img"><img src="http://localhost:4000/assets/img/library_page/page_hands_header.jpg" alt="page in ipad mockup" /></p>
+
+<p>The <a href="https://www.constructiondive.com/library/">library page</a> on Industry Dive’s publication sites was recently redesigned to feature more content from our in-house content studio, <a href="https://www.industrydive.com/brandstudio/">Dive Brand Studio</a>. Originally, the page featured both Brand Studio content along with promoted content from clients. How could the new page account for both content types while making their difference clear to the user?</p>
+
+<div class="row">
+	<div class="columns">
+		<img class="p-img" alt="old library page" src="http://localhost:4000/assets/img/library_page/old_library_page.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;" />
+	</div>
+	<span class="help-text" style="margin-bottom: 3rem;">The old library page that <strong>doesn't</strong> show difference between the two content types</span>
+</div>
+
+<p><strong>Planning</strong></p>
+
+<p>First, I spoke with the Brand Studio team about what its priorities were for this redesign:</p>
+<ol>
+  <li>Increase leads from campaigns</li>
+  <li>Ensure that the page is valuable to the user</li>
+  <li>Increase Brand Studio brand awareness</li>
+  <li>Create layout that is easy to manipulate (i.e. there are multiple ways to promote one item and this can easily be done through the CMS)</li>
+</ol>
+
+<p>Then, I looked at the current options available for each listing and considered other possible requirements Brand Studio might request. This would help when explaining the scope of the project to the backend developer helping with the project.</p>
+<ol>
+  <li><strong>Client</strong> - All items have a client who is sponsoring the content regardless of the content type</li>
+  <li><strong>Item type</strong> - Is it a playbook, a webinar, an e-book or something else?</li>
+  <li><strong>Brand Studio vs. Client</strong> - Who created the content?</li>
+  <li><strong>Photo vs. no photo</strong> - Ideally all items have a photo but what if they don’t?</li>
+  <li><strong>Title</strong></li>
+</ol>
+
+<p><strong>Wireframes</strong></p>
+
+<p>My first thought was to remove the sidebar, allowing the page to have a full-width template so it could be differentiated from the rest of the site. Also, being able to filter the content based on topic and content type would make the page easier to navigate for the user.</p>
+
+<div class="row">
+	<div class="medium-6 columns">
+		<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="http://localhost:4000/assets/img/library_page/wireframe1.jpg" alt="wireframe" /> 
+		<span class="help-text" style="margin-bottom: 3rem;">Wireframe featuring one item promoted at the top</span>
+	</div>
+	<div class="medium-6 columns">
+		<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="http://localhost:4000/assets/img/library_page/wireframe2.jpg" alt="wireframe" /> 
+		<span class="help-text" style="margin-bottom: 3rem;">Wireframe featuring multiple items promoted at the top with option to filter items by topic and content type</span>
+	</div>
+</div>
+
+<p>To make it more appealing for the user to enter their information, the actual download process needed to be simpiler. Historically, users had to click on the title that then took them to a landing page, which took users to a third party site to download the content. Wouldn’t it be easier to have it all hosted on our site?</p>
+
+<div class="row">
+	<div class="medium-6 columns">
+		<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="http://localhost:4000/assets/img/library_page/wireframe3.jpg" alt="wireframe" /> 
+		<span class="help-text" style="margin-bottom: 3rem;">Option to download item on the page</span>
+	</div>
+	<div class="medium-6 columns">
+		<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="http://localhost:4000/assets/img/library_page/wireframe4.jpg" alt="wireframe" /> 
+		<span class="help-text" style="margin-bottom: 3rem;">Option to download item once you click through to the landing page</span>
+	</div>
+</div>
+
+<p><strong>Mockups</strong></p>
+
+<p>In the first few mockups of the page, my main challenge was how to layout each item with each variant (the ones mentioned above). What happens if a photo isn’t uploaded? How can I better indicate what type of content the item is? Is the item made by a client or by the Brand Studio?</p>
+
+<p>In the second mock below, I added a top ad placement, where the Brand Studio would be able to promote a particular piece. I also added ads within the feed of content to promote LinkedIn groups and the newsletter.</p>
+
+<div class="row">
+	<div class="medium-6 columns">
+		<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="http://localhost:4000/assets/img/library_page/mock1.jpg" alt="mockup" /> 
+		<span class="help-text" style="margin-bottom: 3rem;">First mock with filtering options</span>
+	</div>
+	<div class="medium-6 columns">
+		<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="http://localhost:4000/assets/img/library_page/mock2.jpg" alt="mockup" /> 
+		<span class="help-text" style="margin-bottom: 3rem;">Mock with additional ad/signup placements</span>
+	</div>
+</div>
+
+<p>For the download process, I looked primarily at the <a href="https://www.smashingmagazine.com/2013/03/designing-a-better-mobile-checkout-process/">Amazon’s checkout process</a> to see what would increase conversions. As previously stated, I wanted to make this more seamless. When talking to our audience development team, someone suggested adding the feature to sign in with LinkedIn.</p>
+
+<div class="row">
+	<div class="medium-6 columns">
+		<img style="border: 1px solid #eee; margin: 3rem auto 1rem auto;" src="http://localhost:4000/assets/img/library_page/mock_pop_1.jpg" alt="mockup" /> 
+	</div>
+	<div class="medium-6 columns">
+		<img style="border: 1px solid #eee; margin: 3rem auto 1rem auto;" src="http://localhost:4000/assets/img/library_page/mock_pop_2.jpg" alt="mockup" /> 
+	</div>
+</div>
+<div class="row">
+	<div class="medium-6 columns">
+		<img style="border: 1px solid #eee; margin: 1rem auto 3rem auto;" src="http://localhost:4000/assets/img/library_page/mock_pop_3.jpg" alt="mockup" /> 
+	</div>
+	<div class="medium-6 columns">
+		<img style="border: 1px solid #eee; margin: 1rem auto 3rem auto;" src="http://localhost:4000/assets/img/library_page/mock_pop_4.jpg" alt="mockup" /> 
+	</div>
+</div>
+
+<p>In the next iteration of mocks, I cleaned up the page by focusing on separating client (content in the grey box) vs. Brand Studio work (all other content on the page). I also decided that photos should be required because the icon + gradient style was starting to look a bit repetitive.</p>
+
+<div class="row">
+	<div class="medium-6 columns">
+		<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="http://localhost:4000/assets/img/library_page/mock3.jpg" alt="mockup" /> 
+		<span class="help-text" style="margin-bottom: 3rem;">Mock featuring client content at the bottom of the page</span>
+	</div>
+	<div class="medium-6 columns">
+		<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="http://localhost:4000/assets/img/library_page/mock4.jpg" alt="mockup" /> 
+		<span class="help-text" style="margin-bottom: 3rem;">This mock moves client content up the page</span>
+	</div>
+</div>
+
+<p><strong>Implemetation</strong></p>
+
+<p>I knew this would be a large tech undertaking so after meeting with a developer, we decided to break it up into phases:</p>
+
+<ul>
+  <li><strong>Phase 1:</strong> General library page redesign: adding photos to each item, the differentiation between client and Brand Studio content and some back-end refactoring to make the CMS process easier for users</li>
+  <li><strong>Phase 2:</strong> Ad placements and a tool that makes the page easier to organize</li>
+  <li><strong>Future improvements:</strong> Migrating third-party landing pages to our platform for easier downloading and lead generation</li>
+</ul>
+
+<p>This way, the back-end could be restructured before adding new larger features, such as an “easy-to-manipulate” layout. Initially I thought a drag-and-drop layout would be ideal for laying out the page but until that is built, there are radio and checkbox inputs in the CMS to indicate the item type.</p>
+
+<p class="centered">
+	<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="http://localhost:4000/assets/img/library_page/content_type_CMS.png" alt="CMS" />
+	<span style="margin-bottom: 3rem;" class="help-text">Screenshot from library item CMS</span>
+</p>
+
+<p><strong>Phase 1</strong></p>
+
+<p>The final product for Phase 1 looks relatively similar to the final mocks. The one difference is that instead of having the icon overlay on the photo, the icon along with CTA text appears on hover so the user can see the whole photo. Also the styling of the “Industry Intel” (i.e. the client content section) is slightly different.</p>
+
+<p class="p-img"><img src="http://localhost:4000/assets/img/library_page/phase1.gif" alt="phase1 gif" style="border: 1px solid #eee;" /></p>
+
+<p class="p-img"><img src="http://localhost:4000/assets/img/library_page/phase1_mobile.gif" alt="phase1 mobile gif" style="border: 1px solid #eee;" /></p>
+
+<p>Next, I will look at engagement on the page and make tweaks accordingly as well as pushing forward on Phase 2 of the project.</p>
+
+<p><em>This post was originally published on <a href="http://design.industrydive.com/">Industry Dive’s Design Blog</a>.</em></p>
+
+
+  	</div>
+
+</article>
+
+            </div>
+        </main>
+
+        <footer>
+    <div class="row footer-wrapper">
+        <div class="medium-6 columns">
+            <p>Made with <a href="http://foundation.zurb.com/" target="_blank">Foundation</a>, <a href="https://pages.github.com/" target="_blank">Github Pages</a> and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a></p>
+        </div>
+        <div class="medium-6 columns">
+        	<div class="social-icons">
+        		<a href="https://github.com/nancopeland" target="_blank">
+        			<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 15.6"><title>github</title><path d="M8,0A8,8,0,0,0,5.47,15.59,0.4,0.4,0,0,0,6,15.2c0-.19,0-0.69,0-1.36-2.23.48-2.69-1.07-2.69-1.07a2.12,2.12,0,0,0-.89-1.17c-0.73-.5.06-0.49,0.06-0.49a1.68,1.68,0,0,1,1.23.82A1.7,1.7,0,0,0,6,12.61a1.7,1.7,0,0,1,.51-1.07c-1.78-.2-3.64-0.89-3.64-4a3.09,3.09,0,0,1,.82-2.15,2.84,2.84,0,0,1,.07-2.12S4.46,3.1,6,4.14a7.54,7.54,0,0,1,4,0c1.52-1,2.19-.82,2.19-0.82a2.92,2.92,0,0,1,.08,2.12,3.1,3.1,0,0,1,.82,2.15c0,3.07-1.87,3.75-3.65,3.95A1.91,1.91,0,0,1,10,13c0,1.07,0,1.93,0,2.19a0.4,0.4,0,0,0,.55.38A8,8,0,0,0,8,0"/></svg>
+        		</a>
+                <a href="https://www.instagram.com/nancopeland/" target="_blank">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>instagram</title><path d="M8,0C5.83,0,5.55,0,4.7,0A5.9,5.9,0,0,0,2.76.42a3.91,3.91,0,0,0-1.42.92A3.89,3.89,0,0,0,.42,2.76,5.87,5.87,0,0,0,0,4.7C0,5.55,0,5.83,0,8s0,2.44,0,3.3a5.89,5.89,0,0,0,.37,1.94,3.91,3.91,0,0,0,.92,1.42,3.89,3.89,0,0,0,1.42.92A5.87,5.87,0,0,0,4.7,16c0.85,0,1.13,0,3.3,0s2.44,0,3.3,0a5.89,5.89,0,0,0,1.94-.37,4.09,4.09,0,0,0,2.34-2.34A5.87,5.87,0,0,0,16,11.3c0-.85,0-1.12,0-3.3s0-2.44,0-3.3a5.89,5.89,0,0,0-.37-1.94,3.91,3.91,0,0,0-.92-1.42A3.89,3.89,0,0,0,13.24.42,5.87,5.87,0,0,0,11.3,0C10.44,0,10.17,0,8,0ZM8,1.44c2.14,0,2.39,0,3.23,0a4.42,4.42,0,0,1,1.48.28,2.47,2.47,0,0,1,.92.6,2.47,2.47,0,0,1,.6.92,4.42,4.42,0,0,1,.28,1.49c0,0.84,0,1.1,0,3.23s0,2.39-.05,3.23a4.5,4.5,0,0,1-.28,1.48,2.54,2.54,0,0,1-.6.92,2.5,2.5,0,0,1-.92.6,4.44,4.44,0,0,1-1.49.28c-0.85,0-1.1,0-3.24,0s-2.39,0-3.24-.05a4.52,4.52,0,0,1-1.49-.28,2.49,2.49,0,0,1-.92-0.6,2.45,2.45,0,0,1-.6-0.92,4.52,4.52,0,0,1-.28-1.49c0-.84,0-1.1,0-3.23s0-2.39,0-3.24a4.52,4.52,0,0,1,.28-1.49,2.37,2.37,0,0,1,.6-0.92,2.37,2.37,0,0,1,.92-0.6,4.44,4.44,0,0,1,1.48-.28c0.85,0,1.1,0,3.24,0ZM8,3.89A4.11,4.11,0,1,0,12.11,8,4.11,4.11,0,0,0,8,3.89Zm0,6.77A2.67,2.67,0,1,1,10.67,8,2.67,2.67,0,0,1,8,10.67Zm5.23-6.94a1,1,0,1,1-1-1A1,1,0,0,1,13.23,3.73Z"/></svg>
+                </a>
+                <a href="https://twitter.com/nancopeland" target="_blank">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.01 13.01"><title>twitter</title><path d="M16,3a6.62,6.62,0,0,1-1.89.52,3.3,3.3,0,0,0,1.44-1.82,6.78,6.78,0,0,1-2.09.79A3.28,3.28,0,0,0,7.79,4.77a3.35,3.35,0,0,0,.09.75A9.31,9.31,0,0,1,1.11,2.1,3.22,3.22,0,0,0,.67,3.75,3.28,3.28,0,0,0,2.13,6.48,3.28,3.28,0,0,1,.64,6.07v0A3.29,3.29,0,0,0,3.28,9.33a3.34,3.34,0,0,1-.87.11A3.23,3.23,0,0,1,1.8,9.39a3.29,3.29,0,0,0,3.07,2.28A6.58,6.58,0,0,1,.8,13.07,6.8,6.8,0,0,1,0,13a9.33,9.33,0,0,0,5,1.47A9.27,9.27,0,0,0,14.4,5.17c0-.14,0-0.28,0-0.42A6.63,6.63,0,0,0,16,3.05h0Z" transform="translate(-0.02 -1.49)"/></svg>
+                </a>
+        	</div>
+        </div>
+    </div>
+</footer>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="/assets/js/app.js"></script>
+    </body>
+
+</html>
