@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-06T13:42:06-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Redesigning our branded content landing page in phases</title><link href="http://localhost:4000/2018/01/06/library-page.html" rel="alternate" type="text/html" title="Redesigning our branded content landing page in phases" /><published>2018-01-06T00:00:00-05:00</published><updated>2018-01-06T00:00:00-05:00</updated><id>http://localhost:4000/2018/01/06/library-page</id><content type="html" xml:base="http://localhost:4000/2018/01/06/library-page.html">&lt;p&gt;The &lt;a href=&quot;https://www.constructiondive.com/library/&quot;&gt;library page&lt;/a&gt; on Industry Dive’s publication sites was recently redesigned to feature more content from our in-house content studio, &lt;a href=&quot;https://www.industrydive.com/brandstudio/&quot;&gt;Dive Brand Studio&lt;/a&gt;. Originally, the page featured both Brand Studio content along with promoted content from clients. How could the new page account for both content types while making their difference clear to the user?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-06T14:03:43-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Redesigning our branded content landing page in phases</title><link href="http://localhost:4000/2018/01/06/library-page.html" rel="alternate" type="text/html" title="Redesigning our branded content landing page in phases" /><published>2018-01-06T00:00:00-05:00</published><updated>2018-01-06T00:00:00-05:00</updated><id>http://localhost:4000/2018/01/06/library-page</id><content type="html" xml:base="http://localhost:4000/2018/01/06/library-page.html">&lt;p&gt;The &lt;a href=&quot;https://www.constructiondive.com/library/&quot;&gt;library page&lt;/a&gt; on Industry Dive’s publication sites was recently redesigned to feature more content from our in-house content studio, &lt;a href=&quot;https://www.industrydive.com/brandstudio/&quot;&gt;Dive Brand Studio&lt;/a&gt;. Originally, the page featured both Brand Studio content along with promoted content from clients. How could the new page account for both content types while making their difference clear to the user?&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;old library page&quot; src=&quot;http://localhost:4000/assets/img/library_page/old_library_page.png&quot; style=&quot;width:660px; margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;old library page&quot; src=&quot;http://localhost:4000/assets/img/library_page/old_library_page.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
 	&lt;/div&gt;
 	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;The old library page that &lt;strong&gt;doesn't&lt;/strong&gt; show difference between the two content types&lt;/span&gt;
 &lt;/div&gt;
@@ -32,16 +32,12 @@
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe1.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
-			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Wireframe featuring one item promoted at the top&lt;/span&gt;
-		&lt;/div&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe1.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Wireframe featuring one item promoted at the top&lt;/span&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe2.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
-			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Wireframe featuring multiple items promoted at the top with option to filter items by topic and content type&lt;/span&gt;
-		&lt;/div&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe2.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Wireframe featuring multiple items promoted at the top with option to filter items by topic and content type&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -49,16 +45,12 @@
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe3.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
-			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Option to download item on the page&lt;/span&gt;
-		&lt;/div&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe3.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Option to download item on the page&lt;/span&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe4.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
-			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Option to download item once you click through to the landing page&lt;/span&gt;
-		&lt;/div&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe4.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Option to download item once you click through to the landing page&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -70,16 +62,12 @@
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;First mock with filtering options&lt;/span&gt;
-		&lt;/div&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;First mock with filtering options&lt;/span&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Mock with additional ad/signup placements&lt;/span&gt;
-		&lt;/div&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Mock with additional ad/signup placements&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -87,26 +75,18 @@
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-		&lt;/div&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
 	&lt;/div&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-		&lt;/div&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-		&lt;/div&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 1rem auto 3rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
 	&lt;/div&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-		&lt;/div&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 1rem auto 3rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -114,16 +94,12 @@
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Mock featuring client content at the bottom of the page&lt;/span&gt;
-		&lt;/div&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Mock featuring client content at the bottom of the page&lt;/span&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
-			&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-			&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;This mock moves client content up the page&lt;/span&gt;
-		&lt;/div&gt;
+		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;This mock moves client content up the page&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -139,22 +115,18 @@
 
 &lt;p&gt;This way, the back-end could be restructured before adding new larger features, such as an “easy-to-manipulate” layout. Initially I thought a drag-and-drop layout would be ideal for laying out the page but until that is built, there are radio and checkbox inputs in the CMS to indicate the item type.&lt;/p&gt;
 
-&lt;p class=&quot;centered&quot; style=&quot;width: 400px;&quot;&gt;
-	&lt;img src=&quot;http://localhost:4000/assets/img/library_page/content_type_CMS.png&quot; alt=&quot;CMS&quot; /&gt;
-	&lt;span class=&quot;help-text&quot;&gt;Screenshot from library item CMS&lt;/span&gt;
+&lt;p class=&quot;centered&quot;&gt;
+	&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/content_type_CMS.png&quot; alt=&quot;CMS&quot; /&gt;
+	&lt;span style=&quot;margin-bottom: 3rem;&quot; class=&quot;help-text&quot;&gt;Screenshot from library item CMS&lt;/span&gt;
 &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Phase 1&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The final product for Phase 1 looks relatively similar to the final mocks. The one difference is that instead of having the icon overlay on the photo, the icon along with CTA text appears on hover so the user can see the whole photo. Also the styling of the “Industry Intel” (i.e. the client content section) is slightly different.&lt;/p&gt;
 
-&lt;p class=&quot;centered&quot;&gt;
-	&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/phase1.gif&quot; alt=&quot;phase1 gif&quot; /&gt;
-&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/library_page/phase1.gif&quot; alt=&quot;phase1 gif&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
 
-&lt;p class=&quot;centered&quot; style=&quot;width: 300px;&quot;&gt;
-	&lt;img style=&quot;border: 1px solid #eee;&quot; src=&quot;http://localhost:4000/assets/img/library_page/phase1_mobile.gif&quot; alt=&quot;phase1 mobile gif&quot; /&gt; 
-&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/library_page/phase1_mobile.gif&quot; alt=&quot;phase1 mobile gif&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Next, I will look at engagement on the page and make tweaks accordingly as well as pushing forward on Phase 2 of the project.&lt;/p&gt;</content><summary type="html">The library page on Industry Dive’s publication sites was recently redesigned to feature more content from our in-house content studio, Dive Brand Studio. Originally, the page featured both Brand Studio content along with promoted content from clients. How could the new page account for both content types while making their difference clear to the user?</summary></entry><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;&lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;GIG&lt;/a&gt;&lt;/strong&gt; is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.&lt;/p&gt;
 
