@@ -1268,7 +1268,15 @@ nav {
     .about-home p {
       font-size: 1.75rem; } }
 .projects {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin: 0 auto;
+  max-width: 62.5rem;
+  width: 100%; }
+  .projects:before, .projects:after {
+    content: " ";
+    display: table; }
+  .projects:after {
+    clear: both; }
 
 .project-wrapper {
   padding-left: 0.9375rem;

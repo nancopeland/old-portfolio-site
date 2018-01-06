@@ -21,6 +21,7 @@
 // PROJECTS
 .projects {
 	margin-top: 2rem; 
+	@include grid-row;
 }
 .project-wrapper {
 	@include grid-column(12); 
