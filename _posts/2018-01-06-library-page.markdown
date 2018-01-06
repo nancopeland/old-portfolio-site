@@ -7,7 +7,7 @@ prev-story: /2017/06/10/smt-user-content-admin.html
 next-story: /2017/10/14/gig-app.html
 ---
 
-I recently redesigned the [Library page](https://www.retaildive.com/library/) for each of Industry Dive's publications with the help of the dev team to better showcase the [Brand Studio's](https://www.industrydive.com/brandstudio/) content.
+I recently redesigned the **[Library page](https://www.retaildive.com/library/)** for each of Industry Dive's publications with the help of the dev team to better showcase the [Brand Studio's](https://www.industrydive.com/brandstudio/) content.
 
 {:.p-img}
 ![page in ipad mockup]({{ site.url }}/assets/img/library_page/page_hands_header.jpg)
