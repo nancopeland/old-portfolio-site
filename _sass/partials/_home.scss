@@ -93,6 +93,9 @@
 	.project-wrapper {
 		@include grid-column(6); 
 	}
+	.project-description {
+		min-width: 110px; 
+	}
 	.img-container { 
 		height: 220px; 
 	}

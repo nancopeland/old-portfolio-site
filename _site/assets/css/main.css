@@ -1343,6 +1343,9 @@ nav {
     width: 50%;
     float: left; }
 
+  .project-description {
+    min-width: 110px; }
+
   .img-container {
     height: 220px; } }
 .post-content {
