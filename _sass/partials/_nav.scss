@@ -28,5 +28,8 @@ nav {
 @media (min-width: 40em) {
 	header[role='banner'] {
     	padding: 1rem 3rem;
+    	a {
+    		font-size: .875rem; 
+    	}
 	}
 }
