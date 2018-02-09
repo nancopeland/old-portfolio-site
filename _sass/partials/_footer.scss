@@ -4,11 +4,11 @@
 	border-top: 1px solid #eee; 
 	margin-top: 3rem; 
 	max-width: 55rem; 
-	padding: 1.5rem 0 2rem 0; 
+	padding: 1.5rem 0 3rem 0; 
 	p {
 		font-size: .875rem; 
 	}
-	.social-icons {
+	.footer-links {
 		margin-top: 1rem; 
 		a {
 			border-bottom: 0; 
@@ -33,7 +33,7 @@
 
 @media (min-width: 40em) {
 	.footer-wrapper { 
-		.social-icons {
+		.footer-links {
 			margin-top: 0; 
 			text-align: right;
 		}

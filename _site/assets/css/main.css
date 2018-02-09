@@ -1255,7 +1255,9 @@ nav {
 
 @media (min-width: 40em) {
   header[role='banner'] {
-    padding: 1rem 3rem; } }
+    padding: 1rem 3rem; }
+    header[role='banner'] a {
+      font-size: .875rem; } }
 .about-home {
   margin-bottom: 2.25rem;
   padding: 0 0.9375rem; }
@@ -1385,23 +1387,23 @@ nav {
   border-top: 1px solid #eee;
   margin-top: 3rem;
   max-width: 55rem;
-  padding: 1.5rem 0 2rem 0; }
+  padding: 1.5rem 0 3rem 0; }
   .footer-wrapper p {
     font-size: .875rem; }
-  .footer-wrapper .social-icons {
+  .footer-wrapper .footer-links {
     margin-top: 1rem; }
-    .footer-wrapper .social-icons a {
+    .footer-wrapper .footer-links a {
       border-bottom: 0;
       padding: .25rem; }
-      .footer-wrapper .social-icons a svg {
+      .footer-wrapper .footer-links a svg {
         width: 22px; }
-        .footer-wrapper .social-icons a svg path {
+        .footer-wrapper .footer-links a svg path {
           fill: #333333;
           transition: all .2s ease; }
-      .footer-wrapper .social-icons a:hover svg path {
+      .footer-wrapper .footer-links a:hover svg path {
         fill: #1adbd3; }
 
 @media (min-width: 40em) {
-  .footer-wrapper .social-icons {
+  .footer-wrapper .footer-links {
     margin-top: 0;
     text-align: right; } }
