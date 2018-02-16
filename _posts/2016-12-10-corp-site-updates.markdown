@@ -1,11 +1,12 @@
 ---
-layout: post
-title:  "Industrydive.com updates"
-description: Functionality updates to Industry Dive's corporate site 
-image-class: news-page
-prev-story: /2016/12/29/pub-site-redesign.html
-next-story: /2016/12/01/living-style-guide.html
+title: Industrydive.com updates
+date: 2016-12-10 00:00:00 Z
 published: false
+layout: post
+description: Functionality updates to Industry Dive's corporate site
+image-class: news-page
+prev-story: "/2016/12/29/pub-site-redesign.html"
+next-story: "/2016/12/01/living-style-guide.html"
 ---
 
 In addition to maintaining Industry Dive's publication sites, I also update **Industry Dive's [corporate site](http://industrydive.com/)**. Usually, the updates make the site easier to use for both current employees and outside users coming to the site for more information on the company. 
