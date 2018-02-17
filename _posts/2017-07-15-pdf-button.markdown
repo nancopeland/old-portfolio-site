@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating downloadable PDFs using the .print window"
+title:  "Downloadable article PDFs"
 description: How to create and style a PDF using the browser print window
 image-class: pdf-button
 prev-story: /2017/10/14/gig-app.html 
