@@ -22,7 +22,7 @@ Teams at Industry Dive, specifically Tech and Design, were receiving one-off req
 {:.p-img}
 ![JIRA issue collectors]({{ site.url }}/assets/img/support_page/issue_collector2.png)
 
-**Process**
+**The Solution**
 
 First, Tech's project manager and I created Issue Collectors for both teams. Each issue collector has different form fields (i.e. description, due date, computer/browser type) depending on the issue type. By making each issue collector "Custom" in JIRA, I was able to manipulate the functionality and look of each issue collector button therefore making it easier to add multiple to a page. 
 
