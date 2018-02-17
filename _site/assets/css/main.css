@@ -1313,6 +1313,9 @@ nav {
 
 .img-container {
   height: 180px; }
+  .img-container.support-page {
+    background: url("../img/support_page.jpg") no-repeat center center;
+    background-size: cover; }
   .img-container.library-page {
     background: url("../img/library_page.jpg") no-repeat center center;
     background-size: cover; }
