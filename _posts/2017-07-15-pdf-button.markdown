@@ -1,11 +1,10 @@
 ---
-title: Creating downloadable PDFs using the .print window
-date: 2017-07-15 00:00:00 Z
 layout: post
+title:  "Creating downloadable PDFs using the .print window"
 description: How to create and style a PDF using the browser print window
 image-class: pdf-button
-prev-story: "/2017/10/14/gig-app.html"
-next-story: "/2017/06/10/smt-user-content-admin.html"
+prev-story: /2017/10/14/gig-app.html 
+next-story: /2017/06/10/smt-user-content-admin.html
 ---
 
 Recently, I helped add a tool to Industry Dive's site for the Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams. 

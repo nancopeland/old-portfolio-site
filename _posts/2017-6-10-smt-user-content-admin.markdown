@@ -1,11 +1,10 @@
 ---
-title: Social Media Today CMS
-date: 2017-06-10 00:00:00 Z
 layout: post
+title:  "Social Media Today CMS"
 description: Mockups for Social Media Today's user-submitted CMS
 image-class: smt-user-admin
-prev-story: "/2017/07/15/pdf-button.html"
-next-story: "/2018/01/06/library-page.html"
+prev-story: /2017/07/15/pdf-button.html
+next-story: /2018/01/06/library-page.html
 ---
 
 I am currently working on improving the CMS for **[Social Media Today](http://www.socialmediatoday.com/)**. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial. 
