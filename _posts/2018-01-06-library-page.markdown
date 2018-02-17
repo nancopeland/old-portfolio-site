@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Branded content library page"
+title:  "Dive Library page"
 description: How I redesigned this page with a developer in phases
 image-class: library-page
 prev-story: /2017/06/10/smt-user-content-admin.html
