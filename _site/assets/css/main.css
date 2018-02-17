@@ -1268,7 +1268,7 @@ nav {
   .about-home {
     margin-bottom: 3.5rem; }
     .about-home p {
-      font-size: 1.75rem; } }
+      font-size: 1.625rem; } }
 .projects {
   margin-top: 2rem;
   margin: 0 auto;
@@ -1313,6 +1313,9 @@ nav {
 
 .img-container {
   height: 180px; }
+  .img-container.support-page {
+    background: url("../img/support_page.jpg") no-repeat center center;
+    background-size: cover; }
   .img-container.library-page {
     background: url("../img/library_page.jpg") no-repeat center center;
     background-size: cover; }

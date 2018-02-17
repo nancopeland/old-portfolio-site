@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
-    <title>About</title>
-    <meta name="description" content="Nan Copeland&#39;s personal site">
+    <title>Industry Dive Support Page</title>
+    <meta name="description" content="I designed and coded the Industry Dive Support Page which handles all internal requests for the Tech and Design teams.">
 
     <!-- typekit --> 
     <script src="https://use.typekit.net/thg0ewt.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/about/">
+    <link rel="canonical" href="http://localhost:4000/2018/02/17/support-page.html">
     <link rel="alternate" type="application/rss+xml" title="Nan Copeland" href="/feed.xml">
   
     <!-- google analytics --> 
@@ -36,24 +36,61 @@
 
         <main class="row page-content" aria-label="Content">
             <div class="medium-11 medium-centered columns">
-                <article class="post">
+                <header role="banner">
 
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-  </header>
+    <nav class="row">
+        <div class="small-4 columns">
+            
+                <a href="/2017/06/10/smt-user-content-admin.html">&larr; Previous post</a>
+            
+        </div>
+        <div class="small-4 columns" style="text-align:center;" >
+            <strong><a href="/">Home</a></strong>
+        </div>
+        <div class="small-4 columns">
+            
+                <a class="text-right" href="/2018/01/06/library-page.html">Next post &rarr;</a>
+            
+        </div>
+    </nav>
 
-  <div class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
+</header>
 
-<p>You can find the source code for the Jekyll new theme at:</p>
 
-<p><a href="https://github.com/jekyll/minima">minima</a></p>
 
-<p>You can find the source code for Jekyll at</p>
 
-<p><a href="https://github.com/jekyll/jekyll">jekyll</a></p>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  </div>
+  	<div class="post-content" itemprop="articleBody">
+    	<p>I designed and coded the <strong><a target="_blank" href="https://support.industrydive.com/">Industry Dive Support Page</a></strong> which handles all internal requests for the Tech and Design teams.</p>
+
+<p class="p-img"><img src="http://localhost:4000/assets/img/support_page/support_page.jpg" alt="support page" /></p>
+
+<p><strong>The Problem</strong></p>
+
+<p>Teams at Industry Dive, specifically Tech and Design, were receiving one-off requests frequently via Hipchat and email but they were hard to remember and keep track of. Since Industry Dive switched to JIRA about a year ago for project management and ticket collection, Tech’s project manager had already decided we would use an issue collector but how could this be scaled for multiple issue collectors and multiple teams?</p>
+
+<p class="p-img"><img src="http://localhost:4000/assets/img/support_page/issue_collector1.png" alt="JIRA issue collectors" /></p>
+
+<p class="p-img"><img src="http://localhost:4000/assets/img/support_page/issue_collector2.png" alt="JIRA issue collectors" /></p>
+
+<p><strong>The Solution</strong></p>
+
+<p>First, Tech’s project manager and I created Issue Collectors for both teams. Each issue collector has different form fields (i.e. description, due date, computer/browser type) depending on the issue type. By making each issue collector “Custom” in JIRA, I was able to manipulate the functionality and look of each issue collector button therefore making it easier to add multiple to a page.</p>
+
+<p><img alt="custom trigger selection" class="p-img" src="http://localhost:4000//assets/img/support_page/custom_trigger.png" style="margin: 3rem auto;" />
+<img alt="issue collector" class="p-img" src="http://localhost:4000//assets/img/support_page/issue_collector_popup.png" style="margin: 3rem auto;" /></p>
+
+<p>Then, I added the issue collectors to the page. I tried this in a variety of layouts but the best and most scalable design was putting the designated issue collectors under each department/team name. This way, users would know which team their request was going to (usually my coworkers know which team they want to receive their request).</p>
+
+<p><img alt="support page" class="p-img" src="http://localhost:4000//assets/img/support_page/support_page_demo.gif" style="margin: 3rem auto;" /></p>
+
+<p>Recently, I added issue collectors for the Sales Ops team and hopefully, because the scalable design, more teams will be interested in adding their own collectors.</p>
+
+<p style="font-style: italic; margin-top: 3rem;">Project Manager: <a target="_blank" href="https://www.linkedin.com/in/tonybagdon/">Tony Bagdon</a></p>
+
+
+  	</div>
 
 </article>
 
@@ -64,7 +101,7 @@
     <div class="row footer-wrapper">
         <div class="medium-6 columns">
             <p>Made with <a href="http://foundation.zurb.com/" target="_blank">Foundation</a>, <a href="https://pages.github.com/" target="_blank">Github Pages</a> and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a></p>
-            <p><strong><a href="../assets/resume_nan_copeland.pdf">Download Resume</a></strong></p>
+            <p><strong><a href="/assets/resume_nan_copeland.pdf">Download Resume</a></strong></p>
         </div>
         <div class="medium-6 columns">
         	<div class="footer-links">
