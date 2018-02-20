@@ -26,12 +26,11 @@ Teams at Industry Dive, specifically Tech and Design, were receiving one-off req
 
 First, Tech's project manager and I created Issue Collectors for both teams. Each issue collector has different form fields (i.e. description, due date, computer/browser type) depending on the issue type. By making each issue collector "Custom" in JIRA, I was able to manipulate the functionality and look of each issue collector button therefore making it easier to add multiple to a page. 
 
-<img alt="custom trigger selection" class="p-img" src="{{ site.url }}//assets/img/support_page/custom_trigger.png" style="margin: 3rem auto;">
-<img alt="issue collector" class="p-img" src="{{ site.url }}//assets/img/support_page/issue_collector_popup.png" style="margin: 3rem auto;">
+<img alt="custom trigger selection" class="p-img" src="{{ site.url }}/assets/img/support_page/custom_trigger.png" style="margin: 3rem auto;">
+<img alt="issue collector" class="p-img" src="{{ site.url }}/assets/img/support_page/issue_collector_popup.png" style="margin: 3rem auto;">
 
 Then, I added the issue collectors to the page. I tried this in a variety of layouts but the best and most scalable design was putting the designated issue collectors under each department/team name. This way, users would know which team their request was going to (usually my coworkers know which team they want to receive their request). 
-
-<img alt="support page" class="p-img" src="{{ site.url }}//assets/img/support_page/support_page_demo.gif" style="margin: 3rem auto;">
+<img alt="support page" class="p-img" src="{{ site.url }}/assets/img/support_page/support_page_demo.gif" style="margin: 3rem auto;">
 
 Recently, I added issue collectors for the Sales Ops team and hopefully, because the scalable design, more teams will be interested in adding their own collectors. 
 
