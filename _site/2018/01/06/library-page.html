@@ -8,7 +8,7 @@
     
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
     <title>Dive Library page</title>
-    <meta name="description" content="I recently redesigned the Library page for each of Industry Dive’s publications with the help of the dev team to better showcase the Brand Studio’s content.">
+    <meta name="description" content="I recently redesigned the Library page for each of Industry Dive’s publications with the help of the dev team to better showcase the Dive Brand Studio’s cont...">
 
     <!-- typekit --> 
     <script src="https://use.typekit.net/thg0ewt.js"></script>
@@ -62,11 +62,15 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   	<div class="post-content" itemprop="articleBody">
-    	<p>I recently redesigned the <strong><a href="https://www.retaildive.com/library/">Library page</a></strong> for each of Industry Dive’s publications with the help of the dev team to better showcase the <a href="https://www.industrydive.com/brandstudio/">Brand Studio’s</a> content.</p>
+    	<p>I recently redesigned the <strong><a href="https://www.biopharmadive.com/library/">Library page</a></strong> for each of Industry Dive’s publications with the help of the dev team to better showcase the <a href="https://www.industrydive.com/brandstudio/">Dive Brand Studio’s</a> content.</p>
 
 <p class="p-img"><img src="http://localhost:4000/assets/img/library_page/page_hands_header.jpg" alt="page in ipad mockup" /></p>
 
-<p>The <a href="https://www.constructiondive.com/library/">library page</a> on Industry Dive’s publication sites was recently redesigned to feature more content from our in-house content studio, <a href="https://www.industrydive.com/brandstudio/">Dive Brand Studio</a>. Originally, the page featured both Brand Studio content along with promoted content from clients. How could the new page account for both content types while making their difference clear to the user?</p>
+<p><strong>Background</strong></p>
+
+<p>The <a href="https://www.industrydive.com/brandstudio/">Dive Brand Studio</a> is the in-house content studio at Industry Dive. They work with clients to create playbooks, webinars and other lead-gen content for Industry Dive’s readers.</p>
+
+<p>Their content is promoted in a variety of ways but the only place is was all centrally housed was on the <a href="https://www.constructiondive.com/library/">library page</a> on Industry Dive’s publication sites. The page features both Brand Studio content along with promoted content from clients. If redesigned, how could the new page account for both content types while focusing on the Brand Studio content?</p>
 
 <div class="row">
 	<div class="columns">
@@ -85,7 +89,7 @@
   <li>Create layout that is easy to manipulate (i.e. there are multiple ways to promote one item and this can easily be done through the CMS)</li>
 </ol>
 
-<p>Then, I looked at the current options available for each listing and considered other possible requirements Brand Studio might request. This would help when explaining the scope of the project to the backend developer helping with the project.</p>
+<p>Then, I looked at the current options available for each listing (i.e. what fields are in the CMS) and considered other possible requirements Brand Studio might request. This would help when explaining the scope of the project to the back-end developer helping with the project.</p>
 <ol>
   <li><strong>Client</strong> - All items have a client who is sponsoring the content regardless of the content type</li>
   <li><strong>Item type</strong> - Is it a playbook, a webinar, an e-book or something else?</li>
@@ -93,10 +97,6 @@
   <li><strong>Photo vs. no photo</strong> - Ideally all items have a photo but what if they don’t?</li>
   <li><strong>Title</strong></li>
 </ol>
-
-<p><strong>Wireframes</strong></p>
-
-<p>My first thought was to remove the sidebar, allowing the page to have a full-width template so it could be differentiated from the rest of the site. Also, being able to filter the content based on topic and content type would make the page easier to navigate for the user.</p>
 
 <div class="row">
 	<div class="medium-6 columns">
@@ -109,7 +109,11 @@
 	</div>
 </div>
 
-<p>To make it more appealing for the user to enter their information, the actual download process needed to be simpiler. Historically, users had to click on the title that then took them to a landing page, which took users to a third party site to download the content. Wouldn’t it be easier to have it all hosted on our site?</p>
+<p><strong>Wireframes</strong></p>
+
+<p>After doing some research, I started wireframing the page. My first thought was to remove the sidebar, allowing the page to have a full-width template so it could be differentiated from the rest of the site. Also, being able to filter the content based on topic and content type would make the page easier to navigate for the user.</p>
+
+<p>To make it more appealing for the user to enter their information, the actual download process needed to be simpiler. Historically, users had to click on the title that then took them to a landing page, which took users to a third party site to download the content. Wouldn’t it be easier to have it all hosted on our site? I knew some of these ideas would get shot down for the MVP but I wanted to sell the vision of easy-to-download content.</p>
 
 <div class="row">
 	<div class="medium-6 columns">
@@ -171,32 +175,27 @@
 	</div>
 </div>
 
-<p><strong>Implemetation</strong></p>
+<p><strong>Implementation</strong></p>
 
-<p>I knew this would be a large tech undertaking so after meeting with a developer, we decided to break it up into phases:</p>
+<p>I knew this would be a large tech undertaking so after meeting with a developer, we prioritized what should be in the first release of the page:</p>
 
 <ul>
-  <li><strong>Phase 1:</strong> General library page redesign: adding photos to each item, the differentiation between client and Brand Studio content and some back-end refactoring to make the CMS process easier for users</li>
-  <li><strong>Phase 2:</strong> Ad placements and a tool that makes the page easier to organize</li>
-  <li><strong>Future improvements:</strong> Migrating third-party landing pages to our platform for easier downloading and lead generation</li>
+  <li>Adding photos to each item</li>
+  <li>Differentiation between client and Brand Studio content</li>
+  <li>Back-end refactoring to make the CMS process easier for users</li>
 </ul>
 
-<p>This way, the back-end could be restructured before adding new larger features, such as an “easy-to-manipulate” layout. Initially I thought a drag-and-drop layout would be ideal for laying out the page but until that is built, there are radio and checkbox inputs in the CMS to indicate the item type.</p>
+<p>This way, the back-end could be restructured before adding new larger features, such as making the content download from our site (not a third-party site).</p>
 
-<p class="centered">
-	<img style="border: 1px solid #eee; margin: 3rem auto 1.5rem auto;" src="http://localhost:4000/assets/img/library_page/content_type_CMS.png" alt="CMS" />
-	<span style="margin-bottom: 3rem;" class="help-text">Screenshot from library item CMS</span>
-</p>
+<p><strong>Rollout</strong></p>
 
-<p><strong>Phase 1</strong></p>
-
-<p>The final product for Phase 1 looks relatively similar to the final mocks. The one difference is that instead of having the icon overlay on the photo, the icon along with CTA text appears on hover so the user can see the whole photo. Also the styling of the “Industry Intel” (i.e. the client content section) is slightly different.</p>
+<p>The final product for the MVP looks relatively similar to the final mocks. The one difference is that instead of having the icon overlay on the photo, the icon along with CTA text appears on hover so the user can see the whole photo. Also the styling of the “Industry Intel” (i.e. the client content section) is slightly different.</p>
 
 <p class="p-img"><img src="http://localhost:4000/assets/img/library_page/phase1.gif" alt="phase1 gif" style="border: 1px solid #eee;" /></p>
 
 <p class="p-img"><img src="http://localhost:4000/assets/img/library_page/phase1_mobile.gif" alt="phase1 mobile gif" style="border: 1px solid #eee;" /></p>
 
-<p>Next, I will look at engagement on the page and make tweaks accordingly as well as pushing forward on Phase 2 of the project.</p>
+<p>Next, I will look at engagement on the page and make tweaks accordingly as well as pushing forward on making the download process more seamless.</p>
 
 <p><em>This post was originally published on <a href="http://design.industrydive.com/">Industry Dive’s Design Blog</a>.</em></p>
 
