@@ -8,7 +8,7 @@
     
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
     <title>Industry Dive Support Page</title>
-    <meta name="description" content="I designed and coded the Industry Dive Support Page which handles all internal requests for the Tech and Design teams.">
+    <meta name="description" content="As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of t...">
 
     <!-- typekit --> 
     <script src="https://use.typekit.net/thg0ewt.js"></script>
@@ -62,29 +62,35 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   	<div class="post-content" itemprop="articleBody">
-    	<p>I designed and coded the <strong><a target="_blank" href="https://support.industrydive.com/">Industry Dive Support Page</a></strong> which handles all internal requests for the Tech and Design teams.</p>
+    	<p>As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using <a href="https://confluence.atlassian.com/adminjiraserver071/using-the-issue-collector-802592637.html" target="_blank">Jira issue collectors</a>.</p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/support_page/support_page.jpg" alt="support page" /></p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/support_page/support_page.jpg" alt="support page" style="border: 1px solid #eee;" /></p>
 
 <p><strong>The Problem</strong></p>
 
-<p>Teams at Industry Dive, specifically Tech and Design, were receiving one-off requests frequently via Hipchat and email but they were hard to remember and keep track of. Since Industry Dive switched to JIRA about a year ago for project management and ticket collection, Tech’s project manager had already decided we would use an issue collector but how could this be scaled for multiple issue collectors and multiple teams?</p>
+<p>Teams at Industry Dive, specifically Tech and Design, were receiving one-off requests frequently via <a href="https://www.atlassian.com/software/hipchat">Hipchat</a>, an internal messaging system, and email. The requests were hard for teams to remember and keep track of. Because Industry Dive switched to <a href="https://www.atlassian.com/software/jira">Jira</a> about a year ago for project management and ticket collection, the tech team’s project manager, Tony, decided we would use a Jira issue system. But, each team was still receiving one-off requests that they would then manually enter into the Jira system. How could we use Jira to improve this process across multiple departments?</p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/support_page/issue_collector1.png" alt="JIRA issue collectors" /></p>
-
-<p class="p-img"><img src="http://localhost:4000/assets/img/support_page/issue_collector2.png" alt="JIRA issue collectors" /></p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/support_page/issue_collector1.png" alt="JIRA issue collectors" style="border: 1px solid #eee;" /></p>
 
 <p><strong>The Solution</strong></p>
 
-<p>First, Tech’s project manager and I created Issue Collectors for both teams. Each issue collector has different form fields (i.e. description, due date, computer/browser type) depending on the issue type. By making each issue collector “Custom” in JIRA, I was able to manipulate the functionality and look of each issue collector button therefore making it easier to add multiple to a page.</p>
+<p>First, issue collectors were created for both teams. Each collector has different form fields (i.e. description, due date, computer/browser type) depending on the issue type. By making each issue collector “custom” in Jira, I was able to manipulate the functionality of each button therefore making it easier to add multiple issue collectors to one page.</p>
 
-<p><img alt="custom trigger selection" class="p-img" src="http://localhost:4000/assets/img/support_page/custom_trigger.png" style="margin: 3rem auto;" />
-<img alt="issue collector" class="p-img" src="http://localhost:4000/assets/img/support_page/issue_collector_popup.png" style="margin: 3rem auto;" /></p>
+<p><img alt="issue collector" class="p-img" src="http://localhost:4000/assets/img/support_page/issue_collector_popup.png" style="border: 1px solid #eee; margin: 3rem auto;" /></p>
 
-<p>Then, I added the issue collectors to the page. I tried this in a variety of layouts but the best and most scalable design was putting the designated issue collectors under each department/team name. This way, users would know which team their request was going to (usually my coworkers know which team they want to receive their request). 
-<img alt="support page" class="p-img" src="http://localhost:4000/assets/img/support_page/support_page_demo.gif" style="margin: 3rem auto;" /></p>
+<p>After adding each issue collector to one central page, all departments could now access the page and make requests from Tech and Design.</p>
 
-<p>Recently, I added issue collectors for the Sales Ops team and hopefully, because the scalable design, more teams will be interested in adding their own collectors.</p>
+<p>As for the design, I first tried just putting all issue collectors on the page with small descriptions for each type. I also added gifs to try and differentiate the request types.</p>
+
+<p><img alt="initial layout" class="p-img" src="http://localhost:4000/assets/img/support_page/old_support_page.png" style="border: 1px solid #eee; margin: 3rem auto;" /></p>
+
+<p>While that was fun, other departments were often submitting requests to the incorrect issue collector. I decided the best and most scalable design was putting the designated issue collectors under each department name with additional help text for each department’s issue collectors. This way, users would know which team their request was going to.</p>
+
+<p class="p-img"><img src="http://localhost:4000/assets/img/support_page/design_collectors.png" alt="design ticket collectors" style="border: 1px solid #eee;" /></p>
+
+<p class="p-img"><img src="http://localhost:4000/assets/img/support_page/support_page_demo.gif" alt="support page" style="border: 1px solid #eee;" /></p>
+
+<p>Recently, I added issue collectors for the Sales Ops team and hopefully, because of the scalable design, more teams will be interested in adding their own collectors to manage their ongoing projects and requests.</p>
 
 <p style="font-style: italic; margin-top: 3rem;">Project Manager: <a target="_blank" href="https://www.linkedin.com/in/tonybagdon/">Tony Bagdon</a></p>
 
