@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-25T14:27:29-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Industry Dive Support Page</title><link href="http://localhost:4000/2018/02/17/support-page.html" rel="alternate" type="text/html" title="Industry Dive Support Page" /><published>2018-02-17T00:00:00-05:00</published><updated>2018-02-17T00:00:00-05:00</updated><id>http://localhost:4000/2018/02/17/support-page</id><content type="html" xml:base="http://localhost:4000/2018/02/17/support-page.html">&lt;p&gt;As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using &lt;a href=&quot;https://confluence.atlassian.com/adminjiraserver071/using-the-issue-collector-802592637.html&quot; target=&quot;_blank&quot;&gt;Jira issue collectors&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-25T15:02:53-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Menu restructure using CSS flex grid</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Menu restructure using CSS flex grid" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;test test test&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Reassessing the menu SCSS&lt;/li&gt;
+  &lt;li&gt;Setting up flex grid -&lt;/li&gt;
+  &lt;li&gt;Making the flex grid responsive&lt;/li&gt;
+  &lt;li&gt;Accounting for topics dropdown&lt;/li&gt;
+  &lt;li&gt;Changing menu breakpoints&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Reassessing the menu SCSS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;First, I broke up the menu SCSS so it was easier to manage. This is pretty straightforward: the menu CSS was previously all in one SCSS partial&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Setting up flex grid -&lt;/li&gt;
+  &lt;li&gt;Making the flex grid responsive&lt;/li&gt;
+  &lt;li&gt;Accounting for topics dropdown&lt;/li&gt;
+  &lt;li&gt;Changing menu breakpoints&lt;/li&gt;
+&lt;/ol&gt;</content><summary type="html">test test test</summary></entry><entry><title type="html">Industry Dive Support Page</title><link href="http://localhost:4000/2018/02/17/support-page.html" rel="alternate" type="text/html" title="Industry Dive Support Page" /><published>2018-02-17T00:00:00-05:00</published><updated>2018-02-17T00:00:00-05:00</updated><id>http://localhost:4000/2018/02/17/support-page</id><content type="html" xml:base="http://localhost:4000/2018/02/17/support-page.html">&lt;p&gt;As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using &lt;a href=&quot;https://confluence.atlassian.com/adminjiraserver071/using-the-issue-collector-802592637.html&quot; target=&quot;_blank&quot;&gt;Jira issue collectors&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/support_page/support_page.jpg&quot; alt=&quot;support page&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
 
