@@ -2,6 +2,13 @@
     font-family: monospace, monospace; 
 }
 
+.inline-code code {
+    background: #f1f1f1;
+    border: solid 1px #ccc;
+    font-size: 0.875rem;
+    padding: .25rem; 
+}
+
 .highlight {
     background: #f1f1f1;
     border: solid 1px #ccc;

@@ -64,9 +64,15 @@
   	<div class="post-content" itemprop="articleBody">
     	<p>test test test</p>
 
+<p><strong>BACKGROUND &amp; RESEARCH</strong></p>
+
+<p>Before starting this project, I research flex grids and other grid methods extensively. Industry Dive currently uses a modified <a href="https://foundation.zurb.com/">Foundation grid</a> for all sites because it is responsive and well-supported. Every time I’d brought up a flex grid before, the main concern was support so my main mission was to prove that the flex grid would work for all browsers we support.</p>
+
+<p>The <a href="https://philipwalton.github.io/solved-by-flexbox/demos/grids/">most helpful article</a> I found on grids was written by Google developer <a href="https://philipwalton.com/">Philip Walton</a>.</p>
+
 <ol>
   <li>Reassessing the menu SCSS</li>
-  <li>Setting up flex grid -</li>
+  <li>Setting up flex grid</li>
   <li>Making the flex grid responsive</li>
   <li>Accounting for topics dropdown</li>
   <li>Changing menu breakpoints</li>
@@ -74,10 +80,12 @@
 
 <p><strong>Reassessing the menu SCSS</strong></p>
 
-<p>First, I broke up the menu SCSS so it was easier to manage. This is pretty straightforward: the menu CSS was previously all in one SCSS partial</p>
+<p>First, I broke up the menu SCSS so it was easier to manage. This is pretty straightforward: the menu CSS was previously all in one SCSS partial so I broke this up into <span class="inline-code"><code class="highlighter-rouge">_desktop.scss</code></span> and <span class="inline-code"><code class="highlighter-rouge">_mobile.scss</code></span>.</p>
+
+<p>To implement the flex grid, I would only really be editing the desktop menu so this made both the coding and QAing easier for everyone involved.</p>
 
 <ol>
-  <li>Setting up flex grid -</li>
+  <li>Setting up flex grid</li>
   <li>Making the flex grid responsive</li>
   <li>Accounting for topics dropdown</li>
   <li>Changing menu breakpoints</li>

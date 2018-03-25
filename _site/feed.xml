@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-25T15:02:53-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Menu restructure using CSS flex grid</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Menu restructure using CSS flex grid" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;test test test&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-25T15:22:02-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Menu restructure using CSS flex grid</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Menu restructure using CSS flex grid" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;test test test&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BACKGROUND &amp;amp; RESEARCH&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Before starting this project, I research flex grids and other grid methods extensively. Industry Dive currently uses a modified &lt;a href=&quot;https://foundation.zurb.com/&quot;&gt;Foundation grid&lt;/a&gt; for all sites because it is responsive and well-supported. Every time I’d brought up a flex grid before, the main concern was support so my main mission was to prove that the flex grid would work for all browsers we support.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://philipwalton.github.io/solved-by-flexbox/demos/grids/&quot;&gt;most helpful article&lt;/a&gt; I found on grids was written by Google developer &lt;a href=&quot;https://philipwalton.com/&quot;&gt;Philip Walton&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Reassessing the menu SCSS&lt;/li&gt;
-  &lt;li&gt;Setting up flex grid -&lt;/li&gt;
+  &lt;li&gt;Setting up flex grid&lt;/li&gt;
   &lt;li&gt;Making the flex grid responsive&lt;/li&gt;
   &lt;li&gt;Accounting for topics dropdown&lt;/li&gt;
   &lt;li&gt;Changing menu breakpoints&lt;/li&gt;
@@ -10,10 +16,12 @@
 
 &lt;p&gt;&lt;strong&gt;Reassessing the menu SCSS&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;First, I broke up the menu SCSS so it was easier to manage. This is pretty straightforward: the menu CSS was previously all in one SCSS partial&lt;/p&gt;
+&lt;p&gt;First, I broke up the menu SCSS so it was easier to manage. This is pretty straightforward: the menu CSS was previously all in one SCSS partial so I broke this up into &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_desktop.scss&lt;/code&gt;&lt;/span&gt; and &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_mobile.scss&lt;/code&gt;&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;To implement the flex grid, I would only really be editing the desktop menu so this made both the coding and QAing easier for everyone involved.&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Setting up flex grid -&lt;/li&gt;
+  &lt;li&gt;Setting up flex grid&lt;/li&gt;
   &lt;li&gt;Making the flex grid responsive&lt;/li&gt;
   &lt;li&gt;Accounting for topics dropdown&lt;/li&gt;
   &lt;li&gt;Changing menu breakpoints&lt;/li&gt;
