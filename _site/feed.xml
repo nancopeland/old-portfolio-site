@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-10T09:40:30-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Industry Dive Support Page</title><link href="http://localhost:4000/2018/02/17/support-page.html" rel="alternate" type="text/html" title="Industry Dive Support Page" /><published>2018-02-17T00:00:00-05:00</published><updated>2018-02-17T00:00:00-05:00</updated><id>http://localhost:4000/2018/02/17/support-page</id><content type="html" xml:base="http://localhost:4000/2018/02/17/support-page.html">&lt;p&gt;As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using &lt;a href=&quot;https://confluence.atlassian.com/adminjiraserver071/using-the-issue-collector-802592637.html&quot; target=&quot;_blank&quot;&gt;Jira issue collectors&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-25T14:27:29-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Industry Dive Support Page</title><link href="http://localhost:4000/2018/02/17/support-page.html" rel="alternate" type="text/html" title="Industry Dive Support Page" /><published>2018-02-17T00:00:00-05:00</published><updated>2018-02-17T00:00:00-05:00</updated><id>http://localhost:4000/2018/02/17/support-page</id><content type="html" xml:base="http://localhost:4000/2018/02/17/support-page.html">&lt;p&gt;As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using &lt;a href=&quot;https://confluence.atlassian.com/adminjiraserver071/using-the-issue-collector-802592637.html&quot; target=&quot;_blank&quot;&gt;Jira issue collectors&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/support_page/support_page.jpg&quot; alt=&quot;support page&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
 
@@ -397,7 +397,7 @@
 
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; We recently rolled this tool out to all stories (not just sponsored) so any company member has the ability to print any article in this format. This is still used mainly for sending content to clients.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This post was originally published on &lt;a href=&quot;http://design.industrydive.com/&quot;&gt;Industry Dive’s Design Blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><summary type="html">I helped add a tool to Industry Dive’s site for the Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams.</summary></entry><entry><title type="html">Social Media Today CMS</title><link href="http://localhost:4000/2017/06/10/smt-user-content-admin.html" rel="alternate" type="text/html" title="Social Media Today CMS" /><published>2017-06-10T00:00:00-04:00</published><updated>2017-06-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/06/10/smt-user-content-admin</id><content type="html" xml:base="http://localhost:4000/2017/06/10/smt-user-content-admin.html">&lt;p&gt;I am currently working on improving the CMS for &lt;strong&gt;&lt;a href=&quot;http://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt;&lt;/strong&gt;. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was originally published on &lt;a href=&quot;http://design.industrydive.com/&quot;&gt;Industry Dive’s Design Blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><summary type="html">I helped add a tool to Industry Dive’s site for the Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams.</summary></entry><entry><title type="html">Social Media Today CMS</title><link href="http://localhost:4000/2017/06/10/smt-user-content-admin.html" rel="alternate" type="text/html" title="Social Media Today CMS" /><published>2017-06-10T00:00:00-04:00</published><updated>2017-06-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/06/10/smt-user-content-admin</id><content type="html" xml:base="http://localhost:4000/2017/06/10/smt-user-content-admin.html">&lt;p&gt;As the lead designer for the &lt;strong&gt;&lt;a href=&quot;http://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt;&lt;/strong&gt; launch, my first project was researching and designing a new CMS. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;span class=&quot;help-text&quot;&gt;Before:&lt;/span&gt;
@@ -421,8 +421,6 @@
 
 &lt;p&gt;Part of that conversion is moving the site onto our custom CMS. But, because SMT runs off of user-submitted content (not reviewed by in-house editors like our other publications), there are a few extra functionalities that needed to be added, such as content submission and approval.&lt;/p&gt;
 
-&lt;p&gt;The goal is that these mockups will eventually lead to a redesign of our custom CMS.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Process&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;First, I interviewed many of the people who worked on the site: writers submitting content, editors and admins approving content, ad operations managers trying to place ads and general users of the site. Their main issue with the CMS was that it was clunky and not intuitive:&lt;/p&gt;
@@ -433,28 +431,41 @@
 
 &lt;p&gt;&lt;strong&gt;3. How editors/admins submit content:&lt;/strong&gt; hard to find page where you would add content, selecting images and tags is tedious, hard to schedule posts&lt;/p&gt;
 
-&lt;p&gt;Users are either regular users (they can only write and submit stories) or admin users (they can write and submit content as well as approve and publish content). Throughout the interviews, admin users expressed interest in a more rigorous application process to become a contributor due to the number of stagnant users and bots.&lt;/p&gt;
+&lt;p&gt;Users are either regular users (they can only write and submit stories) or admin users (they can write and submit content as well as approve and publish content). Throughout the interviews, admin users expressed interest in a more rigorous application process to become a contributor due to the high number of stagnant users and bots.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt_user_flows.jpg&quot; alt=&quot;user flows&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;After interviewing, I looked at a variety of content management systems, specifically &lt;a href=&quot;https://product.voxmedia.com/2016/2/23/11098476/curbed-on-chorus-the-start-of-a-new-era-at-vox-media&quot;&gt;Vox Media’s Chorus&lt;/a&gt;, and also sites used for storage and document organization, such as Google Drive and Dropbox. These provided not only design inspiration but also ideas for navigation and functionality.&lt;/p&gt;
 
-&lt;p&gt;According to the interviews, my overall goal was to unify the CMS dashboard (previously was hosted on Drupal) and the MySMT page to improve navigation ease and make each process easier to find.&lt;/p&gt;
+&lt;p&gt;According to the interviews, my overall goal was to unify the CMS dashboard (which was previously hosted on Drupal) and the MySMT page to improve navigation ease and make each process easier to find.&lt;/p&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt1.jpg&quot; alt=&quot;new site&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt1.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Regular user - &quot;Posts&quot; page&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Because of all the user confusion, I added more notifications that will make the site clearer for both regular and new users.&lt;/p&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt2.jpg&quot; alt=&quot;new site&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt3.jpg&quot; alt=&quot;new site&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt4.jpg&quot; alt=&quot;new site&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt3.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
+		&lt;span class=&quot;help-text&quot;&gt;Regular user - notification received after their post was submitted&lt;/span&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt2.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Regular user - notification received after their post was published&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;For an admin or editor who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separate from what is already published on the site.&lt;/p&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt5.jpg&quot; alt=&quot;new site&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;columns&quot;&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt5.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
+		&lt;span class=&quot;help-text&quot;&gt;Admin user - list of &quot;submitted&quot; posts from regular users&lt;/span&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt6.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Admin user - list of all published posts on the site&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt6.jpg&quot; alt=&quot;new site&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The “New Post” page where all users would submit content is still being designed. I hope to make it WYSIWYG. Stay tuned for updates on this project!&lt;/p&gt;</content><summary type="html">I am currently working on improving the CMS for Social Media Today. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.</summary></entry></feed>
+&lt;p&gt;SMT has now been migrated over to our platform but implementing all of the above mocks is quite cumbersome so it has not been completed yet. Ideally, the whole CMS (that all sites use) will be redesigned so it visually looks like the above mocks and the SMT concepts will be integrated.&lt;/p&gt;</content><summary type="html">As the lead designer for the Social Media Today launch, my first project was researching and designing a new CMS. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.</summary></entry></feed>
