@@ -9,6 +9,10 @@ next-story: /2017/10/14/gig-app.html
 
 test test test
 
+**Goals**
+
+1. Make menu more accessible on medium-sized screens
+
 **Research**
 
 Before starting this project, I research flex grids and other grid methods extensively. Industry Dive currently uses a modified [Foundation grid](https://foundation.zurb.com/) for all sites because it is responsive and well-supported. Every time I'd brought up a flex grid before, the main concern was support so my main mission was to prove that the flex grid would work for all browsers we support.
@@ -82,11 +86,37 @@ The most confusing property related to the flex grid is [flex](https://developer
         flex: auto; // auto is flex: 1 1 auto; 
     }
 }
+.desktop-menu-main,
+.desktop-menu-sub {
+    display: flex; 
+}
 {% endhighlight %}
 
+**3. Making the flex grid responsive**
+
+So far, the changes to the menu haven't changed what it actually looks like. But, as previously stated, the main goal of this project was to make the menu more accessible on smaller screen sizes. Making it work for mobile is a different project but what about the for tablets and small laptops? This was going to involve some slight visual changes. 
 
 
-**3. Making the flex grid responsive/"signup" and "search"**
+<div class="row">
+	<div class="columns">
+		<img class="p-img" alt="flex grid support" src="{{ site.url }}/assets/img/flex_menu/large_menu_after.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
+	</div>
+	<span class="help-text" style="margin-bottom: 1.5rem;">Large menu that didn't really change in look with flex grid</span>
+</div>
+<div class="row">
+	<div class="columns">
+		<img class="p-img" alt="flex grid support" src="{{ site.url }}/assets/img/flex_menu/medium_menu_before.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
+	</div>
+	<span class="help-text" style="margin-bottom: 1.5rem;">Medium menu before flex grid (because widths were set with Foundation)</span>
+</div>
+<div class="row">
+	<div class="columns">
+		<img class="p-img" alt="flex grid support" src="{{ site.url }}/assets/img/flex_menu/medium_menu_after.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
+	</div>
+	<span class="help-text" style="margin-bottom: 3rem;">Medium menu after flex grid</span>
+</div>
+
+The first thing I knew would change is the **sub menu CTAs** (the menu on the right). To account for the thinner screen width, I removed the CTA for "search" because the magnifying glass is fairly universally known to represent "search". I considered removing it for the newsletter signup link as well but I don't think the email icon makes much sense without "signup". 
 
 **4. Accounting for topics dropdown**
 

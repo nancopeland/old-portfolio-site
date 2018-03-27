@@ -64,6 +64,12 @@
   	<div class="post-content" itemprop="articleBody">
     	<p>test test test</p>
 
+<p><strong>Goals</strong></p>
+
+<ol>
+  <li>Make menu more accessible on medium-sized screens</li>
+</ol>
+
 <p><strong>Research</strong></p>
 
 <p>Before starting this project, I research flex grids and other grid methods extensively. Industry Dive currently uses a modified <a href="https://foundation.zurb.com/">Foundation grid</a> for all sites because it is responsive and well-supported. Every time I’d brought up a flex grid before, the main concern was support so my main mission was to prove that the flex grid would work for all browsers we support.</p>
@@ -131,9 +137,36 @@
     <span class="nc">.menu-content-wrapper</span> <span class="p">{</span>
         <span class="nl">flex</span><span class="p">:</span> <span class="nb">auto</span><span class="p">;</span> <span class="c1">// auto is flex: 1 1 auto; 
 </span>    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nc">.desktop-menu-main</span><span class="o">,</span>
+<span class="nc">.desktop-menu-sub</span> <span class="p">{</span>
+    <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span> 
 <span class="p">}</span></code></pre></figure>
 
-<p><strong>3. Making the flex grid responsive/”signup” and “search”</strong></p>
+<p><strong>3. Making the flex grid responsive</strong></p>
+
+<p>So far, the changes to the menu haven’t changed what it actually looks like. But, as previously stated, the main goal of this project was to make the menu more accessible on smaller screen sizes. Making it work for mobile is a different project but what about the for tablets and small laptops? This was going to involve some slight visual changes.</p>
+
+<div class="row">
+	<div class="columns">
+		<img class="p-img" alt="flex grid support" src="http://localhost:4000/assets/img/flex_menu/large_menu_after.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;" />
+	</div>
+	<span class="help-text" style="margin-bottom: 1.5rem;">Large menu that didn't really change in look with flex grid</span>
+</div>
+<div class="row">
+	<div class="columns">
+		<img class="p-img" alt="flex grid support" src="http://localhost:4000/assets/img/flex_menu/medium_menu_before.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;" />
+	</div>
+	<span class="help-text" style="margin-bottom: 1.5rem;">Medium menu before flex grid (because widths were set with Foundation)</span>
+</div>
+<div class="row">
+	<div class="columns">
+		<img class="p-img" alt="flex grid support" src="http://localhost:4000/assets/img/flex_menu/medium_menu_after.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;" />
+	</div>
+	<span class="help-text" style="margin-bottom: 3rem;">Medium menu after flex grid</span>
+</div>
+
+<p>The first thing I knew would change is the <strong>sub menu CTAs</strong> (the menu on the right). To account for the thinner screen width, I removed the CTA for “search” because the magnifying glass is fairly universally known to represent “search”. I considered removing it for the newsletter signup link as well but I don’t think the email icon makes much sense without “signup”.</p>
 
 <p><strong>4. Accounting for topics dropdown</strong></p>
 
