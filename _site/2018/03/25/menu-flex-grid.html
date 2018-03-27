@@ -64,32 +64,80 @@
   	<div class="post-content" itemprop="articleBody">
     	<p>test test test</p>
 
-<p><strong>BACKGROUND &amp; RESEARCH</strong></p>
+<p><strong>Research</strong></p>
 
 <p>Before starting this project, I research flex grids and other grid methods extensively. Industry Dive currently uses a modified <a href="https://foundation.zurb.com/">Foundation grid</a> for all sites because it is responsive and well-supported. Every time I’d brought up a flex grid before, the main concern was support so my main mission was to prove that the flex grid would work for all browsers we support.</p>
 
 <p>The <a href="https://philipwalton.github.io/solved-by-flexbox/demos/grids/">most helpful article</a> I found on grids was written by Google developer <a href="https://philipwalton.com/">Philip Walton</a>.</p>
 
-<ol>
-  <li>Reassessing the menu SCSS</li>
-  <li>Setting up flex grid</li>
-  <li>Making the flex grid responsive</li>
-  <li>Accounting for topics dropdown</li>
-  <li>Changing menu breakpoints</li>
-</ol>
+<div class="row">
+	<div class="columns">
+		<img class="p-img" alt="flex grid support" src="http://localhost:4000/assets/img/flex_menu/flex_support.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;" />
+	</div>
+	<span class="help-text" style="margin-bottom: 3rem;">Flex grid support, screenshot from <a href="https://caniuse.com/#feat=flexbox">Can I Use</a></span>
+</div>
 
-<p><strong>Reassessing the menu SCSS</strong></p>
+<p><strong>1. Reassessing the menu SCSS</strong></p>
 
-<p>First, I broke up the menu SCSS so it was easier to manage. This is pretty straightforward: the menu CSS was previously all in one SCSS partial so I broke this up into <span class="inline-code"><code class="highlighter-rouge">_desktop.scss</code></span> and <span class="inline-code"><code class="highlighter-rouge">_mobile.scss</code></span>.</p>
+<p>First, I broke up the menu SCSS so it was easier to manage. This is pretty straightforward: the menu CSS was previously all in one SCSS partial so I broke this up into three partials: <span class="inline-code"><code class="highlighter-rouge">_base.scss</code></span>, <span class="inline-code"><code class="highlighter-rouge">_desktop.scss</code></span> and <span class="inline-code"><code class="highlighter-rouge">_mobile.scss</code></span>.</p>
 
-<p>To implement the flex grid, I would only really be editing the desktop menu so this made both the coding and QAing easier for everyone involved.</p>
+<p>To implement the flex grid, I would mostly only be editing the desktop and base menu (which is much smaller than the other two files) so this made both the coding and QAing easier for everyone involved.</p>
 
-<ol>
-  <li>Setting up flex grid</li>
-  <li>Making the flex grid responsive</li>
-  <li>Accounting for topics dropdown</li>
-  <li>Changing menu breakpoints</li>
-</ol>
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="cm">/* _menu.scss */</span>
+<span class="k">@import</span> <span class="s1">'base'</span><span class="p">;</span> 
+<span class="k">@import</span> <span class="s1">'mobile'</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s1">'desktop'</span><span class="p">;</span></code></pre></figure>
+
+<p><strong>2. Setting up flex grid</strong></p>
+
+<p>Before switching to a flex grid, the HTML was written using a Foundation float grid. Also, for each list below, each of the list items needed to be styled with <span class="inline-code"><code class="highlighter-rouge">display: inline-block</code></span>. With the new structure, this was no longer necessary.</p>
+
+<p>I looked at both <a href="https://www.vox.com/">Vox</a> and <a href="https://github.com/">GitHub’s</a> menus to see how they structured both their HTML and CSS because they had similar structures (logo, regular menu and sub menu) and used flex grids.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"site-menu"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"site-menu-inner"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"menu-content-wrapper"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"desktop-menu-main"</span><span class="nt">&gt;</span>
+            	<span class="c">&lt;!-- desktop menu, not visible on mobile --&gt;</span>
+            <span class="nt">&lt;/ul&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"mobile-menu-toggle"</span><span class="nt">&gt;</span>
+            	<span class="c">&lt;!-- mobile menu toggle icon, not visible on desktop --&gt;</span>
+            <span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"desktop-menu-sub list-no-bullets"</span><span class="nt">&gt;</span>
+            	<span class="c">&lt;!-- sub desktop menu, not visible on mobile --&gt;</span>
+            <span class="nt">&lt;/ul&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/nav&gt;</span></code></pre></figure>
+
+<p>For the SCSS, most of it made sense after reading flex grid documentation.</p>
+
+<p>The most confusing property related to the flex grid is <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex">flex</a>. The main thing to know is that <span class="inline-code"><code class="highlighter-rouge">flex: auto</code></span> grows or shrinks according to the free space in the container while <span class="inline-code"><code class="highlighter-rouge">flex: initial</code></span> only shrinks to fill the minimum size of the container.</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nc">.site-menu-inner</span> <span class="p">{</span>
+    <span class="nl">align-items</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span> <span class="c1">// vertically centers all items
+</span>    <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span> 
+    <span class="nl">height</span><span class="p">:</span> <span class="m">55px</span><span class="p">;</span>
+    <span class="nl">justify-content</span><span class="p">:</span> <span class="n">space-between</span><span class="p">;</span> <span class="c1">// added so mobile menu stays on the right
+</span>    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span> 
+    <span class="nl">max-width</span><span class="p">:</span> <span class="m">75rem</span><span class="p">;</span> 
+<span class="p">}</span> 
+<span class="nc">.menu-content-wrapper</span> <span class="p">{</span>
+    <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span>
+    <span class="nl">justify-content</span><span class="p">:</span> <span class="n">space-between</span><span class="p">;</span>
+    <span class="nl">flex</span><span class="p">:</span> <span class="n">initial</span><span class="p">;</span> <span class="c1">// initial is flex: 0 1 auto;
+</span><span class="p">}</span>
+<span class="k">@media</span> <span class="n">screen</span> <span class="nf">and</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="nv">$menu-breakpoint</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nc">.menu-content-wrapper</span> <span class="p">{</span>
+        <span class="nl">flex</span><span class="p">:</span> <span class="nb">auto</span><span class="p">;</span> <span class="c1">// auto is flex: 1 1 auto; 
+</span>    <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p><strong>3. Making the flex grid responsive/”signup” and “search”</strong></p>
+
+<p><strong>4. Accounting for topics dropdown</strong></p>
+
+<p><strong>5. Changing menu breakpoints</strong></p>
 
   	</div>
 
