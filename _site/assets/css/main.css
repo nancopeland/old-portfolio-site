@@ -1150,6 +1150,12 @@ select {
 .highlight span {
   font-family: monospace, monospace; }
 
+.inline-code code {
+  background: #f1f1f1;
+  border: solid 1px #ccc;
+  font-size: 1rem;
+  padding: .25rem; }
+
 .highlight {
   background: #f1f1f1;
   border: solid 1px #ccc;
@@ -1313,6 +1319,9 @@ nav {
 
 .img-container {
   height: 180px; }
+  .img-container.flex-menu {
+    background: url("../img/flex_menu.jpg") no-repeat center center;
+    background-size: cover; }
   .img-container.support-page {
     background: url("../img/support_page.jpg") no-repeat center center;
     background-size: cover; }
