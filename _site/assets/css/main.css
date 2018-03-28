@@ -1319,6 +1319,9 @@ nav {
 
 .img-container {
   height: 180px; }
+  .img-container.flex-menu {
+    background: url("../img/flex_menu.jpg") no-repeat center center;
+    background-size: cover; }
   .img-container.support-page {
     background: url("../img/support_page.jpg") no-repeat center center;
     background-size: cover; }

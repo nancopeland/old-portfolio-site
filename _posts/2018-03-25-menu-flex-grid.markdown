@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Menu restructure using CSS flex grid"
+title:  "Flex grid menu"
 description: Making Industry Dive's menu more dynamic with the flex grid
-image-class: menu-flex-grid
+image-class: flex-menu
 prev-story: /2018/02/17/support-page.html
 next-story: /2017/10/14/gig-app.html
 ---
