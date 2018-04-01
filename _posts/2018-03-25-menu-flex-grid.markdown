@@ -113,19 +113,19 @@ So far, the changes to the menu haven't changed what it actually looks like. But
 
 <div class="row">
 	<div class="columns">
-		<img class="p-img" alt="flex grid support" src="{{ site.url }}/assets/img/flex_menu/large_menu_after.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
+		<img class="p-img" alt="large menu" src="{{ site.url }}/assets/img/flex_menu/large_menu_after.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
 	</div>
 	<span class="help-text" style="margin-bottom: 1.5rem;">Large menu, looks about the same with flex grid</span>
 </div>
 <div class="row">
 	<div class="columns">
-		<img class="p-img" alt="flex grid support" src="{{ site.url }}/assets/img/flex_menu/medium_menu_before.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
+		<img class="p-img" alt="medium menu before" src="{{ site.url }}/assets/img/flex_menu/medium_menu_before.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
 	</div>
 	<span class="help-text" style="margin-bottom: 1.5rem;">Medium menu before flex grid</span>
 </div>
 <div class="row">
 	<div class="columns">
-		<img class="p-img" alt="flex grid support" src="{{ site.url }}/assets/img/flex_menu/medium_menu_after.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
+		<img class="p-img" alt="medium menu after" src="{{ site.url }}/assets/img/flex_menu/medium_menu_after.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
 	</div>
 	<span class="help-text" style="margin-bottom: 3rem;">Medium menu after flex grid</span>
 </div>
@@ -136,7 +136,7 @@ The other element to address was the **"Topics" menu**. On desktop, the "Topics"
 
 <div class="row">
 	<div class="columns">
-		<img class="p-img" alt="flex grid support" src="{{ site.url }}/assets/img/flex_menu/medium_topics_menu_open.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
+		<img class="p-img" alt="topics menu" src="{{ site.url }}/assets/img/flex_menu/medium_topics_menu_open.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
 	</div>
 	<span class="help-text" style="margin-bottom: 3rem;">Topics menu open on medium screens</span>
 </div>
