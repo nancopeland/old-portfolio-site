@@ -9,6 +9,9 @@ next-story: /2018/01/06/library-page.html
 
 As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using <a href="https://confluence.atlassian.com/adminjiraserver071/using-the-issue-collector-802592637.html" target="_blank">Jira issue collectors</a>. 
 
+**Role:** Designer/Front-End Developer<br/>
+**Team Members:** Tony Bagdon, _Project Manager_
+
 {:.p-img}
 ![support page]({{ site.url }}/assets/img/support_page/support_page.jpg){:style="border: 1px solid #eee;"}
 
@@ -41,5 +44,4 @@ While that was fun, other departments were often submitting requests to the inco
 
 Recently, I added issue collectors for the Sales Ops team and hopefully, because of the scalable design, more teams will be interested in adding their own collectors to manage their ongoing projects and requests.
 
-<p style="font-style: italic; margin-top: 3rem;">Project Manager: <a target="_blank" href="https://www.linkedin.com/in/tonybagdon/">Tony Bagdon</a></p>
 

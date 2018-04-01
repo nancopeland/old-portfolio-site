@@ -9,6 +9,9 @@ next-story: /2017/06/10/smt-user-content-admin.html
 
 I helped add a tool to Industry Dive's site for the Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams. 
 
+**Role:** Designer/Front-End Developer<br/>
+**Team Members:** Malinda Morawetz, _Project Manager_
+
 {:.p-img}
 ![browser print box]({{ site.url }}/assets/img/pdf_button/print_box_big.png){:style="border: 1px solid #eee;"}
 

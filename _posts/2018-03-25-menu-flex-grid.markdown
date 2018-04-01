@@ -7,12 +7,14 @@ prev-story: /2017/06/10/smt-user-content-admin.html
 next-story: /2018/02/17/support-page.html
 ---
 
-I re-coded the [menu](https://www.retaildive.com/){:target="_blank"} for all Industry Dive products using a flex grid resulting in more scalable code and a more accessible menu. 
+I re-coded the **[menu](https://www.retaildive.com/){:target="_blank"}** for all Industry Dive products using a flex grid resulting in more scalable code and a more accessible menu. 
+
+**Role:** Designer/Front-End Developer
 
 {:.p-img}
 ![menu]({{ site.url }}/assets/img/flex_menu/menu.png){:style="border: 1px solid #eee;"}
 
-**Goal**
+**Goals**
 
 Going into this project, my two main goals were: 
 
@@ -111,19 +113,19 @@ So far, the changes to the menu haven't changed what it actually looks like. But
 
 <div class="row">
 	<div class="columns">
-		<img class="p-img" alt="flex grid support" src="{{ site.url }}/assets/img/flex_menu/large_menu_after.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
+		<img class="p-img" alt="large menu" src="{{ site.url }}/assets/img/flex_menu/large_menu_after.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
 	</div>
 	<span class="help-text" style="margin-bottom: 1.5rem;">Large menu, looks about the same with flex grid</span>
 </div>
 <div class="row">
 	<div class="columns">
-		<img class="p-img" alt="flex grid support" src="{{ site.url }}/assets/img/flex_menu/medium_menu_before.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
+		<img class="p-img" alt="medium menu before" src="{{ site.url }}/assets/img/flex_menu/medium_menu_before.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
 	</div>
 	<span class="help-text" style="margin-bottom: 1.5rem;">Medium menu before flex grid</span>
 </div>
 <div class="row">
 	<div class="columns">
-		<img class="p-img" alt="flex grid support" src="{{ site.url }}/assets/img/flex_menu/medium_menu_after.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
+		<img class="p-img" alt="medium menu after" src="{{ site.url }}/assets/img/flex_menu/medium_menu_after.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
 	</div>
 	<span class="help-text" style="margin-bottom: 3rem;">Medium menu after flex grid</span>
 </div>
@@ -134,7 +136,7 @@ The other element to address was the **"Topics" menu**. On desktop, the "Topics"
 
 <div class="row">
 	<div class="columns">
-		<img class="p-img" alt="flex grid support" src="{{ site.url }}/assets/img/flex_menu/medium_topics_menu_open.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
+		<img class="p-img" alt="topics menu" src="{{ site.url }}/assets/img/flex_menu/medium_topics_menu_open.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
 	</div>
 	<span class="help-text" style="margin-bottom: 3rem;">Topics menu open on medium screens</span>
 </div>

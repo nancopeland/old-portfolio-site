@@ -6,12 +6,15 @@
 		margin: 1rem 0; 
 		&:first-of-type {
 			font-size: 1.5rem; 
-			margin: 5rem 0;
+			margin: 5rem 0 2rem 0; 
 		}
 	}
 	img {
 		display: block; 
-		margin: 3rem auto; 
+		margin: 3rem auto;
+		&:first-of-type {
+			margin: 5rem 0;
+		} 
 	}
 	ol {
 		padding-left: .75rem; 
@@ -33,6 +36,9 @@
 			&:first-of-type {
 				font-size: 1.75rem;
 				padding: 0;  
+			}
+			&:nth-of-type(2){
+				padding: 0; 
 			}
 		}
 		ul, ol {

@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-28T19:53:58-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt; for all Industry Dive products using a flex grid resulting in more scalable code and a more accessible menu.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-01T15:37:34-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid resulting in more scalable code and a more accessible menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/menu.png&quot; alt=&quot;menu&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Goal&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Goals&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Going into this project, my two main goals were:&lt;/p&gt;
 
@@ -96,19 +98,19 @@
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;flex grid support&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/large_menu_after.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;large menu&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/large_menu_after.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
 	&lt;/div&gt;
 	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 1.5rem;&quot;&gt;Large menu, looks about the same with flex grid&lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;flex grid support&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_before.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;medium menu before&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_before.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
 	&lt;/div&gt;
 	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 1.5rem;&quot;&gt;Medium menu before flex grid&lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;flex grid support&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_after.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;medium menu after&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_after.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
 	&lt;/div&gt;
 	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Medium menu after flex grid&lt;/span&gt;
 &lt;/div&gt;
@@ -119,7 +121,7 @@
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;flex grid support&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_topics_menu_open.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;topics menu&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_topics_menu_open.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
 	&lt;/div&gt;
 	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Topics menu open on medium screens&lt;/span&gt;
 &lt;/div&gt;
@@ -142,6 +144,9 @@
 &lt;/div&gt;
 
 &lt;p&gt;Although the JS and SCSS breakpoints brought about some complications, I plan to clean them up in the future. I also want to update the code so the menu is fully responsive from mobile to desktop (goodbye hamburger menu), not just across medium and desktop.&lt;/p&gt;</content><summary type="html">I re-coded the menu for all Industry Dive products using a flex grid resulting in more scalable code and a more accessible menu.</summary></entry><entry><title type="html">Industry Dive Support Page</title><link href="http://localhost:4000/2018/02/17/support-page.html" rel="alternate" type="text/html" title="Industry Dive Support Page" /><published>2018-02-17T00:00:00-05:00</published><updated>2018-02-17T00:00:00-05:00</updated><id>http://localhost:4000/2018/02/17/support-page</id><content type="html" xml:base="http://localhost:4000/2018/02/17/support-page.html">&lt;p&gt;As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using &lt;a href=&quot;https://confluence.atlassian.com/adminjiraserver071/using-the-issue-collector-802592637.html&quot; target=&quot;_blank&quot;&gt;Jira issue collectors&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;br /&gt;
+&lt;strong&gt;Team Members:&lt;/strong&gt; Tony Bagdon, &lt;em&gt;Project Manager&lt;/em&gt;&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/support_page/support_page.jpg&quot; alt=&quot;support page&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
 
@@ -169,9 +174,10 @@
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/support_page/support_page_demo.gif&quot; alt=&quot;support page&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Recently, I added issue collectors for the Sales Ops team and hopefully, because of the scalable design, more teams will be interested in adding their own collectors to manage their ongoing projects and requests.&lt;/p&gt;
+&lt;p&gt;Recently, I added issue collectors for the Sales Ops team and hopefully, because of the scalable design, more teams will be interested in adding their own collectors to manage their ongoing projects and requests.&lt;/p&gt;</content><summary type="html">As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using Jira issue collectors.</summary></entry><entry><title type="html">Dive Library page</title><link href="http://localhost:4000/2018/01/06/library-page.html" rel="alternate" type="text/html" title="Dive Library page" /><published>2018-01-06T00:00:00-05:00</published><updated>2018-01-06T00:00:00-05:00</updated><id>http://localhost:4000/2018/01/06/library-page</id><content type="html" xml:base="http://localhost:4000/2018/01/06/library-page.html">&lt;p&gt;I recently redesigned the &lt;strong&gt;&lt;a href=&quot;https://www.biopharmadive.com/library/&quot;&gt;Library page&lt;/a&gt;&lt;/strong&gt; for each of Industry Dive’s publications with the help of the dev team to better showcase the &lt;a href=&quot;https://www.industrydive.com/brandstudio/&quot;&gt;Dive Brand Studio’s&lt;/a&gt; content.&lt;/p&gt;
 
-&lt;p style=&quot;font-style: italic; margin-top: 3rem;&quot;&gt;Project Manager: &lt;a target=&quot;_blank&quot; href=&quot;https://www.linkedin.com/in/tonybagdon/&quot;&gt;Tony Bagdon&lt;/a&gt;&lt;/p&gt;</content><summary type="html">As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using Jira issue collectors.</summary></entry><entry><title type="html">Dive Library page</title><link href="http://localhost:4000/2018/01/06/library-page.html" rel="alternate" type="text/html" title="Dive Library page" /><published>2018-01-06T00:00:00-05:00</published><updated>2018-01-06T00:00:00-05:00</updated><id>http://localhost:4000/2018/01/06/library-page</id><content type="html" xml:base="http://localhost:4000/2018/01/06/library-page.html">&lt;p&gt;I recently redesigned the &lt;strong&gt;&lt;a href=&quot;https://www.biopharmadive.com/library/&quot;&gt;Library page&lt;/a&gt;&lt;/strong&gt; for each of Industry Dive’s publications with the help of the dev team to better showcase the &lt;a href=&quot;https://www.industrydive.com/brandstudio/&quot;&gt;Dive Brand Studio’s&lt;/a&gt; content.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;br /&gt;
+&lt;strong&gt;Team Members:&lt;/strong&gt; Bethany Morin, &lt;em&gt;Back-End Developer&lt;/em&gt;&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/library_page/page_hands_header.jpg&quot; alt=&quot;page in ipad mockup&quot; /&gt;&lt;/p&gt;
 
@@ -308,6 +314,8 @@
 
 &lt;p&gt;&lt;em&gt;This post was originally published on &lt;a href=&quot;http://design.industrydive.com/&quot;&gt;Industry Dive’s Design Blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><summary type="html">I recently redesigned the Library page for each of Industry Dive’s publications with the help of the dev team to better showcase the Dive Brand Studio’s content.</summary></entry><entry><title type="html">GIG iOS App</title><link href="http://localhost:4000/2017/10/14/gig-app.html" rel="alternate" type="text/html" title="GIG iOS App" /><published>2017-10-14T00:00:00-04:00</published><updated>2017-10-14T00:00:00-04:00</updated><id>http://localhost:4000/2017/10/14/gig-app</id><content type="html" xml:base="http://localhost:4000/2017/10/14/gig-app.html">&lt;p&gt;&lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;GIG&lt;/a&gt;&lt;/strong&gt; is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer&lt;br /&gt;&lt;/p&gt;
+
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/app_hand.jpg&quot; alt=&quot;app&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;RESEARCH&lt;/strong&gt;&lt;/p&gt;
@@ -425,6 +433,9 @@
   &lt;li&gt;More &lt;strong&gt;social media-like aspects&lt;/strong&gt; - “add friends”, “follow venues”, “favorite” artists&lt;/li&gt;
 &lt;/ul&gt;</content><summary type="html">GIG is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.</summary></entry><entry><title type="html">Downloadable article PDFs</title><link href="http://localhost:4000/2017/07/15/pdf-button.html" rel="alternate" type="text/html" title="Downloadable article PDFs" /><published>2017-07-15T00:00:00-04:00</published><updated>2017-07-15T00:00:00-04:00</updated><id>http://localhost:4000/2017/07/15/pdf-button</id><content type="html" xml:base="http://localhost:4000/2017/07/15/pdf-button.html">&lt;p&gt;I helped add a tool to Industry Dive’s site for the Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;br /&gt;
+&lt;strong&gt;Team Members:&lt;/strong&gt; Malinda Morawetz, &lt;em&gt;Project Manager&lt;/em&gt;&lt;/p&gt;
+
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pdf_button/print_box_big.png&quot; alt=&quot;browser print box&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The Problem&lt;/strong&gt;&lt;/p&gt;
@@ -541,6 +552,9 @@
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; We recently rolled this tool out to all stories (not just sponsored) so any company member has the ability to print any article in this format. This is still used mainly for sending content to clients.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;This post was originally published on &lt;a href=&quot;http://design.industrydive.com/&quot;&gt;Industry Dive’s Design Blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><summary type="html">I helped add a tool to Industry Dive’s site for the Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams.</summary></entry><entry><title type="html">Social Media Today CMS</title><link href="http://localhost:4000/2017/06/10/smt-user-content-admin.html" rel="alternate" type="text/html" title="Social Media Today CMS" /><published>2017-06-10T00:00:00-04:00</published><updated>2017-06-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/06/10/smt-user-content-admin</id><content type="html" xml:base="http://localhost:4000/2017/06/10/smt-user-content-admin.html">&lt;p&gt;As the lead designer for the &lt;strong&gt;&lt;a href=&quot;http://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt;&lt;/strong&gt; launch, my first project was researching and designing a new CMS. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer&lt;br /&gt;
+&lt;strong&gt;Team Members:&lt;/strong&gt; Ryan McKnight, &lt;em&gt;Project Manager&lt;/em&gt;&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;span class=&quot;help-text&quot;&gt;Before:&lt;/span&gt;

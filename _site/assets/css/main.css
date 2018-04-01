@@ -1368,10 +1368,12 @@ nav {
     margin: 1rem 0; }
     .post-content p:first-of-type {
       font-size: 1.5rem;
-      margin: 5rem 0; }
+      margin: 5rem 0 2rem 0; }
   .post-content img {
     display: block;
     margin: 3rem auto; }
+    .post-content img:first-of-type {
+      margin: 5rem 0; }
   .post-content ol {
     padding-left: .75rem; }
 
@@ -1388,6 +1390,8 @@ nav {
     padding: 0 7rem; }
     .post-content p:first-of-type {
       font-size: 1.75rem;
+      padding: 0; }
+    .post-content p:nth-of-type(2) {
       padding: 0; }
   .post-content ul, .post-content ol {
     padding: 0 9.5rem; }
