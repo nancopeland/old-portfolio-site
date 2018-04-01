@@ -7,12 +7,14 @@ prev-story: /2017/06/10/smt-user-content-admin.html
 next-story: /2018/02/17/support-page.html
 ---
 
-I re-coded the [menu](https://www.retaildive.com/){:target="_blank"} for all Industry Dive products using a flex grid resulting in more scalable code and a more accessible menu. 
+I re-coded the **[menu](https://www.retaildive.com/){:target="_blank"}** for all Industry Dive products using a flex grid resulting in more scalable code and a more accessible menu. 
+
+**Role:** Designer/Front-End Developer
 
 {:.p-img}
 ![menu]({{ site.url }}/assets/img/flex_menu/menu.png){:style="border: 1px solid #eee;"}
 
-**Goal**
+**Goals**
 
 Going into this project, my two main goals were: 
 

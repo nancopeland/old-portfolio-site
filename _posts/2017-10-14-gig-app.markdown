@@ -9,6 +9,8 @@ next-story: /2017/07/15/pdf-button.html
 
 **<a target="_blank" href="https://invis.io/AMD99G92K">GIG</a>** is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily. 
 
+**Role:** Designer<br/>
+
 {:.p-img}
 ![app]({{ site.url }}/assets/img/gig_app/app_hand.jpg)
 
