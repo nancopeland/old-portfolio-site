@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-01T15:37:34-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid resulting in more scalable code and a more accessible menu.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-21T12:47:06-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;/p&gt;
 
@@ -10,18 +10,18 @@
 
 &lt;ol&gt;
   &lt;li&gt;Make the menu more accessible at a higher number of screen sizes&lt;/li&gt;
-  &lt;li&gt;Make the code more scalable for growing number of variants in the menu&lt;/li&gt;
+  &lt;li&gt;Make the code more scalable for a growing number of variants in the menu&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Before researching, I had a hunch this could be done with a flex grid so I also wanted to learn more about flex grids and how they compare to float and CSS grids.&lt;/p&gt;
+&lt;p&gt;For inspiration, I looked at both &lt;a href=&quot;https://www.vox.com/&quot; target=&quot;_blank&quot;&gt;Vox&lt;/a&gt; and &lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot;&gt;GitHub’s&lt;/a&gt; menus to see how they structured their HTML and CSS because they had similar content (logo, regular menu and sub menu). Both publications use flex grids.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Research&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;I started by researching all grid methods. Industry Dive currently uses a modified &lt;a href=&quot;https://foundation.zurb.com/&quot; target=&quot;_blank&quot;&gt;Foundation grid&lt;/a&gt; for all sites because it is responsive and well-supported. Every time I’d brought up an alternate grid before, the main concern was support so I needed to prove that whatever I chose to switch to was well-supported, especially in Internet Explorer.&lt;/p&gt;
+&lt;p&gt;I started by researching all grid methods. Industry Dive currently uses a modified &lt;a href=&quot;https://foundation.zurb.com/&quot; target=&quot;_blank&quot;&gt;Foundation grid&lt;/a&gt; for all sites because it is responsive and well-supported. When I had brought up an alternate grid before, the main concern was support, specifically in Internet Explorer, so I needed to prove that whatever I chose would work within these constraints.&lt;/p&gt;
 
-&lt;p&gt;The &lt;a href=&quot;https://philipwalton.github.io/solved-by-flexbox/demos/grids/&quot; target=&quot;_blank&quot;&gt;most helpful article&lt;/a&gt; I found on grids was written by Google developer &lt;a href=&quot;https://philipwalton.com/&quot; target=&quot;_blank&quot;&gt;Philip Walton&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The most helpful articles were &lt;a href=&quot;https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf&quot; target=&quot;_blank&quot;&gt;this Hacker Noon article&lt;/a&gt; that explains flex vs. CSS grid and &lt;a href=&quot;https://philipwalton.github.io/solved-by-flexbox/demos/grids/&quot; target=&quot;_blank&quot;&gt;Philip Walton’s article&lt;/a&gt; on how flex grids work in general.&lt;/p&gt;
 
-&lt;p&gt;Because I was only re-coding the menu (not the whole site), I decided to go with the flex grid. As you can see below, the flex grid has great support. From my research, CSS grids seem really cool but are still pretty new and not well-supported.&lt;/p&gt;
+&lt;p&gt;The Hacker Noon article mentions that “Flexbox is made for one dimensional layouts and Grid is made for two dimensional layouts.” Because I was only re-coding the menu (not the whole site), I decided to go with flex. As you can see below, flexbox has great support. From my research, CSS grids seem really cool but are still pretty new and not well-supported.&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;columns&quot;&gt;
@@ -32,9 +32,9 @@
 
 &lt;p&gt;&lt;strong&gt;Reassessing the menu SCSS&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;First, I broke up the menu SCSS so it was easier to manage. This was pretty straightforward: the menu CSS was previously all in one SCSS partial so I broke this up into three partials: &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_base.scss&lt;/code&gt;&lt;/span&gt;, &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_desktop.scss&lt;/code&gt;&lt;/span&gt; and &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_mobile.scss&lt;/code&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;First, I broke up the menu SCSS so it was easier to manage. This was pretty straightforward: the menu CSS was previously all in one SCSS partial so I broke it up into three partials: &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_base.scss&lt;/code&gt;&lt;/span&gt;, &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_desktop.scss&lt;/code&gt;&lt;/span&gt; and &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_mobile.scss&lt;/code&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;To implement the flex grid, I would mostly only be editing the desktop and base menu (which is much smaller than the other two files) so this made both the coding and QAing easier for everyone involved.&lt;/p&gt;
+&lt;p&gt;Currently, the desktop and mobile menus run off almost completely separate code and the small amount of code shared is in &lt;code class=&quot;highlighter-rouge&quot;&gt;_base.scss&lt;/code&gt;. To implement the flex grid, I would mainly be editing the desktop and base menus so the split made the code more maintainable and easier to read.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* _menu.scss */&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;@import&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'base'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
@@ -45,9 +45,7 @@
 
 &lt;p&gt;As previously mentioned, the menu was originally written using a Foundation (float) grid. Because this only controls the widths, floats and clearing for each column, all other elements needed to be manually styled. For example, each &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ul&amp;gt;&lt;/code&gt;&lt;/span&gt; list below’s &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;li&amp;gt;&lt;/code&gt;&lt;/span&gt; items needed to be styled with &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;display: inline-block&lt;/code&gt;&lt;/span&gt; to make the menu horizontal.&lt;/p&gt;
 
-&lt;p&gt;With the new flex grid structure, neither the floats or inline styling was necessary because the flex grid does this for you. This is easier to manage and scale.&lt;/p&gt;
-
-&lt;p&gt;For inspiration, I looked at both &lt;a href=&quot;https://www.vox.com/&quot; target=&quot;_blank&quot;&gt;Vox&lt;/a&gt; and &lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot;&gt;GitHub’s&lt;/a&gt; menus to see how they structured their HTML and CSS because they had similar content (logo, regular menu and sub menu) and used flex grids.&lt;/p&gt;
+&lt;p&gt;With the new flex grid structure, neither the floats nor inline styling were necessary, because the flex grid does this for you. This is easier to manage and scale.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;site-menu&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;site-menu-inner&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
@@ -67,7 +65,7 @@
 
 &lt;p&gt;For the SCSS, most of it made sense after reading the flex grid documentation mentioned above.&lt;/p&gt;
 
-&lt;p&gt;The most confusing property related to the flex grid is &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/flex&quot; target=&quot;_blank&quot;&gt;flex&lt;/a&gt;. The two most frequently used styles are &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;flex: auto&lt;/code&gt;&lt;/span&gt; and &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;flex: initial&lt;/code&gt;&lt;/span&gt;. &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;auto&lt;/code&gt;&lt;/span&gt; grows or shrinks according to the free space in the container while &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;initial&lt;/code&gt;&lt;/span&gt; only shrinks to fill the minimum size of the container.&lt;/p&gt;
+&lt;p&gt;The most confusing property related to the flex grid is &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/flex&quot; target=&quot;_blank&quot;&gt;flex&lt;/a&gt;. The two most frequently used styles are &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;flex: auto&lt;/code&gt;&lt;/span&gt; and &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;flex: initial&lt;/code&gt;&lt;/span&gt;. &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;auto&lt;/code&gt;&lt;/span&gt; grows or shrinks according to the free space in the container while &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;flex: initial&lt;/code&gt;&lt;/span&gt; only shrinks to fill the minimum size of the container. Both styles are used on &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.menu-content-wrapper&lt;/code&gt;&lt;/span&gt;, which wraps both menus. &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;initial&lt;/code&gt;&lt;/span&gt; is used on mobile screens while &lt;span class=&quot;inline-code&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;auto&lt;/code&gt;&lt;/span&gt; is used on medium and large screens.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.site-menu-inner&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;align-items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// vertically centers all items
@@ -97,22 +95,16 @@
 &lt;p&gt;So far, the changes to the menu haven’t changed what it actually looks like. But, as previously stated, one of the goals of this project was to make the menu more accessible on smaller screen sizes. Making it work on mobile is a different project but what about tablets and small laptops? This was going to involve some slight visual changes.&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
+	&lt;span class=&quot;help-text&quot; style=&quot;font-weight: 700; margin-top: 3rem;&quot;&gt;Before:&lt;/span&gt;
 	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;large menu&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/large_menu_after.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;medium menu before&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_before.png&quot; style=&quot;margin: 0 auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
 	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 1.5rem;&quot;&gt;Large menu, looks about the same with flex grid&lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;row&quot;&gt;
+	&lt;span class=&quot;help-text&quot; style=&quot;font-weight: 700; margin-top: 1.5rem;&quot;&gt;After:&lt;/span&gt;
 	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;medium menu before&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_before.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
+		&lt;img class=&quot;p-img&quot; alt=&quot;medium menu after&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_after.png&quot; style=&quot;margin: 0 auto 3rem auto; border: 1px solid #eee;&quot; /&gt;
 	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 1.5rem;&quot;&gt;Medium menu before flex grid&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;medium menu after&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_after.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Medium menu after flex grid&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;p&gt;The first thing to change was the &lt;strong&gt;sub menu CTAs&lt;/strong&gt; (the menu on the right). To account for the thinner screen width, I removed the CTA for “search” because the magnifying glass is fairly universally known to represent “search”. I considered removing the CTA for the newsletter signup link as well but I don’t think the email icon makes much sense without “signup”.&lt;/p&gt;
@@ -143,7 +135,7 @@
 	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.biopharmadive.com/&quot;&gt;BioPharma Dive&lt;/a&gt; menu on medium screens&lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Although the JS and SCSS breakpoints brought about some complications, I plan to clean them up in the future. I also want to update the code so the menu is fully responsive from mobile to desktop (goodbye hamburger menu), not just across medium and desktop.&lt;/p&gt;</content><summary type="html">I re-coded the menu for all Industry Dive products using a flex grid resulting in more scalable code and a more accessible menu.</summary></entry><entry><title type="html">Industry Dive Support Page</title><link href="http://localhost:4000/2018/02/17/support-page.html" rel="alternate" type="text/html" title="Industry Dive Support Page" /><published>2018-02-17T00:00:00-05:00</published><updated>2018-02-17T00:00:00-05:00</updated><id>http://localhost:4000/2018/02/17/support-page</id><content type="html" xml:base="http://localhost:4000/2018/02/17/support-page.html">&lt;p&gt;As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using &lt;a href=&quot;https://confluence.atlassian.com/adminjiraserver071/using-the-issue-collector-802592637.html&quot; target=&quot;_blank&quot;&gt;Jira issue collectors&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Although the JS and SCSS breakpoints brought about some complications, I plan to clean them up in the future. I also want to update the code so the menu is fully responsive from mobile to desktop (goodbye hamburger menu), not just across medium and desktop.&lt;/p&gt;</content><summary type="html">I re-coded the menu for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.</summary></entry><entry><title type="html">Industry Dive Support Page</title><link href="http://localhost:4000/2018/02/17/support-page.html" rel="alternate" type="text/html" title="Industry Dive Support Page" /><published>2018-02-17T00:00:00-05:00</published><updated>2018-02-17T00:00:00-05:00</updated><id>http://localhost:4000/2018/02/17/support-page</id><content type="html" xml:base="http://localhost:4000/2018/02/17/support-page.html">&lt;p&gt;As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using &lt;a href=&quot;https://confluence.atlassian.com/adminjiraserver071/using-the-issue-collector-802592637.html&quot; target=&quot;_blank&quot;&gt;Jira issue collectors&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;br /&gt;
 &lt;strong&gt;Team Members:&lt;/strong&gt; Tony Bagdon, &lt;em&gt;Project Manager&lt;/em&gt;&lt;/p&gt;
