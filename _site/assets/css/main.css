@@ -42,6 +42,7 @@ body {
   background-color: #fafafa;
   color: #333333;
   line-height: 1.5;
+  margin: 0;
   overflow-y: scroll; }
   body.no-scroll {
     overflow-y: hidden; }
@@ -92,6 +93,23 @@ button {
   .page-content {
     margin-top: 3rem;
     width: 72%; } }
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 1rem; }
+
+.footer-copy,
+.footer-links {
+  width: 100%; }
+
+@media (min-width: 40em) {
+  footer {
+    width: 72%; }
+
+  .footer-copy,
+  .footer-links {
+    width: 50%; } }
 header[role='banner'] {
   background-color: white;
   border-bottom: 1px solid #eee;
@@ -119,8 +137,7 @@ nav {
     header[role='banner'] a {
       font-size: .875rem; } }
 .about-home {
-  margin-bottom: 2.25rem;
-  padding: 0 0.9375rem; }
+  margin-bottom: 2.25rem; }
   .about-home p {
     font-size: 1.25rem; }
 
@@ -159,6 +176,12 @@ nav {
 .project-title {
   font-weight: 700; }
 
+@media (min-width: 40em) {
+  .project-wrapper {
+    width: 50%; }
+
+  .project-description {
+    min-height: 110px; } }
 .img-container {
   height: 180px; }
   .img-container.flex-menu {
@@ -193,12 +216,6 @@ nav {
     background-size: cover; }
 
 @media (min-width: 40em) {
-  .project-wrapper {
-    width: 50%; }
-
-  .project-description {
-    min-height: 110px; }
-
   .img-container {
     height: 220px; } }
 .post-content {
@@ -238,27 +255,28 @@ nav {
     margin: 6rem auto; }
   .post-content .p-img {
     padding: 0; } }
-.footer-wrapper {
+footer {
   border-top: 1px solid #eee;
   margin-top: 3rem;
-  max-width: 55rem;
-  padding: 1.5rem 0 3rem 0; }
-  .footer-wrapper p {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem; }
+  footer p {
     font-size: .875rem; }
-  .footer-wrapper .footer-links {
-    margin-top: 1rem; }
-    .footer-wrapper .footer-links a {
-      border-bottom: 0;
-      padding: .25rem; }
-      .footer-wrapper .footer-links a svg {
-        width: 22px; }
-        .footer-wrapper .footer-links a svg path {
-          fill: #333333;
-          transition: all .2s ease; }
-      .footer-wrapper .footer-links a:hover svg path {
-        fill: #1adbd3; }
+
+.footer-links {
+  margin-top: 1rem; }
+  .footer-links a {
+    border-bottom: 0;
+    padding: .25rem; }
+    .footer-links a svg {
+      width: 20px; }
+      .footer-links a svg path {
+        fill: #333333;
+        transition: all .2s ease; }
+    .footer-links a:hover svg path {
+      fill: #1adbd3; }
 
 @media (min-width: 40em) {
-  .footer-wrapper .footer-links {
+  .footer-links {
     margin-top: 0;
     text-align: right; } }

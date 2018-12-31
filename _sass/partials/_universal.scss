@@ -4,6 +4,7 @@ body {
 	background-color: #fafafa;
 	color: $dark-grey;
 	line-height: 1.5;
+	margin: 0; 
 	overflow-y: scroll; 
 	&.no-scroll {
 		overflow-y: hidden; 
@@ -53,17 +54,6 @@ button {
 
 .text-right {
 	text-align: right; 
-}
-
-.page-content {
-	margin: 1.25rem auto 0 auto; 
-	padding: 0 1rem; 
-}
-@media (min-width: 40em) {
-	.page-content {
-		margin-top: 3rem; 
-		width: 72%; 
-	}
 }
 
 

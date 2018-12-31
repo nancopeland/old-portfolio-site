@@ -3,7 +3,6 @@
 // about section
 .about-home {
 	margin-bottom: 2.25rem; 
-	padding: 0 0.9375rem; 
 	p {
 		font-size: 1.25rem;
 	}
@@ -23,10 +22,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 2rem; 
-	//@include grid-row; 
-}
-.project-wrapper {
-	//@include grid-column(12); 
 }
 .project {
 	border: 1px solid #eee; 
@@ -55,6 +50,16 @@
 .project-title {
 	font-weight: 700; 
 }
+@media (min-width: 40em) {
+	.project-wrapper {
+		width: 50%; 
+	}
+	.project-description {
+		min-height: 110px; 
+	}
+}
+
+// PROJECT IMAGES
 .img-container { 
 	height: 180px; 
 	&.flex-menu {
@@ -98,15 +103,7 @@
 		background-size: cover; 
 	}
 }
-
 @media (min-width: 40em) {
-	.project-wrapper {
-		//@include grid-column(6); 
-		width: 50%; 
-	}
-	.project-description {
-		min-height: 110px; 
-	}
 	.img-container { 
 		height: 220px; 
 	}

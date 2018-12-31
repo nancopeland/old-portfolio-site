@@ -1,0 +1,32 @@
+// layout
+
+.page-content {
+	margin: 1.25rem auto 0 auto; 
+	padding: 0 1rem; 
+}
+@media (min-width: 40em) {
+	.page-content {
+		margin-top: 3rem; 
+		width: 72%; 
+	}
+}
+
+footer {
+	display: flex; 
+	flex-wrap: wrap;
+	margin: 0 auto; 
+	padding: 0 1rem; 
+}
+.footer-copy, 
+.footer-links {
+	width: 100%; 
+}
+@media (min-width: 40em) {
+	footer {
+		width: 72%;
+	}
+	.footer-copy, 
+	.footer-links {
+		width: 50%; 
+	}
+}
