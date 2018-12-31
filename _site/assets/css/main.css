@@ -261,6 +261,7 @@ footer {
       font-size: 1.5rem;
       margin: 5rem 0 2rem 0; }
   .post-content img {
+    border: 1px solid #eee;
     display: block;
     margin: 3rem auto; }
     .post-content img:first-of-type {

@@ -48,7 +48,7 @@
         </div>
         <div class="nav-item">
             
-                <a class="text-right" href="/2018/02/17/support-page.html">Next post &rarr;</a>
+                <a class="text-right" href="/2018/01/06/library-page.html">Next post &rarr;</a>
             
         </div>
     </nav>
@@ -65,7 +65,7 @@
 
 <p><strong>Role:</strong> Designer/Front-End Developer</p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/menu.png" alt="menu" style="border: 1px solid #eee;" /></p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/menu.png" alt="menu" /></p>
 
 <p><strong>Goals</strong></p>
 
@@ -86,7 +86,7 @@
 
 <p>The Hacker Noon article mentions that “Flexbox is made for one dimensional layouts and Grid is made for two dimensional layouts.” Because I was only re-coding the menu (not the whole site), I decided to go with flex. As you can see below, flexbox has great support. From my research, CSS grids seem really cool but are still pretty new and not well-supported.</p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/flex_support.png" alt="flex grid support" style="margin: 3rem auto 1rem auto; border: 1px solid #eee;" />
+<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/flex_support.png" alt="flex grid support" style="margin: 3rem auto 1rem auto;" />
 <span class="help-text" style="margin-bottom: 3rem;">Flex grid support, screenshot from <a href="https://caniuse.com/#feat=flexbox">Can I Use</a></span></p>
 
 <p><strong>Reassessing the menu SCSS</strong></p>
@@ -155,27 +155,27 @@
 
 <p><span class="help-text" style="margin-top: 3rem;">Before:</span></p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/medium_menu_before.png" alt="medium menu before" style="margin: 0 auto 1.5rem auto; border: 1px solid #eee;" /></p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/medium_menu_before.png" alt="medium menu before" style="margin: 0 auto 1.5rem auto;" /></p>
 
 <p><span class="help-text" style="margin-top: 1.5rem;">After:</span></p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/medium_menu_after.png" alt="medium menu after" style="margin: 0 auto 3rem auto; border: 1px solid #eee;" /></p>
+<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/medium_menu_after.png" alt="medium menu after" style="margin: 0 auto 3rem auto;" /></p>
 
 <p>The first thing to change was the <strong>sub menu CTAs</strong> (the menu on the right). To account for the thinner screen width, I removed the CTA for “search” because the magnifying glass is fairly universally known to represent “search”. I considered removing the CTA for the newsletter signup link as well but I don’t think the email icon makes much sense without “signup”.</p>
 
 <p>The other element to address was the <strong>“Topics” menu</strong>. On desktop, the “Topics” menu is visible at the top of the page but changes to a dropdown on scroll (see screenshot above). It is also a horizontal menu. I knew on a medium-sized screen, all the items in the menu wouldn’t fit horizontally so it should be vertical.</p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/medium_topics_menu_open.png" alt="topics menu" style="margin: 3rem auto 1rem auto; border: 1px solid #eee;" />
+<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/medium_topics_menu_open.png" alt="topics menu" style="margin: 3rem auto 1rem auto;" />
 <span class="help-text" style="margin-bottom: 3rem;">Topics menu open on medium screens</span></p>
 
 <p><strong>Finishing touches</strong></p>
 
 <p>To make the menu fully work, I had to reassess the JS associated with the menu and update the SCSS breakpoints so this actually worked across the 15 different menus running on this code (see all pubs <a href="https://www.retaildive.com/about/" target="_blank">here</a>).</p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/smt_menu.png" alt="smt menu" style="margin: 3rem auto 1rem auto; border: 1px solid #eee;" />
+<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/smt_menu.png" alt="smt menu" style="margin: 3rem auto 1rem auto;" />
 <span class="help-text"><a target="_blank" href="https://www.socialmediatoday.com/">Social Media Today</a> menu on medium screens</span></p>
 
-<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/biopharma_menu.png" alt="biopharma menu" style="margin: 3rem auto 1rem auto; border: 1px solid #eee;" />
+<p class="p-img"><img src="http://localhost:4000/assets/img/flex_menu/biopharma_menu.png" alt="biopharma menu" style="margin: 3rem auto 1rem auto;" />
 <span class="help-text" style="margin-bottom: 3rem;"><a target="_blank" href="https://www.biopharmadive.com/">BioPharma Dive</a> menu on medium screens</span></p>
 
 <p>Although the JS and SCSS breakpoints brought about some complications, I plan to clean them up in the future. I also want to update the code so the menu is fully responsive from mobile to desktop (goodbye hamburger menu), not just across medium and desktop.</p>

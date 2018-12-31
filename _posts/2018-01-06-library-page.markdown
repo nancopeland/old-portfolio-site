@@ -3,7 +3,7 @@ layout: post
 title:  "Dive Library page"
 description: Redesigning this page to better showcase in-house branded content
 image-class: library-page
-prev-story: /2018/02/17/support-page.html
+prev-story: /2018/03/25/menu-flex-grid.html
 next-story: /2017/10/14/gig-app.html
 ---
 
