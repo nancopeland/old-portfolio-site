@@ -109,6 +109,9 @@ img {
 .text-right {
   text-align: right; }
 
+.text-center {
+  text-align: center; }
+
 .page-content {
   margin: 1.25rem auto 0 auto;
   padding: 0 1rem; }
@@ -141,8 +144,6 @@ nav {
 
 .nav-item {
   width: 33.333%; }
-  .nav-item:nth-child(2) {
-    text-align: center; }
 
 @media (min-width: 40em) {
   header[role='banner'] {

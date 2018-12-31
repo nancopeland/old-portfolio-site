@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-31T11:38:27-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-31T12:08:28-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;/p&gt;
 
@@ -23,12 +23,8 @@
 
 &lt;p&gt;The Hacker Noon article mentions that “Flexbox is made for one dimensional layouts and Grid is made for two dimensional layouts.” Because I was only re-coding the menu (not the whole site), I decided to go with flex. As you can see below, flexbox has great support. From my research, CSS grids seem really cool but are still pretty new and not well-supported.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;flex grid support&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/flex_support.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Flex grid support, screenshot from &lt;a href=&quot;https://caniuse.com/#feat=flexbox&quot;&gt;Can I Use&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/flex_support.png&quot; alt=&quot;flex grid support&quot; style=&quot;margin: 3rem auto 1rem auto; border: 1px solid #eee;&quot; /&gt;
+&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Flex grid support, screenshot from &lt;a href=&quot;https://caniuse.com/#feat=flexbox&quot;&gt;Can I Use&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Reassessing the menu SCSS&lt;/strong&gt;&lt;/p&gt;
 
@@ -94,46 +90,30 @@
 
 &lt;p&gt;So far, the changes to the menu haven’t changed what it actually looks like. But, as previously stated, one of the goals of this project was to make the menu more accessible on smaller screen sizes. Making it work on mobile is a different project but what about tablets and small laptops? This was going to involve some slight visual changes.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;font-weight: 700; margin-top: 3rem;&quot;&gt;Before:&lt;/span&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;medium menu before&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_before.png&quot; style=&quot;margin: 0 auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;font-weight: 700; margin-top: 1.5rem;&quot;&gt;After:&lt;/span&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;medium menu after&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_after.png&quot; style=&quot;margin: 0 auto 3rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 3rem;&quot;&gt;Before:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_before.png&quot; alt=&quot;medium menu before&quot; style=&quot;margin: 0 auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1.5rem;&quot;&gt;After:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_after.png&quot; alt=&quot;medium menu after&quot; style=&quot;margin: 0 auto 3rem auto; border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The first thing to change was the &lt;strong&gt;sub menu CTAs&lt;/strong&gt; (the menu on the right). To account for the thinner screen width, I removed the CTA for “search” because the magnifying glass is fairly universally known to represent “search”. I considered removing the CTA for the newsletter signup link as well but I don’t think the email icon makes much sense without “signup”.&lt;/p&gt;
 
 &lt;p&gt;The other element to address was the &lt;strong&gt;“Topics” menu&lt;/strong&gt;. On desktop, the “Topics” menu is visible at the top of the page but changes to a dropdown on scroll (see screenshot above). It is also a horizontal menu. I knew on a medium-sized screen, all the items in the menu wouldn’t fit horizontally so it should be vertical.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;topics menu&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_topics_menu_open.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Topics menu open on medium screens&lt;/span&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/medium_topics_menu_open.png&quot; alt=&quot;topics menu&quot; style=&quot;margin: 3rem auto 1rem auto; border: 1px solid #eee;&quot; /&gt;
+&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Topics menu open on medium screens&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Finishing touches&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;To make the menu fully work, I had to reassess the JS associated with the menu and update the SCSS breakpoints so this actually worked across the 15 different menus running on this code (see all pubs &lt;a href=&quot;https://www.retaildive.com/about/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;smt menu&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/smt_menu.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt; menu on medium screens&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;biopharma menu&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/biopharma_menu.png&quot; style=&quot;margin: 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.biopharmadive.com/&quot;&gt;BioPharma Dive&lt;/a&gt; menu on medium screens&lt;/span&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/smt_menu.png&quot; alt=&quot;smt menu&quot; style=&quot;margin: 3rem auto 1rem auto; border: 1px solid #eee;&quot; /&gt;
+&lt;span class=&quot;help-text&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt; menu on medium screens&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/biopharma_menu.png&quot; alt=&quot;biopharma menu&quot; style=&quot;margin: 3rem auto 1rem auto; border: 1px solid #eee;&quot; /&gt;
+&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.biopharmadive.com/&quot;&gt;BioPharma Dive&lt;/a&gt; menu on medium screens&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Although the JS and SCSS breakpoints brought about some complications, I plan to clean them up in the future. I also want to update the code so the menu is fully responsive from mobile to desktop (goodbye hamburger menu), not just across medium and desktop.&lt;/p&gt;</content><summary type="html">I re-coded the menu for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.</summary></entry><entry><title type="html">Dive Library page</title><link href="http://localhost:4000/2018/01/06/library-page.html" rel="alternate" type="text/html" title="Dive Library page" /><published>2018-01-06T00:00:00-05:00</published><updated>2018-01-06T00:00:00-05:00</updated><id>http://localhost:4000/2018/01/06/library-page</id><content type="html" xml:base="http://localhost:4000/2018/01/06/library-page.html">&lt;p&gt;I recently redesigned the &lt;strong&gt;&lt;a href=&quot;https://www.biopharmadive.com/library/&quot;&gt;Library page&lt;/a&gt;&lt;/strong&gt; for each of Industry Dive’s publications with the help of the dev team to better showcase the &lt;a href=&quot;https://www.industrydive.com/brandstudio/&quot;&gt;Dive Brand Studio’s&lt;/a&gt; content.&lt;/p&gt;
 

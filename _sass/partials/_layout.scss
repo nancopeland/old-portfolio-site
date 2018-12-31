@@ -39,9 +39,6 @@ nav {
 }
 .nav-item {
 	width: 33.333%;
-	&:nth-child(2) {
-		text-align: center; 
-	} 
 }
 @media (min-width: 40em) {
 	header[role='banner'] {
