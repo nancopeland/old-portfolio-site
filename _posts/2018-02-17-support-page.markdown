@@ -5,6 +5,7 @@ description: Using JIRA ticket collectors to streamline internal requests
 image-class: support-page
 prev-story: /2018/03/25/menu-flex-grid.html
 next-story: /2018/01/06/library-page.html
+published: false
 ---
 
 As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using <a href="https://confluence.atlassian.com/adminjiraserver071/using-the-issue-collector-802592637.html" target="_blank">Jira issue collectors</a>. 
