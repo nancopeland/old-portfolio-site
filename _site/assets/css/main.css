@@ -1,3 +1,14 @@
+pre {
+  white-space: pre-wrap;
+  /* css-3 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word; }
+
 .highlight span {
   font-family: monospace, monospace; }
 
@@ -38,6 +49,13 @@
   margin-bottom: 2.5rem; }
 
 /* Taken from Pygments-css library. Link to original css with key: https://github.com/richleland/pygments-css/blob/master/vs.css */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   background-color: #fafafa;
   color: #333333;
@@ -82,6 +100,12 @@ button {
   button:hover {
     background-color: #e8fcfb; }
 
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle; }
+
 .text-right {
   text-align: right; }
 
@@ -92,7 +116,39 @@ button {
 @media (min-width: 40em) {
   .page-content {
     margin-top: 3rem;
-    width: 70%; } }
+    max-width: 70%; } }
+header[role='banner'] {
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  width: 100%;
+  z-index: 100; }
+
+nav {
+  display: flex;
+  transition: all .25s ease; }
+  nav a {
+    border: 0;
+    display: block;
+    font-size: .75rem;
+    letter-spacing: .5px;
+    transition: color .25s ease; }
+    nav a:hover {
+      border: 0; }
+
+.nav-item {
+  width: 33.333%; }
+  .nav-item:nth-child(2) {
+    text-align: center; }
+
+@media (min-width: 40em) {
+  header[role='banner'] {
+    padding: 1rem 3rem; }
+    header[role='banner'] a {
+      font-size: .875rem; } }
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -110,32 +166,6 @@ footer {
   .footer-copy,
   .footer-links {
     width: 50%; } }
-header[role='banner'] {
-  background-color: white;
-  border-bottom: 1px solid #eee;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 1rem .75rem;
-  width: 100%;
-  z-index: 100; }
-
-nav {
-  transition: all .25s ease; }
-  nav a {
-    border: 0;
-    display: block;
-    font-size: .75rem;
-    letter-spacing: .5px;
-    transition: color .25s ease; }
-    nav a:hover {
-      border: 0; }
-
-@media (min-width: 40em) {
-  header[role='banner'] {
-    padding: 1rem 3rem; }
-    header[role='banner'] a {
-      font-size: .875rem; } }
 .about-home {
   margin-bottom: 2.25rem; }
   .about-home p {
@@ -223,7 +253,7 @@ nav {
   .img-container {
     height: 220px; } }
 .post-content {
-  margin: 1rem auto 3rem auto; }
+  margin: 1rem auto 5rem auto; }
   .post-content p {
     margin: 1rem 0; }
     .post-content p:first-of-type {
@@ -250,6 +280,7 @@ nav {
     padding: 0 7rem; }
     .post-content p:first-of-type {
       font-size: 1.75rem;
+      margin-top: 7rem;
       padding: 0; }
     .post-content p:nth-of-type(2) {
       padding: 0; }

@@ -1,7 +1,7 @@
 // posts partial
 
 .post-content {
-	margin: 1rem auto 3rem auto;  
+	margin: 1rem auto 5rem auto;  
 	p {
 		margin: 1rem 0; 
 		&:first-of-type {
@@ -35,6 +35,7 @@
 			padding: 0 7rem; 
 			&:first-of-type {
 				font-size: 1.75rem;
+				margin-top: 7rem; 
 				padding: 0;  
 			}
 			&:nth-of-type(2){

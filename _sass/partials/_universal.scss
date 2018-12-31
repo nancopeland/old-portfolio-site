@@ -1,5 +1,13 @@
 // universal partial
 
+*, 
+*:before, 
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
 	background-color: #fafafa;
 	color: $dark-grey;
@@ -50,6 +58,12 @@ button {
 	&:hover {
 		background-color: $turquoise-light; 
 	}
+}
+img {
+	display: inline-block;
+    height: auto;
+	max-width: 100%;
+    vertical-align: middle;
 }
 
 .text-right {

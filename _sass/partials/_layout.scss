@@ -1,5 +1,6 @@
 // layout
 
+// --- page content wrapper ---
 .page-content {
 	margin: 1.25rem auto 0 auto; 
 	padding: 0 1rem; 
@@ -7,10 +8,51 @@
 @media (min-width: 40em) {
 	.page-content {
 		margin-top: 3rem; 
-		width: 70%; 
+		max-width: 70%; 
 	}
 }
 
+// --- header nav on posts ---
+header[role='banner'] {
+    background-color: white;
+    border-bottom: 1px solid #eee;
+	position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem; 
+    width: 100%;
+    z-index: 100; 
+}
+nav {
+	display: flex; 
+  	transition: all .25s ease; 
+	a { 
+		border: 0; 
+		display: block; 
+		font-size: .75rem; 
+		letter-spacing: .5px;
+		transition: color .25s ease; 
+		&:hover {
+			border: 0; 
+		}
+	}
+}
+.nav-item {
+	width: 33.333%;
+	&:nth-child(2) {
+		text-align: center; 
+	} 
+}
+@media (min-width: 40em) {
+	header[role='banner'] {
+    	padding: 1rem 3rem;
+    	a {
+    		font-size: .875rem; 
+    	}
+	}
+}
+
+// --- footer ---
 footer {
 	display: flex; 
 	flex-wrap: wrap;
