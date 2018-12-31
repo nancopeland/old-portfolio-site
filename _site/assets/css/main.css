@@ -92,7 +92,7 @@ button {
 @media (min-width: 40em) {
   .page-content {
     margin-top: 3rem;
-    width: 72%; } }
+    width: 70%; } }
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -105,7 +105,7 @@ footer {
 
 @media (min-width: 40em) {
   footer {
-    width: 72%; }
+    width: 70%; }
 
   .footer-copy,
   .footer-links {
@@ -178,7 +178,11 @@ nav {
 
 @media (min-width: 40em) {
   .project-wrapper {
-    width: 50%; }
+    width: calc(50% - 30px); }
+    .project-wrapper:nth-child(odd) {
+      margin-right: 15px; }
+    .project-wrapper:nth-child(even) {
+      margin-left: 15px; }
 
   .project-description {
     min-height: 110px; } }
