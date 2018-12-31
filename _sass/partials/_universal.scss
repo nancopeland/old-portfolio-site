@@ -1,8 +1,9 @@
 // universal partial
 
 body {
+	background-color: #fafafa;
 	color: $dark-grey;
-	background-color: #fafafa;  
+	line-height: 1.5;
 	overflow-y: scroll; 
 	&.no-scroll {
 		overflow-y: hidden; 
@@ -55,11 +56,13 @@ button {
 }
 
 .page-content {
-	margin-top: 1.25rem; 
+	margin: 1.25rem auto 0 auto; 
+	padding: 0 1rem; 
 }
 @media (min-width: 40em) {
 	.page-content {
 		margin-top: 3rem; 
+		width: 72%; 
 	}
 }
 

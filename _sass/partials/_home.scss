@@ -20,11 +20,13 @@
 
 // PROJECTS
 .projects {
+	display: flex;
+	flex-wrap: wrap;
 	margin-top: 2rem; 
-	@include grid-row;
+	//@include grid-row; 
 }
 .project-wrapper {
-	@include grid-column(12); 
+	//@include grid-column(12); 
 }
 .project {
 	border: 1px solid #eee; 
@@ -99,7 +101,8 @@
 
 @media (min-width: 40em) {
 	.project-wrapper {
-		@include grid-column(6); 
+		//@include grid-column(6); 
+		width: 50%; 
 	}
 	.project-description {
 		min-height: 110px; 
