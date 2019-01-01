@@ -264,8 +264,6 @@ footer {
     border: 1px solid #eee;
     display: block;
     margin: 3rem auto; }
-    .post-content img:first-of-type {
-      margin: 5rem 0; }
   .post-content ol {
     padding-left: .75rem; }
 
@@ -277,6 +275,18 @@ footer {
   text-align: center;
   margin: 0 0 1rem 0; }
 
+.img-flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3rem; }
+
+@media (min-width: 40em) {
+  .img-flex-50 {
+    width: calc(50% - 20px); }
+    .img-flex-50:nth-child(odd) {
+      margin-right: 10px; }
+    .img-flex-50:nth-child(even) {
+      margin-left: 10px; } }
 @media (min-width: 40em) {
   .post-content p {
     padding: 0 7rem; }
@@ -289,7 +299,7 @@ footer {
   .post-content ul, .post-content ol {
     padding: 0 9.5rem; }
   .post-content img {
-    margin: 6rem auto; }
+    margin: 5rem auto; }
   .post-content .p-img {
     padding: 0; } }
 footer {
