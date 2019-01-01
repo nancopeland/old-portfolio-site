@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-01T16:33:28-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-01T16:54:58-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;/p&gt;
 
@@ -368,21 +368,20 @@
 &lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer&lt;br /&gt;
 &lt;strong&gt;Team Members:&lt;/strong&gt; Ryan McKnight, &lt;em&gt;Project Manager&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;span class=&quot;help-text&quot;&gt;Before:&lt;/span&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/old_dash_admin.jpg&quot; style=&quot;margin:0 0 4rem 0;&quot; /&gt;
+&lt;p&gt;&lt;span style=&quot;margin-top: 5rem;&quot; class=&quot;help-text&quot;&gt;Before:&lt;/span&gt;&lt;/p&gt;
+
+&lt;div style=&quot;margin-top: 1rem;&quot; class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img alt=&quot;smt old admin&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/old_dash_admin.jpg&quot; /&gt;
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/old_dash_user.jpg&quot; style=&quot;margin:0 0 4rem 0;&quot; /&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;span class=&quot;help-text&quot;&gt;After:&lt;/span&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt_intro.jpg&quot; style=&quot;margin:0 0 4rem 0;&quot; /&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img alt=&quot;smt old admin&quot; class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/old_dash_user.jpg&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot;&gt;After:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt_intro.jpg&quot; alt=&quot;medium menu before&quot; style=&quot;margin-top: 1rem;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;History&lt;/strong&gt;&lt;/p&gt;
 
@@ -408,33 +407,28 @@
 
 &lt;p&gt;According to the interviews, my overall goal was to unify the CMS dashboard (which was previously hosted on Drupal) and the MySMT page to improve navigation ease and make each process easier to find.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt1.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Regular user - &quot;Posts&quot; page&lt;/span&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt1.jpg&quot; alt=&quot;new mock&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Regular user - “Posts” page&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Because of all the user confusion, I added more notifications that will make the site clearer for both regular and new users.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt3.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
-		&lt;span class=&quot;help-text&quot;&gt;Regular user - notification received after their post was submitted&lt;/span&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt2.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Regular user - notification received after their post was published&lt;/span&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt3.jpg&quot; alt=&quot;new mock&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Regular user - notification received after their post was submitted&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt2.jpg&quot; alt=&quot;new mock&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Regular user - notification received after their post was published&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;For an admin or editor who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separate from what is already published on the site.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt5.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
-		&lt;span class=&quot;help-text&quot;&gt;Admin user - list of &quot;submitted&quot; posts from regular users&lt;/span&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt6.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Admin user - list of all published posts on the site&lt;/span&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt5.jpg&quot; alt=&quot;new mock&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Admin user - list of “submitted” posts from regular users&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt6.jpg&quot; alt=&quot;new mock&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Admin user - list of all published posts on the site&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;SMT has now been migrated over to our platform but implementing all of the above mocks is quite cumbersome so it has not been completed yet. Ideally, the whole CMS (that all sites use) will be redesigned so it visually looks like the above mocks and the SMT concepts will be integrated.&lt;/p&gt;</content><summary type="html">As the lead designer for the Social Media Today launch, my first project was researching and designing a new CMS. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.</summary></entry></feed>
