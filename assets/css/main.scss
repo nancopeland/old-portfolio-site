@@ -3,16 +3,12 @@
 ---
 @charset "utf-8";
 
-//foundation grid
-@import 'foundation/components/grid';
-
 //highlight for code
 @import 'highlight/highlight';
 
 // personal styling
 @import 'partials/variables'; 
-@import 'partials/universal'; 
-@import 'partials/nav'; 
+@import 'partials/universal';
+@import 'partials/layout'; 
 @import 'partials/home'; 
 @import 'partials/posts';
-@import 'partials/footer';

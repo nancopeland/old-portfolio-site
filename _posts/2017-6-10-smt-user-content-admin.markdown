@@ -3,7 +3,7 @@ layout: post
 title:  "Social Media Today CMS"
 description: Mockups for Social Media Today's user-submitted CMS
 image-class: smt-user-admin
-prev-story: /2017/07/15/pdf-button.html
+prev-story: /2017/10/14/gig-app.html
 next-story: /2018/03/25/menu-flex-grid.html
 ---
 
@@ -12,21 +12,22 @@ As the lead designer for the **[Social Media Today](http://www.socialmediatoday.
 **Role:** Designer<br/>
 **Team Members:** Ryan McKnight, _Project Manager_
 
-<div class="row">
-	<span class="help-text">Before:</span>
-	<div class="medium-6 columns">
-		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/old_dash_admin.jpg" style="margin:0 0 4rem 0;">
+<span style="margin-top: 5rem;" class="help-text">Before:</span>
+
+<div style="margin-top: 1rem;" class="img-flex-wrapper">
+	<div class="img-flex-50">
+		<img alt="smt old admin" src="{{ site.url }}/assets/img/smt_cms/old_dash_admin.jpg">
 	</div>
-	<div class="medium-6 columns">
-		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/old_dash_user.jpg" style="margin:0 0 4rem 0;">
-	</div>
-</div>
-<div class="row">
-	<div class="columns">
-		<span class="help-text">After:</span>
-		<img class="p-img" src="{{ site.url }}/assets/img/smt_cms/smt_intro.jpg" style="margin:0 0 4rem 0;">
+	<div class="img-flex-50">
+		<img alt="smt old admin" class="p-img" src="{{ site.url }}/assets/img/smt_cms/old_dash_user.jpg">
 	</div>
 </div>
+
+<span class="help-text">After:</span>
+
+{:.p-img}
+![medium menu before]({{ site.url }}/assets/img/smt_cms/smt_intro.jpg){:style="margin-top: 1rem;"}
+
 
 **History**
 
@@ -53,34 +54,34 @@ After interviewing, I looked at a variety of content management systems, specifi
 
 According to the interviews, my overall goal was to unify the CMS dashboard (which was previously hosted on Drupal) and the MySMT page to improve navigation ease and make each process easier to find. 
 
-<div class="row">
-	<div class="columns">
-		<img class="p-img" alt="new mock" src="{{ site.url }}/assets/img/smt_cms/smt1.jpg" style="margin: 3rem 0 1rem 0;">
-		<span class="help-text" style="margin-bottom: 3rem;">Regular user - "Posts" page</span>
-	</div>
-</div>
+{:.p-img}
+![new mock]({{ site.url }}/assets/img/smt_cms/smt1.jpg){:style="margin: 3rem auto 1rem auto;"}
+
+<span class="help-text" style="margin-bottom: 3rem;">Regular user - "Posts" page</span>
 
 Because of all the user confusion, I added more notifications that will make the site clearer for both regular and new users. 
 
-<div class="row">
-	<div class="columns">
-		<img class="p-img" alt="new mock" src="{{ site.url }}/assets/img/smt_cms/smt3.jpg" style="margin: 3rem 0 1rem 0;">
-		<span class="help-text">Regular user - notification received after their post was submitted</span>
-		<img class="p-img" alt="new mock" src="{{ site.url }}/assets/img/smt_cms/smt2.jpg" style="margin: 3rem 0 1rem 0;">
-		<span class="help-text" style="margin-bottom: 3rem;">Regular user - notification received after their post was published</span>
-	</div>
-</div>
+{:.p-img}
+![new mock]({{ site.url }}/assets/img/smt_cms/smt3.jpg){:style="margin: 3rem auto 1rem auto;"}
+
+<span class="help-text" style="margin-bottom: 3rem;">Regular user - notification received after their post was submitted</span>
+
+{:.p-img}
+![new mock]({{ site.url }}/assets/img/smt_cms/smt2.jpg){:style="margin: 3rem auto 1rem auto;"}
+
+<span class="help-text" style="margin-bottom: 3rem;">Regular user - notification received after their post was published</span>
 
 For an admin or editor who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separate from what is already published on the site. 
 
-<div class="row">
-	<div class="columns">
-		<img class="p-img" alt="new mock" src="{{ site.url }}/assets/img/smt_cms/smt5.jpg" style="margin: 3rem 0 1rem 0;">
-		<span class="help-text">Admin user - list of "submitted" posts from regular users</span>
-		<img class="p-img" alt="new mock" src="{{ site.url }}/assets/img/smt_cms/smt6.jpg" style="margin: 3rem 0 1rem 0;">
-		<span class="help-text" style="margin-bottom: 3rem;">Admin user - list of all published posts on the site</span>
-	</div>
-</div>
+{:.p-img}
+![new mock]({{ site.url }}/assets/img/smt_cms/smt5.jpg){:style="margin: 3rem auto 1rem auto;"}
+
+<span class="help-text" style="margin-bottom: 3rem;">Admin user - list of "submitted" posts from regular users</span>
+
+{:.p-img}
+![new mock]({{ site.url }}/assets/img/smt_cms/smt6.jpg){:style="margin: 3rem auto 1rem auto;"}
+
+<span class="help-text" style="margin-bottom: 3rem;">Admin user - list of all published posts on the site</span>
 
 SMT has now been migrated over to our platform but implementing all of the above mocks is quite cumbersome so it has not been completed yet. Ideally, the whole CMS (that all sites use) will be redesigned so it visually looks like the above mocks and the SMT concepts will be integrated. 
 

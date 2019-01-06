@@ -1,8 +1,18 @@
 // universal partial
 
+*, 
+*:before, 
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
+	background-color: #fafafa;
 	color: $dark-grey;
-	background-color: #fafafa;  
+	line-height: 1.5;
+	margin: 0; 
 	overflow-y: scroll; 
 	&.no-scroll {
 		overflow-y: hidden; 
@@ -49,18 +59,18 @@ button {
 		background-color: $turquoise-light; 
 	}
 }
+img {
+	display: inline-block;
+    height: auto;
+	max-width: 100%;
+    vertical-align: middle;
+}
 
 .text-right {
 	text-align: right; 
 }
-
-.page-content {
-	margin-top: 1.25rem; 
-}
-@media (min-width: 40em) {
-	.page-content {
-		margin-top: 3rem; 
-	}
+.text-center {
+	text-align: center; 
 }
 
 

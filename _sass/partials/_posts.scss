@@ -1,7 +1,7 @@
 // posts partial
 
 .post-content {
-	margin: 1rem auto 3rem auto;  
+	margin: 1rem auto 5rem auto;  
 	p {
 		margin: 1rem 0; 
 		&:first-of-type {
@@ -10,11 +10,9 @@
 		}
 	}
 	img {
+		border: 1px solid #eee; 
 		display: block; 
 		margin: 3rem auto;
-		&:first-of-type {
-			margin: 5rem 0;
-		} 
 	}
 	ol {
 		padding-left: .75rem; 
@@ -35,6 +33,7 @@
 			padding: 0 7rem; 
 			&:first-of-type {
 				font-size: 1.75rem;
+				margin-top: 7rem; 
 				padding: 0;  
 			}
 			&:nth-of-type(2){
@@ -45,10 +44,43 @@
 			padding: 0 9.5rem; 
 		}
 		img {
-			margin: 6rem auto; 
+			margin: 5rem auto; 
 		}
 		.p-img { // keeps imgs going full width
 			padding: 0; 
+		}
+	}
+}
+
+// flex grid for images
+.img-flex-wrapper {
+	display: flex; 
+	flex-wrap: wrap;
+	margin: 3rem 0;
+	img {
+		margin: 0; 
+	} 
+}
+@media (min-width: 40em) {
+	.img-flex-50 { 
+		width: calc(50% - 10px); 
+		&:nth-child(odd) {
+			margin-right: 10px; 
+		}
+		&:nth-child(even) {
+			margin-left: 10px; 
+		}
+	}
+	.img-flex-33 { 
+		width: calc(33.333333% - 15px); 
+		&:nth-child(1) {
+			margin-right: 10px; 
+		}
+		&:nth-child(2) {
+			margin: 0 10px; 
+		}
+		&:nth-child(3) {
+			margin-left: 10px; 
 		}
 	}
 }

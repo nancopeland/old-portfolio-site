@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-13T17:40:45-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-06T12:48:59-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;/p&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/menu.png&quot; alt=&quot;menu&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/menu.png&quot; alt=&quot;menu&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Goals&lt;/strong&gt;&lt;/p&gt;
 
@@ -23,12 +23,8 @@
 
 &lt;p&gt;The Hacker Noon article mentions that “Flexbox is made for one dimensional layouts and Grid is made for two dimensional layouts.” Because I was only re-coding the menu (not the whole site), I decided to go with flex. As you can see below, flexbox has great support. From my research, CSS grids seem really cool but are still pretty new and not well-supported.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;flex grid support&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/flex_support.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Flex grid support, screenshot from &lt;a href=&quot;https://caniuse.com/#feat=flexbox&quot;&gt;Can I Use&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/flex_support.png&quot; alt=&quot;flex grid support&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;
+&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Flex grid support, screenshot from &lt;a href=&quot;https://caniuse.com/#feat=flexbox&quot;&gt;Can I Use&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Reassessing the menu SCSS&lt;/strong&gt;&lt;/p&gt;
 
@@ -94,79 +90,32 @@
 
 &lt;p&gt;So far, the changes to the menu haven’t changed what it actually looks like. But, as previously stated, one of the goals of this project was to make the menu more accessible on smaller screen sizes. Making it work on mobile is a different project but what about tablets and small laptops? This was going to involve some slight visual changes.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;font-weight: 700; margin-top: 3rem;&quot;&gt;Before:&lt;/span&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;medium menu before&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_before.png&quot; style=&quot;margin: 0 auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;font-weight: 700; margin-top: 1.5rem;&quot;&gt;After:&lt;/span&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;medium menu after&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_after.png&quot; style=&quot;margin: 0 auto 3rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 3rem;&quot;&gt;Before:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_before.png&quot; alt=&quot;medium menu before&quot; style=&quot;margin: 0 auto 1.5rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1.5rem;&quot;&gt;After:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/medium_menu_after.png&quot; alt=&quot;medium menu after&quot; style=&quot;margin: 0 auto 3rem auto;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The first thing to change was the &lt;strong&gt;sub menu CTAs&lt;/strong&gt; (the menu on the right). To account for the thinner screen width, I removed the CTA for “search” because the magnifying glass is fairly universally known to represent “search”. I considered removing the CTA for the newsletter signup link as well but I don’t think the email icon makes much sense without “signup”.&lt;/p&gt;
 
 &lt;p&gt;The other element to address was the &lt;strong&gt;“Topics” menu&lt;/strong&gt;. On desktop, the “Topics” menu is visible at the top of the page but changes to a dropdown on scroll (see screenshot above). It is also a horizontal menu. I knew on a medium-sized screen, all the items in the menu wouldn’t fit horizontally so it should be vertical.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;topics menu&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/medium_topics_menu_open.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Topics menu open on medium screens&lt;/span&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/medium_topics_menu_open.png&quot; alt=&quot;topics menu&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;
+&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Topics menu open on medium screens&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Finishing touches&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;To make the menu fully work, I had to reassess the JS associated with the menu and update the SCSS breakpoints so this actually worked across the 15 different menus running on this code (see all pubs &lt;a href=&quot;https://www.retaildive.com/about/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;smt menu&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/smt_menu.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt; menu on medium screens&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;biopharma menu&quot; src=&quot;http://localhost:4000/assets/img/flex_menu/biopharma_menu.png&quot; style=&quot;margin: 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.biopharmadive.com/&quot;&gt;BioPharma Dive&lt;/a&gt; menu on medium screens&lt;/span&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/smt_menu.png&quot; alt=&quot;smt menu&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;
+&lt;span class=&quot;help-text&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt; menu on medium screens&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Although the JS and SCSS breakpoints brought about some complications, I plan to clean them up in the future. I also want to update the code so the menu is fully responsive from mobile to desktop (goodbye hamburger menu), not just across medium and desktop.&lt;/p&gt;</content><summary type="html">I re-coded the menu for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.</summary></entry><entry><title type="html">Industry Dive Support Page</title><link href="http://localhost:4000/2018/02/17/support-page.html" rel="alternate" type="text/html" title="Industry Dive Support Page" /><published>2018-02-17T00:00:00-05:00</published><updated>2018-02-17T00:00:00-05:00</updated><id>http://localhost:4000/2018/02/17/support-page</id><content type="html" xml:base="http://localhost:4000/2018/02/17/support-page.html">&lt;p&gt;As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using &lt;a href=&quot;https://confluence.atlassian.com/adminjiraserver071/using-the-issue-collector-802592637.html&quot; target=&quot;_blank&quot;&gt;Jira issue collectors&lt;/a&gt;.&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/biopharma_menu.png&quot; alt=&quot;biopharma menu&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;
+&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.biopharmadive.com/&quot;&gt;BioPharma Dive&lt;/a&gt; menu on medium screens&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;br /&gt;
-&lt;strong&gt;Team Members:&lt;/strong&gt; Tony Bagdon, &lt;em&gt;Project Manager&lt;/em&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/support_page/support_page.jpg&quot; alt=&quot;support page&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The Problem&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Teams at Industry Dive, specifically Tech and Design, were receiving one-off requests frequently via &lt;a href=&quot;https://www.atlassian.com/software/hipchat&quot;&gt;Hipchat&lt;/a&gt;, an internal messaging system, and email. The requests were hard for teams to remember and keep track of. Because Industry Dive switched to &lt;a href=&quot;https://www.atlassian.com/software/jira&quot;&gt;Jira&lt;/a&gt; about a year ago for project management and ticket collection, the tech team’s project manager, Tony, decided we would use a Jira issue system. But, each team was still receiving one-off requests that they would then manually enter into the Jira system. How could we use Jira to improve this process across multiple departments?&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/support_page/issue_collector1.png&quot; alt=&quot;JIRA issue collectors&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The Solution&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;First, issue collectors were created for both teams. Each collector has different form fields (i.e. description, due date, computer/browser type) depending on the issue type. By making each issue collector “custom” in Jira, I was able to manipulate the functionality of each button therefore making it easier to add multiple issue collectors to one page.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;issue collector&quot; class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/support_page/issue_collector_popup.png&quot; style=&quot;border: 1px solid #eee; margin: 3rem auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After adding each issue collector to one central page, all departments could now access the page and make requests from Tech and Design.&lt;/p&gt;
-
-&lt;p&gt;As for the design, I first tried just putting all issue collectors on the page with small descriptions for each type. I also added gifs to try and differentiate the request types.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;initial layout&quot; class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/support_page/old_support_page.png&quot; style=&quot;border: 1px solid #eee; margin: 3rem auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;While that was fun, other departments were often submitting requests to the incorrect issue collector. I decided the best and most scalable design was putting the designated issue collectors under each department name with additional help text for each department’s issue collectors. This way, users would know which team their request was going to.&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/support_page/design_collectors.png&quot; alt=&quot;design ticket collectors&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/support_page/support_page_demo.gif&quot; alt=&quot;support page&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Recently, I added issue collectors for the Sales Ops team and hopefully, because of the scalable design, more teams will be interested in adding their own collectors to manage their ongoing projects and requests.&lt;/p&gt;</content><summary type="html">As the Industry Dive team grows, managing requests has become increasingly important to make sure everything is accounted for and not forgotten. Because of this, I recently worked on the Industry Dive support page to handle all internal requests for the Tech and Design teams using Jira issue collectors.</summary></entry><entry><title type="html">Dive Library page</title><link href="http://localhost:4000/2018/01/06/library-page.html" rel="alternate" type="text/html" title="Dive Library page" /><published>2018-01-06T00:00:00-05:00</published><updated>2018-01-06T00:00:00-05:00</updated><id>http://localhost:4000/2018/01/06/library-page</id><content type="html" xml:base="http://localhost:4000/2018/01/06/library-page.html">&lt;p&gt;I recently redesigned the &lt;strong&gt;&lt;a href=&quot;https://www.biopharmadive.com/library/&quot;&gt;Library page&lt;/a&gt;&lt;/strong&gt; for each of Industry Dive’s publications with the help of the dev team to better showcase the &lt;a href=&quot;https://www.industrydive.com/brandstudio/&quot;&gt;Dive Brand Studio’s&lt;/a&gt; content.&lt;/p&gt;
+&lt;p&gt;Although the JS and SCSS breakpoints brought about some complications, I plan to clean them up in the future. I also want to update the code so the menu is fully responsive from mobile to desktop (goodbye hamburger menu), not just across medium and desktop.&lt;/p&gt;</content><summary type="html">I re-coded the menu for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.</summary></entry><entry><title type="html">Dive Library page</title><link href="http://localhost:4000/2018/01/06/library-page.html" rel="alternate" type="text/html" title="Dive Library page" /><published>2018-01-06T00:00:00-05:00</published><updated>2018-01-06T00:00:00-05:00</updated><id>http://localhost:4000/2018/01/06/library-page</id><content type="html" xml:base="http://localhost:4000/2018/01/06/library-page.html">&lt;p&gt;I recently redesigned the &lt;strong&gt;&lt;a href=&quot;https://www.biopharmadive.com/library/&quot;&gt;Library page&lt;/a&gt;&lt;/strong&gt; for each of Industry Dive’s publications with the help of the dev team to better showcase the &lt;a href=&quot;https://www.industrydive.com/brandstudio/&quot;&gt;Dive Brand Studio’s&lt;/a&gt; content.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;br /&gt;
 &lt;strong&gt;Team Members:&lt;/strong&gt; Bethany Morin, &lt;em&gt;Back-End Developer&lt;/em&gt;&lt;/p&gt;
@@ -179,12 +128,9 @@
 
 &lt;p&gt;Their content is promoted in a variety of ways but the only place is was all centrally housed was on the &lt;a href=&quot;https://www.constructiondive.com/library/&quot;&gt;library page&lt;/a&gt; on Industry Dive’s publication sites. The page features both Brand Studio content along with promoted content from clients. If redesigned, how could the new page account for both content types while focusing on the Brand Studio content?&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;old library page&quot; src=&quot;http://localhost:4000/assets/img/library_page/old_library_page.png&quot; style=&quot;margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;The old library page that &lt;strong&gt;doesn't&lt;/strong&gt; show difference between the two content types&lt;/span&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/library_page/old_library_page.png&quot; alt=&quot;old library page&quot; style=&quot;margin: 3rem auto 1.5rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;The old library page that &lt;strong&gt;doesn’t&lt;/strong&gt; show difference between the two content types&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Planning&lt;/strong&gt;&lt;/p&gt;
 
@@ -205,14 +151,14 @@
   &lt;li&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe1.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Wireframe featuring one item promoted at the top&lt;/span&gt;
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img style=&quot;margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe1.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot;&gt;Wireframe featuring one item promoted at the top&lt;/span&gt;
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe2.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Wireframe featuring multiple items promoted at the top with option to filter items by topic and content type&lt;/span&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img style=&quot;margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe2.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot;&gt;Wireframe featuring multiple items promoted at the top with option to filter items by topic and content type&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -222,14 +168,14 @@
 
 &lt;p&gt;To make it more appealing for the user to enter their information, the actual download process needed to be simpiler. Historically, users had to click on the title that then took them to a landing page, which took users to a third party site to download the content. Wouldn’t it be easier to have it all hosted on our site? I knew some of these ideas would get shot down for the MVP but I wanted to sell the vision of easy-to-download content.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe3.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Option to download item on the page&lt;/span&gt;
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img style=&quot;margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe3.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot;&gt;Option to download item on the page&lt;/span&gt;
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe4.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Option to download item once you click through to the landing page&lt;/span&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img style=&quot;margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/wireframe4.jpg&quot; alt=&quot;wireframe&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot;&gt;Option to download item once you click through to the landing page&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -239,46 +185,44 @@
 
 &lt;p&gt;In the second mock below, I added a top ad placement, where the Brand Studio would be able to promote a particular piece. I also added ads within the feed of content to promote LinkedIn groups and the newsletter.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;First mock with filtering options&lt;/span&gt;
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img style=&quot;margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot;&gt;First mock with filtering options&lt;/span&gt;
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Mock with additional ad/signup placements&lt;/span&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img style=&quot;margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot;&gt;Mock with additional ad/signup placements&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;For the download process, I looked primarily at the &lt;a href=&quot;https://www.smashingmagazine.com/2013/03/designing-a-better-mobile-checkout-process/&quot;&gt;Amazon’s checkout process&lt;/a&gt; to see what would increase conversions. As previously stated, I wanted to make this more seamless. When talking to our audience development team, someone suggested adding the feature to sign in with LinkedIn.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img style=&quot;margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_1.jpg&quot; alt=&quot;mockup&quot; /&gt; 
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img style=&quot;margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_2.jpg&quot; alt=&quot;mockup&quot; /&gt; 
 	&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img style=&quot;border: 1px solid #eee; margin: 1rem auto 3rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img style=&quot;margin: 1rem auto 3rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img style=&quot;border: 1px solid #eee; margin: 1rem auto 3rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img style=&quot;margin: 1rem auto 3rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock_pop_4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
 	&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;In the next iteration of mocks, I cleaned up the page by focusing on separating client (content in the grey box) vs. Brand Studio work (all other content on the page). I also decided that photos should be required because the icon + gradient style was starting to look a bit repetitive.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Mock featuring client content at the bottom of the page&lt;/span&gt;
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img style=&quot;margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock3.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot;&gt;Mock featuring client content at the bottom of the page&lt;/span&gt;
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img style=&quot;border: 1px solid #eee; margin: 3rem auto 1.5rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;This mock moves client content up the page&lt;/span&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img style=&quot;margin: 3rem auto 1rem auto;&quot; src=&quot;http://localhost:4000/assets/img/library_page/mock4.jpg&quot; alt=&quot;mockup&quot; /&gt; 
+		&lt;span class=&quot;help-text&quot;&gt;This mock moves client content up the page&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -298,9 +242,9 @@
 
 &lt;p&gt;The final product for the MVP looks relatively similar to the final mocks. The one difference is that instead of having the icon overlay on the photo, the icon along with CTA text appears on hover so the user can see the whole photo. Also the styling of the “Industry Intel” (i.e. the client content section) is slightly different.&lt;/p&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/library_page/phase1.gif&quot; alt=&quot;phase1 gif&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/library_page/phase1.gif&quot; alt=&quot;phase1 gif&quot; /&gt;&lt;/p&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/library_page/phase1_mobile.gif&quot; alt=&quot;phase1 mobile gif&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/library_page/phase1_mobile.gif&quot; alt=&quot;phase1 mobile gif&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Next, I will look at engagement on the page and make tweaks accordingly as well as pushing forward on making the download process more seamless.&lt;/p&gt;
 
@@ -351,28 +295,26 @@
 
 &lt;p&gt;Then, I moved on to sketching and wireframing. I talked to a few people about the information architecture of the site and they all grouped “shows you’re attending” with “shows you’re friends are attending.” This was probably the most difficult thing to visualize because there were so many ways to show it.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/sketch1.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img alt=&quot;sketch #1&quot; src=&quot;http://localhost:4000/assets/img/gig_app/sketch1.jpg&quot; /&gt;
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/sketch2.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/sketch3.jpg&quot; style=&quot;margin: 3rem auto 0 auto;&quot; /&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img alt=&quot;sketch #2&quot; src=&quot;http://localhost:4000/assets/img/gig_app/sketch2.jpg&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;medium-4 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/wireframe1.jpg&quot; style=&quot;margin-top: 3rem;&quot; /&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/sketch3.jpg&quot; alt=&quot;sketch #3&quot; style=&quot;margin: 3rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/wireframe1.jpg&quot; /&gt;
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-4 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/wireframe2.jpg&quot; style=&quot;margin-top: 3rem;&quot; /&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/wireframe2.jpg&quot; /&gt;
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-4 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/wireframe3.jpg&quot; style=&quot;margin-top: 3rem;&quot; /&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/wireframe3.jpg&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -380,11 +322,11 @@
 
 &lt;p&gt;I then moved on to higher fidelity prototypes. After interviewing users with these new mockups, the menu items made more sense but users were confused by the onboarding. What exactly does the app do? How is the feed made? The ticket buying experience was clear but getting to that process was not. I realized the onboarding process needed some work.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/hifi1.jpg&quot; /&gt;
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img src=&quot;http://localhost:4000/assets/img/gig_app/hifi1.jpg&quot; /&gt;
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
 		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/hifi2.jpg&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -393,27 +335,25 @@
 
 &lt;p&gt;After many iterations, I decided on a final product that many users found clear and easy to use. See the prototype &lt;a target=&quot;_blank&quot; href=&quot;https://invis.io/AMD99G92K&quot;&gt;here&lt;/a&gt; and see screenshots of that prototype below.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final1.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final1.jpg&quot; /&gt;
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final2.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final2.jpg&quot; /&gt;
 	&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final3.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final4.jpg&quot; style=&quot;margin-bottom:0;&quot; /&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final3.jpg&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final4.jpg&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
 		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final5.jpg&quot; /&gt;
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
 		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/gig_app/final6.jpg&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -423,146 +363,25 @@
   &lt;li&gt;&lt;strong&gt;“Favorite” feature&lt;/strong&gt; - for shows you might want to attend but don’t want to commit to right away&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;“Add to calendar” feature&lt;/strong&gt; - option to “add to calendar” (iCal or Google) after you’ve purchased a ticket&lt;/li&gt;
   &lt;li&gt;More &lt;strong&gt;social media-like aspects&lt;/strong&gt; - “add friends”, “follow venues”, “favorite” artists&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">GIG is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.</summary></entry><entry><title type="html">Downloadable article PDFs</title><link href="http://localhost:4000/2017/07/15/pdf-button.html" rel="alternate" type="text/html" title="Downloadable article PDFs" /><published>2017-07-15T00:00:00-04:00</published><updated>2017-07-15T00:00:00-04:00</updated><id>http://localhost:4000/2017/07/15/pdf-button</id><content type="html" xml:base="http://localhost:4000/2017/07/15/pdf-button.html">&lt;p&gt;I helped add a tool to Industry Dive’s site for the Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;br /&gt;
-&lt;strong&gt;Team Members:&lt;/strong&gt; Malinda Morawetz, &lt;em&gt;Project Manager&lt;/em&gt;&lt;/p&gt;
-
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pdf_button/print_box_big.png&quot; alt=&quot;browser print box&quot; style=&quot;border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The Problem&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;When clients run sponsored articles on the site, we send them a PDF after the campaign finishes. Previously, designers had to copy and paste the article content from the site into InDesign and style it. While this allowed for lots of customization, the process was tedious and pretty boring for a designer to complete. As the demand for these PDFs increased, designers as well as the Ad Ops team became frustrated. What could we do to fix this?&lt;/p&gt;
-
-&lt;p&gt;After looking at the problem, I decided to create a tool that would…&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;be easy for any member of Ad Ops to use&lt;/li&gt;
-  &lt;li&gt;require little work from the design team (unless bugs arise)&lt;/li&gt;
-  &lt;li&gt;be customizable with simple CSS, as needed&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Building the Tool&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I decided to build this feature using the browser print window. Instead of sending the page to an actual printer, the user could “Save as a PDF.”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/pdf_button/print_box.png&quot; alt=&quot;browser print box&quot; style=&quot;width:300px; margin: 3rem auto; border: 1px solid #eee;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;All I needed was a custom print stylesheet to apply to this specific article type.&lt;/p&gt;
-
-&lt;p&gt;Because this is an internal feature, I wrote the code so that a class is conditionally added to articles when they are &lt;strong&gt;sponsored&lt;/strong&gt; and the user is &lt;strong&gt;logged into CMS&lt;/strong&gt;. This ensures our readers don’t experience negative load times on the page.&lt;/p&gt;
-
-&lt;p&gt;All styling was wrapped in the following class inside a print media query.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nc&quot;&gt;.admin-pdf-styling&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-		&lt;span class=&quot;c1&quot;&gt;// custom print styling goes here
-&lt;/span&gt;	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;In terms of styling, writing SCSS for a print stylesheet is a bit different from the web. First, I knew I wanted a full-width image, so I zeroed out all the padding on the wrappers.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nc&quot;&gt;.admin-pdf-styling&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-		&lt;span class=&quot;nc&quot;&gt;.wrapper&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-			&lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-			&lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inherit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// resets page width
-&lt;/span&gt;		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-		&lt;span class=&quot;nc&quot;&gt;.main-image&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-			&lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Then, I set widths on the wrappers around the content so they were centered in a block on the page. This makes the PDF cleaner and easier to read. I used inches because I knew the PDF might actually be printed by the end user.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nc&quot;&gt;.admin-pdf-styling&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-		&lt;span class=&quot;nc&quot;&gt;.content-wrapper&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-			&lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-			&lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.25in&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;pdf page&quot; src=&quot;http://localhost:4000/assets/img/pdf_button/pdf_page.png&quot; style=&quot;width:660px; margin: 3rem auto 1.5rem auto; border: 1px solid #eee;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;First page of created PDF document&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The last thing to note about styling for PDFs is page breaks. Read more about them &lt;a href=&quot;https://css-tricks.com/almanac/properties/p/page-break/&quot;&gt;here&lt;/a&gt; because they’re a bit tricky. I wanted to make sure that the page broke when the copy started. I also wanted to avoid one line of copy from a paragraph being on a page by itself. I had to play around with this but found a way to address both problems.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nc&quot;&gt;.admin-pdf-styling&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-		&lt;span class=&quot;nc&quot;&gt;.copy-wrapper&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// only wraps copy, not title
-&lt;/span&gt;			&lt;span class=&quot;nl&quot;&gt;page-break-inside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;avoid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-			&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-				&lt;span class=&quot;nl&quot;&gt;page-break-inside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;avoid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// avoids one line on different page
-&lt;/span&gt;			&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;How does it work?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;To make this user friendly, when the user is logged into the CMS, they see the “Download Story PDF.”&lt;/p&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;button screenshot&quot; src=&quot;http://localhost:4000/assets/img/pdf_button/button.jpg&quot; style=&quot;margin:3rem 0 1.5rem 0; border: 1px solid #eee; &quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;If you're logged into the CMS, you can see the information above the sidebar on the right, including the &quot;Download Story PDF&quot; button.&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;If you click on the button, the browser’s print window pops up. Inside here, the user must make sure they change the printer to “Save as PDF” (as specified above) and uncheck “Headers and footers” and “Background graphics.”&lt;/p&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;browser print box&quot; src=&quot;http://localhost:4000/assets/img/pdf_button/print_box_big.png&quot; style=&quot;margin:3rem 0 1.5rem 0; border: 1px solid #eee; &quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Example of what the print window should look like&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;If the person downloading wants to customize the look of the PDF, I created a document in our internal &lt;a href=&quot;https://www.atlassian.com/software/confluence&quot;&gt;Confluence&lt;/a&gt; space that details how to do this. It includes how to change the color of links, how to change the size of the headings and how to change the width of logos all to make sure the PDF is optimized for the client. All code is manually added through the CMS.&lt;/p&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img alt=&quot;custom css input in the CMS&quot; src=&quot;http://localhost:4000/assets/img/pdf_button/custom_css.png&quot; style=&quot;margin:3rem auto 1.5rem auto;&quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;This is where the user enters the custom CSS in the CMS&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img alt=&quot;final pdf gif&quot; src=&quot;http://localhost:4000/assets/img/pdf_button/final_pdf.gif&quot; style=&quot;margin:3rem auto 1.5rem auto; width: 500px; &quot; /&gt;
-	&lt;/div&gt;
-	&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Scrolling through final PDF&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The Confluence document includes code snippets the user can copy and paste so it is easy to change the design. After adding some custom CSS, the PDF has the potential to look pretty good! While InDesign allows for more customization, this tool saves multiple teams time and produces a nice looking product for clients to use.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; We recently rolled this tool out to all stories (not just sponsored) so any company member has the ability to print any article in this format. This is still used mainly for sending content to clients.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This post was originally published on &lt;a href=&quot;http://design.industrydive.com/&quot;&gt;Industry Dive’s Design Blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><summary type="html">I helped add a tool to Industry Dive’s site for the Ad Operations team that allows them to print styled articles for clients. This saves both the Ad Operations (Ad Ops) and Design teams time and also streamlines the process so there are fewer errors and back and forth between teams.</summary></entry><entry><title type="html">Social Media Today CMS</title><link href="http://localhost:4000/2017/06/10/smt-user-content-admin.html" rel="alternate" type="text/html" title="Social Media Today CMS" /><published>2017-06-10T00:00:00-04:00</published><updated>2017-06-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/06/10/smt-user-content-admin</id><content type="html" xml:base="http://localhost:4000/2017/06/10/smt-user-content-admin.html">&lt;p&gt;As the lead designer for the &lt;strong&gt;&lt;a href=&quot;http://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt;&lt;/strong&gt; launch, my first project was researching and designing a new CMS. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.&lt;/p&gt;
+&lt;/ul&gt;</content><summary type="html">GIG is an app for going to concerts with your friends. It was created because I thought there was a void in the market for a service that allows you to plan, buy and attend concerts with your friends easily.</summary></entry><entry><title type="html">Social Media Today CMS</title><link href="http://localhost:4000/2017/06/10/smt-user-content-admin.html" rel="alternate" type="text/html" title="Social Media Today CMS" /><published>2017-06-10T00:00:00-04:00</published><updated>2017-06-10T00:00:00-04:00</updated><id>http://localhost:4000/2017/06/10/smt-user-content-admin</id><content type="html" xml:base="http://localhost:4000/2017/06/10/smt-user-content-admin.html">&lt;p&gt;As the lead designer for the &lt;strong&gt;&lt;a href=&quot;http://www.socialmediatoday.com/&quot;&gt;Social Media Today&lt;/a&gt;&lt;/strong&gt; launch, my first project was researching and designing a new CMS. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer&lt;br /&gt;
 &lt;strong&gt;Team Members:&lt;/strong&gt; Ryan McKnight, &lt;em&gt;Project Manager&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;span class=&quot;help-text&quot;&gt;Before:&lt;/span&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/old_dash_admin.jpg&quot; style=&quot;margin:0 0 4rem 0;&quot; /&gt;
+&lt;p&gt;&lt;span style=&quot;margin-top: 5rem;&quot; class=&quot;help-text&quot;&gt;Before:&lt;/span&gt;&lt;/p&gt;
+
+&lt;div style=&quot;margin-top: 1rem;&quot; class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img alt=&quot;smt old admin&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/old_dash_admin.jpg&quot; /&gt;
 	&lt;/div&gt;
-	&lt;div class=&quot;medium-6 columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/old_dash_user.jpg&quot; style=&quot;margin:0 0 4rem 0;&quot; /&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;span class=&quot;help-text&quot;&gt;After:&lt;/span&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt_intro.jpg&quot; style=&quot;margin:0 0 4rem 0;&quot; /&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img alt=&quot;smt old admin&quot; class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/old_dash_user.jpg&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot;&gt;After:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt_intro.jpg&quot; alt=&quot;medium menu before&quot; style=&quot;margin-top: 1rem;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;History&lt;/strong&gt;&lt;/p&gt;
 
@@ -588,33 +407,28 @@
 
 &lt;p&gt;According to the interviews, my overall goal was to unify the CMS dashboard (which was previously hosted on Drupal) and the MySMT page to improve navigation ease and make each process easier to find.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt1.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Regular user - &quot;Posts&quot; page&lt;/span&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt1.jpg&quot; alt=&quot;new mock&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Regular user - “Posts” page&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Because of all the user confusion, I added more notifications that will make the site clearer for both regular and new users.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt3.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
-		&lt;span class=&quot;help-text&quot;&gt;Regular user - notification received after their post was submitted&lt;/span&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt2.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Regular user - notification received after their post was published&lt;/span&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt3.jpg&quot; alt=&quot;new mock&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Regular user - notification received after their post was submitted&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt2.jpg&quot; alt=&quot;new mock&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Regular user - notification received after their post was published&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;For an admin or editor who is approving and publishing content, I wanted to make it super easy to find the newly submitted posts from users. This content should be separate from what is already published on the site.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;columns&quot;&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt5.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
-		&lt;span class=&quot;help-text&quot;&gt;Admin user - list of &quot;submitted&quot; posts from regular users&lt;/span&gt;
-		&lt;img class=&quot;p-img&quot; alt=&quot;new mock&quot; src=&quot;http://localhost:4000/assets/img/smt_cms/smt6.jpg&quot; style=&quot;margin: 3rem 0 1rem 0;&quot; /&gt;
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Admin user - list of all published posts on the site&lt;/span&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt5.jpg&quot; alt=&quot;new mock&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Admin user - list of “submitted” posts from regular users&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/smt_cms/smt6.jpg&quot; alt=&quot;new mock&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Admin user - list of all published posts on the site&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;SMT has now been migrated over to our platform but implementing all of the above mocks is quite cumbersome so it has not been completed yet. Ideally, the whole CMS (that all sites use) will be redesigned so it visually looks like the above mocks and the SMT concepts will be integrated.&lt;/p&gt;</content><summary type="html">As the lead designer for the Social Media Today launch, my first project was researching and designing a new CMS. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial.</summary></entry></feed>

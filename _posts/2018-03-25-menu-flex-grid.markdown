@@ -4,7 +4,7 @@ title:  "Flex grid menu"
 description: Making Industry Dive's menu more dynamic with the flex grid
 image-class: flex-menu
 prev-story: /2017/06/10/smt-user-content-admin.html
-next-story: /2018/02/17/support-page.html
+next-story: /2018/01/06/library-page.html
 ---
 
 I re-coded the **[menu](https://www.retaildive.com/){:target="_blank"}** for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.
@@ -12,7 +12,7 @@ I re-coded the **[menu](https://www.retaildive.com/){:target="_blank"}** for all
 **Role:** Designer/Front-End Developer
 
 {:.p-img}
-![menu]({{ site.url }}/assets/img/flex_menu/menu.png){:style="border: 1px solid #eee;"}
+![menu]({{ site.url }}/assets/img/flex_menu/menu.png)
 
 **Goals**
 
@@ -31,12 +31,9 @@ The most helpful articles were [this Hacker Noon article](https://hackernoon.com
 
 The Hacker Noon article mentions that "Flexbox is made for one dimensional layouts and Grid is made for two dimensional layouts." Because I was only re-coding the menu (not the whole site), I decided to go with flex. As you can see below, flexbox has great support. From my research, CSS grids seem really cool but are still pretty new and not well-supported. 
 
-<div class="row">
-	<div class="columns">
-		<img class="p-img" alt="flex grid support" src="{{ site.url }}/assets/img/flex_menu/flex_support.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
-	</div>
-	<span class="help-text" style="margin-bottom: 3rem;">Flex grid support, screenshot from <a href="https://caniuse.com/#feat=flexbox">Can I Use</a></span>
-</div>
+{:.p-img}
+![flex grid support]({{ site.url }}/assets/img/flex_menu/flex_support.png){:style="margin: 3rem auto 1rem auto;"}
+<span class="help-text" style="margin-bottom: 3rem;">Flex grid support, screenshot from <a href="https://caniuse.com/#feat=flexbox">Can I Use</a></span>
 
 **Reassessing the menu SCSS**
 
@@ -108,46 +105,37 @@ The most confusing property related to the flex grid is [flex](https://developer
 
 So far, the changes to the menu haven't changed what it actually looks like. But, as previously stated, one of the goals of this project was to make the menu more accessible on smaller screen sizes. Making it work on mobile is a different project but what about tablets and small laptops? This was going to involve some slight visual changes.
 
-<div class="row">
-	<span class="help-text" style="font-weight: 700; margin-top: 3rem;">Before:</span>
-	<div class="columns">
-		<img class="p-img" alt="medium menu before" src="{{ site.url }}/assets/img/flex_menu/medium_menu_before.png" style="margin: 0 auto 1.5rem auto; border: 1px solid #eee;">
-	</div>
-</div>
-<div class="row">
-	<span class="help-text" style="font-weight: 700; margin-top: 1.5rem;">After:</span>
-	<div class="columns">
-		<img class="p-img" alt="medium menu after" src="{{ site.url }}/assets/img/flex_menu/medium_menu_after.png" style="margin: 0 auto 3rem auto; border: 1px solid #eee;">
-	</div>
-</div>
+<span class="help-text" style="margin-top: 3rem;">Before:</span>
+
+{:.p-img}
+![medium menu before]({{ site.url }}/assets/img/flex_menu/medium_menu_before.png){:style="margin: 0 auto 1.5rem auto;"}
+
+<span class="help-text" style="margin-top: 1.5rem;">After:</span>
+
+{:.p-img}
+![medium menu after]({{ site.url }}/assets/img/flex_menu/medium_menu_after.png){:style="margin: 0 auto 3rem auto;"}
 
 The first thing to change was the **sub menu CTAs** (the menu on the right). To account for the thinner screen width, I removed the CTA for "search" because the magnifying glass is fairly universally known to represent "search". I considered removing the CTA for the newsletter signup link as well but I don't think the email icon makes much sense without "signup". 
 
 The other element to address was the **"Topics" menu**. On desktop, the "Topics" menu is visible at the top of the page but changes to a dropdown on scroll (see screenshot above). It is also a horizontal menu. I knew on a medium-sized screen, all the items in the menu wouldn't fit horizontally so it should be vertical.
 
-<div class="row">
-	<div class="columns">
-		<img class="p-img" alt="topics menu" src="{{ site.url }}/assets/img/flex_menu/medium_topics_menu_open.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
-	</div>
-	<span class="help-text" style="margin-bottom: 3rem;">Topics menu open on medium screens</span>
-</div>
+
+{:.p-img}
+![topics menu]({{ site.url }}/assets/img/flex_menu/medium_topics_menu_open.png){:style="margin: 3rem auto 1rem auto;"}
+<span class="help-text" style="margin-bottom: 3rem;">Topics menu open on medium screens</span>
 
 **Finishing touches**
 
 To make the menu fully work, I had to reassess the JS associated with the menu and update the SCSS breakpoints so this actually worked across the 15 different menus running on this code (see all pubs [here](https://www.retaildive.com/about/){:target="_blank"}).
 
-<div class="row">
-	<div class="columns">
-		<img class="p-img" alt="smt menu" src="{{ site.url }}/assets/img/flex_menu/smt_menu.png" style="margin: 3rem auto 1.5rem auto; border: 1px solid #eee;">
-	</div>
-	<span class="help-text"><a target="_blank" href="https://www.socialmediatoday.com/">Social Media Today</a> menu on medium screens</span>
-</div>
-<div class="row">
-	<div class="columns">
-		<img class="p-img" alt="biopharma menu" src="{{ site.url }}/assets/img/flex_menu/biopharma_menu.png" style="margin: 1.5rem auto; border: 1px solid #eee;">
-	</div>
-	<span class="help-text" style="margin-bottom: 3rem;"><a target="_blank" href="https://www.biopharmadive.com/">BioPharma Dive</a> menu on medium screens</span>
-</div>
+
+{:.p-img}
+![smt menu]({{ site.url }}/assets/img/flex_menu/smt_menu.png){:style="margin: 3rem auto 1rem auto;"}
+<span class="help-text"><a target="_blank" href="https://www.socialmediatoday.com/">Social Media Today</a> menu on medium screens</span>
+
+{:.p-img}
+![biopharma menu]({{ site.url }}/assets/img/flex_menu/biopharma_menu.png){:style="margin: 3rem auto 1rem auto;"}
+<span class="help-text" style="margin-bottom: 3rem;"><a target="_blank" href="https://www.biopharmadive.com/">BioPharma Dive</a> menu on medium screens</span>
 
 Although the JS and SCSS breakpoints brought about some complications, I plan to clean them up in the future. I also want to update the code so the menu is fully responsive from mobile to desktop (goodbye hamburger menu), not just across medium and desktop. 
 
