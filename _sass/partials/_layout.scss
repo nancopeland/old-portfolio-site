@@ -51,14 +51,39 @@ nav {
 
 // --- footer ---
 footer {
+	border-top: 1px solid #eee; 
 	display: flex; 
 	flex-wrap: wrap;
-	margin: 0 auto; 
-	padding: 0 1rem; 
+	margin: 3rem auto 0 auto; 
+	padding: 1.5rem 1rem 3rem 1rem; 
+	p {
+		font-size: .875rem; 
+	}
 }
 .footer-copy, 
 .footer-links {
 	width: 100%; 
+}
+.footer-links {
+	margin-top: 1rem; 
+	a {
+		border-bottom: 0; 
+		padding: .25rem;
+		svg {
+			width: 20px; 
+			path {
+				fill: $dark-grey;
+				transition: all .2s ease;
+			} 
+		}
+		&:hover {
+			svg {
+				path {
+					fill: $turquoise; 
+				}
+			}
+		}
+	}
 }
 @media (min-width: 40em) {
 	footer {
@@ -67,5 +92,9 @@ footer {
 	.footer-copy, 
 	.footer-links {
 		width: 50%; 
+	}
+	.footer-links {
+		margin-top: 0; 
+		text-align: right;
 	}
 }
