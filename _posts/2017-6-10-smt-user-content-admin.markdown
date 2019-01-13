@@ -4,7 +4,7 @@ title:  "Social Media Today CMS"
 description: Mockups for Social Media Today's user-submitted CMS
 image-class: smt-user-admin
 prev-story: /2017/10/14/gig-app.html
-next-story: /2018/03/25/menu-flex-grid.html
+next-story: /2019/01/13/slate-podcasts.html
 ---
 
 As the lead designer for the **[Social Media Today](http://www.socialmediatoday.com/)** launch, my first project was researching and designing a new CMS. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial. 
