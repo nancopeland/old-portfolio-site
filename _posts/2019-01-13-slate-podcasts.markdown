@@ -29,10 +29,41 @@ Product Manager [Chris Schieffer](https://twitter.com/cschieffer){:target="_blan
 ![screenshot of each pages' priorities]({{ site.url }}/assets/img/slate_podcasts/page_priorities.png){:style="margin: 3rem auto 1rem auto;"}
 <span class="help-text" style="margin-bottom: 3rem;">Screenshot from planning notes</span>
 
-**Wireframes**
+**Wireframes & Mocks**
 
-**Mockups**
+**User Testing**
+
+While making the mocks, I had a few questions about the experience that I wanted to user test: 
+
+1. Should the shows on the landing page be structured alphabetically or by section? 
+2. Do users understand how to use the "How to Listen" section on the show page? 
+
+**For the first question**, I tested a mock with all the "featured shows" alphabetically vs. grouped by section. 
+
+<div class="img-flex-wrapper">
+	<div class="img-flex-50">
+		<img src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+	</div>
+	<div class="img-flex-50">
+		<img class="p-img" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+	</div>
+</div>
+
+I tested a group of Slate readers and a group of non-Slate readers. While users understood the alphabetical section they preferred the shows grouped by section because it is easier for a user to know what the show is about. If a user wanted to avoid all "News & Politics" shows, they could easily skip that section and move to the next. 
+
+The one argument for the alphabetical ordering of shows was if the user knew exactly what they were looking for. But, as you can see in the list of priorities for each page, the point of this page was to show the breadth of Slate's offerings so we decided to go with the section grouping. 
+
+**For the second question**, I tested ________. I wanted to see if users preferred the mock with both the texting option + the app buttons or just the mock with the app buttons. Did the text form help or confuse the user? 
+
+<div class="img-flex-wrapper">
+	<div class="img-flex-50">
+		<img src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+	</div>
+	<div class="img-flex-50">
+		<img class="p-img" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+	</div>
+</div>
+
+While most users said they'd use the app buttons to subscribe to each podcast (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form. 
 
 **Implementation**
-
-**Rollout**

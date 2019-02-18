@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-18T10:50:22-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-18T11:38:45-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; alt=&quot;podcasts homepage&quot; /&gt;&lt;/p&gt;
 
@@ -17,13 +17,46 @@
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/page_priorities.png&quot; alt=&quot;screenshot of each pages' priorities&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;
 &lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Screenshot from planning notes&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Wireframes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wireframes &amp;amp; Mocks&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Mockups&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;User Testing&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Implementation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;While making the mocks, I had a few questions about the experience that I wanted to user test:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Rollout&lt;/strong&gt;&lt;/p&gt;</content><summary type="html">I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the new Slate brand launched in 2018.</summary></entry><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Should the shows on the landing page be structured alphabetically or by section?&lt;/li&gt;
+  &lt;li&gt;Do users understand how to use the “How to Listen” section on the show page?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;For the first question&lt;/strong&gt;, I tested a mock with all the “featured shows” alphabetically vs. grouped by section.&lt;/p&gt;
+
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I tested a group of Slate readers and a group of non-Slate readers. While users understood the alphabetical section they preferred the shows grouped by section because it is easier for a user to know what the show is about. If a user wanted to avoid all “News &amp;amp; Politics” shows, they could easily skip that section and move to the next.&lt;/p&gt;
+
+&lt;p&gt;The one argument for the alphabetical ordering of shows was if the user knew exactly what they were looking for. But, as you can see in the list of priorities for each page, the point of this page was to show the breadth of Slate’s offerings so we decided to go with the section grouping.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;For the second question&lt;/strong&gt;, I tested &lt;strong&gt;__&lt;/strong&gt;__. I wanted to see if users preferred the mock with both the texting option + the app buttons or just the mock with the app buttons. Did the text form help or confuse the user?&lt;/p&gt;
+
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;While most users said they’d use the app buttons to subscribe to each podcast (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Implementation&lt;/strong&gt;&lt;/p&gt;</content><summary type="html">I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the new Slate brand launched in 2018.</summary></entry><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designer/Front-End Developer&lt;/p&gt;
 
