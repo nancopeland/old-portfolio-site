@@ -16,10 +16,13 @@ I updated the Slate podcasts process to make it easier for users to explore Slat
 
 The podcast redesign process followed [Slate's site redesign](https://slate.com/briefing/2018/01/why-we-redesigned-slate.html){:target="_blank"} where Slate updated their [design process](https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html){:target="_blank"} and [CMS](https://slate.com/briefing/2018/01/slates-new-cms.html){:target="_blank"}. Slate's articles were prioritized during this process so when I started as a designer, podcast publishing was still done using the old CMS. 
 
-{:.p-img}
-![screenshot of old podcasts page]({{ site.url }}/assets/img/slate_podcasts/xxx.png)
+When the old site was built, podcasts weren't as high of a priority for Slate so the old podcasts landing page was just a "podcasts" tag page that featured the latest podcast episodes in reverse chronological order. 
 
-This page functioned like a tag page so it only featured the latest podcast episodes in reverse chronological order. This wasn't the best way to for a user to find a certain show or episode nor did it allow for much exploration. 
+{:.p-img}
+![screenshot of old podcasts page]({{ site.url }}/assets/img/slate_podcasts/old_landing_page.png){:style="margin: 3rem auto 1rem auto;"}
+<span class="help-text" style="margin-bottom: 3rem;">Old Slate podcasts landing page</span>
+
+This had started to become an issue because this was the first page on Google when people searched "slate podcasts" and it didn't offer much information on each show nor did it allow for much exploration. 
 
 **Planning**
 
