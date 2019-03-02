@@ -58,17 +58,21 @@ I tested a group of Slate readers and a group of non-Slate readers. While users 
 
 The one argument for the alphabetical ordering of shows was if the user knew exactly what they were looking for. But, as you can see in the list of priorities for each page, the point of this page was to show the breadth of Slate's offerings so we decided to go with the section grouping. 
 
-**For the second question**, I tested ________. I wanted to see if users preferred the mock with both the texting option + the app buttons or just the mock with the app buttons. Did the text form help or confuse the user? 
+**For the second question**, I tested the "How to Listen & Subscribe" section to see if people understood the "text me a link" form. 
+
+The app subscribe buttons are a very common way to link to shows in podcast applications but the "text me a link" form isn't. Because most people listen to podcasts on their phones, I thought the texting feature would be helpful but I wanted to user test this to make sure. Does the text form help or confuse the user? 
 
 <div class="img-flex-wrapper">
 	<div class="img-flex-50">
-		<img src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+		<img src="{{ site.url }}/assets/img/slate_podcasts/how_to_full.png">
+		<span class="help-text" style="margin-top: 1rem;">Section with both the texting form and app subscribe buttons</span>
 	</div>
 	<div class="img-flex-50">
-		<img class="p-img" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+		<img class="p-img" src="{{ site.url }}/assets/img/slate_podcasts/how_to_buttons.png">
+		<span class="help-text" style="margin-top: 1rem;">Section with just app subscribe buttons</span>
 	</div>
 </div>
 
-While most users said they'd use the app buttons to subscribe to each podcast (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form. 
+While most users were more likely to use the app buttons to subscribe (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form. 
 
 **Implementation**

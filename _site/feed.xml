@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-02T13:44:46-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-02T14:08:19-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; alt=&quot;podcasts homepage&quot; /&gt;&lt;/p&gt;
 
@@ -48,18 +48,22 @@
 
 &lt;p&gt;The one argument for the alphabetical ordering of shows was if the user knew exactly what they were looking for. But, as you can see in the list of priorities for each page, the point of this page was to show the breadth of Slate’s offerings so we decided to go with the section grouping.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;For the second question&lt;/strong&gt;, I tested &lt;strong&gt;__&lt;/strong&gt;__. I wanted to see if users preferred the mock with both the texting option + the app buttons or just the mock with the app buttons. Did the text form help or confuse the user?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For the second question&lt;/strong&gt;, I tested the “How to Listen &amp;amp; Subscribe” section to see if people understood the “text me a link” form.&lt;/p&gt;
+
+&lt;p&gt;The app subscribe buttons are a very common way to link to shows in podcast applications but the “text me a link” form isn’t. Because most people listen to podcasts on their phones, I thought the texting feature would be helpful but I wanted to user test this to make sure. Does the text form help or confuse the user?&lt;/p&gt;
 
 &lt;div class=&quot;img-flex-wrapper&quot;&gt;
 	&lt;div class=&quot;img-flex-50&quot;&gt;
-		&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+		&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/how_to_full.png&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;Section with both the texting form and app subscribe buttons&lt;/span&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;img-flex-50&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/how_to_buttons.png&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;Section with just app subscribe buttons&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;While most users said they’d use the app buttons to subscribe to each podcast (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form.&lt;/p&gt;
+&lt;p&gt;While most users were more likely to use the app buttons to subscribe (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Implementation&lt;/strong&gt;&lt;/p&gt;</content><summary type="html">I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the new Slate brand launched in 2018.</summary></entry><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.&lt;/p&gt;
 
