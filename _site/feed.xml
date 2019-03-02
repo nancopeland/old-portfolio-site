@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-02T13:15:21-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-02T13:44:46-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; alt=&quot;podcasts homepage&quot; /&gt;&lt;/p&gt;
 
@@ -35,10 +35,12 @@
 
 &lt;div class=&quot;img-flex-wrapper&quot;&gt;
 	&lt;div class=&quot;img-flex-50&quot;&gt;
-		&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+		&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/lp_alphabetical.jpg&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;Podcasts sorted alphabetically&lt;/span&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;img-flex-50&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/lp_sections.jpg&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;Podcasts sorted by section&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 

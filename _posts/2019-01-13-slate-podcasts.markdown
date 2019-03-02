@@ -45,10 +45,12 @@ While making the mocks, I had a few questions about the experience that I wanted
 
 <div class="img-flex-wrapper">
 	<div class="img-flex-50">
-		<img src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+		<img src="{{ site.url }}/assets/img/slate_podcasts/lp_alphabetical.jpg">
+		<span class="help-text" style="margin-top: 1rem;">Podcasts sorted alphabetically</span>
 	</div>
 	<div class="img-flex-50">
-		<img class="p-img" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+		<img class="p-img" src="{{ site.url }}/assets/img/slate_podcasts/lp_sections.jpg">
+		<span class="help-text" style="margin-top: 1rem;">Podcasts sorted by section</span>
 	</div>
 </div>
 
