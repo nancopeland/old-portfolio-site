@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-02T14:08:19-05:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-24T15:15:56-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; alt=&quot;podcasts homepage&quot; /&gt;&lt;/p&gt;
 
@@ -15,12 +15,69 @@
 
 &lt;p&gt;&lt;strong&gt;Planning&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Product Manager &lt;a href=&quot;https://twitter.com/cschieffer&quot; target=&quot;_blank&quot;&gt;Chris Schieffer&lt;/a&gt; conducted extensive interviews with various Slate people to see what they wanted out of the new podcast pages. He decided there would be three pages and came up with the following priorities for each page:&lt;/p&gt;
+&lt;p&gt;Product Manager &lt;a href=&quot;https://twitter.com/cschieffer&quot; target=&quot;_blank&quot;&gt;Chris Schieffer&lt;/a&gt; conducted extensive interviews with various Slate people to see what they wanted out of the new podcast pages. He decided there would be three pages and came up with the following priorities and features for each page:&lt;/p&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/page_priorities.png&quot; alt=&quot;screenshot of each pages' priorities&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;
-&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Screenshot from planning notes&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Landing Page:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Understanding the breadth of what podcasts Slate is making right now&lt;/li&gt;
+  &lt;li&gt;Listen to a trailer&lt;/li&gt;
+  &lt;li&gt;Subscribe&lt;/li&gt;
+  &lt;li&gt;Slate Plus pitch&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Wireframes &amp;amp; Mocks&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Show Page:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Learn about the show&lt;/li&gt;
+  &lt;li&gt;Listen to a trailer&lt;/li&gt;
+  &lt;li&gt;Subscribe&lt;/li&gt;
+  &lt;li&gt;Slate Plus pitch&lt;/li&gt;
+  &lt;li&gt;Interact with episodes inside of show&lt;/li&gt;
+  &lt;li&gt;Social links, newsletter sign up, link to discussion group&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Episode Page:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Learn about the episode&lt;/li&gt;
+  &lt;li&gt;Listen to a trailer&lt;/li&gt;
+  &lt;li&gt;Subscribe&lt;/li&gt;
+  &lt;li&gt;Slate Plus pitch&lt;/li&gt;
+  &lt;li&gt;Recirculation (text and audio via topic)&lt;/li&gt;
+  &lt;li&gt;Social links, newsletter sign up, link to discussion group&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Design Process&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;After carefully reviewing Chris’s notes on the project, I started on some very basic wireframes.&lt;/p&gt;
+
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;wireframe&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;xxx&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;wireframe&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;xxx&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;wireframe&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;xxx&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;After each iteration of wireframes and mocks, I met with Chris and Design Director &lt;a href=&quot;https://twitter.com/jasonsantamaria&quot; target=&quot;_blank&quot;&gt;Jason Santa Maria&lt;/a&gt; to address both how the pages looked but also if they were meeting the original goals Chris had for each page (listed above).&lt;/p&gt;
+
+&lt;p&gt;One thing we realized during this process is that in addition to the three main pages, we would need an archive page. Slate has so many shows and it didn’t make sense to feature old ones that are no longer in production on the landing page so an archive page seemed like the right answer.&lt;/p&gt;
+
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img alt=&quot;archive link&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;xxx&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-50&quot;&gt;
+		&lt;img alt=&quot;archive page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;xxx&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;User Testing&lt;/strong&gt;&lt;/p&gt;
 
@@ -39,7 +96,7 @@
 		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;Podcasts sorted alphabetically&lt;/span&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;img-flex-50&quot;&gt;
-		&lt;img class=&quot;p-img&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/lp_sections.jpg&quot; /&gt;
+		&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/lp_sections.jpg&quot; /&gt;
 		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;Podcasts sorted by section&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/div&gt;

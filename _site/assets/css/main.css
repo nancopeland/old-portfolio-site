@@ -65,7 +65,7 @@ body {
   body.no-scroll {
     overflow-y: hidden; }
 
-h1, h2, h3, h4, h5, h6, p, a, button, ul, ol, li, span {
+h1, h2, h3, h4, h5, h6, p, a, button, ul, ol, li, div, span {
   font-family: 'franklin-gothic-urw', 'Helvetica', sans-serif;
   margin: 0; }
 

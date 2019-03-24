@@ -26,13 +26,63 @@ This had started to become an issue because this was the first page on Google wh
 
 **Planning**
 
-Product Manager [Chris Schieffer](https://twitter.com/cschieffer){:target="_blank"} conducted extensive interviews with various Slate people to see what they wanted out of the new podcast pages. He decided there would be three pages and came up with the following priorities for each page:
+Product Manager [Chris Schieffer](https://twitter.com/cschieffer){:target="_blank"} conducted extensive interviews with various Slate people to see what they wanted out of the new podcast pages. He decided there would be three pages and came up with the following priorities and features for each page:
 
-{:.p-img}
-![screenshot of each pages' priorities]({{ site.url }}/assets/img/slate_podcasts/page_priorities.png){:style="margin: 3rem auto 1rem auto;"}
-<span class="help-text" style="margin-bottom: 3rem;">Screenshot from planning notes</span>
+Landing Page: 
+- Understanding the breadth of what podcasts Slate is making right now
+- Listen to a trailer
+- Subscribe
+- Slate Plus pitch
 
-**Wireframes & Mocks**
+Show Page: 
+- Learn about the show
+- Listen to a trailer
+- Subscribe
+- Slate Plus pitch
+- Interact with episodes inside of show
+- Social links, newsletter sign up, link to discussion group
+
+Episode Page: 
+- Learn about the episode
+- Listen to a trailer
+- Subscribe
+- Slate Plus pitch
+- Recirculation (text and audio via topic)
+- Social links, newsletter sign up, link to discussion group
+
+**Design Process**
+
+After carefully reviewing Chris's notes on the project, I started on some very basic wireframes. 
+
+<div class="img-flex-wrapper">
+	<div class="img-flex-33">
+		<img alt="wireframe" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+		<span class="help-text" style="margin-top: 1rem;">xxx</span>
+	</div>
+	<div class="img-flex-33">
+		<img alt="wireframe" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+		<span class="help-text" style="margin-top: 1rem;">xxx</span>
+	</div>
+	<div class="img-flex-33">
+		<img alt="wireframe" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+		<span class="help-text" style="margin-top: 1rem;">xxx</span>
+	</div>
+</div>
+
+After each iteration of wireframes and mocks, I met with Chris and Design Director [Jason Santa Maria](https://twitter.com/jasonsantamaria){:target="_blank"} to address both how the pages looked but also if they were meeting the original goals Chris had for each page (listed above). 
+
+One thing we realized during this process is that in addition to the three main pages, we would need an archive page. Slate has so many shows and it didn't make sense to feature old ones that are no longer in production on the landing page so an archive page seemed like the right answer. 
+
+<div class="img-flex-wrapper">
+	<div class="img-flex-50">
+		<img alt="archive link" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+		<span class="help-text" style="margin-top: 1rem;">xxx</span>
+	</div>
+	<div class="img-flex-50">
+		<img alt="archive page" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
+		<span class="help-text" style="margin-top: 1rem;">xxx</span>
+	</div>
+</div>
 
 **User Testing**
 
@@ -49,7 +99,7 @@ While making the mocks, I had a few questions about the experience that I wanted
 		<span class="help-text" style="margin-top: 1rem;">Podcasts sorted alphabetically</span>
 	</div>
 	<div class="img-flex-50">
-		<img class="p-img" src="{{ site.url }}/assets/img/slate_podcasts/lp_sections.jpg">
+		<img src="{{ site.url }}/assets/img/slate_podcasts/lp_sections.jpg">
 		<span class="help-text" style="margin-top: 1rem;">Podcasts sorted by section</span>
 	</div>
 </div>
