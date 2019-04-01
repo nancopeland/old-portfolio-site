@@ -126,3 +126,7 @@ The app subscribe buttons are a very common way to link to shows in podcast appl
 While most users were more likely to use the app buttons to subscribe (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form. 
 
 **Implementation**
+
+**Team**
+
+I worked on this project with many people. Product management was led by [Chris Schieffer](https://twitter.com/cschieffer){:target="_blank"} and design was led by [Jason Santa Maria](https://twitter.com/jasonsantamaria){:target="_blank"}. Development work was completed by [Jonathan Zuckerman](https://twitter.com/jon47){:target="_blank"}, [Kim Le](https://twitter.com/meijiOrO/){:target="_blank"} and Chase Felker. The podcast tile art featured throughout was done by [Lisa Larson-Walker](https://twitter.com/lrsnwlkr){:target="_blank"} and the art on the homepage was done by [Natalie Matthews-Ramo](https://twitter.com/MatthewsRamo){:target="_blank"}. 

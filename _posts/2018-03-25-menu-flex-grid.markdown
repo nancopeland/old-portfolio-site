@@ -9,8 +9,6 @@ next-story: /2018/01/06/library-page.html
 
 I re-coded the **[menu](https://www.retaildive.com/){:target="_blank"}** for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.
 
-**Role:** Designer/Front-End Developer
-
 {:.p-img}
 ![menu]({{ site.url }}/assets/img/flex_menu/menu.png)
 

@@ -9,9 +9,6 @@ next-story: /2019/01/13/slate-podcasts.html
 
 As the lead designer for the **[Social Media Today](http://www.socialmediatoday.com/)** launch, my first project was researching and designing a new CMS. Because the site runs on user-generated content (ie. anyone can make an account and submit a story), the submission and approval process is crucial. 
 
-**Role:** Designer<br/>
-**Team Members:** Ryan McKnight, _Project Manager_
-
 <span style="margin-top: 5rem;" class="help-text">Before:</span>
 
 <div style="margin-top: 1rem;" class="img-flex-wrapper">
@@ -85,4 +82,5 @@ For an admin or editor who is approving and publishing content, I wanted to make
 
 SMT has now been migrated over to our platform but implementing all of the above mocks is quite cumbersome so it has not been completed yet. Ideally, the whole CMS (that all sites use) will be redesigned so it visually looks like the above mocks and the SMT concepts will be integrated. 
 
+_Ryan McKnight was the project manager for this project._
 
