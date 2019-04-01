@@ -44,7 +44,7 @@ Show Page:
 
 Episode Page: 
 - Learn about the episode
-- Listen to a trailer
+- Listen to the show
 - Subscribe
 - Slate Plus pitch
 - Recirculation (text and audio via topic)
@@ -54,18 +54,47 @@ Episode Page:
 
 After carefully reviewing Chris's notes on the project, I started on some very basic wireframes. 
 
+Based on the notes, I figured the landing page should focus on featuring Slate's shows, specifically the ones currently in production. 
+
 <div class="img-flex-wrapper">
 	<div class="img-flex-33">
-		<img alt="wireframe" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
-		<span class="help-text" style="margin-top: 1rem;">xxx</span>
+		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_lp1.jpg">
 	</div>
 	<div class="img-flex-33">
-		<img alt="wireframe" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
-		<span class="help-text" style="margin-top: 1rem;">xxx</span>
+		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_lp2.jpg">
 	</div>
 	<div class="img-flex-33">
-		<img alt="wireframe" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
-		<span class="help-text" style="margin-top: 1rem;">xxx</span>
+		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_lp3.jpg">
+	</div>
+</div>
+
+For the show page, I focused on explaining the show concisely, including a trailer, and linking to the show in various players (since that is how most people would be listening). 
+
+I also featured the latest episodes for each show. The one caveat here was how do we represent episodes differently for ongoing (ex. Political Gabfest) vs. seasonal (ex. Slow Burn) shows? 
+
+<div class="img-flex-wrapper">
+	<div class="img-flex-33">
+		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_show1.jpg">
+	</div>
+	<div class="img-flex-33">
+		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_show2.jpg">
+	</div>
+	<div class="img-flex-33">
+		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_show3.jpg">
+	</div>
+</div>
+
+For the episode page, I focused on learning about and listening to the episode as well as linking the episode to the show page. 
+
+<div class="img-flex-wrapper">
+	<div class="img-flex-33">
+		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_ep1.jpg">
+	</div>
+	<div class="img-flex-33">
+		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_ep2.jpg">
+	</div>
+	<div class="img-flex-33">
+		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_ep3.jpg">
 	</div>
 </div>
 
@@ -75,12 +104,12 @@ One thing we realized during this process is that in addition to the three main 
 
 <div class="img-flex-wrapper">
 	<div class="img-flex-50">
-		<img alt="archive link" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
-		<span class="help-text" style="margin-top: 1rem;">xxx</span>
+		<img alt="archive link" src="{{ site.url }}/assets/img/slate_podcasts/archive_link.png">
+		<span class="help-text" style="margin-top: 1rem;">Link to archive page</span>
 	</div>
 	<div class="img-flex-50">
-		<img alt="archive page" src="{{ site.url }}/assets/img/slate_podcasts/xxx.png">
-		<span class="help-text" style="margin-top: 1rem;">xxx</span>
+		<img alt="archive page" src="{{ site.url }}/assets/img/slate_podcasts/archive_page.png">
+		<span class="help-text" style="margin-top: 1rem;">Archive page</span>
 	</div>
 </div>
 

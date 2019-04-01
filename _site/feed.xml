@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-01T11:04:25-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-01T17:38:53-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; alt=&quot;podcasts homepage&quot; /&gt;&lt;/p&gt;
 
@@ -38,7 +38,7 @@
 &lt;p&gt;Episode Page:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Learn about the episode&lt;/li&gt;
-  &lt;li&gt;Listen to a trailer&lt;/li&gt;
+  &lt;li&gt;Listen to the show&lt;/li&gt;
   &lt;li&gt;Subscribe&lt;/li&gt;
   &lt;li&gt;Slate Plus pitch&lt;/li&gt;
   &lt;li&gt;Recirculation (text and audio via topic)&lt;/li&gt;
@@ -49,18 +49,47 @@
 
 &lt;p&gt;After carefully reviewing Chris’s notes on the project, I started on some very basic wireframes.&lt;/p&gt;
 
+&lt;p&gt;Based on the notes, I figured the landing page should focus on featuring Slate’s shows, specifically the ones currently in production.&lt;/p&gt;
+
 &lt;div class=&quot;img-flex-wrapper&quot;&gt;
 	&lt;div class=&quot;img-flex-33&quot;&gt;
-		&lt;img alt=&quot;wireframe&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;xxx&lt;/span&gt;
+		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_lp1.jpg&quot; /&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;img-flex-33&quot;&gt;
-		&lt;img alt=&quot;wireframe&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;xxx&lt;/span&gt;
+		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_lp2.jpg&quot; /&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;img-flex-33&quot;&gt;
-		&lt;img alt=&quot;wireframe&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;xxx&lt;/span&gt;
+		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_lp3.jpg&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For the show page, I focused on explaining the show concisely, including a trailer, and linking to the show in various players (since that is how most people would be listening).&lt;/p&gt;
+
+&lt;p&gt;I also featured the latest episodes for each show. The one caveat here was how do we represent episodes differently for ongoing (ex. Political Gabfest) vs. seasonal (ex. Slow Burn) shows?&lt;/p&gt;
+
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_show1.jpg&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_show2.jpg&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_show3.jpg&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For the episode page, I focused on learning about and listening to the episode as well as linking the episode to the show page.&lt;/p&gt;
+
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_ep1.jpg&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_ep2.jpg&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_ep3.jpg&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -70,12 +99,12 @@
 
 &lt;div class=&quot;img-flex-wrapper&quot;&gt;
 	&lt;div class=&quot;img-flex-50&quot;&gt;
-		&lt;img alt=&quot;archive link&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;xxx&lt;/span&gt;
+		&lt;img alt=&quot;archive link&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/archive_link.png&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;Link to archive page&lt;/span&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;img-flex-50&quot;&gt;
-		&lt;img alt=&quot;archive page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; /&gt;
-		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;xxx&lt;/span&gt;
+		&lt;img alt=&quot;archive page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/archive_page.png&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;Archive page&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
