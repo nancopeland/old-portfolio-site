@@ -74,13 +74,13 @@ I also featured the latest episodes for each show. The one caveat here was how d
 
 <div class="img-flex-wrapper">
 	<div class="img-flex-33">
-		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_show1.jpg">
+		<img alt="wireframe for show page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_show1.jpg">
 	</div>
 	<div class="img-flex-33">
-		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_show2.jpg">
+		<img alt="wireframe for show page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_show2.jpg">
 	</div>
 	<div class="img-flex-33">
-		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_show3.jpg">
+		<img alt="wireframe for show page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_show3.jpg">
 	</div>
 </div>
 
@@ -88,19 +88,33 @@ For the episode page, I focused on learning about and listening to the episode a
 
 <div class="img-flex-wrapper">
 	<div class="img-flex-33">
-		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_ep1.jpg">
+		<img alt="wireframe for episode page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_ep1.jpg">
 	</div>
 	<div class="img-flex-33">
-		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_ep2.jpg">
+		<img alt="wireframe for episode page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_ep2.jpg">
 	</div>
 	<div class="img-flex-33">
-		<img alt="wireframe for landing page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_ep3.jpg">
+		<img alt="wireframe for episode page" src="{{ site.url }}/assets/img/slate_podcasts/wireframe_ep3.jpg">
 	</div>
 </div>
 
-After each iteration of wireframes and mocks, I met with Chris and Design Director [Jason Santa Maria](https://twitter.com/jasonsantamaria){:target="_blank"} to address both how the pages looked but also if they were meeting the original goals Chris had for each page (listed above). 
+After deciding on wireframes, I need to design the pages in a way that felt consistent w/ the [new site design](https://slate.com/briefing/2018/01/why-we-redesigned-slate.html){:target="_blank"} but also made sense within the podcast project. 
 
-One thing we realized during this process is that in addition to the three main pages, we would need an archive page. Slate has so many shows and it didn't make sense to feature old ones that are no longer in production on the landing page so an archive page seemed like the right answer. 
+I ended up using a lot of similar components on each page ([Slate's CMS Clay](https://clay.nymag.com/){:target="_blank"} is built with components) to make it easy to navigate between the pages. The Slate Plus and "Need Help?" components are on all three pages while the "How to Listen & Subscribe" component is on both the show and episode pages. 
+
+<div class="img-flex-wrapper">
+	<div class="img-flex-33">
+		<img alt="mock for landing page" src="{{ site.url }}/assets/img/slate_podcasts/mock_lp.jpg">
+	</div>
+	<div class="img-flex-33">
+		<img alt="mock for show page" src="{{ site.url }}/assets/img/slate_podcasts/mock_show.jpg">
+	</div>
+	<div class="img-flex-33">
+		<img alt="mock for episode page" src="{{ site.url }}/assets/img/slate_podcasts/mock_ep.jpg">
+	</div>
+</div>
+
+One thing I realized during this process is that in addition to the three main pages, we would need an archive page. Slate has so many shows and it didn't make sense to feature old ones that are no longer in production on the landing page so an archive page seemed like the right answer. 
 
 <div class="img-flex-wrapper">
 	<div class="img-flex-50">

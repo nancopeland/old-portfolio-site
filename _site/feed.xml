@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-01T17:38:53-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-02T13:37:36-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; alt=&quot;podcasts homepage&quot; /&gt;&lt;/p&gt;
 
@@ -69,13 +69,13 @@
 
 &lt;div class=&quot;img-flex-wrapper&quot;&gt;
 	&lt;div class=&quot;img-flex-33&quot;&gt;
-		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_show1.jpg&quot; /&gt;
+		&lt;img alt=&quot;wireframe for show page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_show1.jpg&quot; /&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;img-flex-33&quot;&gt;
-		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_show2.jpg&quot; /&gt;
+		&lt;img alt=&quot;wireframe for show page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_show2.jpg&quot; /&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;img-flex-33&quot;&gt;
-		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_show3.jpg&quot; /&gt;
+		&lt;img alt=&quot;wireframe for show page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_show3.jpg&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -83,19 +83,33 @@
 
 &lt;div class=&quot;img-flex-wrapper&quot;&gt;
 	&lt;div class=&quot;img-flex-33&quot;&gt;
-		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_ep1.jpg&quot; /&gt;
+		&lt;img alt=&quot;wireframe for episode page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_ep1.jpg&quot; /&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;img-flex-33&quot;&gt;
-		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_ep2.jpg&quot; /&gt;
+		&lt;img alt=&quot;wireframe for episode page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_ep2.jpg&quot; /&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;img-flex-33&quot;&gt;
-		&lt;img alt=&quot;wireframe for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_ep3.jpg&quot; /&gt;
+		&lt;img alt=&quot;wireframe for episode page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/wireframe_ep3.jpg&quot; /&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;After each iteration of wireframes and mocks, I met with Chris and Design Director &lt;a href=&quot;https://twitter.com/jasonsantamaria&quot; target=&quot;_blank&quot;&gt;Jason Santa Maria&lt;/a&gt; to address both how the pages looked but also if they were meeting the original goals Chris had for each page (listed above).&lt;/p&gt;
+&lt;p&gt;After deciding on wireframes, I need to design the pages in a way that felt consistent w/ the &lt;a href=&quot;https://slate.com/briefing/2018/01/why-we-redesigned-slate.html&quot; target=&quot;_blank&quot;&gt;new site design&lt;/a&gt; but also made sense within the podcast project.&lt;/p&gt;
 
-&lt;p&gt;One thing we realized during this process is that in addition to the three main pages, we would need an archive page. Slate has so many shows and it didn’t make sense to feature old ones that are no longer in production on the landing page so an archive page seemed like the right answer.&lt;/p&gt;
+&lt;p&gt;I ended up using a lot of similar components on each page (&lt;a href=&quot;https://clay.nymag.com/&quot; target=&quot;_blank&quot;&gt;Slate’s CMS Clay&lt;/a&gt; is built with components) to make it easy to navigate between the pages. The Slate Plus and “Need Help?” components are on all three pages while the “How to Listen &amp;amp; Subscribe” component is on both the show and episode pages.&lt;/p&gt;
+
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;mock for landing page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/mock_lp.jpg&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;mock for show page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/mock_show.jpg&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;mock for episode page&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/mock_ep.jpg&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;One thing I realized during this process is that in addition to the three main pages, we would need an archive page. Slate has so many shows and it didn’t make sense to feature old ones that are no longer in production on the landing page so an archive page seemed like the right answer.&lt;/p&gt;
 
 &lt;div class=&quot;img-flex-wrapper&quot;&gt;
 	&lt;div class=&quot;img-flex-50&quot;&gt;
