@@ -98,9 +98,9 @@ For the episode page, I focused on learning about and listening to the episode a
 	</div>
 </div>
 
-After deciding on wireframes, I need to design the pages in a way that felt consistent w/ the [new site design](https://slate.com/briefing/2018/01/why-we-redesigned-slate.html){:target="_blank"} but also made sense within the podcast project. 
+After deciding on wireframes, I needed to design the pages in a way that felt consistent w/ the [new site design](https://slate.com/briefing/2018/01/why-we-redesigned-slate.html){:target="_blank"} but also made sense within the podcast project. 
 
-I ended up using a lot of similar components on each page ([Slate's CMS Clay](https://clay.nymag.com/){:target="_blank"} is built with components) to make it easy to navigate between the pages. The Slate Plus and "Need Help?" components are on all three pages while the "How to Listen & Subscribe" component is on both the show and episode pages. 
+I ended up using a lot of the same components on each page ([Slate's CMS Clay](https://clay.nymag.com/){:target="_blank"} is built with components) so the experience was consistent and also to reuse dev work. The Slate Plus and "Need Help?" components are on all three pages while the "How to Listen & Subscribe" component is on both the show and episode pages. 
 
 <div class="img-flex-wrapper">
 	<div class="img-flex-33">
