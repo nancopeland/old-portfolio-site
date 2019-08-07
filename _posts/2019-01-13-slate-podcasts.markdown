@@ -22,6 +22,8 @@ When the old site was built, podcasts weren't as high of a priority for Slate so
 ![screenshot of old podcasts page]({{ site.url }}/assets/img/slate_podcasts/old_landing_page.png){:style="margin: 3rem auto 1rem auto;"}
 <span class="help-text" style="margin-bottom: 3rem;">Old Slate podcasts landing page</span>
 
+[add another photo of the old page]
+
 This had started to become an issue because this was the first page on Google when people searched "slate podcasts" and it didn't offer much information on each show nor did it allow for much exploration. 
 
 **Planning**
@@ -114,6 +116,8 @@ I ended up using a lot of the same components on each page ([Slate's CMS Clay](h
 	</div>
 </div>
 
+[explain more about reusable components throughout the process]
+
 One thing I realized during this process is that in addition to the three main pages, we would need an archive page. Slate has so many shows and it didn't make sense to feature old ones that are no longer in production on the landing page so an archive page seemed like the right answer. 
 
 <div class="img-flex-wrapper">
@@ -169,6 +173,8 @@ The app subscribe buttons are a very common way to link to shows in podcast appl
 While most users were more likely to use the app buttons to subscribe (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form. 
 
 **Implementation**
+
+[include feedback about reverse chron list]
 
 **Team**
 
