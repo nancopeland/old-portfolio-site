@@ -170,7 +170,9 @@ The app subscribe buttons are a very common way to link to shows in podcast appl
 	</div>
 </div>
 
-While most users were more likely to use the app buttons to subscribe (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form. 
+While most users were more likely to use the app buttons to subscribe (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form.
+
+[include bit about headphones across site] 
 
 **Implementation**
 
