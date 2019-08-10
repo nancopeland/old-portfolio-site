@@ -7,10 +7,10 @@ prev-story: /2017/06/10/smt-user-content-admin.html
 next-story: /2018/03/25/menu-flex-grid.html
 ---
 
-I updated the Slate podcasts process to make it easier for users to explore Slate's shows, find what they're looking for and subscribe. The design was updated to fit the [new Slate brand launched in 2018](https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html){:target="_blank"}. 
+I updated the [Slate podcasts process](https://slate.com/podcasts){:target="_blank"} to make it easier for users to explore Slate's shows, find what they're looking for and subscribe. The design was updated to fit the [new Slate brand launched in 2018](https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html){:target="_blank"}. 
 
 {:.p-img}
-![podcasts homepage]({{ site.url }}/assets/img/slate_podcasts/xxx.png)
+![podcasts homepage]({{ site.url }}/assets/img/slate_podcasts/lp_scroll.gif)
 
 **Background**
 
@@ -22,9 +22,13 @@ When the old site was built, podcasts weren't as high of a priority for Slate so
 ![screenshot of old podcasts page]({{ site.url }}/assets/img/slate_podcasts/old_landing_page.png){:style="margin: 3rem auto 1rem auto;"}
 <span class="help-text" style="margin-bottom: 3rem;">Old Slate podcasts landing page</span>
 
-[add another photo of the old page]
+After we started working on the new podcast templates, a temporary page was put in place that functioned the same as the old one but publishing was in the new CMS. 
 
-This had started to become an issue because this was the first page on Google when people searched "slate podcasts" and it didn't offer much information on each show nor did it allow for much exploration. 
+{:.p-img}
+![temporary podcasts page]({{ site.url }}/assets/img/slate_podcasts/temp_landing_page.png){:style="margin: 3rem auto 1rem auto;"}
+<span class="help-text" style="margin-bottom: 3rem;">Temporary Slate podcasts landing page in new CMS</span>
+
+While both of these pages did display the latest podcasts published by Slate, they didn't offer information on each show nor were they set up to encourage users to subscribe to podcasts in their players.
 
 **Planning**
 
@@ -86,7 +90,7 @@ I also featured the latest episodes for each show. The one caveat here was how d
 	</div>
 </div>
 
-For the episode page, I focused on learning about and listening to the episode as well as linking the episode to the show page. 
+For the episode page, I focused on learning about and listening to the episode as well as, again, linking to the episode in various players.
 
 <div class="img-flex-wrapper">
 	<div class="img-flex-33">
@@ -100,9 +104,13 @@ For the episode page, I focused on learning about and listening to the episode a
 	</div>
 </div>
 
-After deciding on wireframes, I needed to design the pages in a way that felt consistent w/ the [new site design](https://slate.com/briefing/2018/01/why-we-redesigned-slate.html){:target="_blank"} but also made sense within the podcast project. 
+After deciding on wireframes, I needed to design the pages in a way that felt consistent with the [new site design](https://slate.com/briefing/2018/01/why-we-redesigned-slate.html){:target="_blank"} but also made sense within the podcast project. 
 
-I ended up using a lot of the same components on each page ([Slate's CMS Clay](https://clay.nymag.com/){:target="_blank"} is built with components) so the experience was consistent and also to reuse dev work. The Slate Plus and "Need Help?" components are on all three pages while the "How to Listen & Subscribe" component is on both the show and episode pages. 
+While designing the podcast pages, I was forced to consider how podcasts fit into the site's information architecture. Each podcast fits under a section (ex. [News & Politics](https://slate.com/news-and-politics){:target="_blank"}, [Culture](https://slate.com/culture){:target="_blank"}, etc.) so they're not on the same level as sections but they aren't exactly rubrics (ex. [Jurisprudence](https://slate.com/news-and-politics/jurisprudence){:target="_blank"}, [Movies](https://slate.com/culture/movies){:target="_blank"}, etc.) either. How could the design reflect this in a clearer way? 
+
+Another thing I had to consider were components because Slate's CMS [Clay](https://clay.nymag.com/){:target="_blank"} is built with components. At first the components structure seemed limiting but I ended up really liking this setup because it reuses dev work and makes the experience consistent. 
+
+The Slate Plus and "Need Help?" components are used on all three pages while the "How to Listen & Subscribe" component is on both the show and episode pages. 
 
 <div class="img-flex-wrapper">
 	<div class="img-flex-33">
@@ -115,8 +123,6 @@ I ended up using a lot of the same components on each page ([Slate's CMS Clay](h
 		<img alt="mock for episode page" src="{{ site.url }}/assets/img/slate_podcasts/mock_ep.jpg">
 	</div>
 </div>
-
-[explain more about reusable components throughout the process]
 
 One thing I realized during this process is that in addition to the three main pages, we would need an archive page. Slate has so many shows and it didn't make sense to feature old ones that are no longer in production on the landing page so an archive page seemed like the right answer. 
 
@@ -153,7 +159,7 @@ While making the mocks, I had a few questions about the experience that I wanted
 
 I tested a group of Slate readers and a group of non-Slate readers. While users understood the alphabetical section they preferred the shows grouped by section because it is easier for a user to know what the show is about. If a user wanted to avoid all "News & Politics" shows, they could easily skip that section and move to the next. 
 
-The one argument for the alphabetical ordering of shows was if the user knew exactly what they were looking for. But, as you can see in the list of priorities for each page, the point of this page was to show the breadth of Slate's offerings so we decided to go with the section grouping. 
+The one argument in favor of the alphabetical ordering was it is better if the user knows exactly what they're looking for. But, as you can see in the list of priorities for each page, the point of this page is to show the breadth of Slate's offerings so we decided to go with the section grouping. 
 
 **For the second question**, I tested the "How to Listen & Subscribe" section to see if people understood the "text me a link" form. 
 
@@ -170,14 +176,47 @@ The app subscribe buttons are a very common way to link to shows in podcast appl
 	</div>
 </div>
 
-While most users were more likely to use the app buttons to subscribe (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form.
+While most users were more likely to use the app buttons to subscribe (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form. 
 
-[include bit about headphones across site] 
+In the end, the texting feature was tabled so we could get the MVP out but hopefully it will be added in the near future. 
+
+**Podcasts across the site**
+
+Another thing we had to consider with this project is how podcasts are displayed across the site. Podcasts are often included in article lists but we received many complaints about how there was no indication which list items were articles and which list items were podcasts. 
+
+I tried a few different mocks but was leaning towards the designs that were the least invasive because this design needed to work on in all units on the [homepage](https://slate.com/){:target="_blank"} as well as on [list pages](https://slate.com/culture){:target="_blank"}. I decided I would user test three slightly different variations: headphones icon before the title, "Podcast:" in front of the title and headphones icon after the title. 
+
+<div class="img-flex-wrapper">
+	<div class="img-flex-33">
+		<img alt="headphones before" src="{{ site.url }}/assets/img/slate_podcasts/headphones_before.png">
+		<span class="help-text" style="margin-top: 1rem;">Headphones icon before title</span>
+	</div>
+	<div class="img-flex-33">
+		<img alt="'podcasts:' before" src="{{ site.url }}/assets/img/slate_podcasts/podcasts_before.png">
+		<span class="help-text" style="margin-top: 1rem;">"Podcasts:" before title</span>
+	</div>
+	<div class="img-flex-33">
+		<img alt="headphones after" src="{{ site.url }}/assets/img/slate_podcasts/headphones_after.png">
+		<span class="help-text" style="margin-top: 1rem;">Headphones icon after title</span>
+	</div>
+</div>
+
+Users definitely preferred the headphones icon and there was a slight preference for the icon before the title. I also liked that mock most so I went with that one. The icon I used in testing was done quickly and I updated it with an icon drawn by [Lisa Larson-Walker](https://twitter.com/lrsnwlkr){:target="_blank"} that was much more consistent with Slate's brand. 
+
+{:.p-img}
+![Headphones icon on the homepage in the "Culture" section]({{ site.url }}/assets/img/slate_podcasts/icon_hp1.png){:style="margin: 3rem auto 1rem auto;"}
+<span class="help-text" style="margin-bottom: 3rem;">Headphones icon on the homepage in the "Culture" section</span>
+
+{:.p-img}
+![Headphones icon on the homepage in the "Most Recent" section]({{ site.url }}/assets/img/slate_podcasts/icon_hp2.png){:style="margin: 3rem auto 1rem auto;"}
+<span class="help-text" style="margin-bottom: 3rem;">Headphones icon on the homepage in the "Most Recent" section</span>
+
+{:.p-img}
+![Headphones icon in a list on the "Culture" page]({{ site.url }}/assets/img/slate_podcasts/icon_list.png){:style="margin: 3rem auto 1rem auto;"}
+<span class="help-text" style="margin-bottom: 3rem;">Headphones icon in a list on the "Culture" page</span>
 
 **Implementation**
 
-[include feedback about reverse chron list]
+See this project live at [slate.com/podcasts](https://slate.com/podcasts){:target="_blank"}. 
 
-**Team**
-
-I worked on this project with many people. Product management was led by [Chris Schieffer](https://twitter.com/cschieffer){:target="_blank"} and design was led by [Jason Santa Maria](https://twitter.com/jasonsantamaria){:target="_blank"}. Development work was completed by [Jonathan Zuckerman](https://twitter.com/jon47){:target="_blank"}, [Kim Le](https://twitter.com/meijiOrO/){:target="_blank"} and Chase Felker. The podcast tile art featured throughout was done by [Lisa Larson-Walker](https://twitter.com/lrsnwlkr){:target="_blank"} and the art on the homepage was done by [Natalie Matthews-Ramo](https://twitter.com/MatthewsRamo){:target="_blank"}. 
+I worked on this project with many people. Product management was led by [Chris Schieffer](https://twitter.com/cschieffer){:target="_blank"} and design was led by [Jason Santa Maria](https://twitter.com/jasonsantamaria){:target="_blank"}. Development work was completed by [Jonathan Zuckerman](https://twitter.com/jon47){:target="_blank"}, [Kim Le](https://twitter.com/meijiOrO/){:target="_blank"}, [Chase Felker](https://github.com/felkerch){:target="_blank"}, [Salomone Baquis](https://twitter.com/soluhmin){:target="_blank"} and [Greg Lavallee](https://twitter.com/elgreg){:target="_blank"}. The podcast tile art featured throughout was done by [Lisa Larson-Walker](https://twitter.com/lrsnwlkr){:target="_blank"} and the art on the landing page and in the Slate Plus component was done by [Natalie Matthews-Ramo](https://twitter.com/MatthewsRamo){:target="_blank"}. 

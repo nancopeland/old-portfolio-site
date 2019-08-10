@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-05T08:46:10-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-10T14:30:37-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the &lt;a href=&quot;https://slate.com/podcasts&quot; target=&quot;_blank&quot;&gt;Slate podcasts process&lt;/a&gt; to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/xxx.png&quot; alt=&quot;podcasts homepage&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/lp_scroll.gif&quot; alt=&quot;podcasts homepage&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;/p&gt;
 
@@ -11,7 +11,12 @@
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/old_landing_page.png&quot; alt=&quot;screenshot of old podcasts page&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;
 &lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Old Slate podcasts landing page&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;This had started to become an issue because this was the first page on Google when people searched “slate podcasts” and it didn’t offer much information on each show nor did it allow for much exploration.&lt;/p&gt;
+&lt;p&gt;After we started working on the new podcast templates, a temporary page was put in place that functioned the same as the old one but publishing was in the new CMS.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/temp_landing_page.png&quot; alt=&quot;temporary podcasts page&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;
+&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Temporary Slate podcasts landing page in new CMS&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;While both of these pages did display the latest podcasts published by Slate, they didn’t offer information on each show nor were they set up to encourage users to subscribe to podcasts in their players.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Planning&lt;/strong&gt;&lt;/p&gt;
 
@@ -79,7 +84,7 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;For the episode page, I focused on learning about and listening to the episode as well as linking the episode to the show page.&lt;/p&gt;
+&lt;p&gt;For the episode page, I focused on learning about and listening to the episode as well as, again, linking to the episode in various players.&lt;/p&gt;
 
 &lt;div class=&quot;img-flex-wrapper&quot;&gt;
 	&lt;div class=&quot;img-flex-33&quot;&gt;
@@ -93,9 +98,13 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;After deciding on wireframes, I needed to design the pages in a way that felt consistent w/ the &lt;a href=&quot;https://slate.com/briefing/2018/01/why-we-redesigned-slate.html&quot; target=&quot;_blank&quot;&gt;new site design&lt;/a&gt; but also made sense within the podcast project.&lt;/p&gt;
+&lt;p&gt;After deciding on wireframes, I needed to design the pages in a way that felt consistent with the &lt;a href=&quot;https://slate.com/briefing/2018/01/why-we-redesigned-slate.html&quot; target=&quot;_blank&quot;&gt;new site design&lt;/a&gt; but also made sense within the podcast project.&lt;/p&gt;
 
-&lt;p&gt;I ended up using a lot of the same components on each page (&lt;a href=&quot;https://clay.nymag.com/&quot; target=&quot;_blank&quot;&gt;Slate’s CMS Clay&lt;/a&gt; is built with components) so the experience was consistent and also to reuse dev work. The Slate Plus and “Need Help?” components are on all three pages while the “How to Listen &amp;amp; Subscribe” component is on both the show and episode pages.&lt;/p&gt;
+&lt;p&gt;While designing the podcast pages, I was forced to consider how podcasts fit into the site’s information architecture. Each podcast fits under a section (ex. &lt;a href=&quot;https://slate.com/news-and-politics&quot; target=&quot;_blank&quot;&gt;News &amp;amp; Politics&lt;/a&gt;, &lt;a href=&quot;https://slate.com/culture&quot; target=&quot;_blank&quot;&gt;Culture&lt;/a&gt;, etc.) so they’re not on the same level as sections but they aren’t exactly rubrics (ex. &lt;a href=&quot;https://slate.com/news-and-politics/jurisprudence&quot; target=&quot;_blank&quot;&gt;Jurisprudence&lt;/a&gt;, &lt;a href=&quot;https://slate.com/culture/movies&quot; target=&quot;_blank&quot;&gt;Movies&lt;/a&gt;, etc.) either. How could the design reflect this in a clearer way?&lt;/p&gt;
+
+&lt;p&gt;Another thing I had to consider were components because Slate’s CMS &lt;a href=&quot;https://clay.nymag.com/&quot; target=&quot;_blank&quot;&gt;Clay&lt;/a&gt; is built with components. At first the components structure seemed limiting but I ended up really liking this setup because it reuses dev work and makes the experience consistent.&lt;/p&gt;
+
+&lt;p&gt;The Slate Plus and “Need Help?” components are used on all three pages while the “How to Listen &amp;amp; Subscribe” component is on both the show and episode pages.&lt;/p&gt;
 
 &lt;div class=&quot;img-flex-wrapper&quot;&gt;
 	&lt;div class=&quot;img-flex-33&quot;&gt;
@@ -146,7 +155,7 @@
 
 &lt;p&gt;I tested a group of Slate readers and a group of non-Slate readers. While users understood the alphabetical section they preferred the shows grouped by section because it is easier for a user to know what the show is about. If a user wanted to avoid all “News &amp;amp; Politics” shows, they could easily skip that section and move to the next.&lt;/p&gt;
 
-&lt;p&gt;The one argument for the alphabetical ordering of shows was if the user knew exactly what they were looking for. But, as you can see in the list of priorities for each page, the point of this page was to show the breadth of Slate’s offerings so we decided to go with the section grouping.&lt;/p&gt;
+&lt;p&gt;The one argument in favor of the alphabetical ordering was it is better if the user knows exactly what they’re looking for. But, as you can see in the list of priorities for each page, the point of this page is to show the breadth of Slate’s offerings so we decided to go with the section grouping.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;For the second question&lt;/strong&gt;, I tested the “How to Listen &amp;amp; Subscribe” section to see if people understood the “text me a link” form.&lt;/p&gt;
 
@@ -165,11 +174,45 @@
 
 &lt;p&gt;While most users were more likely to use the app buttons to subscribe (or even just going to the app and searching for the podcast), they liked the option to text. So, we kept the version with the text form.&lt;/p&gt;
 
+&lt;p&gt;In the end, the texting feature was tabled so we could get the MVP out but hopefully it will be added in the near future.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Podcasts across the site&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another thing we had to consider with this project is how podcasts are displayed across the site. Podcasts are often included in article lists but we received many complaints about how there was no indication which list items were articles and which list items were podcasts.&lt;/p&gt;
+
+&lt;p&gt;I tried a few different mocks but was leaning towards the designs that were the least invasive because this design needed to work on in all units on the &lt;a href=&quot;https://slate.com/&quot; target=&quot;_blank&quot;&gt;homepage&lt;/a&gt; as well as on &lt;a href=&quot;https://slate.com/culture&quot; target=&quot;_blank&quot;&gt;list pages&lt;/a&gt;. I decided I would user test three slightly different variations: headphones icon before the title, “Podcast:” in front of the title and headphones icon after the title.&lt;/p&gt;
+
+&lt;div class=&quot;img-flex-wrapper&quot;&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;headphones before&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/headphones_before.png&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;Headphones icon before title&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;'podcasts:' before&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/podcasts_before.png&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;&quot;Podcasts:&quot; before title&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;img-flex-33&quot;&gt;
+		&lt;img alt=&quot;headphones after&quot; src=&quot;http://localhost:4000/assets/img/slate_podcasts/headphones_after.png&quot; /&gt;
+		&lt;span class=&quot;help-text&quot; style=&quot;margin-top: 1rem;&quot;&gt;Headphones icon after title&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Users definitely preferred the headphones icon and there was a slight preference for the icon before the title. I also liked that mock most so I went with that one. The icon I used in testing was done quickly and I updated it with an icon drawn by &lt;a href=&quot;https://twitter.com/lrsnwlkr&quot; target=&quot;_blank&quot;&gt;Lisa Larson-Walker&lt;/a&gt; that was much more consistent with Slate’s brand.&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/icon_hp1.png&quot; alt=&quot;Headphones icon on the homepage in the &amp;quot;Culture&amp;quot; section&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;
+&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Headphones icon on the homepage in the “Culture” section&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/icon_hp2.png&quot; alt=&quot;Headphones icon on the homepage in the &amp;quot;Most Recent&amp;quot; section&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;
+&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Headphones icon on the homepage in the “Most Recent” section&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/icon_list.png&quot; alt=&quot;Headphones icon in a list on the &amp;quot;Culture&amp;quot; page&quot; style=&quot;margin: 3rem auto 1rem auto;&quot; /&gt;
+&lt;span class=&quot;help-text&quot; style=&quot;margin-bottom: 3rem;&quot;&gt;Headphones icon in a list on the “Culture” page&lt;/span&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;Implementation&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Team&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;See this project live at &lt;a href=&quot;https://slate.com/podcasts&quot; target=&quot;_blank&quot;&gt;slate.com/podcasts&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I worked on this project with many people. Product management was led by &lt;a href=&quot;https://twitter.com/cschieffer&quot; target=&quot;_blank&quot;&gt;Chris Schieffer&lt;/a&gt; and design was led by &lt;a href=&quot;https://twitter.com/jasonsantamaria&quot; target=&quot;_blank&quot;&gt;Jason Santa Maria&lt;/a&gt;. Development work was completed by &lt;a href=&quot;https://twitter.com/jon47&quot; target=&quot;_blank&quot;&gt;Jonathan Zuckerman&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/meijiOrO/&quot; target=&quot;_blank&quot;&gt;Kim Le&lt;/a&gt; and Chase Felker. The podcast tile art featured throughout was done by &lt;a href=&quot;https://twitter.com/lrsnwlkr&quot; target=&quot;_blank&quot;&gt;Lisa Larson-Walker&lt;/a&gt; and the art on the homepage was done by &lt;a href=&quot;https://twitter.com/MatthewsRamo&quot; target=&quot;_blank&quot;&gt;Natalie Matthews-Ramo&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the new Slate brand launched in 2018.</summary></entry><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.&lt;/p&gt;
+&lt;p&gt;I worked on this project with many people. Product management was led by &lt;a href=&quot;https://twitter.com/cschieffer&quot; target=&quot;_blank&quot;&gt;Chris Schieffer&lt;/a&gt; and design was led by &lt;a href=&quot;https://twitter.com/jasonsantamaria&quot; target=&quot;_blank&quot;&gt;Jason Santa Maria&lt;/a&gt;. Development work was completed by &lt;a href=&quot;https://twitter.com/jon47&quot; target=&quot;_blank&quot;&gt;Jonathan Zuckerman&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/meijiOrO/&quot; target=&quot;_blank&quot;&gt;Kim Le&lt;/a&gt;, &lt;a href=&quot;https://github.com/felkerch&quot; target=&quot;_blank&quot;&gt;Chase Felker&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/soluhmin&quot; target=&quot;_blank&quot;&gt;Salomone Baquis&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/elgreg&quot; target=&quot;_blank&quot;&gt;Greg Lavallee&lt;/a&gt;. The podcast tile art featured throughout was done by &lt;a href=&quot;https://twitter.com/lrsnwlkr&quot; target=&quot;_blank&quot;&gt;Lisa Larson-Walker&lt;/a&gt; and the art on the landing page and in the Slate Plus component was done by &lt;a href=&quot;https://twitter.com/MatthewsRamo&quot; target=&quot;_blank&quot;&gt;Natalie Matthews-Ramo&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">I updated the Slate podcasts process to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the new Slate brand launched in 2018.</summary></entry><entry><title type="html">Flex grid menu</title><link href="http://localhost:4000/2018/03/25/menu-flex-grid.html" rel="alternate" type="text/html" title="Flex grid menu" /><published>2018-03-25T00:00:00-04:00</published><updated>2018-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2018/03/25/menu-flex-grid</id><content type="html" xml:base="http://localhost:4000/2018/03/25/menu-flex-grid.html">&lt;p&gt;I re-coded the &lt;strong&gt;&lt;a href=&quot;https://www.retaildive.com/&quot; target=&quot;_blank&quot;&gt;menu&lt;/a&gt;&lt;/strong&gt; for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/flex_menu/menu.png&quot; alt=&quot;menu&quot; /&gt;&lt;/p&gt;
 
