@@ -3,13 +3,11 @@ layout: post
 title:  "Flex grid menu"
 description: Making Industry Dive's menu more dynamic with the flex grid
 image-class: flex-menu
-prev-story: /2017/06/10/smt-user-content-admin.html
+prev-story: /2019/01/13/slate-podcasts.html
 next-story: /2018/01/06/library-page.html
 ---
 
 I re-coded the **[menu](https://www.retaildive.com/){:target="_blank"}** for all Industry Dive products using a flex grid. This resulted in a more accessible menu with code that scales better for growth.
-
-**Role:** Designer/Front-End Developer
 
 {:.p-img}
 ![menu]({{ site.url }}/assets/img/flex_menu/menu.png)

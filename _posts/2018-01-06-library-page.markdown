@@ -9,9 +9,6 @@ next-story: /2017/10/14/gig-app.html
 
 I recently redesigned the **[Library page](https://www.biopharmadive.com/library/)** for each of Industry Dive's publications with the help of the dev team to better showcase the [Dive Brand Studio's](https://www.industrydive.com/brandstudio/) content.
 
-**Role:** Designer/Front-End Developer<br/>
-**Team Members:** Bethany Morin, _Back-End Developer_
-
 {:.p-img}
 ![page in ipad mockup]({{ site.url }}/assets/img/library_page/page_hands_header.jpg)
 
@@ -138,5 +135,5 @@ The final product for the MVP looks relatively similar to the final mocks. The o
 
 Next, I will look at engagement on the page and make tweaks accordingly as well as pushing forward on making the download process more seamless.
 
-_This post was originally published on [Industry Dive's Design Blog](http://design.industrydive.com/)._
+_Development work for this project was done by Bethany Morin. This post was originally published on [Industry Dive's Design Blog](http://design.industrydive.com/)._
 

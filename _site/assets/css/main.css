@@ -65,7 +65,7 @@ body {
   body.no-scroll {
     overflow-y: hidden; }
 
-h1, h2, h3, h4, h5, h6, p, a, button, ul, ol, li, span {
+h1, h2, h3, h4, h5, h6, p, a, button, ul, ol, li, div, span {
   font-family: 'franklin-gothic-urw', 'Helvetica', sans-serif;
   margin: 0; }
 
@@ -239,11 +239,11 @@ footer {
     min-height: 110px; } }
 .img-container {
   height: 180px; }
+  .img-container.slate-podcasts {
+    background: url("../img/podcast_tiles.jpg") no-repeat center center;
+    background-size: cover; }
   .img-container.flex-menu {
     background: url("../img/flex_menu.jpg") no-repeat center center;
-    background-size: cover; }
-  .img-container.support-page {
-    background: url("../img/support_page.jpg") no-repeat center center;
     background-size: cover; }
   .img-container.library-page {
     background: url("../img/library_page.jpg") no-repeat center center;
@@ -254,20 +254,8 @@ footer {
   .img-container.pdf-button {
     background: url("../img/pdf_button.jpg") no-repeat center center;
     background-size: cover; }
-  .img-container.rd-holiday-email {
-    background: url("../img/rd_holiday_email.jpg") no-repeat center center;
-    background-size: cover; }
   .img-container.smt-user-admin {
     background: url("../img/smt_user_admin.jpg") no-repeat center center;
-    background-size: cover; }
-  .img-container.pubs-redesign {
-    background: url("../img/pubs_redesign.jpg") no-repeat center center;
-    background-size: cover; }
-  .img-container.news-page {
-    background: url("../img/news_page.jpg") no-repeat center center;
-    background-size: cover; }
-  .img-container.living-style-guide {
-    background: url("../img/living_style_guide.jpg") no-repeat center center;
     background-size: cover; }
 
 @media (min-width: 40em) {

@@ -67,12 +67,12 @@
 // PROJECT IMAGES
 .img-container { 
 	height: 180px; 
-	&.flex-menu {
-		background: url('../img/flex_menu.jpg') no-repeat center center; 
+	&.slate-podcasts {
+		background: url('../img/podcast_tiles.jpg') no-repeat center center; 
 		background-size: cover; 
 	}
-	&.support-page {
-		background: url('../img/support_page.jpg') no-repeat center center; 
+	&.flex-menu {
+		background: url('../img/flex_menu.jpg') no-repeat center center; 
 		background-size: cover; 
 	}
 	&.library-page {
@@ -87,24 +87,8 @@
 		background: url('../img/pdf_button.jpg') no-repeat center center; 
 		background-size: cover; 
 	}
-	&.rd-holiday-email {
-		background: url('../img/rd_holiday_email.jpg') no-repeat center center; 
-		background-size: cover; 
-	}
 	&.smt-user-admin {
 		background: url('../img/smt_user_admin.jpg') no-repeat center center; 
-		background-size: cover; 
-	}
-	&.pubs-redesign {
-		background: url('../img/pubs_redesign.jpg') no-repeat center center; 
-		background-size: cover; 
-	}
-	&.news-page {
-		background: url('../img/news_page.jpg') no-repeat center center;
-		background-size: cover; 
-	}
-	&.living-style-guide {
-		background: url('../img/living_style_guide.jpg') no-repeat center center; 
 		background-size: cover; 
 	}
 }
