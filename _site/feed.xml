@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-10T14:30:37-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the &lt;a href=&quot;https://slate.com/podcasts&quot; target=&quot;_blank&quot;&gt;Slate podcasts process&lt;/a&gt; to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T15:23:24-04:00</updated><id>http://localhost:4000//</id><title type="html">Nan Copeland</title><subtitle>Nan Copeland's personal site</subtitle><entry><title type="html">Slate Podcasts</title><link href="http://localhost:4000/2019/01/13/slate-podcasts.html" rel="alternate" type="text/html" title="Slate Podcasts" /><published>2019-01-13T00:00:00-05:00</published><updated>2019-01-13T00:00:00-05:00</updated><id>http://localhost:4000/2019/01/13/slate-podcasts</id><content type="html" xml:base="http://localhost:4000/2019/01/13/slate-podcasts.html">&lt;p&gt;I updated the &lt;a href=&quot;https://slate.com/podcasts&quot; target=&quot;_blank&quot;&gt;Slate podcasts process&lt;/a&gt; to make it easier for users to explore Slate’s shows, find what they’re looking for and subscribe. The design was updated to fit the &lt;a href=&quot;https://slate.com/briefing/2018/01/jason-santa-maria-on-how-slate-redesigned-the-way-we-work.html&quot; target=&quot;_blank&quot;&gt;new Slate brand launched in 2018&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p class=&quot;p-img&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/img/slate_podcasts/lp_scroll.gif&quot; alt=&quot;podcasts homepage&quot; /&gt;&lt;/p&gt;
 
@@ -24,7 +24,7 @@
 
 &lt;p&gt;Landing Page:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Understanding the breadth of what podcasts Slate is making right now&lt;/li&gt;
+  &lt;li&gt;Understanding the breadth of the podcasts Slate is making&lt;/li&gt;
   &lt;li&gt;Listen to a trailer&lt;/li&gt;
   &lt;li&gt;Subscribe&lt;/li&gt;
   &lt;li&gt;Slate Plus pitch&lt;/li&gt;
@@ -43,7 +43,7 @@
 &lt;p&gt;Episode Page:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Learn about the episode&lt;/li&gt;
-  &lt;li&gt;Listen to the show&lt;/li&gt;
+  &lt;li&gt;Listen to the episode&lt;/li&gt;
   &lt;li&gt;Subscribe&lt;/li&gt;
   &lt;li&gt;Slate Plus pitch&lt;/li&gt;
   &lt;li&gt;Recirculation (text and audio via topic)&lt;/li&gt;
@@ -100,9 +100,9 @@
 
 &lt;p&gt;After deciding on wireframes, I needed to design the pages in a way that felt consistent with the &lt;a href=&quot;https://slate.com/briefing/2018/01/why-we-redesigned-slate.html&quot; target=&quot;_blank&quot;&gt;new site design&lt;/a&gt; but also made sense within the podcast project.&lt;/p&gt;
 
-&lt;p&gt;While designing the podcast pages, I was forced to consider how podcasts fit into the site’s information architecture. Each podcast fits under a section (ex. &lt;a href=&quot;https://slate.com/news-and-politics&quot; target=&quot;_blank&quot;&gt;News &amp;amp; Politics&lt;/a&gt;, &lt;a href=&quot;https://slate.com/culture&quot; target=&quot;_blank&quot;&gt;Culture&lt;/a&gt;, etc.) so they’re not on the same level as sections but they aren’t exactly rubrics (ex. &lt;a href=&quot;https://slate.com/news-and-politics/jurisprudence&quot; target=&quot;_blank&quot;&gt;Jurisprudence&lt;/a&gt;, &lt;a href=&quot;https://slate.com/culture/movies&quot; target=&quot;_blank&quot;&gt;Movies&lt;/a&gt;, etc.) either. How could the design reflect this in a clearer way?&lt;/p&gt;
+&lt;p&gt;While designing the podcast pages, I had to consider how podcasts fit into the site’s information architecture. Each podcast fits under a section (ex. &lt;a href=&quot;https://slate.com/news-and-politics&quot; target=&quot;_blank&quot;&gt;News &amp;amp; Politics&lt;/a&gt;, &lt;a href=&quot;https://slate.com/culture&quot; target=&quot;_blank&quot;&gt;Culture&lt;/a&gt;, etc.) so they’re not on the same level as sections but they aren’t exactly rubrics (ex. &lt;a href=&quot;https://slate.com/news-and-politics/jurisprudence&quot; target=&quot;_blank&quot;&gt;Jurisprudence&lt;/a&gt;, &lt;a href=&quot;https://slate.com/culture/movies&quot; target=&quot;_blank&quot;&gt;Movies&lt;/a&gt;, etc.) either. How could the design reflect this in a clearer way?&lt;/p&gt;
 
-&lt;p&gt;Another thing I had to consider were components because Slate’s CMS &lt;a href=&quot;https://clay.nymag.com/&quot; target=&quot;_blank&quot;&gt;Clay&lt;/a&gt; is built with components. At first the components structure seemed limiting but I ended up really liking this setup because it reuses dev work and makes the experience consistent.&lt;/p&gt;
+&lt;p&gt;Another thing I had to consider were components because Slate’s CMS &lt;a href=&quot;https://clay.nymag.com/&quot; target=&quot;_blank&quot;&gt;Clay&lt;/a&gt; is built with components. At first the component structure seemed limiting but I ended up really liking this setup because it reuses dev work and makes the experience consistent.&lt;/p&gt;
 
 &lt;p&gt;The Slate Plus and “Need Help?” components are used on all three pages while the “How to Listen &amp;amp; Subscribe” component is on both the show and episode pages.&lt;/p&gt;
 
@@ -118,7 +118,7 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;One thing I realized during this process is that in addition to the three main pages, we would need an archive page. Slate has so many shows and it didn’t make sense to feature old ones that are no longer in production on the landing page so an archive page seemed like the right answer.&lt;/p&gt;
+&lt;p&gt;One thing I realized during this process is that in addition to the three main pages, we would need an archive page. Slate has so many shows and it didn’t make sense to feature old ones that are no longer in production on the landing page.&lt;/p&gt;
 
 &lt;div class=&quot;img-flex-wrapper&quot;&gt;
 	&lt;div class=&quot;img-flex-50&quot;&gt;
@@ -140,7 +140,7 @@
   &lt;li&gt;Do users understand how to use the “How to Listen” section on the show page?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;For the first question&lt;/strong&gt;, I tested a mock with all the “featured shows” alphabetically vs. grouped by section.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For the first question&lt;/strong&gt;, I tested a mock with all the “featured shows” listed alphabetically vs. grouped by section.&lt;/p&gt;
 
 &lt;div class=&quot;img-flex-wrapper&quot;&gt;
 	&lt;div class=&quot;img-flex-50&quot;&gt;
@@ -155,9 +155,9 @@
 
 &lt;p&gt;I tested a group of Slate readers and a group of non-Slate readers. While users understood the alphabetical section they preferred the shows grouped by section because it is easier for a user to know what the show is about. If a user wanted to avoid all “News &amp;amp; Politics” shows, they could easily skip that section and move to the next.&lt;/p&gt;
 
-&lt;p&gt;The one argument in favor of the alphabetical ordering was it is better if the user knows exactly what they’re looking for. But, as you can see in the list of priorities for each page, the point of this page is to show the breadth of Slate’s offerings so we decided to go with the section grouping.&lt;/p&gt;
+&lt;p&gt;One argument in favor of the alphabetical ordering was it is better if the user knows exactly what they’re looking for. But, because the point of this page is to show the breadth of Slate’s offerings, we decided to go with the section grouping.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;For the second question&lt;/strong&gt;, I tested the “How to Listen &amp;amp; Subscribe” section to see if people understood the “text me a link” form.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For the second question&lt;/strong&gt;, I tested the “How to Listen &amp;amp; Subscribe” section to see if users understood the “text me a link” form.&lt;/p&gt;
 
 &lt;p&gt;The app subscribe buttons are a very common way to link to shows in podcast applications but the “text me a link” form isn’t. Because most people listen to podcasts on their phones, I thought the texting feature would be helpful but I wanted to user test this to make sure. Does the text form help or confuse the user?&lt;/p&gt;
 
@@ -178,9 +178,9 @@
 
 &lt;p&gt;&lt;strong&gt;Podcasts across the site&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Another thing we had to consider with this project is how podcasts are displayed across the site. Podcasts are often included in article lists but we received many complaints about how there was no indication which list items were articles and which list items were podcasts.&lt;/p&gt;
+&lt;p&gt;Another thing we had to consider with this project is how podcasts are displayed across the site. Podcasts are often included in article lists but we received many complaints about how there was no indication for which list items were articles and which list items were podcasts.&lt;/p&gt;
 
-&lt;p&gt;I tried a few different mocks but was leaning towards the designs that were the least invasive because this design needed to work on in all units on the &lt;a href=&quot;https://slate.com/&quot; target=&quot;_blank&quot;&gt;homepage&lt;/a&gt; as well as on &lt;a href=&quot;https://slate.com/culture&quot; target=&quot;_blank&quot;&gt;list pages&lt;/a&gt;. I decided I would user test three slightly different variations: headphones icon before the title, “Podcast:” in front of the title and headphones icon after the title.&lt;/p&gt;
+&lt;p&gt;I tried a few different mocks but was leaning towards the designs that were the least invasive because this design needed to work in all units on the &lt;a href=&quot;https://slate.com/&quot; target=&quot;_blank&quot;&gt;homepage&lt;/a&gt; as well as on &lt;a href=&quot;https://slate.com/culture&quot; target=&quot;_blank&quot;&gt;list pages&lt;/a&gt;. I decided I would user test three slightly different variations: headphones icon before the title, “Podcast:” in front of the title and headphones icon after the title.&lt;/p&gt;
 
 &lt;div class=&quot;img-flex-wrapper&quot;&gt;
 	&lt;div class=&quot;img-flex-33&quot;&gt;

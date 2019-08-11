@@ -35,7 +35,7 @@ While both of these pages did display the latest podcasts published by Slate, th
 Product Manager [Chris Schieffer](https://twitter.com/cschieffer){:target="_blank"} conducted extensive interviews with various Slate people to see what they wanted out of the new podcast pages. He decided there would be three pages and came up with the following priorities and features for each page:
 
 Landing Page: 
-- Understanding the breadth of what podcasts Slate is making right now
+- Understanding the breadth of the podcasts Slate is making
 - Listen to a trailer
 - Subscribe
 - Slate Plus pitch
@@ -50,7 +50,7 @@ Show Page:
 
 Episode Page: 
 - Learn about the episode
-- Listen to the show
+- Listen to the episode
 - Subscribe
 - Slate Plus pitch
 - Recirculation (text and audio via topic)
@@ -106,9 +106,9 @@ For the episode page, I focused on learning about and listening to the episode a
 
 After deciding on wireframes, I needed to design the pages in a way that felt consistent with the [new site design](https://slate.com/briefing/2018/01/why-we-redesigned-slate.html){:target="_blank"} but also made sense within the podcast project. 
 
-While designing the podcast pages, I was forced to consider how podcasts fit into the site's information architecture. Each podcast fits under a section (ex. [News & Politics](https://slate.com/news-and-politics){:target="_blank"}, [Culture](https://slate.com/culture){:target="_blank"}, etc.) so they're not on the same level as sections but they aren't exactly rubrics (ex. [Jurisprudence](https://slate.com/news-and-politics/jurisprudence){:target="_blank"}, [Movies](https://slate.com/culture/movies){:target="_blank"}, etc.) either. How could the design reflect this in a clearer way? 
+While designing the podcast pages, I had to consider how podcasts fit into the site's information architecture. Each podcast fits under a section (ex. [News & Politics](https://slate.com/news-and-politics){:target="_blank"}, [Culture](https://slate.com/culture){:target="_blank"}, etc.) so they're not on the same level as sections but they aren't exactly rubrics (ex. [Jurisprudence](https://slate.com/news-and-politics/jurisprudence){:target="_blank"}, [Movies](https://slate.com/culture/movies){:target="_blank"}, etc.) either. How could the design reflect this in a clearer way? 
 
-Another thing I had to consider were components because Slate's CMS [Clay](https://clay.nymag.com/){:target="_blank"} is built with components. At first the components structure seemed limiting but I ended up really liking this setup because it reuses dev work and makes the experience consistent. 
+Another thing I had to consider were components because Slate's CMS [Clay](https://clay.nymag.com/){:target="_blank"} is built with components. At first the component structure seemed limiting but I ended up really liking this setup because it reuses dev work and makes the experience consistent. 
 
 The Slate Plus and "Need Help?" components are used on all three pages while the "How to Listen & Subscribe" component is on both the show and episode pages. 
 
@@ -124,7 +124,7 @@ The Slate Plus and "Need Help?" components are used on all three pages while the
 	</div>
 </div>
 
-One thing I realized during this process is that in addition to the three main pages, we would need an archive page. Slate has so many shows and it didn't make sense to feature old ones that are no longer in production on the landing page so an archive page seemed like the right answer. 
+One thing I realized during this process is that in addition to the three main pages, we would need an archive page. Slate has so many shows and it didn't make sense to feature old ones that are no longer in production on the landing page. 
 
 <div class="img-flex-wrapper">
 	<div class="img-flex-50">
@@ -144,7 +144,7 @@ While making the mocks, I had a few questions about the experience that I wanted
 1. Should the shows on the landing page be structured alphabetically or by section? 
 2. Do users understand how to use the "How to Listen" section on the show page? 
 
-**For the first question**, I tested a mock with all the "featured shows" alphabetically vs. grouped by section. 
+**For the first question**, I tested a mock with all the "featured shows" listed alphabetically vs. grouped by section. 
 
 <div class="img-flex-wrapper">
 	<div class="img-flex-50">
@@ -159,9 +159,9 @@ While making the mocks, I had a few questions about the experience that I wanted
 
 I tested a group of Slate readers and a group of non-Slate readers. While users understood the alphabetical section they preferred the shows grouped by section because it is easier for a user to know what the show is about. If a user wanted to avoid all "News & Politics" shows, they could easily skip that section and move to the next. 
 
-The one argument in favor of the alphabetical ordering was it is better if the user knows exactly what they're looking for. But, as you can see in the list of priorities for each page, the point of this page is to show the breadth of Slate's offerings so we decided to go with the section grouping. 
+One argument in favor of the alphabetical ordering was it is better if the user knows exactly what they're looking for. But, because the point of this page is to show the breadth of Slate's offerings, we decided to go with the section grouping. 
 
-**For the second question**, I tested the "How to Listen & Subscribe" section to see if people understood the "text me a link" form. 
+**For the second question**, I tested the "How to Listen & Subscribe" section to see if users understood the "text me a link" form. 
 
 The app subscribe buttons are a very common way to link to shows in podcast applications but the "text me a link" form isn't. Because most people listen to podcasts on their phones, I thought the texting feature would be helpful but I wanted to user test this to make sure. Does the text form help or confuse the user? 
 
@@ -182,9 +182,9 @@ In the end, the texting feature was tabled so we could get the MVP out but hopef
 
 **Podcasts across the site**
 
-Another thing we had to consider with this project is how podcasts are displayed across the site. Podcasts are often included in article lists but we received many complaints about how there was no indication which list items were articles and which list items were podcasts. 
+Another thing we had to consider with this project is how podcasts are displayed across the site. Podcasts are often included in article lists but we received many complaints about how there was no indication for which list items were articles and which list items were podcasts. 
 
-I tried a few different mocks but was leaning towards the designs that were the least invasive because this design needed to work on in all units on the [homepage](https://slate.com/){:target="_blank"} as well as on [list pages](https://slate.com/culture){:target="_blank"}. I decided I would user test three slightly different variations: headphones icon before the title, "Podcast:" in front of the title and headphones icon after the title. 
+I tried a few different mocks but was leaning towards the designs that were the least invasive because this design needed to work in all units on the [homepage](https://slate.com/){:target="_blank"} as well as on [list pages](https://slate.com/culture){:target="_blank"}. I decided I would user test three slightly different variations: headphones icon before the title, "Podcast:" in front of the title and headphones icon after the title. 
 
 <div class="img-flex-wrapper">
 	<div class="img-flex-33">
